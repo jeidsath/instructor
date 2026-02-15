@@ -1,0 +1,1404 @@
+language: greek
+set: core-002
+name: "Common Greek Vocabulary"
+description: "Greek words ranked 101-300 by frequency"
+items:
+  - lemma: "ἄρχω"
+    pos: verb
+    definition: "to rule (+ gen.); to begin (+ gen. or participle)"
+    frequency_rank: 101
+    difficulty: 3
+    notes: "Transliteration: archō. Middle ἄρχομαι = to begin."
+
+  - lemma: "τίθημι"
+    pos: verb
+    definition: "to put, place, set"
+    frequency_rank: 102
+    difficulty: 5
+    notes: "Transliteration: tithēmi. μι-verb. Principal parts: τίθημι, θήσω, ἔθηκα, τέθηκα, τέθειμαι/κεῖμαι, ἐτέθην."
+
+  - lemma: "ἵστημι"
+    pos: verb
+    definition: "to set up, stand; (intrans.) to stand"
+    frequency_rank: 103
+    difficulty: 5
+    notes: "Transliteration: histēmi. μι-verb. Transitive in active aorist (ἔστησα), intransitive in 2nd aorist (ἔστην) and perfect (ἕστηκα)."
+
+  - lemma: "ἥκω"
+    pos: verb
+    definition: "to have come, be present"
+    frequency_rank: 104
+    difficulty: 2
+    notes: "Transliteration: hēkō. Present with perfect meaning. Imperfect ἧκον = had arrived."
+
+  - lemma: "θάνατος"
+    pos: noun
+    definition: "death"
+    frequency_rank: 105
+    difficulty: 2
+    notes: "Transliteration: thanatos. Second-declension masculine."
+
+  - lemma: "μήτηρ"
+    pos: noun
+    definition: "mother"
+    frequency_rank: 106
+    difficulty: 3
+    notes: "Transliteration: mētēr. Third-declension syncopated noun. Gen.: μητρός. Same pattern as πατήρ."
+
+  - lemma: "χρόνος"
+    pos: noun
+    definition: "time"
+    frequency_rank: 107
+    difficulty: 1
+    notes: "Transliteration: chronos. Second-declension masculine."
+
+  - lemma: "ἔτος"
+    pos: noun
+    definition: "year"
+    frequency_rank: 108
+    difficulty: 2
+    notes: "Transliteration: etos. Third-declension neuter (σ-stem). Gen.: ἔτους. Dat. pl.: ἔτεσι(ν)."
+
+  - lemma: "ἵημι"
+    pos: verb
+    definition: "to send, hurl; (mid.) to hasten, desire"
+    frequency_rank: 109
+    difficulty: 5
+    notes: "Transliteration: hiēmi. μι-verb. Principal parts: ἵημι, ἥσω, ἧκα / εἷσα, εἷκα, εἷμαι, εἵθην."
+
+  - lemma: "δέχομαι"
+    pos: verb
+    definition: "to receive, accept, welcome"
+    frequency_rank: 110
+    difficulty: 3
+    notes: "Transliteration: dechomai. Deponent verb."
+
+  - lemma: "κελεύω"
+    pos: verb
+    definition: "to order, command, urge"
+    frequency_rank: 111
+    difficulty: 2
+    notes: "Transliteration: keleuō. Takes acc. + infinitive."
+
+  - lemma: "ἀκούω"
+    pos: verb
+    definition: "to hear, listen to (+ gen. of person, acc. of thing)"
+    frequency_rank: 112
+    difficulty: 2
+    notes: "Transliteration: akouō."
+
+  - lemma: "γυνή"
+    pos: noun
+    definition: "woman, wife"
+    frequency_rank: 113
+    difficulty: 3
+    notes: "Transliteration: gynē. Irregular third-declension. Gen.: γυναικός. Stem: γυναικ-."
+
+  - lemma: "φίλος"
+    pos: adjective
+    definition: "dear, beloved; (subst.) friend"
+    frequency_rank: 114
+    difficulty: 1
+    notes: "Transliteration: philos. First/second-declension adjective. οἱ φίλοι = friends."
+
+  - lemma: "ἀξιόω"
+    pos: verb
+    definition: "to think worthy, deem fit; to request"
+    frequency_rank: 115
+    difficulty: 4
+    notes: "Transliteration: axioō. Contract verb (ο-contract). Related: ἄξιος (worthy)."
+
+  - lemma: "ἱερός"
+    pos: adjective
+    definition: "sacred, holy"
+    frequency_rank: 116
+    difficulty: 2
+    notes: "Transliteration: hieros. First/second-declension adjective. τὸ ἱερόν = temple, shrine."
+
+  - lemma: "πέμπω"
+    pos: verb
+    definition: "to send, escort"
+    frequency_rank: 117
+    difficulty: 2
+    notes: "Transliteration: pempō. Regular labial-stem verb."
+
+  - lemma: "νομίζω"
+    pos: verb
+    definition: "to believe, think, hold as custom"
+    frequency_rank: 118
+    difficulty: 2
+    notes: "Transliteration: nomizō. Takes acc. + inf. for indirect statement. Related: νόμος."
+
+  - lemma: "ἄξιος"
+    pos: adjective
+    definition: "worthy, deserving (+ gen.)"
+    frequency_rank: 119
+    difficulty: 2
+    notes: "Transliteration: axios. First/second-declension adjective."
+
+  - lemma: "τοσοῦτος"
+    pos: pronoun
+    definition: "so great, so much, so many"
+    frequency_rank: 120
+    difficulty: 3
+    notes: "Transliteration: tosoutos. Correlative with ὅσος."
+
+  - lemma: "φαίνω"
+    pos: verb
+    definition: "to show, reveal; (mid./pass.) to appear, seem"
+    frequency_rank: 121
+    difficulty: 3
+    notes: "Transliteration: phainō. Middle φαίνομαι + participle = to be clearly doing; + infinitive = to seem to be doing."
+
+  - lemma: "εἰ"
+    pos: conjunction
+    definition: "if; whether"
+    frequency_rank: 122
+    difficulty: 2
+    notes: "Transliteration: ei. Introduces conditional protases with indicative. εἰ + optative for future less vivid."
+
+  - lemma: "ὀλίγος"
+    pos: adjective
+    definition: "few, little, small"
+    frequency_rank: 123
+    difficulty: 2
+    notes: "Transliteration: oligos. First/second-declension adjective. οἱ ὀλίγοι = the few, the oligarchy."
+
+  - lemma: "χρῆμα"
+    pos: noun
+    definition: "thing, matter; (pl.) money, goods"
+    frequency_rank: 124
+    difficulty: 2
+    notes: "Transliteration: chrēma. Third-declension neuter (τ-stem). Gen.: χρήματος. Pl. χρήματα = money, property."
+
+  - lemma: "βαίνω"
+    pos: verb
+    definition: "to go, walk, step"
+    frequency_rank: 125
+    difficulty: 3
+    notes: "Transliteration: bainō. Principal parts: βαίνω, βήσομαι, ἔβην, βέβηκα, βέβαμαι, ἐβάθην."
+
+  - lemma: "τυγχάνω"
+    pos: verb
+    definition: "to happen (to), chance upon; to hit (+ gen.)"
+    frequency_rank: 126
+    difficulty: 4
+    notes: "Transliteration: tynchanō. With participle: τυγχάνω ὤν = 'I happen to be.' Principal parts: τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα."
+
+  - lemma: "χώρα"
+    pos: noun
+    definition: "land, country, region"
+    frequency_rank: 127
+    difficulty: 1
+    notes: "Transliteration: chōra. First-declension feminine (-α after ρ)."
+
+  - lemma: "ἡγέομαι"
+    pos: verb
+    definition: "to lead, consider, think"
+    frequency_rank: 128
+    difficulty: 3
+    notes: "Transliteration: hēgeomai. Deponent. Takes gen. when meaning 'to lead,' acc. + inf. when 'to think.'"
+
+  - lemma: "κρίνω"
+    pos: verb
+    definition: "to judge, decide, determine"
+    frequency_rank: 129
+    difficulty: 3
+    notes: "Transliteration: krinō."
+
+  - lemma: "εὑρίσκω"
+    pos: verb
+    definition: "to find, discover"
+    frequency_rank: 130
+    difficulty: 3
+    notes: "Transliteration: heuriskō. Principal parts: εὑρίσκω, εὑρήσω, ηὗρον / εὗρον, ηὕρηκα, ηὕρημαι, ηὑρέθην."
+
+  - lemma: "ὄνομα"
+    pos: noun
+    definition: "name, word"
+    frequency_rank: 131
+    difficulty: 2
+    notes: "Transliteration: onoma. Third-declension neuter (τ-stem). Gen.: ὀνόματος."
+
+  - lemma: "ἀποθνῄσκω"
+    pos: verb
+    definition: "to die, be killed"
+    frequency_rank: 132
+    difficulty: 3
+    notes: "Transliteration: apothnēskō. Principal parts: ἀποθνῄσκω, ἀποθανοῦμαι, ἀπέθανον, τέθνηκα."
+
+  - lemma: "στρατιά"
+    pos: noun
+    definition: "army, expedition"
+    frequency_rank: 133
+    difficulty: 2
+    notes: "Transliteration: stratia. First-declension feminine."
+
+  - lemma: "ἀρετή"
+    pos: noun
+    definition: "virtue, excellence, valor"
+    frequency_rank: 134
+    difficulty: 2
+    notes: "Transliteration: aretē. First-declension feminine (-η). Central concept in Greek ethics."
+
+  - lemma: "ἀποκρίνομαι"
+    pos: verb
+    definition: "to answer, reply"
+    frequency_rank: 135
+    difficulty: 3
+    notes: "Transliteration: apokrinomai. Deponent (middle only). Takes dative of person addressed."
+
+  - lemma: "οἴομαι"
+    pos: verb
+    definition: "to think, suppose, believe"
+    frequency_rank: 136
+    difficulty: 3
+    notes: "Transliteration: oiomai. Also spelled οἶμαι. Deponent. Takes acc. + inf. for indirect statement."
+
+  - lemma: "πολέμιος"
+    pos: noun
+    definition: "enemy (as noun, from adj.)"
+    frequency_rank: 137
+    difficulty: 2
+    notes: "Transliteration: polemios. Substantivized adjective. οἱ πολέμιοι = the enemy (collective). Already in core-001 as adjective; as noun with article very frequent."
+
+  - lemma: "τέλος"
+    pos: noun
+    definition: "end, goal, fulfillment; tax"
+    frequency_rank: 138
+    difficulty: 2
+    notes: "Transliteration: telos. Third-declension neuter (σ-stem). Gen.: τέλους. τέλος (adv.) = finally."
+
+  - lemma: "αἱρέω"
+    pos: verb
+    definition: "to take, seize; (mid.) to choose"
+    frequency_rank: 139
+    difficulty: 3
+    notes: "Transliteration: haireō. Contract verb. Mid. αἱρέομαι = to choose. Principal parts: αἱρέω, αἱρήσω, εἷλον, ᾕρηκα, ᾕρημαι, ᾑρέθην."
+
+  - lemma: "μάχη"
+    pos: noun
+    definition: "battle, fight"
+    frequency_rank: 140
+    difficulty: 1
+    notes: "Transliteration: machē. First-declension feminine (-η)."
+
+  - lemma: "μανθάνω"
+    pos: verb
+    definition: "to learn, understand"
+    frequency_rank: 141
+    difficulty: 3
+    notes: "Transliteration: manthanō. Principal parts: μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα."
+
+  - lemma: "πρᾶξις"
+    pos: noun
+    definition: "action, doing, practice"
+    frequency_rank: 142
+    difficulty: 3
+    notes: "Transliteration: praxis. Third-declension i-stem feminine. Gen.: πράξεως."
+
+  - lemma: "ἤδη"
+    pos: adverb
+    definition: "already, by now, at this point"
+    frequency_rank: 143
+    difficulty: 1
+    notes: "Transliteration: ēdē."
+
+  - lemma: "ἀλήθεια"
+    pos: noun
+    definition: "truth"
+    frequency_rank: 144
+    difficulty: 2
+    notes: "Transliteration: alētheia. First-declension feminine. τῇ ἀληθείᾳ = in truth."
+
+  - lemma: "τάττω"
+    pos: verb
+    definition: "to arrange, draw up, station"
+    frequency_rank: 145
+    difficulty: 3
+    notes: "Transliteration: tattō. Also spelled τάσσω. Military term: to array troops."
+
+  - lemma: "ὅμως"
+    pos: adverb
+    definition: "nevertheless, yet, still"
+    frequency_rank: 146
+    difficulty: 2
+    notes: "Transliteration: homōs. Concessive adverb."
+
+  - lemma: "ἐπιστήμη"
+    pos: noun
+    definition: "knowledge, understanding, science"
+    frequency_rank: 147
+    difficulty: 3
+    notes: "Transliteration: epistēmē. First-declension feminine. Key philosophical term, distinguished from δόξα (opinion)."
+
+  - lemma: "πάσχω"
+    pos: verb
+    definition: "to suffer, experience"
+    frequency_rank: 148
+    difficulty: 3
+    notes: "Transliteration: paschō. Principal parts: πάσχω, πείσομαι, ἔπαθον, πέπονθα. εὖ/κακῶς πάσχειν = to be treated well/badly."
+
+  - lemma: "ἕκαστος"
+    pos: adjective
+    definition: "each, every"
+    frequency_rank: 149
+    difficulty: 2
+    notes: "Transliteration: hekastos. Used with singular verb. ἕκαστος ἡμῶν = each of us."
+
+  - lemma: "οἶκος"
+    pos: noun
+    definition: "house, household, family"
+    frequency_rank: 150
+    difficulty: 1
+    notes: "Transliteration: oikos. Second-declension masculine. οἴκοι (loc.) = at home. οἴκαδε = homeward."
+
+  - lemma: "ἐθέλω"
+    pos: verb
+    definition: "to wish, want, be willing"
+    frequency_rank: 151
+    difficulty: 2
+    notes: "Transliteration: ethelō. Also θέλω. Takes complementary infinitive."
+
+  - lemma: "στρατηγός"
+    pos: noun
+    definition: "general, commander"
+    frequency_rank: 152
+    difficulty: 2
+    notes: "Transliteration: stratēgos. Second-declension masculine. Elected military leader in Athens."
+
+  - lemma: "βάλλω"
+    pos: verb
+    definition: "to throw, hit, strike"
+    frequency_rank: 153
+    difficulty: 3
+    notes: "Transliteration: ballō. Principal parts: βάλλω, βαλῶ, ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην."
+
+  - lemma: "οἰκία"
+    pos: noun
+    definition: "house, dwelling"
+    frequency_rank: 154
+    difficulty: 1
+    notes: "Transliteration: oikia. First-declension feminine. Cf. οἶκος (household/family more broadly)."
+
+  - lemma: "ἀδικέω"
+    pos: verb
+    definition: "to do wrong, injure"
+    frequency_rank: 155
+    difficulty: 3
+    notes: "Transliteration: adikeō. Contract verb. Related: ἄδικος (unjust), ἀδικία (injustice)."
+
+  - lemma: "φοβέομαι"
+    pos: verb
+    definition: "to fear, be afraid of"
+    frequency_rank: 156
+    difficulty: 3
+    notes: "Transliteration: phobeomai. Deponent (middle only). Takes accusative or μή + subjunctive."
+
+  - lemma: "τέχνη"
+    pos: noun
+    definition: "art, skill, craft"
+    frequency_rank: 157
+    difficulty: 2
+    notes: "Transliteration: technē. First-declension feminine (-η). Broad meaning: any systematic skill or knowledge."
+
+  - lemma: "ὅπως"
+    pos: conjunction
+    definition: "how, in order that, that"
+    frequency_rank: 158
+    difficulty: 4
+    notes: "Transliteration: hopōs. Purpose clause marker (+ subjunctive/optative). Also indirect question word."
+
+  - lemma: "αἰτία"
+    pos: noun
+    definition: "cause, reason; blame, accusation"
+    frequency_rank: 159
+    difficulty: 2
+    notes: "Transliteration: aitia. First-declension feminine."
+
+  - lemma: "τρεῖς"
+    pos: adjective
+    definition: "three"
+    frequency_rank: 160
+    difficulty: 2
+    notes: "Transliteration: treis. Declined: τρεῖς, τρία (masc./fem. and neut.)."
+
+  - lemma: "ὄχλος"
+    pos: noun
+    definition: "crowd, mob, multitude"
+    frequency_rank: 161
+    difficulty: 2
+    notes: "Transliteration: ochlos. Second-declension masculine."
+
+  - lemma: "ἐπεί"
+    pos: conjunction
+    definition: "when, since, after"
+    frequency_rank: 162
+    difficulty: 2
+    notes: "Transliteration: epei. Temporal and causal conjunction. ἐπειδή = emphatic form."
+
+  - lemma: "ἀλλήλων"
+    pos: pronoun
+    definition: "one another, each other"
+    frequency_rank: 163
+    difficulty: 2
+    notes: "Transliteration: allēlōn. Reciprocal pronoun. No nominative form. Gen./dat./acc. only."
+
+  - lemma: "πιστεύω"
+    pos: verb
+    definition: "to trust, believe, have faith in (+ dat.)"
+    frequency_rank: 164
+    difficulty: 2
+    notes: "Transliteration: pisteuō."
+
+  - lemma: "ἀνά"
+    pos: preposition
+    definition: "up, upon, throughout (+ acc.)"
+    frequency_rank: 165
+    difficulty: 3
+    notes: "Transliteration: ana. In prose mainly in compounds and with acc. (distributive: ἀνὰ πέντε = five at a time)."
+
+  - lemma: "ὑπάρχω"
+    pos: verb
+    definition: "to exist, be present; to begin"
+    frequency_rank: 166
+    difficulty: 3
+    notes: "Transliteration: hyparchō. τὰ ὑπάρχοντα = one's existing resources/possessions."
+
+  - lemma: "δῆμος"
+    pos: noun
+    definition: "the people, populace; district"
+    frequency_rank: 167
+    difficulty: 2
+    notes: "Transliteration: dēmos. Second-declension masculine. Root of δημοκρατία."
+
+  - lemma: "ἄγω"
+    pos: verb
+    definition: "to lead, bring, carry"
+    frequency_rank: 168
+    difficulty: 2
+    notes: "Transliteration: agō. Principal parts: ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην."
+
+  - lemma: "δεύτερος"
+    pos: adjective
+    definition: "second"
+    frequency_rank: 169
+    difficulty: 1
+    notes: "Transliteration: deuteros. First/second-declension adjective."
+
+  - lemma: "ἐπειδή"
+    pos: conjunction
+    definition: "when, after; since, because"
+    frequency_rank: 170
+    difficulty: 2
+    notes: "Transliteration: epeidē. Stronger form of ἐπεί."
+
+  - lemma: "χείρ"
+    pos: noun
+    definition: "hand"
+    frequency_rank: 171
+    difficulty: 3
+    notes: "Transliteration: cheir. Third-declension irregular. Gen.: χειρός. Dat. pl.: χερσί(ν)."
+
+  - lemma: "πείθω"
+    pos: verb
+    definition: "to persuade; (mid./pass.) to obey, trust (+ dat.)"
+    frequency_rank: 172
+    difficulty: 3
+    notes: "Transliteration: peithō. Active: to persuade. Middle: to obey. Perfect πέποιθα = to trust."
+
+  - lemma: "αἴτιος"
+    pos: adjective
+    definition: "responsible, to blame; causing (+ gen.)"
+    frequency_rank: 173
+    difficulty: 3
+    notes: "Transliteration: aitios. First/second-declension adjective. Related: αἰτία."
+
+  - lemma: "ζάω"
+    pos: verb
+    definition: "to live, be alive"
+    frequency_rank: 174
+    difficulty: 2
+    notes: "Transliteration: zaō. Contract verb (α-contract). ζῶ, ζῇς, ζῇ."
+
+  - lemma: "εἶδος"
+    pos: noun
+    definition: "form, shape, kind; idea"
+    frequency_rank: 175
+    difficulty: 3
+    notes: "Transliteration: eidos. Third-declension neuter (σ-stem). Gen.: εἴδους. Platonic term for 'Form' or 'Idea.'"
+
+  - lemma: "οὔτε"
+    pos: conjunction
+    definition: "and not, neither...nor (with second οὔτε)"
+    frequency_rank: 176
+    difficulty: 2
+    notes: "Transliteration: oute. οὔτε...οὔτε = neither...nor."
+
+  - lemma: "μήτε"
+    pos: conjunction
+    definition: "and not, neither...nor (with non-indicative)"
+    frequency_rank: 177
+    difficulty: 3
+    notes: "Transliteration: mēte. μήτε...μήτε = neither...nor (with subjunctive, optative, imperative, infinitive, participle)."
+
+  - lemma: "σοφός"
+    pos: adjective
+    definition: "wise, skilled, clever"
+    frequency_rank: 178
+    difficulty: 2
+    notes: "Transliteration: sophos. First/second-declension adjective."
+
+  - lemma: "ἀποκτείνω"
+    pos: verb
+    definition: "to kill, slay"
+    frequency_rank: 179
+    difficulty: 3
+    notes: "Transliteration: apokteinō. Principal parts: ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα, ἀπέκτονα."
+
+  - lemma: "μέρος"
+    pos: noun
+    definition: "part, share, portion"
+    frequency_rank: 180
+    difficulty: 2
+    notes: "Transliteration: meros. Third-declension neuter (σ-stem). Gen.: μέρους."
+
+  - lemma: "κίνδυνος"
+    pos: noun
+    definition: "danger, risk"
+    frequency_rank: 181
+    difficulty: 2
+    notes: "Transliteration: kindynos. Second-declension masculine."
+
+  - lemma: "ἐρωτάω"
+    pos: verb
+    definition: "to ask, question"
+    frequency_rank: 182
+    difficulty: 2
+    notes: "Transliteration: erōtaō. Contract verb (α-contract). Takes double acc. (person asked + thing asked)."
+
+  - lemma: "πλῆθος"
+    pos: noun
+    definition: "multitude, majority, great number"
+    frequency_rank: 183
+    difficulty: 2
+    notes: "Transliteration: plēthos. Third-declension neuter (σ-stem). Gen.: πλήθους."
+
+  - lemma: "εἰρήνη"
+    pos: noun
+    definition: "peace"
+    frequency_rank: 184
+    difficulty: 1
+    notes: "Transliteration: eirēnē. First-declension feminine (-η). Opposite of πόλεμος (war)."
+
+  - lemma: "σύν"
+    pos: preposition
+    definition: "with, together with (+ dative)"
+    frequency_rank: 185
+    difficulty: 1
+    notes: "Transliteration: syn. Always takes the dative. Common in compounds: συμ- before labials, συγ- before velars, συλ- before λ."
+
+  - lemma: "ἅπας"
+    pos: adjective
+    definition: "quite all, the whole, every single"
+    frequency_rank: 186
+    difficulty: 3
+    notes: "Transliteration: hapas. Emphatic form of πᾶς. Same declension pattern."
+
+  - lemma: "παῖς"
+    pos: noun
+    definition: "child, boy, girl; slave"
+    frequency_rank: 187
+    difficulty: 2
+    notes: "Transliteration: pais. Third-declension noun. Gen.: παιδός. Stem: παιδ-. Can mean slave in some contexts."
+
+  - lemma: "ἱκανός"
+    pos: adjective
+    definition: "sufficient, adequate, capable"
+    frequency_rank: 188
+    difficulty: 2
+    notes: "Transliteration: hikanos. First/second-declension adjective."
+
+  - lemma: "δηλόω"
+    pos: verb
+    definition: "to make clear, show, reveal"
+    frequency_rank: 189
+    difficulty: 3
+    notes: "Transliteration: dēloō. Contract verb (ο-contract). Related: δῆλος (clear, evident)."
+
+  - lemma: "ἀφικνέομαι"
+    pos: verb
+    definition: "to arrive, reach"
+    frequency_rank: 190
+    difficulty: 4
+    notes: "Transliteration: aphikneomai. Deponent. Takes εἰς/πρός + acc. for destination."
+
+  - lemma: "θάλαττα"
+    pos: noun
+    definition: "sea"
+    frequency_rank: 191
+    difficulty: 1
+    notes: "Transliteration: thalatta. First-declension feminine (-α after ττ). Attic form; Ionic θάλασσα."
+
+  - lemma: "ἀναγκαῖος"
+    pos: adjective
+    definition: "necessary, forced, inevitable"
+    frequency_rank: 192
+    difficulty: 3
+    notes: "Transliteration: anankaios. First/second-declension adjective. Related: ἀνάγκη (necessity)."
+
+  - lemma: "πλεῖστος"
+    pos: adjective
+    definition: "most, greatest (superlative of πολύς)"
+    frequency_rank: 193
+    difficulty: 3
+    notes: "Transliteration: pleistos. Superlative of πολύς. οἱ πλεῖστοι = most people, the majority."
+
+  - lemma: "πλείων"
+    pos: adjective
+    definition: "more, greater (comparative of πολύς)"
+    frequency_rank: 194
+    difficulty: 3
+    notes: "Transliteration: pleiōn. Also πλέων. Comparative of πολύς. Third-declension."
+
+  - lemma: "εἶδον"
+    pos: verb
+    definition: "to see (aorist of ὁράω)"
+    frequency_rank: 195
+    difficulty: 3
+    notes: "Transliteration: eidon. Second aorist. Supplies the aorist of ὁράω. Imperative: ἰδέ. Infinitive: ἰδεῖν."
+
+  - lemma: "γιγνώσκω"
+    pos: verb
+    definition: "to know, perceive, recognize"
+    frequency_rank: 196
+    difficulty: 4
+    notes: "Transliteration: gignōskō. Principal parts: γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην."
+
+  - lemma: "πόλεμος"
+    pos: noun
+    definition: "war, battle"
+    frequency_rank: 197
+    difficulty: 1
+    notes: "Transliteration: polemos. Second-declension masculine."
+
+  - lemma: "φύω"
+    pos: verb
+    definition: "to bring forth, produce; (mid.) to grow, be by nature"
+    frequency_rank: 198
+    difficulty: 4
+    notes: "Transliteration: phyō. Perfect πέφυκα = to be by nature. Related: φύσις."
+
+  - lemma: "ἐάν"
+    pos: conjunction
+    definition: "if (+ subjunctive)"
+    frequency_rank: 199
+    difficulty: 3
+    notes: "Transliteration: ean. Contraction of εἰ + ἄν. Introduces present general and future more vivid conditions."
+
+  - lemma: "ἄρα"
+    pos: particle
+    definition: "then, therefore, it turns out"
+    frequency_rank: 200
+    difficulty: 2
+    notes: "Transliteration: ara. Inferential particle (often merely transitional). Distinguished from ἆρα (interrogative = then?)."
+
+  - lemma: "ἡδονή"
+    pos: noun
+    definition: "pleasure, delight"
+    frequency_rank: 201
+    difficulty: 2
+    notes: "Transliteration: hēdonē. First-declension feminine (-η). Key term in Epicurean ethics."
+
+  - lemma: "ἐλπίς"
+    pos: noun
+    definition: "hope, expectation"
+    frequency_rank: 202
+    difficulty: 3
+    notes: "Transliteration: elpis. Third-declension feminine. Gen.: ἐλπίδος. Stem: ἐλπιδ-."
+
+  - lemma: "τιμή"
+    pos: noun
+    definition: "honor, value, price"
+    frequency_rank: 203
+    difficulty: 2
+    notes: "Transliteration: timē. First-declension feminine (-η)."
+
+  - lemma: "μάχομαι"
+    pos: verb
+    definition: "to fight, do battle (+ dat.)"
+    frequency_rank: 204
+    difficulty: 3
+    notes: "Transliteration: machomai. Deponent verb. Takes dative of opponent."
+
+  - lemma: "ἀπέρχομαι"
+    pos: verb
+    definition: "to go away, depart"
+    frequency_rank: 205
+    difficulty: 3
+    notes: "Transliteration: aperchomai. Compound of ἀπό + ἔρχομαι."
+
+  - lemma: "ἔρχομαι"
+    pos: verb
+    definition: "to come, go"
+    frequency_rank: 206
+    difficulty: 3
+    notes: "Transliteration: erchomai. Deponent. Suppletive: ἔρχομαι, εἶμι/ἐλεύσομαι, ἦλθον, ἐλήλυθα."
+
+  - lemma: "δόξα"
+    pos: noun
+    definition: "opinion, belief; reputation, glory"
+    frequency_rank: 207
+    difficulty: 2
+    notes: "Transliteration: doxa. First-declension feminine (-α). Philosophical term contrasted with ἐπιστήμη (knowledge)."
+
+  - lemma: "φρονέω"
+    pos: verb
+    definition: "to think, have understanding; to be minded"
+    frequency_rank: 208
+    difficulty: 3
+    notes: "Transliteration: phroneō. Contract verb. εὖ φρονεῖν = to be wise, μέγα φρονεῖν = to be proud."
+
+  - lemma: "πλοῦτος"
+    pos: noun
+    definition: "wealth, riches"
+    frequency_rank: 209
+    difficulty: 2
+    notes: "Transliteration: ploutos. Second-declension masculine."
+
+  - lemma: "ξένος"
+    pos: noun
+    definition: "stranger, foreigner, guest-friend"
+    frequency_rank: 210
+    difficulty: 2
+    notes: "Transliteration: xenos. Second-declension masculine. Also adjective: foreign, strange."
+
+  - lemma: "ἐπιθυμέω"
+    pos: verb
+    definition: "to desire, long for (+ gen.)"
+    frequency_rank: 211
+    difficulty: 3
+    notes: "Transliteration: epithymeō. Contract verb. Takes genitive of thing desired."
+
+  - lemma: "μεῖζον"
+    pos: adjective
+    definition: "greater, larger (comparative of μέγας)"
+    frequency_rank: 212
+    difficulty: 3
+    notes: "Transliteration: meizon. Neuter nom/acc; full form μείζων. Comparative of μέγας."
+
+  - lemma: "ἑαυτοῦ"
+    pos: pronoun
+    definition: "himself, herself, itself (reflexive)"
+    frequency_rank: 213
+    difficulty: 3
+    notes: "Transliteration: heautou. Third-person reflexive pronoun. No nominative. Gen./dat./acc. only."
+
+  - lemma: "ἀνάγκη"
+    pos: noun
+    definition: "necessity, compulsion, force"
+    frequency_rank: 214
+    difficulty: 2
+    notes: "Transliteration: anankē. First-declension feminine (-η). ἀνάγκη ἐστί(ν) = it is necessary."
+
+  - lemma: "τιμάω"
+    pos: verb
+    definition: "to honor, value, esteem"
+    frequency_rank: 215
+    difficulty: 2
+    notes: "Transliteration: timaō. Contract verb (α-contract). Related: τιμή (honor)."
+
+  - lemma: "ξύν"
+    pos: preposition
+    definition: "with (+ dative); variant of σύν"
+    frequency_rank: 216
+    difficulty: 2
+    notes: "Transliteration: xyn. Older/poetic form of σύν. Common in Thucydides and tragedy."
+
+  - lemma: "στράτευμα"
+    pos: noun
+    definition: "army, military force, expedition"
+    frequency_rank: 217
+    difficulty: 3
+    notes: "Transliteration: strateuma. Third-declension neuter (τ-stem). Gen.: στρατεύματος."
+
+  - lemma: "κτάομαι"
+    pos: verb
+    definition: "to acquire, gain, possess"
+    frequency_rank: 218
+    difficulty: 4
+    notes: "Transliteration: ktaomai. Deponent. Perfect κέκτημαι = to possess (present meaning)."
+
+  - lemma: "αἰσχρός"
+    pos: adjective
+    definition: "shameful, ugly, base"
+    frequency_rank: 219
+    difficulty: 2
+    notes: "Transliteration: aischros. First/second-declension adjective. Opposite of καλός."
+
+  - lemma: "ἐπιστάμαι"
+    pos: verb
+    definition: "to know how to, understand"
+    frequency_rank: 220
+    difficulty: 4
+    notes: "Transliteration: epistamai. Deponent. Related: ἐπιστήμη (knowledge)."
+
+  - lemma: "γένος"
+    pos: noun
+    definition: "race, kind, family, class"
+    frequency_rank: 221
+    difficulty: 2
+    notes: "Transliteration: genos. Third-declension neuter (σ-stem). Gen.: γένους."
+
+  - lemma: "ῥᾴδιος"
+    pos: adjective
+    definition: "easy"
+    frequency_rank: 222
+    difficulty: 2
+    notes: "Transliteration: rhadios. First/second-declension adjective. Comparative: ῥᾴων. Superlative: ῥᾷστος."
+
+  - lemma: "σκοπέω"
+    pos: verb
+    definition: "to look at, examine, consider"
+    frequency_rank: 223
+    difficulty: 3
+    notes: "Transliteration: skopeō. Contract verb. Middle σκοποῦμαι more common in prose."
+
+  - lemma: "εἴτε"
+    pos: conjunction
+    definition: "whether...or, either...or"
+    frequency_rank: 224
+    difficulty: 3
+    notes: "Transliteration: eite. Used in pairs: εἴτε...εἴτε = whether...or."
+
+  - lemma: "ἀδελφός"
+    pos: noun
+    definition: "brother"
+    frequency_rank: 225
+    difficulty: 1
+    notes: "Transliteration: adelphos. Second-declension masculine."
+
+  - lemma: "μέλλω"
+    pos: verb
+    definition: "to be about to, intend to; to delay"
+    frequency_rank: 226
+    difficulty: 3
+    notes: "Transliteration: mellō. Takes future or present infinitive. τὸ μέλλον = the future."
+
+  - lemma: "ὅλος"
+    pos: adjective
+    definition: "whole, entire, complete"
+    frequency_rank: 227
+    difficulty: 1
+    notes: "Transliteration: holos. First/second-declension adjective. Predicate position like πᾶς."
+
+  - lemma: "ἕνεκα"
+    pos: preposition
+    definition: "for the sake of, because of (+ gen., usually postpositive)"
+    frequency_rank: 228
+    difficulty: 3
+    notes: "Transliteration: heneka. Also εἵνεκα. Follows its object: τούτου ἕνεκα = for the sake of this."
+
+  - lemma: "δεινός"
+    pos: adjective
+    definition: "terrible, fearful; marvelous, clever"
+    frequency_rank: 229
+    difficulty: 2
+    notes: "Transliteration: deinos. First/second-declension adjective. δεινὸς λέγειν = clever at speaking."
+
+  - lemma: "πάρειμι"
+    pos: verb
+    definition: "to be present, be at hand"
+    frequency_rank: 230
+    difficulty: 3
+    notes: "Transliteration: pareimi. Compound of παρά + εἰμί. οἱ παρόντες = those present."
+
+  - lemma: "λείπω"
+    pos: verb
+    definition: "to leave, abandon"
+    frequency_rank: 231
+    difficulty: 3
+    notes: "Transliteration: leipō. Principal parts: λείπω, λείψω, ἔλιπον, λέλοιπα, λέλειμμαι, ἐλείφθην."
+
+  - lemma: "γένεσις"
+    pos: noun
+    definition: "birth, origin, creation"
+    frequency_rank: 232
+    difficulty: 3
+    notes: "Transliteration: genesis. Third-declension i-stem feminine. Gen.: γενέσεως."
+
+  - lemma: "δίκη"
+    pos: noun
+    definition: "justice, lawsuit, penalty"
+    frequency_rank: 233
+    difficulty: 2
+    notes: "Transliteration: dikē. First-declension feminine (-η). δίκην διδόναι = to pay a penalty."
+
+  - lemma: "πρό"
+    pos: preposition
+    definition: "before, in front of (+ gen.)"
+    frequency_rank: 234
+    difficulty: 2
+    notes: "Transliteration: pro. Always takes genitive. Common in compounds."
+
+  - lemma: "ἡγεμών"
+    pos: noun
+    definition: "leader, guide, commander"
+    frequency_rank: 235
+    difficulty: 3
+    notes: "Transliteration: hēgemōn. Third-declension masculine. Gen.: ἡγεμόνος."
+
+  - lemma: "ἀεί"
+    pos: adverb
+    definition: "always, ever"
+    frequency_rank: 236
+    difficulty: 1
+    notes: "Transliteration: aei."
+
+  - lemma: "φρόνησις"
+    pos: noun
+    definition: "practical wisdom, prudence"
+    frequency_rank: 237
+    difficulty: 4
+    notes: "Transliteration: phronēsis. Third-declension i-stem feminine. Key Aristotelian virtue."
+
+  - lemma: "πρέπει"
+    pos: verb
+    definition: "it is fitting, it is proper (impersonal)"
+    frequency_rank: 238
+    difficulty: 3
+    notes: "Transliteration: prepei. Impersonal verb. Takes dative of person + infinitive."
+
+  - lemma: "κρατέω"
+    pos: verb
+    definition: "to be strong, rule, prevail (+ gen.)"
+    frequency_rank: 239
+    difficulty: 3
+    notes: "Transliteration: krateō. Contract verb. Takes genitive of what one rules over."
+
+  - lemma: "ὄψις"
+    pos: noun
+    definition: "sight, appearance, vision"
+    frequency_rank: 240
+    difficulty: 3
+    notes: "Transliteration: opsis. Third-declension i-stem feminine. Gen.: ὄψεως."
+
+  - lemma: "τοίνυν"
+    pos: particle
+    definition: "therefore, accordingly, well then"
+    frequency_rank: 241
+    difficulty: 3
+    notes: "Transliteration: toinyn. Postpositive inferential particle. Common in dialogues and arguments."
+
+  - lemma: "ζῆν"
+    pos: verb
+    definition: "to live (infinitive of ζάω)"
+    frequency_rank: 242
+    difficulty: 2
+    notes: "Transliteration: zēn. Present infinitive of ζάω. Listed separately due to high frequency as a substantivized infinitive (τὸ ζῆν = life)."
+
+  - lemma: "ἔθνος"
+    pos: noun
+    definition: "nation, people, race"
+    frequency_rank: 243
+    difficulty: 2
+    notes: "Transliteration: ethnos. Third-declension neuter (σ-stem). Gen.: ἔθνους."
+
+  - lemma: "καλέω"
+    pos: verb
+    definition: "to call, summon, name"
+    frequency_rank: 244
+    difficulty: 2
+    notes: "Transliteration: kaleō. Contract verb (ε-contract). Principal parts: καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην."
+
+  - lemma: "ὅπλον"
+    pos: noun
+    definition: "tool, implement; (pl.) arms, weapons"
+    frequency_rank: 245
+    difficulty: 2
+    notes: "Transliteration: hoplon. Second-declension neuter. Plural τὰ ὅπλα = weapons, arms."
+
+  - lemma: "ἀληθής"
+    pos: adjective
+    definition: "true, real, genuine"
+    frequency_rank: 246
+    difficulty: 3
+    notes: "Transliteration: alēthēs. Third-declension adjective (σ-stem). Neut.: ἀληθές. Gen.: ἀληθοῦς."
+
+  - lemma: "οὐδέ"
+    pos: conjunction
+    definition: "and not, not even, nor"
+    frequency_rank: 247
+    difficulty: 2
+    notes: "Transliteration: oude. οὐδέ...οὐδέ = neither...nor (with indicative)."
+
+  - lemma: "μηδέ"
+    pos: conjunction
+    definition: "and not, not even, nor (non-indicative)"
+    frequency_rank: 248
+    difficulty: 3
+    notes: "Transliteration: mēde. μηδέ...μηδέ = neither...nor (with subjunctive, optative, etc.)."
+
+  - lemma: "στρατιώτης"
+    pos: noun
+    definition: "soldier"
+    frequency_rank: 249
+    difficulty: 2
+    notes: "Transliteration: stratiōtēs. First-declension masculine (-ης)."
+
+  - lemma: "δῆλος"
+    pos: adjective
+    definition: "clear, evident, visible"
+    frequency_rank: 250
+    difficulty: 2
+    notes: "Transliteration: dēlos. First/second-declension adjective. δῆλόν ἐστι ὅτι = it is clear that."
+
+  - lemma: "αἰσχύνω"
+    pos: verb
+    definition: "to dishonor, make ashamed; (mid.) to be ashamed"
+    frequency_rank: 251
+    difficulty: 3
+    notes: "Transliteration: aischynō. Middle αἰσχύνομαι = to feel shame."
+
+  - lemma: "σπουδή"
+    pos: noun
+    definition: "haste, eagerness, zeal"
+    frequency_rank: 252
+    difficulty: 2
+    notes: "Transliteration: spoudē. First-declension feminine (-η). σπουδῇ = in haste, eagerly."
+
+  - lemma: "οὐδείς"
+    pos: pronoun
+    definition: "no one, nothing (with indicative)"
+    frequency_rank: 253
+    difficulty: 2
+    notes: "Transliteration: oudeis. Compound: οὐδέ + εἷς. Fem.: οὐδεμία. Neut.: οὐδέν."
+
+  - lemma: "μηδείς"
+    pos: pronoun
+    definition: "no one, nothing (non-indicative)"
+    frequency_rank: 254
+    difficulty: 3
+    notes: "Transliteration: mēdeis. Compound: μηδέ + εἷς. Used in prohibitions, conditions, purpose clauses."
+
+  - lemma: "τάξις"
+    pos: noun
+    definition: "arrangement, order, rank"
+    frequency_rank: 255
+    difficulty: 3
+    notes: "Transliteration: taxis. Third-declension i-stem feminine. Gen.: τάξεως."
+
+  - lemma: "ἡλικία"
+    pos: noun
+    definition: "age, time of life, generation"
+    frequency_rank: 256
+    difficulty: 3
+    notes: "Transliteration: hēlikia. First-declension feminine."
+
+  - lemma: "νικάω"
+    pos: verb
+    definition: "to conquer, win, prevail"
+    frequency_rank: 257
+    difficulty: 2
+    notes: "Transliteration: nikaō. Contract verb (α-contract)."
+
+  - lemma: "θυγάτηρ"
+    pos: noun
+    definition: "daughter"
+    frequency_rank: 258
+    difficulty: 3
+    notes: "Transliteration: thygatēr. Third-declension syncopated noun. Gen.: θυγατρός. Same pattern as πατήρ, μήτηρ."
+
+  - lemma: "ἱππεύς"
+    pos: noun
+    definition: "horseman, cavalryman"
+    frequency_rank: 259
+    difficulty: 3
+    notes: "Transliteration: hippeus. Third-declension υ-stem masculine. Gen.: ἱππέως."
+
+  - lemma: "φεύγω"
+    pos: verb
+    definition: "to flee, escape; to be a defendant"
+    frequency_rank: 260
+    difficulty: 2
+    notes: "Transliteration: pheugō. Principal parts: φεύγω, φεύξομαι, ἔφυγον, πέφευγα."
+
+  - lemma: "ἐλεύθερος"
+    pos: adjective
+    definition: "free"
+    frequency_rank: 261
+    difficulty: 2
+    notes: "Transliteration: eleutheros. First/second-declension adjective."
+
+  - lemma: "κεφαλή"
+    pos: noun
+    definition: "head"
+    frequency_rank: 262
+    difficulty: 1
+    notes: "Transliteration: kephalē. First-declension feminine (-η)."
+
+  - lemma: "ὅμοιος"
+    pos: adjective
+    definition: "like, similar, resembling (+ dat.)"
+    frequency_rank: 263
+    difficulty: 2
+    notes: "Transliteration: homoios. First/second-declension adjective. Takes dative."
+
+  - lemma: "ἀπόλλυμι"
+    pos: verb
+    definition: "to destroy, kill; (mid.) to perish, die"
+    frequency_rank: 264
+    difficulty: 4
+    notes: "Transliteration: apollymi. μι-verb. Active: to destroy. Middle: to perish."
+
+  - lemma: "χράομαι"
+    pos: verb
+    definition: "to use, experience (+ dat.)"
+    frequency_rank: 265
+    difficulty: 4
+    notes: "Transliteration: chraomai. Deponent. Contract verb (α-contract). Always takes dative."
+
+  - lemma: "λοιπός"
+    pos: adjective
+    definition: "remaining, the rest"
+    frequency_rank: 266
+    difficulty: 2
+    notes: "Transliteration: loipos. First/second-declension adjective. τὸ λοιπόν = henceforth."
+
+  - lemma: "πονηρός"
+    pos: adjective
+    definition: "bad, wicked, worthless"
+    frequency_rank: 267
+    difficulty: 2
+    notes: "Transliteration: ponēros. First/second-declension adjective. Stronger than κακός in moral sense."
+
+  - lemma: "ὕδωρ"
+    pos: noun
+    definition: "water"
+    frequency_rank: 268
+    difficulty: 2
+    notes: "Transliteration: hydōr. Third-declension neuter (τ-stem). Gen.: ὕδατος."
+
+  - lemma: "ἄρχων"
+    pos: noun
+    definition: "ruler, magistrate, archon"
+    frequency_rank: 269
+    difficulty: 2
+    notes: "Transliteration: archōn. Third-declension masculine (participle used as noun). Gen.: ἄρχοντος."
+
+  - lemma: "αἷμα"
+    pos: noun
+    definition: "blood"
+    frequency_rank: 270
+    difficulty: 2
+    notes: "Transliteration: haima. Third-declension neuter (τ-stem). Gen.: αἵματος."
+
+  - lemma: "ὀρθός"
+    pos: adjective
+    definition: "straight, upright, correct"
+    frequency_rank: 271
+    difficulty: 2
+    notes: "Transliteration: orthos. First/second-declension adjective. ὀρθῶς = correctly."
+
+  - lemma: "νύξ"
+    pos: noun
+    definition: "night"
+    frequency_rank: 272
+    difficulty: 2
+    notes: "Transliteration: nyx. Third-declension feminine (κτ-stem). Gen.: νυκτός."
+
+  - lemma: "πλέω"
+    pos: verb
+    definition: "to sail, voyage"
+    frequency_rank: 273
+    difficulty: 3
+    notes: "Transliteration: pleō. Contract verb."
+
+  - lemma: "παρέχω"
+    pos: verb
+    definition: "to provide, furnish, supply"
+    frequency_rank: 274
+    difficulty: 3
+    notes: "Transliteration: parechō. Compound of παρά + ἔχω."
+
+  - lemma: "σωφροσύνη"
+    pos: noun
+    definition: "moderation, temperance, self-control"
+    frequency_rank: 275
+    difficulty: 4
+    notes: "Transliteration: sōphrosynē. First-declension feminine (-η). Key Greek virtue."
+
+  - lemma: "ἀνδρεῖος"
+    pos: adjective
+    definition: "brave, manly, courageous"
+    frequency_rank: 276
+    difficulty: 2
+    notes: "Transliteration: andreios. First/second-declension adjective. Related: ἀνήρ (man), ἀνδρεία (courage)."
+
+  - lemma: "δικαιοσύνη"
+    pos: noun
+    definition: "justice, righteousness"
+    frequency_rank: 277
+    difficulty: 3
+    notes: "Transliteration: dikaiosynē. First-declension feminine (-η). Related: δίκαιος, δίκη."
+
+  - lemma: "συμβαίνω"
+    pos: verb
+    definition: "to come together, happen, result"
+    frequency_rank: 278
+    difficulty: 4
+    notes: "Transliteration: symbainō. Compound of σύν + βαίνω. Impersonal: συμβαίνει = it happens."
+
+  - lemma: "τεῖχος"
+    pos: noun
+    definition: "wall, fortification"
+    frequency_rank: 279
+    difficulty: 2
+    notes: "Transliteration: teichos. Third-declension neuter (σ-stem). Gen.: τείχους."
+
+  - lemma: "φρήν"
+    pos: noun
+    definition: "mind, heart, wits (usually plural)"
+    frequency_rank: 280
+    difficulty: 3
+    notes: "Transliteration: phrēn. Third-declension feminine. Gen.: φρενός. Pl. φρένες = understanding."
+
+  - lemma: "ἐναντίος"
+    pos: adjective
+    definition: "opposite, contrary, facing"
+    frequency_rank: 281
+    difficulty: 3
+    notes: "Transliteration: enantios. First/second-declension adjective. τοὐναντίον = on the contrary."
+
+  - lemma: "χρῆσθαι"
+    pos: verb
+    definition: "to use (infinitive of χράομαι)"
+    frequency_rank: 282
+    difficulty: 4
+    notes: "Transliteration: chrēsthai. Present infinitive of χράομαι. Listed separately due to high frequency as a substantive."
+
+  - lemma: "ἔοικα"
+    pos: verb
+    definition: "to seem, be like, resemble (+ dat.)"
+    frequency_rank: 283
+    difficulty: 4
+    notes: "Transliteration: eoika. Perfect with present meaning. Impersonal ἔοικε = it seems, it is fitting."
+
+  - lemma: "σφεῖς"
+    pos: pronoun
+    definition: "they, them (3rd person plural, indirect reflexive)"
+    frequency_rank: 284
+    difficulty: 4
+    notes: "Transliteration: spheis. Oblique forms: σφῶν (gen.), σφίσι(ν) (dat.), σφᾶς (acc.). Used as indirect reflexive."
+
+  - lemma: "ἰέναι"
+    pos: verb
+    definition: "to go (infinitive of εἶμι)"
+    frequency_rank: 285
+    difficulty: 3
+    notes: "Transliteration: ienai. Present infinitive of εἶμι (to go). Future meaning in Attic: 'to be about to go.'"
+
+  - lemma: "ἐλάττων"
+    pos: adjective
+    definition: "smaller, less, fewer (comparative of μικρός)"
+    frequency_rank: 286
+    difficulty: 3
+    notes: "Transliteration: elattōn. Third-declension comparative. Superlative: ἐλάχιστος."
+
+  - lemma: "κρείττων"
+    pos: adjective
+    definition: "stronger, better, superior (comparative of ἀγαθός)"
+    frequency_rank: 287
+    difficulty: 3
+    notes: "Transliteration: kreittōn. Also κρείσσων. Irregular comparative of ἀγαθός. Superlative: κράτιστος."
+
+  - lemma: "ὁδός"
+    pos: noun
+    definition: "road, way, path; journey"
+    frequency_rank: 288
+    difficulty: 1
+    notes: "Transliteration: hodos. Second-declension feminine (one of few -ος feminines)."
+
+  - lemma: "τελευτάω"
+    pos: verb
+    definition: "to finish, end; to die"
+    frequency_rank: 289
+    difficulty: 3
+    notes: "Transliteration: teleutaō. Contract verb (α-contract). Related: τέλος (end)."
+
+  - lemma: "ἀδικία"
+    pos: noun
+    definition: "injustice, wrongdoing"
+    frequency_rank: 290
+    difficulty: 2
+    notes: "Transliteration: adikia. First-declension feminine. Opposite of δικαιοσύνη."
+
+  - lemma: "μικρός"
+    pos: adjective
+    definition: "small, little, short"
+    frequency_rank: 291
+    difficulty: 1
+    notes: "Transliteration: mikros. First/second-declension adjective. Irregular comparison: ἐλάττων, ἐλάχιστος."
+
+  - lemma: "θαυμάζω"
+    pos: verb
+    definition: "to wonder at, admire, be amazed"
+    frequency_rank: 292
+    difficulty: 2
+    notes: "Transliteration: thaumazō."
+
+  - lemma: "δεσπότης"
+    pos: noun
+    definition: "master, lord"
+    frequency_rank: 293
+    difficulty: 2
+    notes: "Transliteration: despotēs. First-declension masculine (-ης)."
+
+  - lemma: "δοῦλος"
+    pos: noun
+    definition: "slave, servant"
+    frequency_rank: 294
+    difficulty: 1
+    notes: "Transliteration: doulos. Second-declension masculine."
+
+  - lemma: "τρέπω"
+    pos: verb
+    definition: "to turn, direct; (mid.) to turn oneself, flee"
+    frequency_rank: 295
+    difficulty: 3
+    notes: "Transliteration: trepō. Principal parts: τρέπω, τρέψω, ἔτρεψα / ἔτραπον, τέτροφα, τέτραμμαι, ἐτρέφθην / ἐτράπην."
+
+  - lemma: "δύο"
+    pos: adjective
+    definition: "two"
+    frequency_rank: 296
+    difficulty: 1
+    notes: "Transliteration: dyo. Indeclinable in Attic (sometimes gen./dat. δυοῖν)."
+
+  - lemma: "χαλεπός"
+    pos: adjective
+    definition: "difficult, hard, dangerous"
+    frequency_rank: 297
+    difficulty: 2
+    notes: "Transliteration: chalepos. First/second-declension adjective."
+
+  - lemma: "ὀφείλω"
+    pos: verb
+    definition: "to owe, be obliged; ought"
+    frequency_rank: 298
+    difficulty: 3
+    notes: "Transliteration: opheilō. Past ὤφελον used to express unfulfilled wish: ὤφελον τοῦτο ποιῆσαι = 'I wish I had done this.'"
+
+  - lemma: "σῴζω"
+    pos: verb
+    definition: "to save, preserve, keep safe"
+    frequency_rank: 299
+    difficulty: 2
+    notes: "Transliteration: sōzō."
+
+  - lemma: "παρασκευάζω"
+    pos: verb
+    definition: "to prepare, make ready"
+    frequency_rank: 300
+    difficulty: 3
+    notes: "Transliteration: paraskeuazō. Middle παρασκευάζομαι = to prepare oneself."

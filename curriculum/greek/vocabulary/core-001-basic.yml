@@ -1,0 +1,944 @@
+language: greek
+set: core-001
+name: "Basic Greek Vocabulary"
+description: "The 100 most frequent Ancient Greek words"
+items:
+  - lemma: "ὁ"
+    pos: particle
+    definition: "the (definite article)"
+    frequency_rank: 1
+    difficulty: 1
+    forms:
+      nominative:
+        ms: "ὁ"
+        fs: "ἡ"
+        ns: "τό"
+        mp: "οἱ"
+        fp: "αἱ"
+        np: "τά"
+      genitive:
+        ms: "τοῦ"
+        fs: "τῆς"
+        ns: "τοῦ"
+        mp: "τῶν"
+        fp: "τῶν"
+        np: "τῶν"
+      dative:
+        ms: "τῷ"
+        fs: "τῇ"
+        ns: "τῷ"
+        mp: "τοῖς"
+        fp: "ταῖς"
+        np: "τοῖς"
+      accusative:
+        ms: "τόν"
+        fs: "τήν"
+        ns: "τό"
+        mp: "τούς"
+        fp: "τάς"
+        np: "τά"
+    notes: "The definite article, the most frequent word in Greek. No indefinite article exists. Transliteration: ho, hē, to."
+
+  - lemma: "καί"
+    pos: conjunction
+    definition: "and; also, even"
+    frequency_rank: 2
+    difficulty: 1
+    notes: "Transliteration: kai. The most common conjunction. Also used adverbially to mean 'also' or 'even.'"
+
+  - lemma: "δέ"
+    pos: particle
+    definition: "but, and, on the other hand"
+    frequency_rank: 3
+    difficulty: 1
+    notes: "Transliteration: de. Postpositive particle (never first word). Often paired with μέν: μέν...δέ = on the one hand...on the other."
+
+  - lemma: "εἰμί"
+    pos: verb
+    definition: "to be, exist"
+    frequency_rank: 4
+    difficulty: 2
+    forms:
+      present_active_indicative:
+        1s: "εἰμί"
+        2s: "εἶ"
+        3s: "ἐστί(ν)"
+        1p: "ἐσμέν"
+        2p: "ἐστέ"
+        3p: "εἰσί(ν)"
+      imperfect_active_indicative:
+        1s: "ἦν / ἦ"
+        2s: "ἦσθα"
+        3s: "ἦν"
+        1p: "ἦμεν"
+        2p: "ἦτε"
+        3p: "ἦσαν"
+      future_active_indicative:
+        1s: "ἔσομαι"
+        2s: "ἔσῃ / ἔσει"
+        3s: "ἔσται"
+        1p: "ἐσόμεθα"
+        2p: "ἔσεσθε"
+        3p: "ἔσονται"
+    notes: "Transliteration: eimi. Irregular and enclitic in most present forms. Future is middle in form. Infinitive: εἶναι."
+
+  - lemma: "αὐτός"
+    pos: pronoun
+    definition: "self; same; him, her, it (in oblique cases)"
+    frequency_rank: 5
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "αὐτός"
+        fs: "αὐτή"
+        ns: "αὐτό"
+        mp: "αὐτοί"
+        fp: "αὐταί"
+        np: "αὐτά"
+    notes: "Transliteration: autos. Three uses: (1) intensive 'self' (predicate position), (2) 'same' (attributive position), (3) 3rd-person pronoun (oblique cases only)."
+
+  - lemma: "ὅς"
+    pos: pronoun
+    definition: "who, which, that (relative pronoun)"
+    frequency_rank: 6
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "ὅς"
+        fs: "ἥ"
+        ns: "ὅ"
+        mp: "οἵ"
+        fp: "αἵ"
+        np: "ἅ"
+    notes: "Transliteration: hos. The relative pronoun. Agrees with antecedent in gender/number but takes its case from its role in the relative clause."
+
+  - lemma: "οὗτος"
+    pos: pronoun
+    definition: "this, these"
+    frequency_rank: 7
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "οὗτος"
+        fs: "αὕτη"
+        ns: "τοῦτο"
+        mp: "οὗτοι"
+        fp: "αὗται"
+        np: "ταῦτα"
+    notes: "Transliteration: houtos. Near demonstrative. Note the τ- in neuter and the rough breathing in masculine/feminine."
+
+  - lemma: "ἐν"
+    pos: preposition
+    definition: "in, among (+ dative)"
+    frequency_rank: 8
+    difficulty: 1
+    notes: "Transliteration: en. Always takes the dative case."
+
+  - lemma: "μέν"
+    pos: particle
+    definition: "on the one hand, indeed"
+    frequency_rank: 9
+    difficulty: 2
+    notes: "Transliteration: men. Postpositive. Usually paired with δέ in a following clause: μέν...δέ."
+
+  - lemma: "ἐγώ"
+    pos: pronoun
+    definition: "I, me"
+    frequency_rank: 10
+    difficulty: 1
+    forms:
+      singular:
+        nominative: "ἐγώ"
+        genitive: "ἐμοῦ / μου"
+        dative: "ἐμοί / μοι"
+        accusative: "ἐμέ / με"
+      plural:
+        nominative: "ἡμεῖς"
+        genitive: "ἡμῶν"
+        dative: "ἡμῖν"
+        accusative: "ἡμᾶς"
+    notes: "Transliteration: egō. Enclitic short forms (μου, μοι, με) are unemphatic."
+
+  - lemma: "οὐ"
+    pos: adverb
+    definition: "not (in statements of fact)"
+    frequency_rank: 11
+    difficulty: 1
+    notes: "Transliteration: ou. Forms: οὐ before consonants, οὐκ before smooth breathing, οὐχ before rough breathing. Negates indicative verbs."
+
+  - lemma: "σύ"
+    pos: pronoun
+    definition: "you (singular)"
+    frequency_rank: 12
+    difficulty: 1
+    forms:
+      singular:
+        nominative: "σύ"
+        genitive: "σοῦ / σου"
+        dative: "σοί / σοι"
+        accusative: "σέ / σε"
+      plural:
+        nominative: "ὑμεῖς"
+        genitive: "ὑμῶν"
+        dative: "ὑμῖν"
+        accusative: "ὑμᾶς"
+    notes: "Transliteration: sy. Enclitic short forms (σου, σοι, σε) are unemphatic."
+
+  - lemma: "λέγω"
+    pos: verb
+    definition: "to say, speak, tell"
+    frequency_rank: 13
+    difficulty: 2
+    forms:
+      present_active_indicative:
+        1s: "λέγω"
+        2s: "λέγεις"
+        3s: "λέγει"
+        1p: "λέγομεν"
+        2p: "λέγετε"
+        3p: "λέγουσι(ν)"
+    notes: "Transliteration: legō. Principal parts: λέγω, λέξω / ἐρῶ, ἔλεξα / εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην. Multiple suppletive stems."
+
+  - lemma: "εἰς"
+    pos: preposition
+    definition: "into, to, toward (+ accusative)"
+    frequency_rank: 14
+    difficulty: 1
+    notes: "Transliteration: eis. Always takes the accusative. Variant form: ἐς (in some dialects)."
+
+  - lemma: "ὅδε"
+    pos: pronoun
+    definition: "this (here), the following"
+    frequency_rank: 15
+    difficulty: 3
+    notes: "Transliteration: hode. Near demonstrative formed from article + -δε. More deictic than οὗτος. Neuter: τόδε."
+
+  - lemma: "γάρ"
+    pos: conjunction
+    definition: "for, because, indeed"
+    frequency_rank: 16
+    difficulty: 1
+    notes: "Transliteration: gar. Postpositive. Introduces explanations or reasons."
+
+  - lemma: "ἔχω"
+    pos: verb
+    definition: "to have, hold, possess"
+    frequency_rank: 17
+    difficulty: 2
+    forms:
+      present_active_indicative:
+        1s: "ἔχω"
+        2s: "ἔχεις"
+        3s: "ἔχει"
+        1p: "ἔχομεν"
+        2p: "ἔχετε"
+        3p: "ἔχουσι(ν)"
+    notes: "Transliteration: echō. Principal parts: ἔχω, ἕξω / σχήσω, ἔσχον, ἔσχηκα, -ἔσχημαι, —. Imperfect: εἶχον."
+
+  - lemma: "γίγνομαι"
+    pos: verb
+    definition: "to become, happen, be born"
+    frequency_rank: 18
+    difficulty: 3
+    forms:
+      present_middle_indicative:
+        1s: "γίγνομαι"
+        2s: "γίγνῃ"
+        3s: "γίγνεται"
+        1p: "γιγνόμεθα"
+        2p: "γίγνεσθε"
+        3p: "γίγνονται"
+    notes: "Transliteration: gignomai. Deponent verb. Principal parts: γίγνομαι, γενήσομαι, ἐγενόμην, γέγονα, γεγένημαι, —."
+
+  - lemma: "τις"
+    pos: pronoun
+    definition: "someone, something, anyone (indefinite); who? what? (interrogative, accented τίς)"
+    frequency_rank: 19
+    difficulty: 3
+    notes: "Transliteration: tis. Enclitic when indefinite, accented (τίς, τί) when interrogative. Declined like a 3rd-declension noun."
+
+  - lemma: "ποιέω"
+    pos: verb
+    definition: "to do, make, create"
+    frequency_rank: 20
+    difficulty: 2
+    forms:
+      present_active_indicative:
+        1s: "ποιέω → ποιῶ"
+        2s: "ποιέεις → ποιεῖς"
+        3s: "ποιέει → ποιεῖ"
+        1p: "ποιέομεν → ποιοῦμεν"
+        2p: "ποιέετε → ποιεῖτε"
+        3p: "ποιέουσι → ποιοῦσι(ν)"
+    notes: "Transliteration: poieō. Contract verb (ε-contract). Principal parts: ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην."
+
+  - lemma: "ἀλλά"
+    pos: conjunction
+    definition: "but, rather"
+    frequency_rank: 21
+    difficulty: 1
+    notes: "Transliteration: alla. Strong adversative conjunction (stronger than δέ)."
+
+  - lemma: "ἐκ"
+    pos: preposition
+    definition: "out of, from (+ genitive)"
+    frequency_rank: 22
+    difficulty: 1
+    notes: "Transliteration: ek. Form: ἐξ before vowels. Always takes the genitive."
+
+  - lemma: "πρός"
+    pos: preposition
+    definition: "to, toward (+ acc.); at, near (+ dat.); from (+ gen.)"
+    frequency_rank: 23
+    difficulty: 2
+    notes: "Transliteration: pros. Takes all three cases with different meanings."
+
+  - lemma: "ὡς"
+    pos: conjunction
+    definition: "as, how; that, so that; when; since"
+    frequency_rank: 24
+    difficulty: 3
+    notes: "Transliteration: hōs. Extremely versatile. Also used as a preposition with accusative meaning 'to' (a person)."
+
+  - lemma: "ἄν"
+    pos: particle
+    definition: "(marks contingency or potentiality)"
+    frequency_rank: 25
+    difficulty: 4
+    notes: "Transliteration: an. Modal particle used with subjunctive (general conditions) and optative (potential). Makes conditions contingent."
+
+  - lemma: "ἐπί"
+    pos: preposition
+    definition: "on, upon (+ gen./dat./acc.)"
+    frequency_rank: 26
+    difficulty: 2
+    notes: "Transliteration: epi. Gen.: on, in the time of; Dat.: on, at, in addition to; Acc.: to, toward, against."
+
+  - lemma: "πᾶς"
+    pos: adjective
+    definition: "all, every, whole"
+    frequency_rank: 27
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "πᾶς"
+        fs: "πᾶσα"
+        ns: "πᾶν"
+        mp: "πάντες"
+        fp: "πᾶσαι"
+        np: "πάντα"
+    notes: "Transliteration: pas. Predicate position = 'every, each'; attributive position = 'the whole.' 3rd declension (masc/neut), 1st declension (fem)."
+
+  - lemma: "ὅστις"
+    pos: pronoun
+    definition: "whoever, whatever, anyone who"
+    frequency_rank: 28
+    difficulty: 4
+    notes: "Transliteration: hostis. Compound of ὅς + τις. Indefinite relative pronoun. Neuter: ὅτι (also means 'that, because')."
+
+  - lemma: "ἄλλος"
+    pos: adjective
+    definition: "other, another"
+    frequency_rank: 29
+    difficulty: 1
+    notes: "Transliteration: allos. Declined like αὐτός. ἄλλος...ἄλλος = 'one...another.'"
+
+  - lemma: "κατά"
+    pos: preposition
+    definition: "down from (+ gen.); according to, throughout (+ acc.)"
+    frequency_rank: 30
+    difficulty: 2
+    notes: "Transliteration: kata. With gen.: down from, against; with acc.: according to, along, throughout."
+
+  - lemma: "πόλις"
+    pos: noun
+    definition: "city, city-state"
+    frequency_rank: 31
+    difficulty: 2
+    forms:
+      singular:
+        nominative: "πόλις"
+        genitive: "πόλεως"
+        dative: "πόλει"
+        accusative: "πόλιν"
+      plural:
+        nominative: "πόλεις"
+        genitive: "πόλεων"
+        dative: "πόλεσι(ν)"
+        accusative: "πόλεις"
+    notes: "Transliteration: polis. Third-declension i-stem noun, feminine. Irregular genitive in -εως."
+
+  - lemma: "δίδωμι"
+    pos: verb
+    definition: "to give"
+    frequency_rank: 32
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "δίδωμι"
+        2s: "δίδως"
+        3s: "δίδωσι(ν)"
+        1p: "δίδομεν"
+        2p: "δίδοτε"
+        3p: "διδόασι(ν)"
+    notes: "Transliteration: didōmi. μι-verb (athematic). Principal parts: δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην."
+
+  - lemma: "ἀνήρ"
+    pos: noun
+    definition: "man, husband"
+    frequency_rank: 33
+    difficulty: 3
+    forms:
+      singular:
+        nominative: "ἀνήρ"
+        genitive: "ἀνδρός"
+        dative: "ἀνδρί"
+        accusative: "ἄνδρα"
+      plural:
+        nominative: "ἄνδρες"
+        genitive: "ἀνδρῶν"
+        dative: "ἀνδράσι(ν)"
+        accusative: "ἄνδρας"
+    notes: "Transliteration: anēr. Third-declension noun with stem ἀνδρ- (syncopated). Cf. ἄνθρωπος (human being, not gender-specific)."
+
+  - lemma: "ὅτε"
+    pos: conjunction
+    definition: "when"
+    frequency_rank: 34
+    difficulty: 2
+    notes: "Transliteration: hote. Temporal conjunction. With indicative for definite past events, with ἄν + subjunctive for general/repeated events."
+
+  - lemma: "ὅτι"
+    pos: conjunction
+    definition: "that, because"
+    frequency_rank: 35
+    difficulty: 2
+    notes: "Transliteration: hoti. Introduces indirect statements and causal clauses. Also neuter of ὅστις."
+
+  - lemma: "δεῖ"
+    pos: verb
+    definition: "it is necessary, one must (+ accusative and infinitive)"
+    frequency_rank: 36
+    difficulty: 3
+    notes: "Transliteration: dei. Impersonal verb. Takes acc. of person and infinitive: δεῖ με λέγειν = 'I must speak.' Imperfect: ἔδει."
+
+  - lemma: "περί"
+    pos: preposition
+    definition: "about, concerning (+ gen.); around (+ acc.)"
+    frequency_rank: 37
+    difficulty: 2
+    notes: "Transliteration: peri. With gen.: about, concerning; with dat.: around; with acc.: around."
+
+  - lemma: "μή"
+    pos: adverb
+    definition: "not (with non-indicative moods)"
+    frequency_rank: 38
+    difficulty: 2
+    notes: "Transliteration: mē. Used with subjunctive, optative, imperative, infinitive, and participle. οὐ is used with the indicative."
+
+  - lemma: "φημί"
+    pos: verb
+    definition: "to say, affirm, assert"
+    frequency_rank: 39
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "φημί"
+        2s: "φῄς"
+        3s: "φησί(ν)"
+        1p: "φαμέν"
+        2p: "φατέ"
+        3p: "φασί(ν)"
+    notes: "Transliteration: phēmi. Athematic verb. Most forms are enclitic except 2s φῄς. Negated with οὔ φημι = 'I deny/refuse.'"
+
+  - lemma: "ἔργον"
+    pos: noun
+    definition: "work, deed, action"
+    frequency_rank: 40
+    difficulty: 1
+    notes: "Transliteration: ergon. Second-declension neuter (-ον). Often contrasted with λόγος (word vs. deed)."
+
+  - lemma: "λόγος"
+    pos: noun
+    definition: "word, speech, reason, account"
+    frequency_rank: 41
+    difficulty: 1
+    notes: "Transliteration: logos. Second-declension masculine (-ος). Wide semantic range: word, speech, argument, reason, ratio, account."
+
+  - lemma: "ἀπό"
+    pos: preposition
+    definition: "from, away from (+ genitive)"
+    frequency_rank: 42
+    difficulty: 1
+    notes: "Transliteration: apo. Always takes the genitive. Elides before vowels: ἀπ', ἀφ' (before rough breathing)."
+
+  - lemma: "πολύς"
+    pos: adjective
+    definition: "much, many (plural)"
+    frequency_rank: 43
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "πολύς"
+        fs: "πολλή"
+        ns: "πολύ"
+        mp: "πολλοί"
+        fp: "πολλαί"
+        np: "πολλά"
+    notes: "Transliteration: polys. Irregular: nom/acc sg. masc/neut have 3rd-decl. forms (πολύς, πολύ), all other forms follow πολλ- (1st/2nd decl.)."
+
+  - lemma: "θεός"
+    pos: noun
+    definition: "god, deity"
+    frequency_rank: 44
+    difficulty: 1
+    notes: "Transliteration: theos. Second-declension masculine (-ος). Also used for goddesses (ἡ θεός). Plural: οἱ θεοί."
+
+  - lemma: "μέγας"
+    pos: adjective
+    definition: "great, large, important"
+    frequency_rank: 45
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "μέγας"
+        fs: "μεγάλη"
+        ns: "μέγα"
+        mp: "μεγάλοι"
+        fp: "μεγάλαι"
+        np: "μεγάλα"
+    notes: "Transliteration: megas. Irregular: nom/acc sg. masc/neut have short forms, all other forms use μεγαλ- stem."
+
+  - lemma: "ὑπό"
+    pos: preposition
+    definition: "under (+ gen./dat.); by (agent, + gen.); to under (+ acc.)"
+    frequency_rank: 46
+    difficulty: 2
+    notes: "Transliteration: hypo. With gen.: by (agent with passive verbs); with dat.: under; with acc.: to under."
+
+  - lemma: "ἄνθρωπος"
+    pos: noun
+    definition: "human being, person"
+    frequency_rank: 47
+    difficulty: 1
+    notes: "Transliteration: anthrōpos. Second-declension masculine (-ος). Gender-neutral unlike ἀνήρ (man). Plural: ἄνθρωποι."
+
+  - lemma: "οἶδα"
+    pos: verb
+    definition: "to know"
+    frequency_rank: 48
+    difficulty: 4
+    forms:
+      perfect_with_present_meaning:
+        1s: "οἶδα"
+        2s: "οἶσθα"
+        3s: "οἶδε(ν)"
+        1p: "ἴσμεν"
+        2p: "ἴστε"
+        3p: "ἴσασι(ν)"
+    notes: "Transliteration: oida. A perfect with present meaning ('I have seen' → 'I know'). Pluperfect = past tense: ᾔδη (I knew). Infinitive: εἰδέναι."
+
+  - lemma: "βασιλεύς"
+    pos: noun
+    definition: "king"
+    frequency_rank: 49
+    difficulty: 3
+    forms:
+      singular:
+        nominative: "βασιλεύς"
+        genitive: "βασιλέως"
+        dative: "βασιλεῖ"
+        accusative: "βασιλέα"
+      plural:
+        nominative: "βασιλεῖς / βασιλῆς"
+        genitive: "βασιλέων"
+        dative: "βασιλεῦσι(ν)"
+        accusative: "βασιλέας"
+    notes: "Transliteration: basileus. Third-declension υ-stem noun. Plural forms show vowel contraction."
+
+  - lemma: "εἶπον"
+    pos: verb
+    definition: "to say, speak (aorist)"
+    frequency_rank: 50
+    difficulty: 3
+    notes: "Transliteration: eipon. Second (strong) aorist of λέγω. Supplies the aorist system. Imperative: εἰπέ. Infinitive: εἰπεῖν."
+
+  - lemma: "δύναμαι"
+    pos: verb
+    definition: "to be able, can"
+    frequency_rank: 51
+    difficulty: 3
+    forms:
+      present_middle_indicative:
+        1s: "δύναμαι"
+        2s: "δύνασαι"
+        3s: "δύναται"
+        1p: "δυνάμεθα"
+        2p: "δύνασθε"
+        3p: "δύνανται"
+    notes: "Transliteration: dynamai. Deponent verb. Takes a complementary infinitive: δύναμαι λέγειν = 'I can speak.'"
+
+  - lemma: "παρά"
+    pos: preposition
+    definition: "from (+ gen.); beside, at (+ dat.); to, along (+ acc.)"
+    frequency_rank: 52
+    difficulty: 2
+    notes: "Transliteration: para. Takes all three cases with different meanings."
+
+  - lemma: "γῆ"
+    pos: noun
+    definition: "earth, land, country"
+    frequency_rank: 53
+    difficulty: 1
+    notes: "Transliteration: gē. First-declension feminine. Also spelled γαῖα in poetry. Gen.: γῆς, Dat.: γῇ, Acc.: γῆν."
+
+  - lemma: "τε"
+    pos: conjunction
+    definition: "and (enclitic, connecting)"
+    frequency_rank: 54
+    difficulty: 2
+    notes: "Transliteration: te. Enclitic. Often in τε...καί or τε...τε constructions. More literary/formal than καί alone."
+
+  - lemma: "μετά"
+    pos: preposition
+    definition: "with (+ gen.); after (+ acc.)"
+    frequency_rank: 55
+    difficulty: 2
+    notes: "Transliteration: meta. With gen.: among, with; with acc.: after. Elides before vowels: μετ', μεθ' (before rough breathing)."
+
+  - lemma: "δή"
+    pos: particle
+    definition: "indeed, certainly, just"
+    frequency_rank: 56
+    difficulty: 3
+    notes: "Transliteration: dē. Emphasizing particle, sometimes ironic. Often combined: καὶ δή, ἤδη (already)."
+
+  - lemma: "ἕτερος"
+    pos: adjective
+    definition: "the other (of two), different"
+    frequency_rank: 57
+    difficulty: 2
+    notes: "Transliteration: heteros. Distinguished from ἄλλος (another of many). ἕτερος...ἕτερος = 'the one...the other.'"
+
+  - lemma: "πατήρ"
+    pos: noun
+    definition: "father"
+    frequency_rank: 58
+    difficulty: 3
+    forms:
+      singular:
+        nominative: "πατήρ"
+        genitive: "πατρός"
+        dative: "πατρί"
+        accusative: "πατέρα"
+      plural:
+        nominative: "πατέρες"
+        genitive: "πατέρων"
+        dative: "πατράσι(ν)"
+        accusative: "πατέρας"
+    notes: "Transliteration: patēr. Third-declension syncopated noun. Same pattern as μήτηρ (mother) and θυγάτηρ (daughter)."
+
+  - lemma: "ἐκεῖνος"
+    pos: pronoun
+    definition: "that (over there), that one"
+    frequency_rank: 59
+    difficulty: 2
+    notes: "Transliteration: ekeinos. Far demonstrative (distant in space/time). Declined like αὐτός. Fem.: ἐκείνη. Neut.: ἐκεῖνο."
+
+  - lemma: "δίκαιος"
+    pos: adjective
+    definition: "just, righteous, fair"
+    frequency_rank: 60
+    difficulty: 2
+    notes: "Transliteration: dikaios. First/second-declension adjective (-ος, -α, -ον). Related: δίκη (justice), δικαιοσύνη (righteousness)."
+
+  - lemma: "λαμβάνω"
+    pos: verb
+    definition: "to take, receive, seize"
+    frequency_rank: 61
+    difficulty: 3
+    notes: "Transliteration: lambanō. Principal parts: λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην. Nasal infix in present stem."
+
+  - lemma: "γε"
+    pos: particle
+    definition: "at least, indeed, at any rate"
+    frequency_rank: 62
+    difficulty: 3
+    notes: "Transliteration: ge. Enclitic limiting/emphasizing particle. Restricts or emphasizes the preceding word."
+
+  - lemma: "δοκέω"
+    pos: verb
+    definition: "to seem, think; to seem good, decide"
+    frequency_rank: 63
+    difficulty: 3
+    notes: "Transliteration: dokeō. Contract verb. δοκεῖ μοι = 'it seems to me' / 'I think.' ἔδοξε = 'it was decided.'"
+
+  - lemma: "ὥστε"
+    pos: conjunction
+    definition: "so that, so as to; and so, therefore"
+    frequency_rank: 64
+    difficulty: 3
+    notes: "Transliteration: hōste. Result clause marker. With infinitive: natural/expected result. With indicative: actual result."
+
+  - lemma: "ἀγαθός"
+    pos: adjective
+    definition: "good, noble, brave"
+    frequency_rank: 65
+    difficulty: 1
+    notes: "Transliteration: agathos. First/second-declension adjective. Irregular comparison: ἀμείνων / βελτίων (better), ἄριστος / βέλτιστος (best)."
+
+  - lemma: "φύσις"
+    pos: noun
+    definition: "nature, natural quality"
+    frequency_rank: 66
+    difficulty: 3
+    notes: "Transliteration: physis. Third-declension i-stem feminine. Gen.: φύσεως. A central concept in Greek philosophy."
+
+  - lemma: "νῦν"
+    pos: adverb
+    definition: "now, at present"
+    frequency_rank: 67
+    difficulty: 1
+    notes: "Transliteration: nyn. Distinguished from νυν (enclitic form without accent, less emphatic)."
+
+  - lemma: "ἔτι"
+    pos: adverb
+    definition: "still, yet, further"
+    frequency_rank: 68
+    difficulty: 1
+    notes: "Transliteration: eti."
+
+  - lemma: "μόνος"
+    pos: adjective
+    definition: "alone, only, sole"
+    frequency_rank: 69
+    difficulty: 1
+    notes: "Transliteration: monos. First/second-declension adjective (-ος, -η, -ον). μόνον (neut. acc.) used adverbially = 'only.'"
+
+  - lemma: "κακός"
+    pos: adjective
+    definition: "bad, evil, cowardly"
+    frequency_rank: 70
+    difficulty: 1
+    notes: "Transliteration: kakos. First/second-declension adjective. Irregular comparison: κακίων (worse), κάκιστος (worst)."
+
+  - lemma: "ψυχή"
+    pos: noun
+    definition: "soul, spirit, life"
+    frequency_rank: 71
+    difficulty: 2
+    notes: "Transliteration: psychē. First-declension feminine (-η). A key philosophical term, especially in Plato."
+
+  - lemma: "ἡμέρα"
+    pos: noun
+    definition: "day"
+    frequency_rank: 72
+    difficulty: 1
+    notes: "Transliteration: hēmera. First-declension feminine (-α). Gen.: ἡμέρας. Acc. of extent: πολλὰς ἡμέρας = 'for many days.'"
+
+  - lemma: "ἀρχή"
+    pos: noun
+    definition: "beginning, origin; rule, sovereignty"
+    frequency_rank: 73
+    difficulty: 2
+    notes: "Transliteration: archē. First-declension feminine (-η). Double meaning: (1) beginning, origin; (2) rule, office, empire."
+
+  - lemma: "πρῶτος"
+    pos: adjective
+    definition: "first, foremost"
+    frequency_rank: 74
+    difficulty: 1
+    notes: "Transliteration: prōtos. Superlative of πρό (before). πρῶτον (neut. acc.) used adverbially = 'first, at first.'"
+
+  - lemma: "ὥσπερ"
+    pos: conjunction
+    definition: "just as, as if"
+    frequency_rank: 75
+    difficulty: 2
+    notes: "Transliteration: hōsper. Comparative conjunction, ὡς + -περ (intensive suffix). Introduces comparisons."
+
+  - lemma: "πρότερος"
+    pos: adjective
+    definition: "former, earlier, previous"
+    frequency_rank: 76
+    difficulty: 2
+    notes: "Transliteration: proteros. Comparative of πρό. πρότερον (neut. acc.) used adverbially = 'before, formerly.'"
+
+  - lemma: "οὖν"
+    pos: conjunction
+    definition: "therefore, then, accordingly"
+    frequency_rank: 77
+    difficulty: 2
+    notes: "Transliteration: oun. Postpositive inferential conjunction. Draws conclusions from what precedes."
+
+  - lemma: "χρή"
+    pos: verb
+    definition: "it is necessary, one ought"
+    frequency_rank: 78
+    difficulty: 3
+    notes: "Transliteration: chrē. Impersonal verb (only 3rd sg.). Takes acc. + inf.: χρή σε ποιεῖν = 'you ought to do.' Cf. δεῖ."
+
+  - lemma: "βούλομαι"
+    pos: verb
+    definition: "to wish, want, be willing"
+    frequency_rank: 79
+    difficulty: 3
+    notes: "Transliteration: boulomai. Deponent verb. Takes complementary infinitive. βούλομαι λέγειν = 'I wish to speak.'"
+
+  - lemma: "δύναμις"
+    pos: noun
+    definition: "power, ability, force"
+    frequency_rank: 80
+    difficulty: 3
+    notes: "Transliteration: dynamis. Third-declension i-stem feminine. Gen.: δυνάμεως. Related to δύναμαι (to be able)."
+
+  - lemma: "νόμος"
+    pos: noun
+    definition: "law, custom, convention"
+    frequency_rank: 81
+    difficulty: 2
+    notes: "Transliteration: nomos. Second-declension masculine. Central concept in political and philosophical thought. Cf. φύσις vs. νόμος debate."
+
+  - lemma: "εὖ"
+    pos: adverb
+    definition: "well"
+    frequency_rank: 82
+    difficulty: 1
+    notes: "Transliteration: eu. Commonly used in εὖ ποιεῖν (to do well), εὖ πράττειν (to fare well). Cf. εὐ- prefix in compounds."
+
+  - lemma: "σῶμα"
+    pos: noun
+    definition: "body"
+    frequency_rank: 83
+    difficulty: 2
+    notes: "Transliteration: sōma. Third-declension neuter (τ-stem). Gen.: σώματος. Often contrasted with ψυχή (soul)."
+
+  - lemma: "φέρω"
+    pos: verb
+    definition: "to carry, bear, bring"
+    frequency_rank: 84
+    difficulty: 3
+    notes: "Transliteration: pherō. Highly suppletive principal parts: φέρω, οἴσω, ἤνεγκα / ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην."
+
+  - lemma: "γράφω"
+    pos: verb
+    definition: "to write, draw; to indict (legal)"
+    frequency_rank: 85
+    difficulty: 1
+    notes: "Transliteration: graphō. Regular consonant-stem verb. Principal parts: γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην."
+
+  - lemma: "ὅσος"
+    pos: adjective
+    definition: "as great as, as many as; how great, how many"
+    frequency_rank: 86
+    difficulty: 3
+    notes: "Transliteration: hosos. Correlative adjective, often paired with τοσοῦτος. ὅσοι = 'as many as, all who.'"
+
+  - lemma: "τοιοῦτος"
+    pos: pronoun
+    definition: "such, of such a kind"
+    frequency_rank: 87
+    difficulty: 3
+    notes: "Transliteration: toioutos. Correlative demonstrative. Often paired with οἷος (of what sort). Neut.: τοιοῦτο(ν)."
+
+  - lemma: "τρόπος"
+    pos: noun
+    definition: "way, manner, character"
+    frequency_rank: 88
+    difficulty: 2
+    notes: "Transliteration: tropos. Second-declension masculine. τίνα τρόπον; = 'in what way?' τοῦτον τὸν τρόπον = 'in this way.'"
+
+  - lemma: "καλός"
+    pos: adjective
+    definition: "beautiful, noble, fine"
+    frequency_rank: 89
+    difficulty: 1
+    notes: "Transliteration: kalos. First/second-declension adjective. καλὸς κἀγαθός (kalos kagathos) = 'gentleman' (noble and good)."
+
+  - lemma: "μάλιστα"
+    pos: adverb
+    definition: "most, especially, certainly"
+    frequency_rank: 90
+    difficulty: 2
+    notes: "Transliteration: malista. Superlative adverb. Often used to express emphatic agreement: 'yes, indeed.'"
+
+  - lemma: "μᾶλλον"
+    pos: adverb
+    definition: "more, rather"
+    frequency_rank: 91
+    difficulty: 2
+    notes: "Transliteration: mallon. Comparative adverb of μάλα (very). μᾶλλον ἤ = 'rather than.'"
+
+  - lemma: "πρᾶγμα"
+    pos: noun
+    definition: "thing, matter, affair; trouble (pl.)"
+    frequency_rank: 92
+    difficulty: 2
+    notes: "Transliteration: pragma. Third-declension neuter (τ-stem). Gen.: πράγματος. Pl. πράγματα often = 'affairs, troubles.'"
+
+  - lemma: "ὁράω"
+    pos: verb
+    definition: "to see, look at"
+    frequency_rank: 93
+    difficulty: 3
+    notes: "Transliteration: horaō. Contract verb (α-contract). Suppletive: ὁράω, ὄψομαι, εἶδον, ἑώρακα / ἑόρακα, ἑώραμαι / ὦμμαι, ὤφθην."
+
+  - lemma: "τότε"
+    pos: adverb
+    definition: "then, at that time"
+    frequency_rank: 94
+    difficulty: 1
+    notes: "Transliteration: tote."
+
+  - lemma: "διά"
+    pos: preposition
+    definition: "through (+ gen.); because of, on account of (+ acc.)"
+    frequency_rank: 95
+    difficulty: 2
+    notes: "Transliteration: dia. With gen.: through; with acc.: because of, on account of. Elides: δι'."
+
+  - lemma: "πάλιν"
+    pos: adverb
+    definition: "again, back"
+    frequency_rank: 96
+    difficulty: 1
+    notes: "Transliteration: palin. Also 'in turn, on the other hand.'"
+
+  - lemma: "ὑπέρ"
+    pos: preposition
+    definition: "over, above (+ gen.); beyond (+ acc.)"
+    frequency_rank: 97
+    difficulty: 2
+    notes: "Transliteration: hyper. With gen.: on behalf of, for, over; with acc.: beyond, exceeding."
+
+  - lemma: "ναῦς"
+    pos: noun
+    definition: "ship"
+    frequency_rank: 98
+    difficulty: 4
+    forms:
+      singular:
+        nominative: "ναῦς"
+        genitive: "νεώς"
+        dative: "νηΐ"
+        accusative: "ναῦν"
+      plural:
+        nominative: "νῆες"
+        genitive: "νεῶν"
+        dative: "ναυσί(ν)"
+        accusative: "ναῦς"
+    notes: "Transliteration: naus. Highly irregular third-declension noun. Multiple stem alternations (ναυ-/νε-/νη-)."
+
+  - lemma: "πολέμιος"
+    pos: adjective
+    definition: "hostile, enemy; (subst.) the enemy"
+    frequency_rank: 99
+    difficulty: 2
+    notes: "Transliteration: polemios. First/second-declension adjective. οἱ πολέμιοι = 'the enemy' (substantivized). Related: πόλεμος (war)."
+
+  - lemma: "ζητέω"
+    pos: verb
+    definition: "to seek, search for, inquire"
+    frequency_rank: 100
+    difficulty: 2
+    notes: "Transliteration: zēteō. Contract verb (ε-contract). Important philosophical term, especially in Platonic dialogues."

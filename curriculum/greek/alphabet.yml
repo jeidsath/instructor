@@ -1,0 +1,147 @@
+language: greek
+name: "Greek Alphabet"
+description: "The 24 letters of the classical Greek alphabet with names and pronunciation"
+letters:
+  - letter: "Α"
+    lowercase: "α"
+    name: "alpha"
+    pronunciation: "short: /a/ as in 'father' (brief); long: /aː/"
+    order: 1
+
+  - letter: "Β"
+    lowercase: "β"
+    name: "beta"
+    pronunciation: "/b/ as in 'bet'"
+    order: 2
+
+  - letter: "Γ"
+    lowercase: "γ"
+    name: "gamma"
+    pronunciation: "/g/ as in 'get'; /ŋ/ before γ, κ, ξ, χ"
+    order: 3
+
+  - letter: "Δ"
+    lowercase: "δ"
+    name: "delta"
+    pronunciation: "/d/ as in 'dog'"
+    order: 4
+
+  - letter: "Ε"
+    lowercase: "ε"
+    name: "epsilon"
+    pronunciation: "/e/ as in 'pet' (always short)"
+    order: 5
+
+  - letter: "Ζ"
+    lowercase: "ζ"
+    name: "zeta"
+    pronunciation: "/zd/ or /dz/; later /z/"
+    order: 6
+
+  - letter: "Η"
+    lowercase: "η"
+    name: "eta"
+    pronunciation: "/ɛː/ as in 'air' (always long)"
+    order: 7
+
+  - letter: "Θ"
+    lowercase: "θ"
+    name: "theta"
+    pronunciation: "/tʰ/ aspirated t; later /θ/ as in 'thin'"
+    order: 8
+
+  - letter: "Ι"
+    lowercase: "ι"
+    name: "iota"
+    pronunciation: "short: /i/ as in 'pin'; long: /iː/ as in 'machine'"
+    order: 9
+
+  - letter: "Κ"
+    lowercase: "κ"
+    name: "kappa"
+    pronunciation: "/k/ as in 'kit'"
+    order: 10
+
+  - letter: "Λ"
+    lowercase: "λ"
+    name: "lambda"
+    pronunciation: "/l/ as in 'let'"
+    order: 11
+
+  - letter: "Μ"
+    lowercase: "μ"
+    name: "mu"
+    pronunciation: "/m/ as in 'met'"
+    order: 12
+
+  - letter: "Ν"
+    lowercase: "ν"
+    name: "nu"
+    pronunciation: "/n/ as in 'net'"
+    order: 13
+
+  - letter: "Ξ"
+    lowercase: "ξ"
+    name: "xi"
+    pronunciation: "/ks/ as in 'box'"
+    order: 14
+
+  - letter: "Ο"
+    lowercase: "ο"
+    name: "omicron"
+    pronunciation: "/o/ as in 'pot' (always short)"
+    order: 15
+
+  - letter: "Π"
+    lowercase: "π"
+    name: "pi"
+    pronunciation: "/p/ as in 'pet'"
+    order: 16
+
+  - letter: "Ρ"
+    lowercase: "ρ"
+    name: "rho"
+    pronunciation: "/r/ trilled as in Spanish 'perro'"
+    order: 17
+
+  - letter: "Σ"
+    lowercase: "σ/ς"
+    name: "sigma"
+    pronunciation: "/s/ as in 'sit'; ς at end of word"
+    order: 18
+
+  - letter: "Τ"
+    lowercase: "τ"
+    name: "tau"
+    pronunciation: "/t/ as in 'top'"
+    order: 19
+
+  - letter: "Υ"
+    lowercase: "υ"
+    name: "upsilon"
+    pronunciation: "/y/ as French 'tu' or German 'über'"
+    order: 20
+
+  - letter: "Φ"
+    lowercase: "φ"
+    name: "phi"
+    pronunciation: "/pʰ/ aspirated p; later /f/"
+    order: 21
+
+  - letter: "Χ"
+    lowercase: "χ"
+    name: "chi"
+    pronunciation: "/kʰ/ aspirated k; later /x/ as in 'loch'"
+    order: 22
+
+  - letter: "Ψ"
+    lowercase: "ψ"
+    name: "psi"
+    pronunciation: "/ps/ as in 'lapse'"
+    order: 23
+
+  - letter: "Ω"
+    lowercase: "ω"
+    name: "omega"
+    pronunciation: "/ɔː/ as in 'saw' (always long)"
+    order: 24
