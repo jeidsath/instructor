@@ -1,0 +1,74 @@
+language: latin
+set: core-001
+name: "Basic Latin Vocabulary"
+description: "The 10 most frequent Latin words (seed data)"
+items:
+  - lemma: "sum"
+    pos: verb
+    definition: "to be, exist"
+    frequency_rank: 1
+    difficulty: 1
+    forms:
+      present_active_indicative:
+        1s: "sum"
+        2s: "es"
+        3s: "est"
+        1p: "sumus"
+        2p: "estis"
+        3p: "sunt"
+    notes: "Highly irregular. Forms the basis of predicate constructions."
+
+  - lemma: "et"
+    pos: conjunction
+    definition: "and; also, even"
+    frequency_rank: 2
+    difficulty: 1
+
+  - lemma: "in"
+    pos: preposition
+    definition: "in, on (+ abl.); into, onto (+ acc.)"
+    frequency_rank: 3
+    difficulty: 2
+    notes: "Meaning changes with case of object."
+
+  - lemma: "is"
+    pos: pronoun
+    definition: "he, she, it; this, that"
+    frequency_rank: 4
+    difficulty: 2
+
+  - lemma: "non"
+    pos: adverb
+    definition: "not"
+    frequency_rank: 5
+    difficulty: 1
+
+  - lemma: "qui"
+    pos: pronoun
+    definition: "who, which, that (relative)"
+    frequency_rank: 6
+    difficulty: 3
+
+  - lemma: "hic"
+    pos: pronoun
+    definition: "this; he, she, it"
+    frequency_rank: 7
+    difficulty: 3
+
+  - lemma: "ad"
+    pos: preposition
+    definition: "to, toward, near (+ acc.)"
+    frequency_rank: 8
+    difficulty: 1
+
+  - lemma: "cum"
+    pos: preposition
+    definition: "with (+ abl.); when (conjunction)"
+    frequency_rank: 9
+    difficulty: 2
+
+  - lemma: "ut"
+    pos: conjunction
+    definition: "as, when; so that, in order that"
+    frequency_rank: 10
+    difficulty: 3

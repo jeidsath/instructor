@@ -1,0 +1,12 @@
+language: latin
+sequence:
+  - unit: "01-foundations"
+    concepts:
+      - "First Declension"
+      - "Second Declension"
+    vocabulary_sets: ["core-001-basic"]
+
+  - unit: "02-expanding"
+    concepts:
+      - "Third Declension"
+    vocabulary_sets: []

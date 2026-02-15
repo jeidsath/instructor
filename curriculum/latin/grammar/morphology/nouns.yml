@@ -1,0 +1,64 @@
+language: latin
+category: morphology
+concepts:
+  - name: "First Declension"
+    subcategory: noun_declension
+    difficulty: 1
+    prerequisites: []
+    description: >
+      Nouns of the first declension are predominantly feminine and have
+      stems ending in -a. The nominative singular ends in -a.
+    paradigm:
+      model_word: "puella, -ae (f.) girl"
+      cases:
+        nominative: { singular: "-a", plural: "-ae" }
+        genitive: { singular: "-ae", plural: "-ārum" }
+        dative: { singular: "-ae", plural: "-īs" }
+        accusative: { singular: "-am", plural: "-ās" }
+        ablative: { singular: "-ā", plural: "-īs" }
+        vocative: { singular: "-a", plural: "-ae" }
+    examples:
+      - latin: "Puella aquam portat."
+        english: "The girl carries water."
+        notes: "puella = nominative subject, aquam = accusative object"
+
+  - name: "Second Declension"
+    subcategory: noun_declension
+    difficulty: 2
+    prerequisites: ["First Declension"]
+    description: >
+      Nouns of the second declension are predominantly masculine (-us, -er)
+      or neuter (-um). Masculine/feminine have stems ending in -o.
+    paradigm:
+      model_word: "servus, -ī (m.) slave"
+      cases:
+        nominative: { singular: "-us", plural: "-ī" }
+        genitive: { singular: "-ī", plural: "-ōrum" }
+        dative: { singular: "-ō", plural: "-īs" }
+        accusative: { singular: "-um", plural: "-ōs" }
+        ablative: { singular: "-ō", plural: "-īs" }
+        vocative: { singular: "-e", plural: "-ī" }
+    examples:
+      - latin: "Servus dominum videt."
+        english: "The slave sees the master."
+        notes: "servus = nominative subject, dominum = accusative object"
+
+  - name: "Third Declension"
+    subcategory: noun_declension
+    difficulty: 4
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      The third declension contains nouns of all genders with consonant
+      and i-stems. It is the largest and most varied declension.
+    paradigm:
+      model_word: "rex, regis (m.) king"
+      cases:
+        nominative: { singular: "(varies)", plural: "-ēs" }
+        genitive: { singular: "-is", plural: "-um" }
+        dative: { singular: "-ī", plural: "-ibus" }
+        accusative: { singular: "-em", plural: "-ēs" }
+        ablative: { singular: "-e", plural: "-ibus" }
+        vocative: { singular: "(= nom.)", plural: "-ēs" }
+    examples:
+      - latin: "Rex populum regit."
+        english: "The king rules the people."
