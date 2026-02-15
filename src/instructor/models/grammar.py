@@ -20,9 +20,7 @@ from instructor.models.enums import GrammarCategory, Language, MasteryLevel
 
 class GrammarConcept(UUIDMixin, Base):
     __tablename__ = "grammar_concepts"
-    __table_args__ = (
-        UniqueConstraint("language", "name", name="uq_grammar_name"),
-    )
+    __table_args__ = (UniqueConstraint("language", "name", name="uq_grammar_name"),)
 
     language: Mapped[Language]
     category: Mapped[GrammarCategory]
@@ -30,17 +28,13 @@ class GrammarConcept(UUIDMixin, Base):
     name: Mapped[str] = mapped_column(String(200))
     description: Mapped[str] = mapped_column(Text)
     difficulty_level: Mapped[int] = mapped_column(Integer)
-    prerequisite_ids: Mapped[list[str] | None] = mapped_column(
-        JSON, default=None
-    )
+    prerequisite_ids: Mapped[list[str] | None] = mapped_column(JSON, default=None)
 
 
 class LearnerGrammar(UUIDMixin, TimestampMixin, Base):
     __tablename__ = "learner_grammar"
     __table_args__ = (
-        UniqueConstraint(
-            "learner_id", "grammar_concept_id", name="uq_learner_grammar"
-        ),
+        UniqueConstraint("learner_id", "grammar_concept_id", name="uq_learner_grammar"),
         Index("ix_learner_grammar_mastery", "learner_id", "mastery_level"),
     )
 

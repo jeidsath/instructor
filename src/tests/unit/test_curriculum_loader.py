@@ -112,9 +112,14 @@ def test_malformed_yaml_raises_error(tmp_path: Path) -> None:
 @pytest.mark.unit
 def test_missing_required_field(tmp_path: Path) -> None:
     """Missing required fields rejected with specific error."""
-    data = {"language": "latin", "set": "x", "name": "x", "items": [
-        {"lemma": "sum", "pos": "verb"}  # missing definition, difficulty
-    ]}
+    data = {
+        "language": "latin",
+        "set": "x",
+        "name": "x",
+        "items": [
+            {"lemma": "sum", "pos": "verb"}  # missing definition, difficulty
+        ],
+    }
     path = tmp_path / "missing.yml"
     with open(path, "w") as f:
         yaml.dump(data, f)
@@ -159,9 +164,7 @@ def test_circular_prerequisite_rejected() -> None:
             description="test",
         ),
     ]
-    with pytest.raises(
-        CurriculumLoadError, match="circular prerequisite"
-    ):
+    with pytest.raises(CurriculumLoadError, match="circular prerequisite"):
         validate_grammar_prerequisites(concepts)
 
 
@@ -259,9 +262,7 @@ def test_invalid_pos_rejected(tmp_path: Path) -> None:
 @pytest.mark.unit
 def test_valid_grammar_loads(tmp_curriculum: Path) -> None:
     """Valid grammar YAML loads correctly."""
-    path = (
-        tmp_curriculum / "latin" / "grammar" / "morphology" / "nouns.yml"
-    )
+    path = tmp_curriculum / "latin" / "grammar" / "morphology" / "nouns.yml"
     grammar = load_grammar_file(path)
     assert grammar.language == "latin"
     assert grammar.category == "morphology"

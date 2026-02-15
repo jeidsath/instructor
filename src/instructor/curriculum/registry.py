@@ -26,27 +26,19 @@ class CurriculumRegistry:
             lang_dir = base_path / language
             if not lang_dir.exists():
                 continue
-            self._vocabulary[language] = load_all_vocabulary(
-                base_path, language
-            )
+            self._vocabulary[language] = load_all_vocabulary(base_path, language)
             concepts, sequence = load_all_grammar(base_path, language)
             self._grammar_concepts[language] = concepts
             self._grammar_sequences[language] = sequence
             self._texts[language] = load_all_texts(base_path, language)
 
-    def get_vocabulary_sets(
-        self, language: str
-    ) -> list[VocabularySetData]:
+    def get_vocabulary_sets(self, language: str) -> list[VocabularySetData]:
         return self._vocabulary.get(language, [])
 
-    def get_grammar_concepts(
-        self, language: str
-    ) -> list[GrammarConceptData]:
+    def get_grammar_concepts(self, language: str) -> list[GrammarConceptData]:
         return self._grammar_concepts.get(language, [])
 
-    def get_grammar_sequence(
-        self, language: str
-    ) -> GrammarSequenceData | None:
+    def get_grammar_sequence(self, language: str) -> GrammarSequenceData | None:
         return self._grammar_sequences.get(language)
 
     def get_texts(

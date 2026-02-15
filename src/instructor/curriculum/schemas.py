@@ -22,8 +22,15 @@ class VocabularyItemData(BaseModel):
     @classmethod
     def valid_pos(cls, v: str) -> str:
         valid = {
-            "noun", "verb", "adjective", "adverb", "preposition",
-            "conjunction", "particle", "pronoun", "interjection",
+            "noun",
+            "verb",
+            "adjective",
+            "adverb",
+            "preposition",
+            "conjunction",
+            "particle",
+            "pronoun",
+            "interjection",
         }
         if v not in valid:
             msg = f"invalid part of speech: {v}"

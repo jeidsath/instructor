@@ -18,9 +18,5 @@ class TextEntry(UUIDMixin, Base):
     vocabulary_notes: Mapped[dict[str, object] | None] = mapped_column(
         JSON, default=None
     )
-    grammar_notes: Mapped[dict[str, object] | None] = mapped_column(
-        JSON, default=None
-    )
-    prerequisite_grammar: Mapped[list[str] | None] = mapped_column(
-        JSON, default=None
-    )
+    grammar_notes: Mapped[dict[str, object] | None] = mapped_column(JSON, default=None)
+    prerequisite_grammar: Mapped[list[str] | None] = mapped_column(JSON, default=None)

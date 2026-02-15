@@ -80,13 +80,18 @@ class TestVocabFieldCompleteness:
                 )
                 seen.add(key)
 
-    def test_valid_parts_of_speech(
-        self, all_sets: list[VocabularySetData]
-    ) -> None:
+    def test_valid_parts_of_speech(self, all_sets: list[VocabularySetData]) -> None:
         """All parts of speech are valid enum values."""
         valid_pos = {
-            "noun", "verb", "adjective", "adverb", "preposition",
-            "conjunction", "particle", "pronoun", "interjection",
+            "noun",
+            "verb",
+            "adjective",
+            "adverb",
+            "preposition",
+            "conjunction",
+            "particle",
+            "pronoun",
+            "interjection",
         }
         for vs in all_sets:
             for item in vs.items:

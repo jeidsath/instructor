@@ -98,8 +98,7 @@ def validate_grammar_prerequisites(
         for prereq in concept.prerequisites:
             if prereq not in names:
                 raise CurriculumLoadError(
-                    f"concept '{concept.name}' has unresolved "
-                    f"prerequisite: '{prereq}'",
+                    f"concept '{concept.name}' has unresolved prerequisite: '{prereq}'",
                     file_path,
                 )
 
@@ -126,9 +125,7 @@ def validate_grammar_prerequisites(
         dfs(concept.name)
 
 
-def load_all_vocabulary(
-    base_path: Path, language: str
-) -> list[VocabularySetData]:
+def load_all_vocabulary(base_path: Path, language: str) -> list[VocabularySetData]:
     """Load all vocabulary sets for a language."""
     vocab_dir = base_path / language / "vocabulary"
     if not vocab_dir.exists():
@@ -181,9 +178,7 @@ def load_all_grammar(
     return all_concepts, sequence
 
 
-def load_all_texts(
-    base_path: Path, language: str
-) -> list[TextEntryData]:
+def load_all_texts(base_path: Path, language: str) -> list[TextEntryData]:
     """Load all text entries for a language."""
     texts_dir = base_path / language / "texts"
     if not texts_dir.exists():

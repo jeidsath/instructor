@@ -128,15 +128,11 @@ async def test_learner_vocabulary_unique_constraint(
     db_session_committed.add_all([learner, vocab])
     await db_session_committed.flush()
 
-    lv1 = LearnerVocabulary(
-        learner_id=learner.id, vocabulary_item_id=vocab.id
-    )
+    lv1 = LearnerVocabulary(learner_id=learner.id, vocabulary_item_id=vocab.id)
     db_session_committed.add(lv1)
     await db_session_committed.commit()
 
-    lv2 = LearnerVocabulary(
-        learner_id=learner.id, vocabulary_item_id=vocab.id
-    )
+    lv2 = LearnerVocabulary(learner_id=learner.id, vocabulary_item_id=vocab.id)
     db_session_committed.add(lv2)
     with pytest.raises(IntegrityError):
         await db_session_committed.commit()

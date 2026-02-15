@@ -38,9 +38,7 @@ class VocabularyItem(UUIDMixin, Base):
 class LearnerVocabulary(UUIDMixin, TimestampMixin, Base):
     __tablename__ = "learner_vocabulary"
     __table_args__ = (
-        UniqueConstraint(
-            "learner_id", "vocabulary_item_id", name="uq_learner_vocab"
-        ),
+        UniqueConstraint("learner_id", "vocabulary_item_id", name="uq_learner_vocab"),
         Index("ix_learner_vocab_next_review", "next_review"),
         Index("ix_learner_vocab_strength", "learner_id", "strength"),
     )
