@@ -1,0 +1,275 @@
+language: latin
+set: theme-family
+name: "Family and Kinship"
+description: "Latin terms for family relationships and household"
+items:
+  - lemma: "pater"
+    pos: noun
+    definition: "father; (plural) senators, ancestors"
+    difficulty: 2
+    forms:
+      nominative_singular: "pater"
+      genitive_singular: "patris"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension. patres conscripti = senators (conscript fathers). The pater held absolute legal authority (patria potestas) over the Roman family."
+
+  - lemma: "mater"
+    pos: noun
+    definition: "mother"
+    difficulty: 2
+    forms:
+      nominative_singular: "mater"
+      genitive_singular: "matris"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension. The Roman matrona (married woman) held a position of respect in the household, managing domestic affairs."
+
+  - lemma: "filius"
+    pos: noun
+    definition: "son"
+    difficulty: 2
+    forms:
+      nominative_singular: "filius"
+      genitive_singular: "filii"
+      gender: "masculine"
+      declension: 2
+    notes: "Vocative singular: fili (not filie). A son remained under patria potestas until the father's death or formal emancipation."
+
+  - lemma: "filia"
+    pos: noun
+    definition: "daughter"
+    difficulty: 2
+    forms:
+      nominative_singular: "filia"
+      genitive_singular: "filiae"
+      gender: "feminine"
+      declension: 1
+    notes: "Dative/ablative plural: filiabus (to distinguish from filiis for sons)."
+
+  - lemma: "frater"
+    pos: noun
+    definition: "brother"
+    difficulty: 2
+    forms:
+      nominative_singular: "frater"
+      genitive_singular: "fratris"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "soror"
+    pos: noun
+    definition: "sister"
+    difficulty: 2
+    forms:
+      nominative_singular: "soror"
+      genitive_singular: "sororis"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "maritus"
+    pos: noun
+    definition: "husband"
+    difficulty: 3
+    forms:
+      nominative_singular: "maritus"
+      genitive_singular: "mariti"
+      gender: "masculine"
+      declension: 2
+    notes: "Also used as adjective meaning 'married, nuptial.' Distinguished from vir in the sense of 'husband': maritus specifically emphasizes the marital relationship."
+
+  - lemma: "uxor"
+    pos: noun
+    definition: "wife"
+    difficulty: 3
+    forms:
+      nominative_singular: "uxor"
+      genitive_singular: "uxoris"
+      gender: "feminine"
+      declension: 3
+    notes: "The standard term for 'wife.' uxorem ducere = to marry (literally 'to lead a wife home'), said of the husband."
+
+  - lemma: "vir"
+    pos: noun
+    definition: "man; husband; hero"
+    difficulty: 2
+    forms:
+      nominative_singular: "vir"
+      genitive_singular: "viri"
+      gender: "masculine"
+      declension: 2
+    notes: "Second declension. Can mean 'husband' in context, but primarily means 'man' with connotations of valor. Distinguished from homo (human being) and maritus (husband specifically)."
+
+  - lemma: "femina"
+    pos: noun
+    definition: "woman, female"
+    difficulty: 2
+    forms:
+      nominative_singular: "femina"
+      genitive_singular: "feminae"
+      gender: "feminine"
+      declension: 1
+    notes: "General term for 'woman.' Distinguished from mulier (a mature/married woman) and puella (girl)."
+
+  - lemma: "liberi"
+    pos: noun
+    definition: "children (of free birth)"
+    difficulty: 3
+    forms:
+      nominative_plural: "liberi"
+      genitive_plural: "liberorum"
+      gender: "masculine"
+      declension: 2
+    notes: "Plural-only noun in this sense. Literally 'the free ones,' reflecting the status of freeborn children in contrast to slaves. Not to be confused with liber (book) or liber (free, adj.)."
+
+  - lemma: "parens"
+    pos: noun
+    definition: "parent; ancestor"
+    difficulty: 3
+    forms:
+      nominative_singular: "parens"
+      genitive_singular: "parentis"
+      gender: "masculine/feminine"
+      declension: 3
+    notes: "Third declension. Gender matches the sex of the referent. From the verb parere (to give birth). Can refer to either father or mother."
+
+  - lemma: "avus"
+    pos: noun
+    definition: "grandfather; ancestor"
+    difficulty: 3
+    forms:
+      nominative_singular: "avus"
+      genitive_singular: "avi"
+      gender: "masculine"
+      declension: 2
+    notes: "proavus = great-grandfather. abavus = great-great-grandfather. Also used broadly for 'ancestor.'"
+
+  - lemma: "avia"
+    pos: noun
+    definition: "grandmother"
+    difficulty: 3
+    forms:
+      nominative_singular: "avia"
+      genitive_singular: "aviae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "nepos"
+    pos: noun
+    definition: "grandson; descendant; spendthrift"
+    difficulty: 4
+    forms:
+      nominative_singular: "nepos"
+      genitive_singular: "nepotis"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension. The secondary meaning 'spendthrift, prodigal' reflects the Roman cultural assumption that grandsons waste inherited wealth."
+
+  - lemma: "neptis"
+    pos: noun
+    definition: "granddaughter"
+    difficulty: 4
+    forms:
+      nominative_singular: "neptis"
+      genitive_singular: "neptis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem. Less common than nepos."
+
+  - lemma: "cognatus"
+    pos: noun
+    definition: "blood relative, kinsman"
+    difficulty: 5
+    forms:
+      nominative_singular: "cognatus"
+      genitive_singular: "cognati"
+      gender: "masculine"
+      declension: 2
+    notes: "Also used as adjective meaning 'related by blood.' In Roman law, cognati were relatives through the mother's side (as opposed to agnati, through the father's line). Feminine: cognata."
+
+  - lemma: "affinis"
+    pos: noun
+    definition: "relative by marriage, in-law"
+    difficulty: 5
+    forms:
+      nominative_singular: "affinis"
+      genitive_singular: "affinis"
+      gender: "masculine/feminine"
+      declension: 3
+    notes: "Third declension i-stem. Distinguished from cognatus (blood relative): affinis refers specifically to relationship through marriage. Also used as adjective meaning 'neighboring, connected.'"
+
+  - lemma: "familia"
+    pos: noun
+    definition: "household, family; the slaves of a household; estate"
+    difficulty: 3
+    forms:
+      nominative_singular: "familia"
+      genitive_singular: "familiae"
+      gender: "feminine"
+      declension: 1
+    notes: "In Roman usage, familia encompassed the entire household under the paterfamilias, including slaves and property, not merely blood relatives. Old genitive singular: familias (in paterfamilias)."
+
+  - lemma: "domus"
+    pos: noun
+    definition: "house, home; household, family"
+    difficulty: 4
+    forms:
+      nominative_singular: "domus"
+      genitive_singular: "domus/domi"
+      gender: "feminine"
+      declension: 4
+    notes: "Mixed declension (fourth and second). Special locative: domi = at home. domum = homeward (accusative of direction). domo = from home (ablative of separation). The Roman domus was both physical dwelling and social unit."
+
+  - lemma: "dominus"
+    pos: noun
+    definition: "master of the house, lord; owner"
+    difficulty: 3
+    forms:
+      nominative_singular: "dominus"
+      genitive_singular: "domini"
+      gender: "masculine"
+      declension: 2
+    notes: "From domus. The dominus held legal authority over slaves and property. Later adopted as a title of respect and a form of address to the Roman emperor."
+
+  - lemma: "domina"
+    pos: noun
+    definition: "mistress of the house, lady"
+    difficulty: 3
+    forms:
+      nominative_singular: "domina"
+      genitive_singular: "dominae"
+      gender: "feminine"
+      declension: 1
+    notes: "Feminine of dominus. The domina managed the household. Also used in poetry as a term of endearment for a beloved woman."
+
+  - lemma: "servus"
+    pos: noun
+    definition: "slave, servant"
+    difficulty: 3
+    forms:
+      nominative_singular: "servus"
+      genitive_singular: "servi"
+      gender: "masculine"
+      declension: 2
+    notes: "Slavery was fundamental to the Roman household economy. A servus could be freed (manumitted) and become a libertus (freedman). Feminine: serva."
+
+  - lemma: "ancilla"
+    pos: noun
+    definition: "female slave, maid, handmaid"
+    difficulty: 4
+    forms:
+      nominative_singular: "ancilla"
+      genitive_singular: "ancillae"
+      gender: "feminine"
+      declension: 1
+    notes: "The female counterpart to servus. Distinguished from serva (which is simply the feminine of servus): ancilla specifically denotes a female domestic servant."
+
+  - lemma: "paterfamilias"
+    pos: noun
+    definition: "father of the family, head of household"
+    difficulty: 5
+    forms:
+      nominative_singular: "paterfamilias"
+      genitive_singular: "patris familias"
+      gender: "masculine"
+    notes: "A compound of pater + familias (archaic genitive of familia). The paterfamilias held patria potestas (paternal authority) over all members of the household, including power of life and death (ius vitae necisque) in early Rome. Each component is declined separately: patris familias, patri familias, etc."

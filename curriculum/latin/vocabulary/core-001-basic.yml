@@ -1,7 +1,7 @@
 language: latin
 set: core-001
 name: "Basic Latin Vocabulary"
-description: "The 10 most frequent Latin words (seed data)"
+description: "The 100 most frequent Latin words"
 items:
   - lemma: "sum"
     pos: verb
@@ -16,7 +16,21 @@ items:
         1p: "sumus"
         2p: "estis"
         3p: "sunt"
-    notes: "Highly irregular. Forms the basis of predicate constructions."
+      imperfect_active_indicative:
+        1s: "eram"
+        2s: "eras"
+        3s: "erat"
+        1p: "eramus"
+        2p: "eratis"
+        3p: "erant"
+      future_active_indicative:
+        1s: "ero"
+        2s: "eris"
+        3s: "erit"
+        1p: "erimus"
+        2p: "eritis"
+        3p: "erunt"
+    notes: "Highly irregular. Forms the basis of predicate constructions. Principal parts: sum, esse, fui, futurus."
 
   - lemma: "et"
     pos: conjunction
@@ -29,13 +43,22 @@ items:
     definition: "in, on (+ abl.); into, onto (+ acc.)"
     frequency_rank: 3
     difficulty: 2
-    notes: "Meaning changes with case of object."
+    notes: "Meaning changes with case of object: ablative = location, accusative = motion toward."
 
   - lemma: "is"
     pos: pronoun
     definition: "he, she, it; this, that"
     frequency_rank: 4
     difficulty: 2
+    forms:
+      nominative:
+        ms: "is"
+        fs: "ea"
+        ns: "id"
+        mp: "ei/ii"
+        fp: "eae"
+        np: "ea"
+    notes: "The most common third-person pronoun. Declined: is, ea, id. Often used as an unemphatic demonstrative."
 
   - lemma: "non"
     pos: adverb
@@ -45,30 +68,1001 @@ items:
 
   - lemma: "qui"
     pos: pronoun
-    definition: "who, which, that (relative)"
+    definition: "who, which, that (relative pronoun); what? which? (interrogative adjective)"
     frequency_rank: 6
     difficulty: 3
+    forms:
+      nominative:
+        ms: "qui"
+        fs: "quae"
+        ns: "quod"
+        mp: "qui"
+        fp: "quae"
+        np: "quae"
+    notes: "The principal relative pronoun. Also serves as interrogative adjective. Declined irregularly."
 
   - lemma: "hic"
     pos: pronoun
-    definition: "this; he, she, it"
+    definition: "this, these; he, she, it (referring to something near or just mentioned)"
     frequency_rank: 7
     difficulty: 3
+    forms:
+      nominative:
+        ms: "hic"
+        fs: "haec"
+        ns: "hoc"
+        mp: "hi"
+        fp: "hae"
+        np: "haec"
+    notes: "Demonstrative pronoun indicating proximity. Contrasts with ille (that, distant) and iste (that of yours)."
 
   - lemma: "ad"
     pos: preposition
-    definition: "to, toward, near (+ acc.)"
+    definition: "to, toward, near, at (+ acc.)"
     frequency_rank: 8
     difficulty: 1
 
   - lemma: "cum"
     pos: preposition
-    definition: "with (+ abl.); when (conjunction)"
+    definition: "with (+ abl.); when, since, although (conjunction + subjunctive)"
     frequency_rank: 9
     difficulty: 2
+    notes: "As preposition takes ablative. As conjunction introduces temporal, causal, or concessive clauses, usually with subjunctive. Attached enclitically to personal pronouns: mecum, tecum, secum, nobiscum, vobiscum."
 
   - lemma: "ut"
     pos: conjunction
-    definition: "as, when; so that, in order that"
+    definition: "as, when (+ indic.); so that, in order that (+ subj.); that (+ subj.)"
     frequency_rank: 10
     difficulty: 3
+    notes: "With indicative: 'as, when.' With subjunctive: purpose ('in order that'), result ('so that'), or indirect command ('that'). Negated by ne for purpose clauses."
+
+  - lemma: "si"
+    pos: conjunction
+    definition: "if"
+    frequency_rank: 11
+    difficulty: 1
+    notes: "Introduces conditional clauses. Nisi = 'if not, unless.'"
+
+  - lemma: "sed"
+    pos: conjunction
+    definition: "but, however"
+    frequency_rank: 12
+    difficulty: 1
+
+  - lemma: "ab"
+    pos: preposition
+    definition: "from, away from; by (agent) (+ abl.)"
+    frequency_rank: 13
+    difficulty: 2
+    notes: "Shortened to a before consonants (except h). Used with ablative to express agent with passive verbs."
+
+  - lemma: "ex"
+    pos: preposition
+    definition: "out of, from (+ abl.)"
+    frequency_rank: 14
+    difficulty: 2
+    notes: "Shortened to e before most consonants."
+
+  - lemma: "de"
+    pos: preposition
+    definition: "down from, from; about, concerning (+ abl.)"
+    frequency_rank: 15
+    difficulty: 2
+
+  - lemma: "ille"
+    pos: pronoun
+    definition: "that, those; he, she, it (referring to something remote or well-known)"
+    frequency_rank: 16
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "ille"
+        fs: "illa"
+        ns: "illud"
+        mp: "illi"
+        fp: "illae"
+        np: "illa"
+    notes: "Demonstrative pronoun indicating distance. Often = 'the famous.' Declined with gen. illius, dat. illi in singular."
+
+  - lemma: "ego"
+    pos: pronoun
+    definition: "I, me"
+    frequency_rank: 17
+    difficulty: 2
+    forms:
+      nominative: "ego"
+      genitive: "mei"
+      dative: "mihi"
+      accusative: "me"
+      ablative: "me"
+    notes: "Nominative used only for emphasis, since verb endings indicate person. Plural: nos."
+
+  - lemma: "tamen"
+    pos: adverb
+    definition: "nevertheless, still, yet"
+    frequency_rank: 18
+    difficulty: 2
+
+  - lemma: "tu"
+    pos: pronoun
+    definition: "you (singular)"
+    frequency_rank: 19
+    difficulty: 2
+    forms:
+      nominative: "tu"
+      genitive: "tui"
+      dative: "tibi"
+      accusative: "te"
+      ablative: "te"
+    notes: "Like ego, nominative used for emphasis. Plural: vos."
+
+  - lemma: "neque"
+    pos: conjunction
+    definition: "and not, nor; neque...neque = neither...nor"
+    frequency_rank: 20
+    difficulty: 2
+    notes: "Also written nec. neque/nec...neque/nec = neither...nor."
+
+  - lemma: "atque"
+    pos: conjunction
+    definition: "and, and also, and even"
+    frequency_rank: 21
+    difficulty: 2
+    notes: "Shortened to ac before consonants. Stronger connective than et; often implies close connection or addition of something important."
+
+  - lemma: "omnis"
+    pos: adjective
+    definition: "every, all; (plural) all"
+    frequency_rank: 22
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "omnis"
+        fs: "omnis"
+        ns: "omne"
+    notes: "Third declension i-stem adjective. Singular = 'every, each'; plural = 'all.'"
+
+  - lemma: "iam"
+    pos: adverb
+    definition: "now, already; soon"
+    frequency_rank: 23
+    difficulty: 2
+
+  - lemma: "facio"
+    pos: verb
+    definition: "to make, do; bring about"
+    frequency_rank: 24
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "facio"
+        2s: "facis"
+        3s: "facit"
+        1p: "facimus"
+        2p: "facitis"
+        3p: "faciunt"
+    notes: "Third conjugation -io verb. Principal parts: facio, facere, feci, factus. Passive form is fio, fieri, factus sum."
+
+  - lemma: "possum"
+    pos: verb
+    definition: "to be able, can"
+    frequency_rank: 25
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "possum"
+        2s: "potes"
+        3s: "potest"
+        1p: "possumus"
+        2p: "potestis"
+        3p: "possunt"
+    notes: "Compound of potis + sum. Irregular: pot- before vowels becomes pos- before s-. Principal parts: possum, posse, potui. Takes complementary infinitive."
+
+  - lemma: "suus"
+    pos: adjective
+    definition: "his own, her own, its own, their own (reflexive possessive)"
+    frequency_rank: 26
+    difficulty: 4
+    notes: "Reflexive possessive adjective, referring back to the subject. First/second declension: suus, sua, suum. For non-reflexive 'his/her,' use eius (genitive of is)."
+
+  - lemma: "dico"
+    pos: verb
+    definition: "to say, speak, tell; name, call"
+    frequency_rank: 27
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "dico"
+        2s: "dicis"
+        3s: "dicit"
+        1p: "dicimus"
+        2p: "dicitis"
+        3p: "dicunt"
+    notes: "Third conjugation. Principal parts: dico, dicere, dixi, dictus. Imperative singular: dic (not dice)."
+
+  - lemma: "do"
+    pos: verb
+    definition: "to give, grant; put, place"
+    frequency_rank: 28
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "do"
+        2s: "das"
+        3s: "dat"
+        1p: "damus"
+        2p: "datis"
+        3p: "dant"
+    notes: "First conjugation but with short a in most forms (unlike other first conjugation verbs). Principal parts: do, dare, dedi, datus."
+
+  - lemma: "res"
+    pos: noun
+    definition: "thing, matter, affair; property; situation, circumstance"
+    frequency_rank: 29
+    difficulty: 3
+    forms:
+      nominative_singular: "res"
+      genitive_singular: "rei"
+      gender: "feminine"
+      declension: 5
+    notes: "Fifth declension. res publica = republic, state. One of only two common fifth declension nouns (the other is dies)."
+
+  - lemma: "meus"
+    pos: adjective
+    definition: "my, mine"
+    frequency_rank: 30
+    difficulty: 2
+    notes: "First/second declension: meus, mea, meum. Vocative masculine singular: mi."
+
+  - lemma: "magnus"
+    pos: adjective
+    definition: "great, large, big; important"
+    frequency_rank: 31
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "magnus"
+        fs: "magna"
+        ns: "magnum"
+      comparative: "maior"
+      superlative: "maximus"
+    notes: "First/second declension. Irregular comparison: magnus, maior, maximus."
+
+  - lemma: "ipse"
+    pos: pronoun
+    definition: "himself, herself, itself; the very, the actual"
+    frequency_rank: 32
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "ipse"
+        fs: "ipsa"
+        ns: "ipsum"
+    notes: "Intensive pronoun. Declined with gen. ipsius, dat. ipsi in singular (like ille). Emphasizes identity: 'he himself, the man himself.'"
+
+  - lemma: "alius"
+    pos: adjective
+    definition: "other, another; alius...alius = one...another"
+    frequency_rank: 33
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "alius"
+        fs: "alia"
+        ns: "aliud"
+    notes: "Genitive singular: alterius (borrowed from alter). Dative singular: alii. alius...alius = one...another (of many)."
+
+  - lemma: "idem"
+    pos: pronoun
+    definition: "the same"
+    frequency_rank: 34
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "idem"
+        fs: "eadem"
+        ns: "idem"
+        mp: "eidem/iidem"
+        fp: "eaedem"
+        np: "eadem"
+    notes: "Compound of is + -dem. Declined like is with -dem appended. M before d becomes n: eundem, eorundem."
+
+  - lemma: "enim"
+    pos: conjunction
+    definition: "for, because, indeed"
+    frequency_rank: 35
+    difficulty: 2
+    notes: "Postpositive: never stands first in its clause."
+
+  - lemma: "animus"
+    pos: noun
+    definition: "mind, spirit, soul; courage; (plural) pride, arrogance"
+    frequency_rank: 36
+    difficulty: 3
+    forms:
+      nominative_singular: "animus"
+      genitive_singular: "animi"
+      gender: "masculine"
+      declension: 2
+
+  - lemma: "bonus"
+    pos: adjective
+    definition: "good, kind; useful"
+    frequency_rank: 37
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "bonus"
+        fs: "bona"
+        ns: "bonum"
+      comparative: "melior"
+      superlative: "optimus"
+    notes: "First/second declension. Irregular comparison: bonus, melior, optimus."
+
+  - lemma: "video"
+    pos: verb
+    definition: "to see, observe; (passive) to seem, appear"
+    frequency_rank: 38
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "video"
+        2s: "vides"
+        3s: "videt"
+        1p: "videmus"
+        2p: "videtis"
+        3p: "vident"
+    notes: "Second conjugation. Principal parts: video, videre, vidi, visus. Passive videor = 'I seem' (with complementary infinitive or dative)."
+
+  - lemma: "habeo"
+    pos: verb
+    definition: "to have, hold; consider, regard"
+    frequency_rank: 39
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "habeo"
+        2s: "habes"
+        3s: "habet"
+        1p: "habemus"
+        2p: "habetis"
+        3p: "habent"
+    notes: "Second conjugation. Principal parts: habeo, habere, habui, habitus."
+
+  - lemma: "nihil"
+    pos: noun
+    definition: "nothing"
+    frequency_rank: 40
+    difficulty: 3
+    notes: "Indeclinable noun (neuter). Also written nil. Used as subject or object. For other cases, use forms of nullus res or nulla res."
+
+  - lemma: "aut"
+    pos: conjunction
+    definition: "or; aut...aut = either...or"
+    frequency_rank: 41
+    difficulty: 1
+    notes: "Presents mutually exclusive alternatives. aut...aut = either...or (exclusive). Contrast with vel...vel (inclusive or)."
+
+  - lemma: "multus"
+    pos: adjective
+    definition: "much, many"
+    frequency_rank: 42
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "multus"
+        fs: "multa"
+        ns: "multum"
+      comparative: "plus"
+      superlative: "plurimus"
+    notes: "First/second declension. Irregular comparison: multus, plus (neuter noun in singular), plurimus. Singular = 'much'; plural = 'many.'"
+
+  - lemma: "tuus"
+    pos: adjective
+    definition: "your, yours (singular possessor)"
+    frequency_rank: 43
+    difficulty: 2
+    notes: "First/second declension: tuus, tua, tuum."
+
+  - lemma: "primus"
+    pos: adjective
+    definition: "first, foremost; chief"
+    frequency_rank: 44
+    difficulty: 2
+    notes: "First/second declension. Superlative of prior. Often used substantively: in primis = 'especially.'"
+
+  - lemma: "inter"
+    pos: preposition
+    definition: "between, among; during (+ acc.)"
+    frequency_rank: 45
+    difficulty: 2
+
+  - lemma: "ita"
+    pos: adverb
+    definition: "so, thus, in this way"
+    frequency_rank: 46
+    difficulty: 2
+    notes: "Often correlative with ut: ita...ut = 'so...that.'"
+
+  - lemma: "noster"
+    pos: adjective
+    definition: "our, ours"
+    frequency_rank: 47
+    difficulty: 2
+    notes: "First/second declension: noster, nostra, nostrum."
+
+  - lemma: "nunc"
+    pos: adverb
+    definition: "now, at present"
+    frequency_rank: 48
+    difficulty: 1
+
+  - lemma: "pars"
+    pos: noun
+    definition: "part, portion; direction; side; role"
+    frequency_rank: 49
+    difficulty: 3
+    forms:
+      nominative_singular: "pars"
+      genitive_singular: "partis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem. Plural partes can mean 'role' (in drama) or 'political party/faction.'"
+
+  - lemma: "vir"
+    pos: noun
+    definition: "man, male; husband; hero"
+    frequency_rank: 50
+    difficulty: 2
+    forms:
+      nominative_singular: "vir"
+      genitive_singular: "viri"
+      gender: "masculine"
+      declension: 2
+    notes: "Second declension. Distinguished from homo (human being): vir emphasizes manhood/valor."
+
+  - lemma: "populus"
+    pos: noun
+    definition: "people, nation; the public"
+    frequency_rank: 51
+    difficulty: 3
+    forms:
+      nominative_singular: "populus"
+      genitive_singular: "populi"
+      gender: "masculine"
+      declension: 2
+    notes: "Collective singular. populus Romanus = 'the Roman people.'"
+
+  - lemma: "unus"
+    pos: adjective
+    definition: "one, single; only, sole"
+    frequency_rank: 52
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "unus"
+        fs: "una"
+        ns: "unum"
+    notes: "Genitive singular: unius. Dative singular: uni. One of the irregular adjectives (UNUS NAUTA pattern)."
+
+  - lemma: "bellum"
+    pos: noun
+    definition: "war"
+    frequency_rank: 53
+    difficulty: 2
+    forms:
+      nominative_singular: "bellum"
+      genitive_singular: "belli"
+      gender: "neuter"
+      declension: 2
+
+  - lemma: "alter"
+    pos: adjective
+    definition: "the other (of two); second; alter...alter = the one...the other"
+    frequency_rank: 54
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "alter"
+        fs: "altera"
+        ns: "alterum"
+    notes: "Genitive singular: alterius. Dative singular: alteri. Distinguished from alius (another, of many): alter is used of two."
+
+  - lemma: "causa"
+    pos: noun
+    definition: "cause, reason; case (legal); sake"
+    frequency_rank: 55
+    difficulty: 3
+    forms:
+      nominative_singular: "causa"
+      genitive_singular: "causae"
+      gender: "feminine"
+      declension: 1
+    notes: "causa + preceding genitive = 'for the sake of' (e.g., honoris causa)."
+
+  - lemma: "dies"
+    pos: noun
+    definition: "day; date; appointed time"
+    frequency_rank: 56
+    difficulty: 3
+    forms:
+      nominative_singular: "dies"
+      genitive_singular: "diei"
+      gender: "masculine"
+      declension: 5
+    notes: "Fifth declension. Usually masculine, but feminine when meaning 'an appointed day' or 'a date.' One of only two common fifth declension nouns."
+
+  - lemma: "locus"
+    pos: noun
+    definition: "place, position; topic, passage (in a text)"
+    frequency_rank: 57
+    difficulty: 3
+    forms:
+      nominative_singular: "locus"
+      genitive_singular: "loci"
+      gender: "masculine"
+      declension: 2
+    notes: "Irregular plural: loci (m., passages in a text) or loca (n., places, regions)."
+
+  - lemma: "ius"
+    pos: noun
+    definition: "right, law, justice; authority"
+    frequency_rank: 58
+    difficulty: 4
+    forms:
+      nominative_singular: "ius"
+      genitive_singular: "iuris"
+      gender: "neuter"
+      declension: 3
+    notes: "Third declension. Not to be confused with ius meaning 'broth.' ius civile = civil law; ius gentium = law of nations."
+
+  - lemma: "tum"
+    pos: adverb
+    definition: "then, at that time; thereupon"
+    frequency_rank: 59
+    difficulty: 2
+    notes: "Also written tunc. Often correlative with cum: cum...tum = 'both...and (especially).'"
+
+  - lemma: "homo"
+    pos: noun
+    definition: "human being, person; man"
+    frequency_rank: 60
+    difficulty: 3
+    forms:
+      nominative_singular: "homo"
+      genitive_singular: "hominis"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension. Refers to a human being generically, unlike vir (male, hero)."
+
+  - lemma: "verus"
+    pos: adjective
+    definition: "true, real, genuine; right, proper"
+    frequency_rank: 61
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "verus"
+        fs: "vera"
+        ns: "verum"
+    notes: "First/second declension. vere (adverb) = truly. vero (adverb/conjunction) = indeed, in fact, but."
+
+  - lemma: "venio"
+    pos: verb
+    definition: "to come, arrive"
+    frequency_rank: 62
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "venio"
+        2s: "venis"
+        3s: "venit"
+        1p: "venimus"
+        2p: "venitis"
+        3p: "veniunt"
+    notes: "Fourth conjugation. Principal parts: venio, venire, veni, ventus."
+
+  - lemma: "rex"
+    pos: noun
+    definition: "king, ruler"
+    frequency_rank: 63
+    difficulty: 3
+    forms:
+      nominative_singular: "rex"
+      genitive_singular: "regis"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "corpus"
+    pos: noun
+    definition: "body; corpse"
+    frequency_rank: 64
+    difficulty: 3
+    forms:
+      nominative_singular: "corpus"
+      genitive_singular: "corporis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "nomen"
+    pos: noun
+    definition: "name; reputation; noun (grammatical term)"
+    frequency_rank: 65
+    difficulty: 3
+    forms:
+      nominative_singular: "nomen"
+      genitive_singular: "nominis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "gens"
+    pos: noun
+    definition: "clan, family, tribe; race, nation, people"
+    frequency_rank: 66
+    difficulty: 4
+    forms:
+      nominative_singular: "gens"
+      genitive_singular: "gentis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem. In Roman context, the gens was the broader family group (e.g., gens Iulia)."
+
+  - lemma: "pater"
+    pos: noun
+    definition: "father; (plural) senators, forefathers"
+    frequency_rank: 67
+    difficulty: 2
+    forms:
+      nominative_singular: "pater"
+      genitive_singular: "patris"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension. patres conscripti = senators. paterfamilias = head of household."
+
+  - lemma: "fero"
+    pos: verb
+    definition: "to bear, carry; endure; report, say"
+    frequency_rank: 68
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "fero"
+        2s: "fers"
+        3s: "fert"
+        1p: "ferimus"
+        2p: "fertis"
+        3p: "ferunt"
+    notes: "Highly irregular third conjugation verb. Principal parts: fero, ferre, tuli, latus. Imperative: fer. Many compounds: affero, confero, differo, offero, refero."
+
+  - lemma: "tempus"
+    pos: noun
+    definition: "time; period, season; opportunity"
+    frequency_rank: 69
+    difficulty: 3
+    forms:
+      nominative_singular: "tempus"
+      genitive_singular: "temporis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "annus"
+    pos: noun
+    definition: "year"
+    frequency_rank: 70
+    difficulty: 2
+    forms:
+      nominative_singular: "annus"
+      genitive_singular: "anni"
+      gender: "masculine"
+      declension: 2
+
+  - lemma: "manus"
+    pos: noun
+    definition: "hand; band (of men); power"
+    frequency_rank: 71
+    difficulty: 3
+    forms:
+      nominative_singular: "manus"
+      genitive_singular: "manus"
+      gender: "feminine"
+      declension: 4
+    notes: "Fourth declension. One of the few feminine fourth-declension nouns. Also means 'a band of armed men.'"
+
+  - lemma: "terra"
+    pos: noun
+    definition: "earth, land, ground; country, region"
+    frequency_rank: 72
+    difficulty: 2
+    forms:
+      nominative_singular: "terra"
+      genitive_singular: "terrae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "totus"
+    pos: adjective
+    definition: "whole, entire, all"
+    frequency_rank: 73
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "totus"
+        fs: "tota"
+        ns: "totum"
+    notes: "Genitive singular: totius. Dative singular: toti. One of the irregular adjectives (UNUS NAUTA pattern). Distinguished from omnis: totus = whole; omnis = every/all."
+
+  - lemma: "publicus"
+    pos: adjective
+    definition: "public, of the state; common, open"
+    frequency_rank: 74
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "publicus"
+        fs: "publica"
+        ns: "publicum"
+    notes: "First/second declension. res publica = republic, commonwealth, state."
+
+  - lemma: "per"
+    pos: preposition
+    definition: "through, across; throughout; by means of (+ acc.)"
+    frequency_rank: 75
+    difficulty: 2
+
+  - lemma: "caput"
+    pos: noun
+    definition: "head; capital; chief point; chapter"
+    frequency_rank: 76
+    difficulty: 3
+    forms:
+      nominative_singular: "caput"
+      genitive_singular: "capitis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "civitas"
+    pos: noun
+    definition: "state, community; citizenship"
+    frequency_rank: 77
+    difficulty: 4
+    forms:
+      nominative_singular: "civitas"
+      genitive_singular: "civitatis"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "etiam"
+    pos: adverb
+    definition: "also, even; still, yet"
+    frequency_rank: 78
+    difficulty: 2
+    notes: "Stronger than quoque. Can mean 'even' (intensive) or 'still' (temporal)."
+
+  - lemma: "nam"
+    pos: conjunction
+    definition: "for, because, indeed"
+    frequency_rank: 79
+    difficulty: 2
+    notes: "Unlike enim, nam can stand first in its clause."
+
+  - lemma: "unde"
+    pos: adverb
+    definition: "from where, whence; from which"
+    frequency_rank: 80
+    difficulty: 3
+
+  - lemma: "quoque"
+    pos: adverb
+    definition: "also, too"
+    frequency_rank: 81
+    difficulty: 2
+    notes: "Postpositive: always follows the word it emphasizes."
+
+  - lemma: "tantus"
+    pos: adjective
+    definition: "so great, so large, so much"
+    frequency_rank: 82
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "tantus"
+        fs: "tanta"
+        ns: "tantum"
+    notes: "Often correlative with quantus: tantus...quantus = 'as great...as.' tantum (adverb) = only."
+
+  - lemma: "ager"
+    pos: noun
+    definition: "field, farm; land, territory"
+    frequency_rank: 83
+    difficulty: 3
+    forms:
+      nominative_singular: "ager"
+      genitive_singular: "agri"
+      gender: "masculine"
+      declension: 2
+    notes: "Second declension with stem agr-. Loses the e in all forms except nominative singular."
+
+  - lemma: "littera"
+    pos: noun
+    definition: "letter (of the alphabet); (plural) letter, epistle; literature"
+    frequency_rank: 84
+    difficulty: 3
+    forms:
+      nominative_singular: "littera"
+      genitive_singular: "litterae"
+      gender: "feminine"
+      declension: 1
+    notes: "Singular = a letter of the alphabet. Plural litterae = a letter/epistle, or literature broadly."
+
+  - lemma: "ante"
+    pos: preposition
+    definition: "before, in front of (+ acc.); previously (adverb)"
+    frequency_rank: 85
+    difficulty: 2
+    notes: "Can function as both preposition (+ acc.) and adverb."
+
+  - lemma: "consilium"
+    pos: noun
+    definition: "plan, counsel, advice; deliberation; judgment"
+    frequency_rank: 86
+    difficulty: 3
+    forms:
+      nominative_singular: "consilium"
+      genitive_singular: "consilii"
+      gender: "neuter"
+      declension: 2
+    notes: "consilium capere = to form a plan."
+
+  - lemma: "iter"
+    pos: noun
+    definition: "journey, march, route; way, road"
+    frequency_rank: 87
+    difficulty: 4
+    forms:
+      nominative_singular: "iter"
+      genitive_singular: "itineris"
+      gender: "neuter"
+      declension: 3
+    notes: "Third declension with stem itiner-. iter facere = to march, travel."
+
+  - lemma: "copia"
+    pos: noun
+    definition: "abundance, supply; opportunity; (plural) forces, troops"
+    frequency_rank: 88
+    difficulty: 4
+    forms:
+      nominative_singular: "copia"
+      genitive_singular: "copiae"
+      gender: "feminine"
+      declension: 1
+    notes: "Singular = abundance, opportunity. Plural copiae = troops, military forces."
+
+  - lemma: "virtus"
+    pos: noun
+    definition: "courage, valor; virtue, excellence; manliness"
+    frequency_rank: 89
+    difficulty: 4
+    forms:
+      nominative_singular: "virtus"
+      genitive_singular: "virtutis"
+      gender: "feminine"
+      declension: 3
+    notes: "Derived from vir. Originally 'manliness,' later broadened to 'moral excellence, virtue.'"
+
+  - lemma: "hostis"
+    pos: noun
+    definition: "enemy (public/military); (plural) the enemy"
+    frequency_rank: 90
+    difficulty: 3
+    forms:
+      nominative_singular: "hostis"
+      genitive_singular: "hostis"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension i-stem. Refers to a public or military enemy. Distinguished from inimicus (personal enemy)."
+
+  - lemma: "imperium"
+    pos: noun
+    definition: "command, power, authority; empire, dominion"
+    frequency_rank: 91
+    difficulty: 4
+    forms:
+      nominative_singular: "imperium"
+      genitive_singular: "imperii"
+      gender: "neuter"
+      declension: 2
+
+  - lemma: "dux"
+    pos: noun
+    definition: "leader, commander, general; guide"
+    frequency_rank: 92
+    difficulty: 3
+    forms:
+      nominative_singular: "dux"
+      genitive_singular: "ducis"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "miles"
+    pos: noun
+    definition: "soldier"
+    frequency_rank: 93
+    difficulty: 3
+    forms:
+      nominative_singular: "miles"
+      genitive_singular: "militis"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "urbs"
+    pos: noun
+    definition: "city (especially a walled city)"
+    frequency_rank: 94
+    difficulty: 3
+    forms:
+      nominative_singular: "urbs"
+      genitive_singular: "urbis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem. urbs often refers to Rome specifically ('the City')."
+
+  - lemma: "ars"
+    pos: noun
+    definition: "art, skill, craft; technique"
+    frequency_rank: 95
+    difficulty: 4
+    forms:
+      nominative_singular: "ars"
+      genitive_singular: "artis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem. Plural artes = liberal arts, character traits."
+
+  - lemma: "deinde"
+    pos: adverb
+    definition: "then, next, afterward"
+    frequency_rank: 96
+    difficulty: 2
+    notes: "Also written dein. Used in narrative to sequence events."
+
+  - lemma: "sic"
+    pos: adverb
+    definition: "so, thus, in this way"
+    frequency_rank: 97
+    difficulty: 2
+    notes: "Similar to ita. Can introduce direct quotation."
+
+  - lemma: "mors"
+    pos: noun
+    definition: "death"
+    frequency_rank: 98
+    difficulty: 3
+    forms:
+      nominative_singular: "mors"
+      genitive_singular: "mortis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem."
+
+  - lemma: "novus"
+    pos: adjective
+    definition: "new, young; novel, unusual; strange"
+    frequency_rank: 99
+    difficulty: 2
+    forms:
+      nominative:
+        ms: "novus"
+        fs: "nova"
+        ns: "novum"
+    notes: "First/second declension. res novae = revolution. homo novus = 'new man' (first in family to reach the Senate)."
+
+  - lemma: "vox"
+    pos: noun
+    definition: "voice; word, utterance; cry"
+    frequency_rank: 100
+    difficulty: 3
+    forms:
+      nominative_singular: "vox"
+      genitive_singular: "vocis"
+      gender: "feminine"
+      declension: 3

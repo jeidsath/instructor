@@ -9,4 +9,4 @@ sequence:
   - unit: "02-expanding"
     concepts:
       - "Third Declension"
-    vocabulary_sets: []
+    vocabulary_sets: ["core-002-common", "theme-family"]

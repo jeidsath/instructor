@@ -1,0 +1,1715 @@
+language: latin
+set: core-002
+name: "Common Latin Vocabulary"
+description: "Frequent Latin words ranked 101-250"
+items:
+  - lemma: "volo"
+    pos: verb
+    definition: "to want, wish, be willing"
+    frequency_rank: 101
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "volo"
+        2s: "vis"
+        3s: "vult"
+        1p: "volumus"
+        2p: "vultis"
+        3p: "volunt"
+    notes: "Irregular verb. Principal parts: volo, velle, volui. Related: nolo (not want), malo (prefer)."
+
+  - lemma: "eo"
+    pos: verb
+    definition: "to go, proceed"
+    frequency_rank: 102
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "eo"
+        2s: "is"
+        3s: "it"
+        1p: "imus"
+        2p: "itis"
+        3p: "eunt"
+    notes: "Highly irregular. Principal parts: eo, ire, ii/ivi, itus. Many compounds: abeo, adeo, exeo, ineo, pereo, redeo, transeo."
+
+  - lemma: "ago"
+    pos: verb
+    definition: "to do, act; drive, lead; discuss; spend (time)"
+    frequency_rank: 103
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "ago"
+        2s: "agis"
+        3s: "agit"
+        1p: "agimus"
+        2p: "agitis"
+        3p: "agunt"
+    notes: "Third conjugation. Principal parts: ago, agere, egi, actus. gratias agere = to give thanks. vitam agere = to live a life."
+
+  - lemma: "mitto"
+    pos: verb
+    definition: "to send, dispatch; let go, release"
+    frequency_rank: 104
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "mitto"
+        2s: "mittis"
+        3s: "mittit"
+        1p: "mittimus"
+        2p: "mittitis"
+        3p: "mittunt"
+    notes: "Third conjugation. Principal parts: mitto, mittere, misi, missus."
+
+  - lemma: "duco"
+    pos: verb
+    definition: "to lead, guide; consider, regard; draw"
+    frequency_rank: 105
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "duco"
+        2s: "ducis"
+        3s: "ducit"
+        1p: "ducimus"
+        2p: "ducitis"
+        3p: "ducunt"
+    notes: "Third conjugation. Principal parts: duco, ducere, duxi, ductus. uxorem ducere = to marry (a wife)."
+
+  - lemma: "capio"
+    pos: verb
+    definition: "to take, seize, capture; receive"
+    frequency_rank: 106
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "capio"
+        2s: "capis"
+        3s: "capit"
+        1p: "capimus"
+        2p: "capitis"
+        3p: "capiunt"
+    notes: "Third conjugation -io verb. Principal parts: capio, capere, cepi, captus. consilium capere = to form a plan."
+
+  - lemma: "peto"
+    pos: verb
+    definition: "to seek, aim at; ask for, request; attack"
+    frequency_rank: 107
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "peto"
+        2s: "petis"
+        3s: "petit"
+        1p: "petimus"
+        2p: "petitis"
+        3p: "petunt"
+    notes: "Third conjugation. Principal parts: peto, petere, petivi/petii, petitus."
+
+  - lemma: "scribo"
+    pos: verb
+    definition: "to write, compose"
+    frequency_rank: 108
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "scribo"
+        2s: "scribis"
+        3s: "scribit"
+        1p: "scribimus"
+        2p: "scribitis"
+        3p: "scribunt"
+    notes: "Third conjugation. Principal parts: scribo, scribere, scripsi, scriptus."
+
+  - lemma: "pono"
+    pos: verb
+    definition: "to put, place, set; set aside"
+    frequency_rank: 109
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "pono"
+        2s: "ponis"
+        3s: "ponit"
+        1p: "ponimus"
+        2p: "ponitis"
+        3p: "ponunt"
+    notes: "Third conjugation. Principal parts: pono, ponere, posui, positus. castra ponere = to pitch camp."
+
+  - lemma: "teneo"
+    pos: verb
+    definition: "to hold, keep; possess; restrain"
+    frequency_rank: 110
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "teneo"
+        2s: "tenes"
+        3s: "tenet"
+        1p: "tenemus"
+        2p: "tenetis"
+        3p: "tenent"
+    notes: "Second conjugation. Principal parts: teneo, tenere, tenui, tentus. memoria tenere = to remember."
+
+  - lemma: "gero"
+    pos: verb
+    definition: "to carry on, wage; wear; manage"
+    frequency_rank: 111
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "gero"
+        2s: "geris"
+        3s: "gerit"
+        1p: "gerimus"
+        2p: "geritis"
+        3p: "gerunt"
+    notes: "Third conjugation. Principal parts: gero, gerere, gessi, gestus. bellum gerere = to wage war. res gestae = deeds."
+
+  - lemma: "iubeo"
+    pos: verb
+    definition: "to order, command; bid"
+    frequency_rank: 112
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "iubeo"
+        2s: "iubes"
+        3s: "iubet"
+        1p: "iubemus"
+        2p: "iubetis"
+        3p: "iubent"
+    notes: "Second conjugation. Principal parts: iubeo, iubere, iussi, iussus. Takes accusative + infinitive construction."
+
+  - lemma: "quaero"
+    pos: verb
+    definition: "to seek, look for; ask, inquire"
+    frequency_rank: 113
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "quaero"
+        2s: "quaeris"
+        3s: "quaerit"
+        1p: "quaerimus"
+        2p: "quaeritis"
+        3p: "quaerunt"
+    notes: "Third conjugation. Principal parts: quaero, quaerere, quaesivi/quaesii, quaesitus."
+
+  - lemma: "credo"
+    pos: verb
+    definition: "to believe, trust (+ dat.); entrust (+ acc. + dat.)"
+    frequency_rank: 114
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "credo"
+        2s: "credis"
+        3s: "credit"
+        1p: "credimus"
+        2p: "creditis"
+        3p: "credunt"
+    notes: "Third conjugation. Principal parts: credo, credere, credidi, creditus. Takes dative of person believed."
+
+  - lemma: "cognosco"
+    pos: verb
+    definition: "to learn, get to know; (perfect) to know"
+    frequency_rank: 115
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "cognosco"
+        2s: "cognoscis"
+        3s: "cognoscit"
+        1p: "cognoscimus"
+        2p: "cognoscitis"
+        3p: "cognoscunt"
+    notes: "Third conjugation. Principal parts: cognosco, cognoscere, cognovi, cognitus. Perfect tense = 'I know' (present meaning from completed learning)."
+
+  - lemma: "invenio"
+    pos: verb
+    definition: "to find, come upon, discover"
+    frequency_rank: 116
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "invenio"
+        2s: "invenis"
+        3s: "invenit"
+        1p: "invenimus"
+        2p: "invenitis"
+        3p: "inveniunt"
+    notes: "Fourth conjugation. Principal parts: invenio, invenire, inveni, inventus."
+
+  - lemma: "accipio"
+    pos: verb
+    definition: "to receive, accept; learn, hear"
+    frequency_rank: 117
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "accipio"
+        2s: "accipis"
+        3s: "accipit"
+        1p: "accipimus"
+        2p: "accipitis"
+        3p: "accipiunt"
+    notes: "Third conjugation -io verb. Compound of ad + capio. Principal parts: accipio, accipere, accepi, acceptus."
+
+  - lemma: "relinquo"
+    pos: verb
+    definition: "to leave behind, abandon; bequeath"
+    frequency_rank: 118
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "relinquo"
+        2s: "relinquis"
+        3s: "relinquit"
+        1p: "relinquimus"
+        2p: "relinquitis"
+        3p: "relinquunt"
+    notes: "Third conjugation. Principal parts: relinquo, relinquere, reliqui, relictus."
+
+  - lemma: "scio"
+    pos: verb
+    definition: "to know, understand"
+    frequency_rank: 119
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "scio"
+        2s: "scis"
+        3s: "scit"
+        1p: "scimus"
+        2p: "scitis"
+        3p: "sciunt"
+    notes: "Fourth conjugation. Principal parts: scio, scire, scivi/scii, scitus."
+
+  - lemma: "voco"
+    pos: verb
+    definition: "to call, summon; name"
+    frequency_rank: 120
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "voco"
+        2s: "vocas"
+        3s: "vocat"
+        1p: "vocamus"
+        2p: "vocatis"
+        3p: "vocant"
+    notes: "First conjugation. Principal parts: voco, vocare, vocavi, vocatus."
+
+  - lemma: "moveo"
+    pos: verb
+    definition: "to move; arouse, affect"
+    frequency_rank: 121
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "moveo"
+        2s: "moves"
+        3s: "movet"
+        1p: "movemus"
+        2p: "movetis"
+        3p: "movent"
+    notes: "Second conjugation. Principal parts: moveo, movere, movi, motus. castra movere = to break camp."
+
+  - lemma: "timeo"
+    pos: verb
+    definition: "to fear, be afraid of"
+    frequency_rank: 122
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "timeo"
+        2s: "times"
+        3s: "timet"
+        1p: "timemus"
+        2p: "timetis"
+        3p: "timent"
+    notes: "Second conjugation. Principal parts: timeo, timere, timui. No fourth principal part."
+
+  - lemma: "puto"
+    pos: verb
+    definition: "to think, consider, suppose"
+    frequency_rank: 123
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "puto"
+        2s: "putas"
+        3s: "putat"
+        1p: "putamus"
+        2p: "putatis"
+        3p: "putant"
+    notes: "First conjugation. Principal parts: puto, putare, putavi, putatus."
+
+  - lemma: "debeo"
+    pos: verb
+    definition: "to owe; ought, must, should"
+    frequency_rank: 124
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "debeo"
+        2s: "debes"
+        3s: "debet"
+        1p: "debemus"
+        2p: "debetis"
+        3p: "debent"
+    notes: "Second conjugation. Principal parts: debeo, debere, debui, debitus. Takes complementary infinitive."
+
+  - lemma: "sentio"
+    pos: verb
+    definition: "to feel, perceive; think, have an opinion"
+    frequency_rank: 125
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "sentio"
+        2s: "sentis"
+        3s: "sentit"
+        1p: "sentimus"
+        2p: "sentitis"
+        3p: "sentiunt"
+    notes: "Fourth conjugation. Principal parts: sentio, sentire, sensi, sensus."
+
+  - lemma: "amo"
+    pos: verb
+    definition: "to love, like"
+    frequency_rank: 126
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "amo"
+        2s: "amas"
+        3s: "amat"
+        1p: "amamus"
+        2p: "amatis"
+        3p: "amant"
+    notes: "First conjugation. Principal parts: amo, amare, amavi, amatus. The paradigm verb for first conjugation."
+
+  - lemma: "lego"
+    pos: verb
+    definition: "to read; choose, select; gather"
+    frequency_rank: 127
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "lego"
+        2s: "legis"
+        3s: "legit"
+        1p: "legimus"
+        2p: "legitis"
+        3p: "legunt"
+    notes: "Third conjugation. Principal parts: lego, legere, legi, lectus."
+
+  - lemma: "cupio"
+    pos: verb
+    definition: "to desire, wish for, long for"
+    frequency_rank: 128
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "cupio"
+        2s: "cupis"
+        3s: "cupit"
+        1p: "cupimus"
+        2p: "cupitis"
+        3p: "cupiunt"
+    notes: "Third conjugation -io verb. Principal parts: cupio, cupere, cupivi/cupii, cupitus."
+
+  - lemma: "autem"
+    pos: conjunction
+    definition: "however, moreover, but"
+    frequency_rank: 129
+    difficulty: 3
+    notes: "Postpositive: never stands first in its clause. Weaker adversative than sed."
+
+  - lemma: "igitur"
+    pos: conjunction
+    definition: "therefore, then, accordingly"
+    frequency_rank: 130
+    difficulty: 3
+    notes: "Usually postpositive (second word in clause)."
+
+  - lemma: "quidem"
+    pos: adverb
+    definition: "indeed, certainly, at least; ne...quidem = not even"
+    frequency_rank: 131
+    difficulty: 4
+    notes: "Postpositive. ne...quidem (with emphasized word between) = 'not even.'"
+
+  - lemma: "semper"
+    pos: adverb
+    definition: "always, forever"
+    frequency_rank: 132
+    difficulty: 2
+
+  - lemma: "numquam"
+    pos: adverb
+    definition: "never"
+    frequency_rank: 133
+    difficulty: 2
+    notes: "Also written nunquam."
+
+  - lemma: "quam"
+    pos: adverb
+    definition: "how; than; as...as possible (with superlative)"
+    frequency_rank: 134
+    difficulty: 4
+    notes: "After comparatives: 'than.' With superlatives: quam + superlative = 'as...as possible.' As exclamation: 'how!'"
+
+  - lemma: "talis"
+    pos: adjective
+    definition: "such, of such a kind"
+    frequency_rank: 135
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "talis"
+        fs: "talis"
+        ns: "tale"
+    notes: "Third declension. Often correlative with qualis: talis...qualis = 'such...as.'"
+
+  - lemma: "quis"
+    pos: pronoun
+    definition: "who? what? (interrogative); anyone, anything (indefinite, after si/nisi/ne/num)"
+    frequency_rank: 136
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "quis"
+        fs: "quis"
+        ns: "quid"
+    notes: "As interrogative: 'who? what?' As indefinite (after si, nisi, ne, num): 'anyone, anything.' Distinguished from qui (relative/adjective)."
+
+  - lemma: "quisque"
+    pos: pronoun
+    definition: "each one, every one; each"
+    frequency_rank: 137
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "quisque"
+        fs: "quaeque"
+        ns: "quidque/quodque"
+    notes: "Declined like quis/qui + -que. Often used with superlatives: optimus quisque = 'all the best people.'"
+
+  - lemma: "aliquis"
+    pos: pronoun
+    definition: "someone, something; some, any"
+    frequency_rank: 138
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "aliquis"
+        fs: "aliqua"
+        ns: "aliquid/aliquod"
+    notes: "Indefinite pronoun. Declined like quis/qui with prefix ali-. Substantive: aliquid; adjective: aliquod."
+
+  - lemma: "quidam"
+    pos: pronoun
+    definition: "a certain, a particular; a certain one"
+    frequency_rank: 139
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "quidam"
+        fs: "quaedam"
+        ns: "quiddam/quoddam"
+    notes: "Declined like qui/quis + -dam. M before d becomes n: quendam, quorundam. Substantive: quiddam; adjective: quoddam."
+
+  - lemma: "nemo"
+    pos: pronoun
+    definition: "no one, nobody"
+    frequency_rank: 140
+    difficulty: 4
+    forms:
+      nominative: "nemo"
+      genitive: "nullius"
+      dative: "nemini"
+      accusative: "neminem"
+      ablative: "nullo/nulla"
+    notes: "Defective noun. Borrows genitive and ablative forms from nullus."
+
+  - lemma: "quisquam"
+    pos: pronoun
+    definition: "anyone, anything (in negative or quasi-negative contexts)"
+    frequency_rank: 141
+    difficulty: 6
+    notes: "Used mainly in negative sentences and questions expecting a negative answer. Distinguished from aliquis (positive contexts) and quis (after si, nisi, etc.)."
+
+  - lemma: "nullus"
+    pos: adjective
+    definition: "no, none, not any"
+    frequency_rank: 142
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "nullus"
+        fs: "nulla"
+        ns: "nullum"
+    notes: "Genitive singular: nullius. Dative singular: nulli. One of the UNUS NAUTA pattern adjectives."
+
+  - lemma: "ullus"
+    pos: adjective
+    definition: "any"
+    frequency_rank: 143
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "ullus"
+        fs: "ulla"
+        ns: "ullum"
+    notes: "Used mainly in negative or quasi-negative contexts. Genitive singular: ullius. Dative singular: ulli."
+
+  - lemma: "solus"
+    pos: adjective
+    definition: "alone, only, sole"
+    frequency_rank: 144
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "solus"
+        fs: "sola"
+        ns: "solum"
+    notes: "Genitive singular: solius. Dative singular: soli. One of the UNUS NAUTA pattern adjectives."
+
+  - lemma: "longus"
+    pos: adjective
+    definition: "long; distant; tedious"
+    frequency_rank: 145
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "longus"
+        fs: "longa"
+        ns: "longum"
+
+  - lemma: "parvus"
+    pos: adjective
+    definition: "small, little"
+    frequency_rank: 146
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "parvus"
+        fs: "parva"
+        ns: "parvum"
+      comparative: "minor"
+      superlative: "minimus"
+    notes: "First/second declension. Irregular comparison: parvus, minor, minimus."
+
+  - lemma: "gravis"
+    pos: adjective
+    definition: "heavy, weighty; serious, important; grievous"
+    frequency_rank: 147
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "gravis"
+        fs: "gravis"
+        ns: "grave"
+
+  - lemma: "brevis"
+    pos: adjective
+    definition: "short, brief"
+    frequency_rank: 148
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "brevis"
+        fs: "brevis"
+        ns: "breve"
+
+  - lemma: "liber"
+    pos: adjective
+    definition: "free, independent; unrestricted"
+    frequency_rank: 149
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "liber"
+        fs: "libera"
+        ns: "liberum"
+    notes: "Not to be confused with liber, libri (m., book)."
+
+  - lemma: "fortis"
+    pos: adjective
+    definition: "strong, brave, valiant"
+    frequency_rank: 150
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "fortis"
+        fs: "fortis"
+        ns: "forte"
+
+  - lemma: "felix"
+    pos: adjective
+    definition: "happy, fortunate, lucky; fruitful"
+    frequency_rank: 151
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "felix"
+        fs: "felix"
+        ns: "felix"
+      genitive_singular: "felicis"
+    notes: "Third declension one-termination adjective."
+
+  - lemma: "certus"
+    pos: adjective
+    definition: "certain, sure, definite; resolved"
+    frequency_rank: 152
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "certus"
+        fs: "certa"
+        ns: "certum"
+    notes: "certiorem facere = to inform (make more certain)."
+
+  - lemma: "dignus"
+    pos: adjective
+    definition: "worthy, deserving (+ abl.)"
+    frequency_rank: 153
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "dignus"
+        fs: "digna"
+        ns: "dignum"
+    notes: "Takes ablative of respect: dignus laude = worthy of praise."
+
+  - lemma: "acer"
+    pos: adjective
+    definition: "sharp, keen; fierce; eager"
+    frequency_rank: 154
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "acer"
+        fs: "acris"
+        ns: "acre"
+    notes: "Third declension three-termination adjective."
+
+  - lemma: "similis"
+    pos: adjective
+    definition: "similar, like, resembling (+ gen. or dat.)"
+    frequency_rank: 155
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "similis"
+        fs: "similis"
+        ns: "simile"
+    notes: "Takes genitive or dative. Superlative: simillimus."
+
+  - lemma: "filius"
+    pos: noun
+    definition: "son"
+    frequency_rank: 156
+    difficulty: 3
+    forms:
+      nominative_singular: "filius"
+      genitive_singular: "filii"
+      gender: "masculine"
+      declension: 2
+    notes: "Vocative singular: fili (not filie). Dative/ablative plural sometimes filiis (to distinguish from filiabus for daughters)."
+
+  - lemma: "filia"
+    pos: noun
+    definition: "daughter"
+    frequency_rank: 157
+    difficulty: 3
+    forms:
+      nominative_singular: "filia"
+      genitive_singular: "filiae"
+      gender: "feminine"
+      declension: 1
+    notes: "Dative/ablative plural: filiabus (to distinguish from filiis, sons)."
+
+  - lemma: "dominus"
+    pos: noun
+    definition: "master, lord; owner"
+    frequency_rank: 158
+    difficulty: 3
+    forms:
+      nominative_singular: "dominus"
+      genitive_singular: "domini"
+      gender: "masculine"
+      declension: 2
+
+  - lemma: "opus"
+    pos: noun
+    definition: "work, deed; need (opus est + abl. = there is need of)"
+    frequency_rank: 159
+    difficulty: 4
+    forms:
+      nominative_singular: "opus"
+      genitive_singular: "operis"
+      gender: "neuter"
+      declension: 3
+    notes: "opus est + ablative = 'there is need of.' Plural opera = 'works, deeds.'"
+
+  - lemma: "victoria"
+    pos: noun
+    definition: "victory"
+    frequency_rank: 160
+    difficulty: 3
+    forms:
+      nominative_singular: "victoria"
+      genitive_singular: "victoriae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "nox"
+    pos: noun
+    definition: "night"
+    frequency_rank: 161
+    difficulty: 3
+    forms:
+      nominative_singular: "nox"
+      genitive_singular: "noctis"
+      gender: "feminine"
+      declension: 3
+    notes: "Third declension i-stem."
+
+  - lemma: "vita"
+    pos: noun
+    definition: "life; way of life"
+    frequency_rank: 162
+    difficulty: 3
+    forms:
+      nominative_singular: "vita"
+      genitive_singular: "vitae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "via"
+    pos: noun
+    definition: "way, road, street; journey; method"
+    frequency_rank: 163
+    difficulty: 3
+    forms:
+      nominative_singular: "via"
+      genitive_singular: "viae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "verbum"
+    pos: noun
+    definition: "word; (plural) words, language"
+    frequency_rank: 164
+    difficulty: 3
+    forms:
+      nominative_singular: "verbum"
+      genitive_singular: "verbi"
+      gender: "neuter"
+      declension: 2
+    notes: "verba facere = to speak."
+
+  - lemma: "castra"
+    pos: noun
+    definition: "camp (military); (always plural in this sense)"
+    frequency_rank: 165
+    difficulty: 4
+    forms:
+      nominative_plural: "castra"
+      genitive_plural: "castrorum"
+      gender: "neuter"
+      declension: 2
+    notes: "Plural-only noun in the sense of 'military camp.' Singular castrum = fort (rare). castra ponere = to pitch camp; castra movere = to break camp."
+
+  - lemma: "senatus"
+    pos: noun
+    definition: "senate"
+    frequency_rank: 166
+    difficulty: 4
+    forms:
+      nominative_singular: "senatus"
+      genitive_singular: "senatus"
+      gender: "masculine"
+      declension: 4
+    notes: "Fourth declension. senatus populusque Romanus (SPQR) = the Senate and People of Rome."
+
+  - lemma: "exercitus"
+    pos: noun
+    definition: "army, trained force"
+    frequency_rank: 167
+    difficulty: 4
+    forms:
+      nominative_singular: "exercitus"
+      genitive_singular: "exercitus"
+      gender: "masculine"
+      declension: 4
+
+  - lemma: "flumen"
+    pos: noun
+    definition: "river, stream"
+    frequency_rank: 168
+    difficulty: 3
+    forms:
+      nominative_singular: "flumen"
+      genitive_singular: "fluminis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "oppidum"
+    pos: noun
+    definition: "town, fortified town"
+    frequency_rank: 169
+    difficulty: 3
+    forms:
+      nominative_singular: "oppidum"
+      genitive_singular: "oppidi"
+      gender: "neuter"
+      declension: 2
+    notes: "Especially common in Caesar's Gallic War."
+
+  - lemma: "aqua"
+    pos: noun
+    definition: "water"
+    frequency_rank: 170
+    difficulty: 3
+    forms:
+      nominative_singular: "aqua"
+      genitive_singular: "aquae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "liber"
+    pos: noun
+    definition: "book; volume"
+    frequency_rank: 171
+    difficulty: 3
+    forms:
+      nominative_singular: "liber"
+      genitive_singular: "libri"
+      gender: "masculine"
+      declension: 2
+    notes: "Not to be confused with liber, libera, liberum (adjective, free)."
+
+  - lemma: "pecunia"
+    pos: noun
+    definition: "money, property"
+    frequency_rank: 172
+    difficulty: 3
+    forms:
+      nominative_singular: "pecunia"
+      genitive_singular: "pecuniae"
+      gender: "feminine"
+      declension: 1
+    notes: "Derived from pecus (cattle), reflecting the pastoral origins of wealth."
+
+  - lemma: "natura"
+    pos: noun
+    definition: "nature; character; birth"
+    frequency_rank: 173
+    difficulty: 3
+    forms:
+      nominative_singular: "natura"
+      genitive_singular: "naturae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "ratio"
+    pos: noun
+    definition: "reason, calculation; method, plan; account"
+    frequency_rank: 174
+    difficulty: 4
+    forms:
+      nominative_singular: "ratio"
+      genitive_singular: "rationis"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "sententia"
+    pos: noun
+    definition: "opinion, judgment; thought; sentence; vote"
+    frequency_rank: 175
+    difficulty: 4
+    forms:
+      nominative_singular: "sententia"
+      genitive_singular: "sententiae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "lex"
+    pos: noun
+    definition: "law, statute; condition, terms"
+    frequency_rank: 176
+    difficulty: 3
+    forms:
+      nominative_singular: "lex"
+      genitive_singular: "legis"
+      gender: "feminine"
+      declension: 3
+    notes: "Distinguished from ius (right, abstract justice): lex = a specific written law."
+
+  - lemma: "labor"
+    pos: noun
+    definition: "work, labor, toil; hardship, suffering"
+    frequency_rank: 177
+    difficulty: 3
+    forms:
+      nominative_singular: "labor"
+      genitive_singular: "laboris"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "mater"
+    pos: noun
+    definition: "mother"
+    frequency_rank: 178
+    difficulty: 3
+    forms:
+      nominative_singular: "mater"
+      genitive_singular: "matris"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "domus"
+    pos: noun
+    definition: "house, home; household, family"
+    frequency_rank: 179
+    difficulty: 5
+    forms:
+      nominative_singular: "domus"
+      genitive_singular: "domus/domi"
+      gender: "feminine"
+      declension: 4
+    notes: "Mixed declension (fourth and second). Special locative: domi = at home. domum = homeward. domo = from home."
+
+  - lemma: "gratia"
+    pos: noun
+    definition: "favor, grace; gratitude; influence; (plural) thanks"
+    frequency_rank: 180
+    difficulty: 4
+    forms:
+      nominative_singular: "gratia"
+      genitive_singular: "gratiae"
+      gender: "feminine"
+      declension: 1
+    notes: "gratias agere = to give thanks. gratiam habere = to feel gratitude. gratia + preceding genitive = 'for the sake of.'"
+
+  - lemma: "fides"
+    pos: noun
+    definition: "faith, trust; loyalty; protection, word of honor"
+    frequency_rank: 181
+    difficulty: 4
+    forms:
+      nominative_singular: "fides"
+      genitive_singular: "fidei"
+      gender: "feminine"
+      declension: 5
+    notes: "Fifth declension. bona fide = in good faith."
+
+  - lemma: "gloria"
+    pos: noun
+    definition: "glory, fame, renown"
+    frequency_rank: 182
+    difficulty: 3
+    forms:
+      nominative_singular: "gloria"
+      genitive_singular: "gloriae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "pax"
+    pos: noun
+    definition: "peace; treaty; favor (of the gods)"
+    frequency_rank: 183
+    difficulty: 3
+    forms:
+      nominative_singular: "pax"
+      genitive_singular: "pacis"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "imperator"
+    pos: noun
+    definition: "commander, general; emperor"
+    frequency_rank: 184
+    difficulty: 4
+    forms:
+      nominative_singular: "imperator"
+      genitive_singular: "imperatoris"
+      gender: "masculine"
+      declension: 3
+    notes: "Originally a military title awarded by troops after a victory; later the title of the Roman emperor."
+
+  - lemma: "civis"
+    pos: noun
+    definition: "citizen"
+    frequency_rank: 185
+    difficulty: 3
+    forms:
+      nominative_singular: "civis"
+      genitive_singular: "civis"
+      gender: "masculine"
+      declension: 3
+    notes: "Third declension i-stem. Can refer to male or female citizens."
+
+  - lemma: "genus"
+    pos: noun
+    definition: "birth, origin; kind, type, class; race"
+    frequency_rank: 186
+    difficulty: 4
+    forms:
+      nominative_singular: "genus"
+      genitive_singular: "generis"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "frater"
+    pos: noun
+    definition: "brother"
+    frequency_rank: 187
+    difficulty: 3
+    forms:
+      nominative_singular: "frater"
+      genitive_singular: "fratris"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "soror"
+    pos: noun
+    definition: "sister"
+    frequency_rank: 188
+    difficulty: 3
+    forms:
+      nominative_singular: "soror"
+      genitive_singular: "sororis"
+      gender: "feminine"
+      declension: 3
+
+  - lemma: "femina"
+    pos: noun
+    definition: "woman, female"
+    frequency_rank: 189
+    difficulty: 3
+    forms:
+      nominative_singular: "femina"
+      genitive_singular: "feminae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "lux"
+    pos: noun
+    definition: "light; daylight; life"
+    frequency_rank: 190
+    difficulty: 3
+    forms:
+      nominative_singular: "lux"
+      genitive_singular: "lucis"
+      gender: "feminine"
+      declension: 3
+    notes: "prima luce = at dawn."
+
+  - lemma: "mare"
+    pos: noun
+    definition: "sea"
+    frequency_rank: 191
+    difficulty: 3
+    forms:
+      nominative_singular: "mare"
+      genitive_singular: "maris"
+      gender: "neuter"
+      declension: 3
+    notes: "Third declension i-stem neuter. Ablative singular: mari."
+
+  - lemma: "patria"
+    pos: noun
+    definition: "fatherland, native land, homeland"
+    frequency_rank: 192
+    difficulty: 3
+    forms:
+      nominative_singular: "patria"
+      genitive_singular: "patriae"
+      gender: "feminine"
+      declension: 1
+
+  - lemma: "signum"
+    pos: noun
+    definition: "sign, signal; seal; standard (military)"
+    frequency_rank: 193
+    difficulty: 3
+    forms:
+      nominative_singular: "signum"
+      genitive_singular: "signi"
+      gender: "neuter"
+      declension: 2
+    notes: "signa movere / inferre = to advance the standards (i.e., to march)."
+
+  - lemma: "numerus"
+    pos: noun
+    definition: "number; amount; rank, position"
+    frequency_rank: 194
+    difficulty: 3
+    forms:
+      nominative_singular: "numerus"
+      genitive_singular: "numeri"
+      gender: "masculine"
+      declension: 2
+
+  - lemma: "vulnus"
+    pos: noun
+    definition: "wound, injury; blow"
+    frequency_rank: 195
+    difficulty: 4
+    forms:
+      nominative_singular: "vulnus"
+      genitive_singular: "vulneris"
+      gender: "neuter"
+      declension: 3
+
+  - lemma: "proelium"
+    pos: noun
+    definition: "battle, combat"
+    frequency_rank: 196
+    difficulty: 4
+    forms:
+      nominative_singular: "proelium"
+      genitive_singular: "proelii"
+      gender: "neuter"
+      declension: 2
+    notes: "proelium committere = to join battle."
+
+  - lemma: "praesidium"
+    pos: noun
+    definition: "protection, defense; guard, garrison"
+    frequency_rank: 197
+    difficulty: 5
+    forms:
+      nominative_singular: "praesidium"
+      genitive_singular: "praesidii"
+      gender: "neuter"
+      declension: 2
+
+  - lemma: "fuga"
+    pos: noun
+    definition: "flight, escape; exile"
+    frequency_rank: 198
+    difficulty: 3
+    forms:
+      nominative_singular: "fuga"
+      genitive_singular: "fugae"
+      gender: "feminine"
+      declension: 1
+    notes: "in fugam dare/conicere = to put to flight."
+
+  - lemma: "metus"
+    pos: noun
+    definition: "fear, dread; anxiety"
+    frequency_rank: 199
+    difficulty: 4
+    forms:
+      nominative_singular: "metus"
+      genitive_singular: "metus"
+      gender: "masculine"
+      declension: 4
+
+  - lemma: "spes"
+    pos: noun
+    definition: "hope, expectation"
+    frequency_rank: 200
+    difficulty: 4
+    forms:
+      nominative_singular: "spes"
+      genitive_singular: "spei"
+      gender: "feminine"
+      declension: 5
+
+  - lemma: "periculum"
+    pos: noun
+    definition: "danger, risk, peril; trial, test"
+    frequency_rank: 201
+    difficulty: 4
+    forms:
+      nominative_singular: "periculum"
+      genitive_singular: "periculi"
+      gender: "neuter"
+      declension: 2
+
+  - lemma: "auxilium"
+    pos: noun
+    definition: "help, aid; (plural) auxiliary troops"
+    frequency_rank: 202
+    difficulty: 3
+    forms:
+      nominative_singular: "auxilium"
+      genitive_singular: "auxilii"
+      gender: "neuter"
+      declension: 2
+    notes: "Plural auxilia = auxiliary forces, reinforcements."
+
+  - lemma: "consul"
+    pos: noun
+    definition: "consul (chief Roman magistrate)"
+    frequency_rank: 203
+    difficulty: 4
+    forms:
+      nominative_singular: "consul"
+      genitive_singular: "consulis"
+      gender: "masculine"
+      declension: 3
+    notes: "Two consuls held the highest elected office in the Roman Republic, serving one-year terms."
+
+  - lemma: "ordo"
+    pos: noun
+    definition: "row, rank, order; class, station"
+    frequency_rank: 204
+    difficulty: 4
+    forms:
+      nominative_singular: "ordo"
+      genitive_singular: "ordinis"
+      gender: "masculine"
+      declension: 3
+
+  - lemma: "cur"
+    pos: adverb
+    definition: "why?"
+    frequency_rank: 205
+    difficulty: 2
+
+  - lemma: "olim"
+    pos: adverb
+    definition: "once, formerly; at some future time, someday"
+    frequency_rank: 206
+    difficulty: 3
+    notes: "Can refer to past or future depending on context."
+
+  - lemma: "tunc"
+    pos: adverb
+    definition: "then, at that time"
+    frequency_rank: 207
+    difficulty: 2
+    notes: "Variant of tum."
+
+  - lemma: "modo"
+    pos: adverb
+    definition: "only, merely; just now; modo...modo = now...now"
+    frequency_rank: 208
+    difficulty: 4
+    notes: "Also used as ablative of modus. modo...modo = at one time...at another."
+
+  - lemma: "satis"
+    pos: adverb
+    definition: "enough, sufficiently; (indeclinable noun) enough"
+    frequency_rank: 209
+    difficulty: 3
+    notes: "Can function as adverb, adjective, or indeclinable noun."
+
+  - lemma: "bene"
+    pos: adverb
+    definition: "well, rightly; thoroughly"
+    frequency_rank: 210
+    difficulty: 2
+    notes: "Comparative: melius. Superlative: optime."
+
+  - lemma: "magis"
+    pos: adverb
+    definition: "more, rather, to a greater degree"
+    frequency_rank: 211
+    difficulty: 3
+    notes: "Used to form periphrastic comparatives with adjectives that lack comparative forms."
+
+  - lemma: "quomodo"
+    pos: adverb
+    definition: "how, in what way"
+    frequency_rank: 212
+    difficulty: 3
+
+  - lemma: "contra"
+    pos: preposition
+    definition: "against, opposite to (+ acc.); (adverb) on the contrary"
+    frequency_rank: 213
+    difficulty: 3
+
+  - lemma: "post"
+    pos: preposition
+    definition: "after, behind (+ acc.); (adverb) afterward, later"
+    frequency_rank: 214
+    difficulty: 2
+    notes: "Can function as both preposition (+ acc.) and adverb."
+
+  - lemma: "propter"
+    pos: preposition
+    definition: "on account of, because of (+ acc.)"
+    frequency_rank: 215
+    difficulty: 3
+
+  - lemma: "trans"
+    pos: preposition
+    definition: "across, over (+ acc.)"
+    frequency_rank: 216
+    difficulty: 3
+
+  - lemma: "apud"
+    pos: preposition
+    definition: "at, near, among; at the house of; in the presence of (+ acc.)"
+    frequency_rank: 217
+    difficulty: 4
+
+  - lemma: "sub"
+    pos: preposition
+    definition: "under, beneath (+ abl.); up to, to the foot of (+ acc.)"
+    frequency_rank: 218
+    difficulty: 3
+    notes: "Meaning changes with case: ablative = location under; accusative = motion to under."
+
+  - lemma: "super"
+    pos: preposition
+    definition: "above, over (+ acc.); about, concerning (+ abl.)"
+    frequency_rank: 219
+    difficulty: 4
+
+  - lemma: "ob"
+    pos: preposition
+    definition: "on account of, because of (+ acc.)"
+    frequency_rank: 220
+    difficulty: 4
+    notes: "quam ob rem / quapropter = on account of which thing, therefore."
+
+  - lemma: "ne"
+    pos: conjunction
+    definition: "that...not, lest (+ subj.); (enclitic -ne) introduces yes/no question"
+    frequency_rank: 221
+    difficulty: 5
+    notes: "As conjunction with subjunctive: negative purpose ('lest'). As enclitic -ne: marks a question. ne...quidem = not even."
+
+  - lemma: "dum"
+    pos: conjunction
+    definition: "while, as long as; until; provided that"
+    frequency_rank: 222
+    difficulty: 5
+    notes: "With indicative: 'while, as long as.' With subjunctive: 'until' or 'provided that.'"
+
+  - lemma: "nisi"
+    pos: conjunction
+    definition: "if not, unless; except"
+    frequency_rank: 223
+    difficulty: 3
+
+  - lemma: "sive"
+    pos: conjunction
+    definition: "or if; sive...sive = whether...or"
+    frequency_rank: 224
+    difficulty: 4
+    notes: "Also written seu. sive...sive (seu...seu) = whether...or."
+
+  - lemma: "quoniam"
+    pos: conjunction
+    definition: "since, because"
+    frequency_rank: 225
+    difficulty: 3
+
+  - lemma: "quod"
+    pos: conjunction
+    definition: "because, that; the fact that"
+    frequency_rank: 226
+    difficulty: 4
+    notes: "As conjunction (distinct from relative pronoun quod): introduces causal clauses or noun clauses."
+
+  - lemma: "itaque"
+    pos: conjunction
+    definition: "and so, therefore"
+    frequency_rank: 227
+    difficulty: 3
+    notes: "Not postpositive (unlike igitur); can stand first in its clause."
+
+  - lemma: "ac"
+    pos: conjunction
+    definition: "and, and also"
+    frequency_rank: 228
+    difficulty: 2
+    notes: "Shortened form of atque, used only before consonants."
+
+  - lemma: "vel"
+    pos: conjunction
+    definition: "or (inclusive); even; vel...vel = either...or"
+    frequency_rank: 229
+    difficulty: 3
+    notes: "Presents non-exclusive alternatives, unlike aut (exclusive). vel...vel = either...or (the distinction may not matter)."
+
+  - lemma: "an"
+    pos: conjunction
+    definition: "or (in questions); whether"
+    frequency_rank: 230
+    difficulty: 5
+    notes: "Introduces the second part of a double question: utrum...an = whether...or."
+
+  - lemma: "miser"
+    pos: adjective
+    definition: "wretched, unfortunate, miserable"
+    frequency_rank: 231
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "miser"
+        fs: "misera"
+        ns: "miserum"
+
+  - lemma: "sacer"
+    pos: adjective
+    definition: "sacred, holy; accursed"
+    frequency_rank: 232
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "sacer"
+        fs: "sacra"
+        ns: "sacrum"
+    notes: "Can mean both 'sacred' and 'accursed' (devoted to a god for destruction)."
+
+  - lemma: "medius"
+    pos: adjective
+    definition: "middle, middle of; midst"
+    frequency_rank: 233
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "medius"
+        fs: "media"
+        ns: "medium"
+    notes: "Often used attributively to mean 'the middle of': media urbs = the middle of the city."
+
+  - lemma: "potens"
+    pos: adjective
+    definition: "powerful, mighty; able, capable (+ gen.)"
+    frequency_rank: 234
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "potens"
+        fs: "potens"
+        ns: "potens"
+      genitive_singular: "potentis"
+    notes: "Third declension one-termination adjective. Present participle of possum used as adjective."
+
+  - lemma: "sapiens"
+    pos: adjective
+    definition: "wise, sensible; (noun) a wise person, philosopher"
+    frequency_rank: 235
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "sapiens"
+        fs: "sapiens"
+        ns: "sapiens"
+      genitive_singular: "sapientis"
+
+  - lemma: "ferox"
+    pos: adjective
+    definition: "fierce, savage; bold, defiant"
+    frequency_rank: 236
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "ferox"
+        fs: "ferox"
+        ns: "ferox"
+      genitive_singular: "ferocis"
+
+  - lemma: "celer"
+    pos: adjective
+    definition: "swift, fast, quick"
+    frequency_rank: 237
+    difficulty: 4
+    forms:
+      nominative:
+        ms: "celer"
+        fs: "celeris"
+        ns: "celere"
+    notes: "Third declension three-termination adjective."
+
+  - lemma: "clarus"
+    pos: adjective
+    definition: "clear, bright; famous, distinguished"
+    frequency_rank: 238
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "clarus"
+        fs: "clara"
+        ns: "clarum"
+
+  - lemma: "cupidus"
+    pos: adjective
+    definition: "desirous, eager (+ gen.); greedy"
+    frequency_rank: 239
+    difficulty: 5
+    forms:
+      nominative:
+        ms: "cupidus"
+        fs: "cupida"
+        ns: "cupidum"
+    notes: "Takes genitive of the thing desired."
+
+  - lemma: "iustus"
+    pos: adjective
+    definition: "just, fair, right; lawful"
+    frequency_rank: 240
+    difficulty: 3
+    forms:
+      nominative:
+        ms: "iustus"
+        fs: "iusta"
+        ns: "iustum"
+
+  - lemma: "fugio"
+    pos: verb
+    definition: "to flee, run away; avoid, escape"
+    frequency_rank: 241
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "fugio"
+        2s: "fugis"
+        3s: "fugit"
+        1p: "fugimus"
+        2p: "fugitis"
+        3p: "fugiunt"
+    notes: "Third conjugation -io verb. Principal parts: fugio, fugere, fugi, fugitus."
+
+  - lemma: "vinco"
+    pos: verb
+    definition: "to conquer, defeat; prevail"
+    frequency_rank: 242
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "vinco"
+        2s: "vincis"
+        3s: "vincit"
+        1p: "vincimus"
+        2p: "vincitis"
+        3p: "vincunt"
+    notes: "Third conjugation. Principal parts: vinco, vincere, vici, victus."
+
+  - lemma: "interficio"
+    pos: verb
+    definition: "to kill, destroy"
+    frequency_rank: 243
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "interficio"
+        2s: "interficis"
+        3s: "interficit"
+        1p: "interficimus"
+        2p: "interficitis"
+        3p: "interficiunt"
+    notes: "Third conjugation -io verb. Compound of inter + facio. Principal parts: interficio, interficere, interfeci, interfectus."
+
+  - lemma: "pugno"
+    pos: verb
+    definition: "to fight"
+    frequency_rank: 244
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "pugno"
+        2s: "pugnas"
+        3s: "pugnat"
+        1p: "pugnamus"
+        2p: "pugnatis"
+        3p: "pugnant"
+    notes: "First conjugation. Principal parts: pugno, pugnare, pugnavi, pugnatus. Intransitive."
+
+  - lemma: "respondeo"
+    pos: verb
+    definition: "to answer, reply; correspond"
+    frequency_rank: 245
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "respondeo"
+        2s: "respondes"
+        3s: "respondet"
+        1p: "respondemus"
+        2p: "respondetis"
+        3p: "respondent"
+    notes: "Second conjugation. Principal parts: respondeo, respondere, respondi, responsus."
+
+  - lemma: "rogo"
+    pos: verb
+    definition: "to ask, request; propose (a law)"
+    frequency_rank: 246
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "rogo"
+        2s: "rogas"
+        3s: "rogat"
+        1p: "rogamus"
+        2p: "rogatis"
+        3p: "rogant"
+    notes: "First conjugation. Principal parts: rogo, rogare, rogavi, rogatus. Takes double accusative (person asked + thing asked)."
+
+  - lemma: "doceo"
+    pos: verb
+    definition: "to teach, instruct; show"
+    frequency_rank: 247
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "doceo"
+        2s: "doces"
+        3s: "docet"
+        1p: "docemus"
+        2p: "docetis"
+        3p: "docent"
+    notes: "Second conjugation. Principal parts: doceo, docere, docui, doctus. Takes double accusative (person taught + subject taught)."
+
+  - lemma: "narro"
+    pos: verb
+    definition: "to tell, narrate, relate"
+    frequency_rank: 248
+    difficulty: 3
+    forms:
+      present_active_indicative:
+        1s: "narro"
+        2s: "narras"
+        3s: "narrat"
+        1p: "narramus"
+        2p: "narratis"
+        3p: "narrant"
+    notes: "First conjugation. Principal parts: narro, narrare, narravi, narratus."
+
+  - lemma: "supero"
+    pos: verb
+    definition: "to surpass, overcome; survive; be left over"
+    frequency_rank: 249
+    difficulty: 4
+    forms:
+      present_active_indicative:
+        1s: "supero"
+        2s: "superas"
+        3s: "superat"
+        1p: "superamus"
+        2p: "superatis"
+        3p: "superant"
+    notes: "First conjugation. Principal parts: supero, superare, superavi, superatus."
+
+  - lemma: "cogo"
+    pos: verb
+    definition: "to compel, force; collect, gather"
+    frequency_rank: 250
+    difficulty: 5
+    forms:
+      present_active_indicative:
+        1s: "cogo"
+        2s: "cogis"
+        3s: "cogit"
+        1p: "cogimus"
+        2p: "cogitis"
+        3p: "cogunt"
+    notes: "Third conjugation. Compound of co(n)- + ago. Principal parts: cogo, cogere, coegi, coactus. Takes accusative + infinitive."

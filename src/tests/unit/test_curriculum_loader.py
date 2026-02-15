@@ -299,7 +299,7 @@ def test_registry_with_real_seed_data() -> None:
     vocab_sets = registry.get_vocabulary_sets("latin")
     assert len(vocab_sets) >= 1
     assert vocab_sets[0].set == "core-001"
-    assert len(vocab_sets[0].items) == 10
+    assert len(vocab_sets[0].items) == 100
 
     concepts = registry.get_grammar_concepts("latin")
     assert len(concepts) >= 3
