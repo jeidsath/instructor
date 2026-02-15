@@ -1,0 +1,55 @@
+language: latin
+title: "Hannibal ad Portās"
+difficulty: 4
+content: |
+  Hannibal, dux Carthāginiēnsis, Alpēs cum exercitū trānsīvit.
+  Iter difficile erat. Multī mīlitēs et elephantī in montibus periērunt.
+  Hannibal tamen cōpiās in Italiam dūxit. Rōmānī magnō timōre affectī sunt.
+  Tribus proeliīs Hannibal Rōmānōs vīcit. Ad Cannās maximam clādem Rōmānīs intulit.
+  Sed Rōmānī nōn sē dēdidērunt. Novōs exercitūs comparāvērunt.
+  Multōs annōs Hannibal in Italiā mānsit, sed Rōmam capere nōn potuit.
+translation: |
+  Hannibal, a Carthaginian general, crossed the Alps with his army.
+  The journey was difficult. Many soldiers and elephants perished in the mountains.
+  Hannibal nevertheless led his forces into Italy. The Romans were struck with great fear.
+  In three battles Hannibal defeated the Romans. At Cannae he inflicted the greatest defeat on the Romans.
+  But the Romans did not surrender. They assembled new armies.
+  For many years Hannibal remained in Italy, but he could not capture Rome.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Third Declension i-Stems"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Dative Case"
+  - "Perfect Active Indicative"
+  - "Pluperfect Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Third Declension Adjectives"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "Carthāginiēnsis"
+    note: "Third declension adjective: Carthaginian"
+  - word: "Alpēs"
+    note: "Third declension i-stem feminine plural: the Alps"
+  - word: "trānsīvit"
+    note: "Third person singular perfect active of trānseō: to cross over"
+  - word: "elephantī"
+    note: "Nominative plural of elephantus: elephant (Hannibal famously used war elephants)"
+  - word: "periērunt"
+    note: "Third person plural perfect active of pereō: to perish, die"
+  - word: "clādem"
+    note: "Accusative singular of clādēs (third declension): disaster, defeat"
+  - word: "dēdidērunt"
+    note: "Third person plural perfect active of dēdō: to surrender (sē dēdere = reflexive)"
+grammar_notes:
+  - concept: "Third Declension"
+    note: "dux, mīlitēs, Alpēs, montibus, clādem — various third declension forms"
+  - concept: "Perfect Active Indicative"
+    note: "trānsīvit, periērunt, dūxit, vīcit, intulit — historical narrative in perfect tense"
+  - concept: "Ablative Case"
+    note: "cum exercitū (accompaniment), in montibus (location), magnō timōre (manner/cause)"
+  - concept: "Reflexive Pronoun"
+    note: "sē dēdidērunt — reflexive pronoun sē as direct object of dēdō"

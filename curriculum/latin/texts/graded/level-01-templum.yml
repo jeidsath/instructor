@@ -1,0 +1,43 @@
+language: latin
+title: "Templum Iovis"
+difficulty: 2
+content: |
+  In Capitōliō templum magnum est. Templum Iovis est.
+  Sacerdōs ad templum ambulat. Populus deōs ōrat.
+  Sacerdōs dōna ad āram portat. Dōna deīs grāta sunt.
+  "Iuppiter, urbem servā!" sacerdōs clāmat. Populus tacet.
+translation: |
+  On the Capitoline Hill there is a great temple. It is the temple of Jupiter.
+  A priest walks to the temple. The people pray to the gods.
+  The priest carries gifts to the altar. The gifts are pleasing to the gods.
+  "Jupiter, save the city!" the priest shouts. The people are silent.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Imperative Mood"
+vocabulary_notes:
+  - word: "Capitōliō"
+    note: "Ablative of Capitōlium: the Capitoline Hill, seat of Jupiter's temple"
+  - word: "Iovis"
+    note: "Genitive singular of Iuppiter: Jupiter (irregular third declension)"
+  - word: "sacerdōs"
+    note: "Third declension: priest"
+  - word: "dōna"
+    note: "Nominative/accusative plural of dōnum (neuter): gift, offering"
+  - word: "āram"
+    note: "Accusative singular of āra: altar"
+  - word: "grāta"
+    note: "Nominative plural neuter of grātus: pleasing, welcome"
+grammar_notes:
+  - concept: "Genitive Case"
+    note: "Iovis — genitive of possession: 'the temple of Jupiter'"
+  - concept: "Dative Case"
+    note: "deīs — dative plural: 'pleasing to the gods'; indirect object of grāta"
+  - concept: "Imperative Mood"
+    note: "servā — second person singular imperative of servō: save!"

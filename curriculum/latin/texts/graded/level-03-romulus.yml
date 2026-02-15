@@ -1,0 +1,56 @@
+language: latin
+title: "Rōmulus et Remus"
+difficulty: 5
+content: |
+  Rōmulus et Remus ā lupa nūtrītī sunt. Puerī ā pāstōre inventī et ēducātī sunt.
+  Cum adulēscentēs factī essent, urbem novam condere cōnstituērunt.
+  Sed dē locō urbis inter sē contendēbant. Rōmulus Palātīnum montem ēlēgit;
+  Remus Aventīnum praetulerat. Uterque avēs observāvit ut deōrum voluntātem cognōsceret.
+  Rōmulō duodecim vulturēs vīsī sunt; Remō sex tantum. Rōmulus igitur urbem
+  suam Rōmam appellāvit. Mūrus ab eō aedificātus est.
+  Remus autem mūrum parvum trānsīluit et ā Rōmulō occīsus est.
+translation: |
+  Romulus and Remus were nursed by a she-wolf. The boys were found and raised by a shepherd.
+  When they had become young men, they decided to found a new city.
+  But they were quarreling about the location of the city. Romulus chose the Palatine Hill;
+  Remus had preferred the Aventine. Each observed the birds to learn the will of the gods.
+  Twelve vultures were seen by Romulus; only six by Remus. Therefore Romulus
+  named his city Roma. A wall was built by him.
+  But Remus jumped over the small wall and was killed by Romulus.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Perfect Active Indicative"
+  - "Present Passive Indicative"
+  - "Imperfect Passive Indicative"
+  - "Perfect Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Demonstrative Pronouns"
+  - "Reflexive Pronoun"
+  - "Comparison of Adjectives"
+vocabulary_notes:
+  - word: "lupa"
+    note: "First declension feminine: she-wolf"
+  - word: "nūtrītī sunt"
+    note: "Perfect passive indicative of nūtriō: to nurse, nourish"
+  - word: "pāstōre"
+    note: "Ablative singular of pāstor (third declension): shepherd"
+  - word: "condere"
+    note: "Present active infinitive of condō: to found, establish"
+  - word: "vulturēs"
+    note: "Nominative plural of vultur (third declension): vulture"
+  - word: "trānsīluit"
+    note: "Third person singular perfect active of trānsiliō: to jump over"
+grammar_notes:
+  - concept: "Perfect Passive Indicative"
+    note: "nūtrītī sunt, inventī sunt, ēducātī sunt, aedificātus est, occīsus est — passive constructions with agent expressed by ā/ab + ablative"
+  - concept: "Perfect Passive Participle"
+    note: "nūtrītī, inventī, ēducātī, factī, aedificātus, occīsus — fourth principal part forms agreeing with subject"
+  - concept: "Reflexive Pronoun"
+    note: "inter sē (among themselves), suam (his own) — reflexive reference to the subject"

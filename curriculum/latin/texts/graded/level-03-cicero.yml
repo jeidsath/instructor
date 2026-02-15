@@ -1,0 +1,53 @@
+language: latin
+title: "Cicerō Ōrātor"
+difficulty: 5
+content: |
+  Mārcus Tullius Cicerō, clārissimus ōrātōrum Rōmānōrum, multōs annōs rem pūblicam dēfendit.
+  Ōrātiōnēs eius in senātū habitae ab omnibus laudābantur.
+  Cum Catilīna coniūrātiōnem contrā rem pūblicam fēcisset, Cicerō eam dētēxit.
+  Catilīna ē senātū ēiectus est et cum sociīs suīs fūgit.
+  Cicerō ā populō "pater patriae" appellātus est. Haec victōria eī magnam glōriam dedit.
+  Posteā tamen ab inimīcīs in exsilium pulsus est. Sed brevī tempore revocātus est.
+translation: |
+  Marcus Tullius Cicero, the most famous of Roman orators, defended the republic for many years.
+  His speeches delivered in the senate were praised by everyone.
+  When Catiline had made a conspiracy against the republic, Cicero exposed it.
+  Catiline was thrown out of the senate and fled with his associates.
+  Cicero was called "father of the fatherland" by the people. This victory gave him great glory.
+  Later however he was driven into exile by enemies. But within a short time he was recalled.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Perfect Active Indicative"
+  - "Imperfect Passive Indicative"
+  - "Perfect Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Comparison of Adjectives"
+  - "Demonstrative Pronouns"
+  - "Relative Pronoun"
+vocabulary_notes:
+  - word: "clārissimus"
+    note: "Superlative of clārus: most famous, most illustrious (comparison of adjectives)"
+  - word: "ōrātōrum"
+    note: "Genitive plural of ōrātor (third declension): orator, speaker"
+  - word: "rem pūblicam"
+    note: "Accusative of rēs pūblica: the republic, the state (literally 'public thing')"
+  - word: "coniūrātiōnem"
+    note: "Accusative singular of coniūrātiō: conspiracy, plot"
+  - word: "dētēxit"
+    note: "Third person singular perfect active of dētegō: to uncover, expose"
+  - word: "exsilium"
+    note: "Accusative singular of exsilium (neuter): exile"
+grammar_notes:
+  - concept: "Comparison of Adjectives"
+    note: "clārissimus — superlative degree: 'most famous' (from clārus, clārior, clārissimus)"
+  - concept: "Perfect Passive Indicative"
+    note: "ēiectus est, appellātus est, pulsus est, revocātus est — passive with ā/ab agent"
+  - concept: "Demonstrative Pronouns"
+    note: "eius (genitive of is: his), eam (accusative of ea: it), eī (dative of is: to him), haec (this)"

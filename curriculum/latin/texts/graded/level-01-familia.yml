@@ -1,0 +1,42 @@
+language: latin
+title: "Familia Rōmāna"
+difficulty: 1
+content: |
+  Marcus est puer Rōmānus. Marcus in magnā casā habitat.
+  Pater Marcī est bonus agricola. Māter Marcī cēnam parat.
+  Marcus amīcum habet. Amīcus Marcī est Lūcius. Lūcius et Marcus in hortō lūdunt.
+  Pueri laetī sunt. Māter puerōs vocat. "Venīte!" clāmat. Puerī ad casam currunt.
+translation: |
+  Marcus is a Roman boy. Marcus lives in a large house.
+  Marcus's father is a good farmer. Marcus's mother prepares dinner.
+  Marcus has a friend. Marcus's friend is Lucius. Lucius and Marcus play in the garden.
+  The boys are happy. The mother calls the boys. "Come!" she shouts. The boys run to the house.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Vocative Case"
+  - "Present Active Indicative"
+  - "Imperative Mood"
+  - "First-Second Declension Adjectives"
+vocabulary_notes:
+  - word: "puer"
+    note: "Second declension masculine noun: boy (irregular — no -us ending in nominative)"
+  - word: "casā"
+    note: "Ablative singular of casa: house, cottage"
+  - word: "habitat"
+    note: "Third person singular present active of habitō: to live, dwell"
+  - word: "cēnam"
+    note: "Accusative singular of cēna: dinner, meal"
+  - word: "hortō"
+    note: "Ablative singular of hortus: garden"
+  - word: "laetī"
+    note: "Nominative plural masculine of laetus: happy, joyful"
+grammar_notes:
+  - concept: "Second Declension"
+    note: "Marcus, amīcus, Lūcius, hortus — all second declension masculine nouns"
+  - concept: "Imperative Mood"
+    note: "Venīte — second person plural imperative of veniō"
+  - concept: "First-Second Declension Adjectives"
+    note: "Rōmānus, magnus, bonus, laetus — all first-second declension adjectives agreeing with their nouns"

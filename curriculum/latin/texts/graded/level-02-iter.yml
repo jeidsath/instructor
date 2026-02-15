@@ -1,0 +1,50 @@
+language: latin
+title: "Iter ad Graeciam"
+difficulty: 3
+content: |
+  Mercātor Rōmānus iter longum faciēbat. Ab urbe Rōmā ad Graeciam nāvigābat.
+  Nāvis parva erat sed nauta perītus eam regēbat. Mare tranquillum erat.
+  Tertio diē ventus magnus vēnit. Undae altae nāvem quassābant.
+  Mercātor timēbat, sed nauta nāvem servāvit. Tandem ad portum pervēnērunt.
+  "Grātiās deīs agō!" mercātor exclāmāvit. In terrā Graecā tūtus erat.
+translation: |
+  A Roman merchant was making a long journey. He was sailing from the city of Rome to Greece.
+  The ship was small but a skilled sailor was steering it. The sea was calm.
+  On the third day a great wind came. High waves were battering the ship.
+  The merchant was afraid, but the sailor saved the ship. At last they arrived at the port.
+  "I give thanks to the gods!" the merchant exclaimed. He was safe on Greek land.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Perfect Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Third Declension Adjectives"
+  - "Adjective Placement"
+vocabulary_notes:
+  - word: "iter"
+    note: "Third declension neuter (irregular): journey, route (iter, itineris)"
+  - word: "nāvigābat"
+    note: "Third person singular imperfect active of nāvigō: to sail"
+  - word: "nāvis"
+    note: "Third declension i-stem feminine: ship (nāvis, -is)"
+  - word: "perītus"
+    note: "First-second declension adjective: skilled, experienced"
+  - word: "undae"
+    note: "Nominative plural of unda: wave"
+  - word: "quassābant"
+    note: "Third person plural imperfect active of quassō: to shake, batter"
+  - word: "pervēnērunt"
+    note: "Third person plural perfect active of perveniō: to arrive"
+grammar_notes:
+  - concept: "Third Declension"
+    note: "iter, nāvis, mare, portum — third declension nouns of various genders and stems"
+  - concept: "Ablative Case"
+    note: "Ab urbe (motion from), tertiō diē (time when), in terrā (location)"
+  - concept: "Adjective Placement"
+    note: "iter longum, nāvis parva, ventus magnus — adjectives typically follow nouns in neutral position"

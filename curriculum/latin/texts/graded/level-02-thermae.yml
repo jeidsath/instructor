@@ -1,0 +1,52 @@
+language: latin
+title: "Ad Thermās"
+difficulty: 4
+content: |
+  Hōrā nōnā cīvēs ad thermās contendēbant. Thermae magnae et pulchrae erant.
+  In frīgidāriō aqua frīgida erat. In caldāriō aqua calida fluēbat.
+  Iuvenēs in palaestrā luctābantur. Senēs in tepidāriō sedēbant et colloquēbantur.
+  Marcus corpus oleum ūnxit. Servus eī tergum strīnxit.
+  Post balneum Marcus cum amīcīs per urbem ambulāvit. Nox iam aderat.
+translation: |
+  At the ninth hour citizens were hurrying to the baths. The baths were large and beautiful.
+  In the cold room the water was cold. In the hot room warm water was flowing.
+  Young men were wrestling in the exercise yard. Old men were sitting in the warm room and conversing.
+  Marcus rubbed oil on his body. A slave scraped his back.
+  After the bath Marcus walked through the city with friends. Night was already approaching.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Third Declension"
+  - "Third Declension i-Stems"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Perfect Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Third Declension Adjectives"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "hōrā nōnā"
+    note: "Ablative of time: 'at the ninth hour' (about 3 PM, when baths opened)"
+  - word: "thermās"
+    note: "Accusative plural of thermae (first declension plural): public baths"
+  - word: "frīgidāriō"
+    note: "Ablative of frīgidārium: the cold room of a Roman bath complex"
+  - word: "caldāriō"
+    note: "Ablative of caldārium: the hot room of a Roman bath complex"
+  - word: "luctābantur"
+    note: "Third person plural imperfect of lūctor (deponent): to wrestle"
+  - word: "ūnxit"
+    note: "Third person singular perfect of ungō: to anoint, rub with oil"
+  - word: "strīnxit"
+    note: "Third person singular perfect of stringō: to scrape (with a strigil)"
+grammar_notes:
+  - concept: "Third Declension i-Stems"
+    note: "cīvēs (cīvis), iuvenēs (iuvenis) — third declension i-stem nouns"
+  - concept: "Ablative Case"
+    note: "hōrā nōnā (time when), in frīgidāriō/caldāriō/palaestrā (location), cum amīcīs (accompaniment)"
+  - concept: "Reflexive Pronoun"
+    note: "eī (dative of is) used as a reflexive reference to Marcus"

@@ -1,0 +1,49 @@
+language: latin
+title: "Bellum cum Gallīs"
+difficulty: 3
+content: |
+  Rōmānī bellum cum Gallīs gerēbant. Gallī fortēs erant et magnōs exercitūs habēbant.
+  Dux Rōmānus mīlitēs in castra dūxit. Mīlitēs gladiōs et scūta portābant.
+  Nocte hostēs ad castra vēnērunt. Vigil clāmōrem audīvit et mīlitēs excitāvit.
+  Mīlitēs ē castrīs cucurrērunt. Proelium ācre erat. Rōmānī hostēs vīcērunt.
+translation: |
+  The Romans were waging war with the Gauls. The Gauls were brave and had large armies.
+  The Roman general led the soldiers into the camp. The soldiers were carrying swords and shields.
+  At night the enemy came to the camp. A guard heard the shout and roused the soldiers.
+  The soldiers ran out of the camp. The battle was fierce. The Romans defeated the enemy.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Present Active Indicative"
+  - "Imperfect Active Indicative"
+  - "Perfect Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Third Declension Adjectives"
+vocabulary_notes:
+  - word: "gerēbant"
+    note: "Third person plural imperfect active of gerō: to carry on, wage (bellum gerere = to wage war)"
+  - word: "exercitūs"
+    note: "Accusative plural of exercitus (fourth declension): army — preview of later declension"
+  - word: "castra"
+    note: "Neuter plural noun used only in plural: camp (castra, -ōrum)"
+  - word: "gladiōs"
+    note: "Accusative plural of gladius: sword"
+  - word: "scūta"
+    note: "Accusative plural of scūtum (neuter): shield"
+  - word: "hostēs"
+    note: "Third declension i-stem: enemies (hostis, -is)"
+  - word: "vīcērunt"
+    note: "Third person plural perfect active of vincō: to conquer, defeat"
+grammar_notes:
+  - concept: "Third Declension"
+    note: "dux, mīlitēs, hostēs, vigil, clāmōrem — third declension nouns with various stems"
+  - concept: "Imperfect Active Indicative"
+    note: "gerēbant, habēbant, portābant — ongoing past actions marked by -bā- infix"
+  - concept: "Perfect Active Indicative"
+    note: "dūxit, vēnērunt, audīvit, excitāvit, cucurrērunt, vīcērunt — completed past actions"
+  - concept: "Ablative Case"
+    note: "cum Gallīs (accompaniment), nocte (time), ē castrīs (separation/motion from)"

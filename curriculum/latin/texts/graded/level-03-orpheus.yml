@@ -1,0 +1,62 @@
+language: latin
+title: "Orpheus et Eurydīcē"
+difficulty: 6
+content: |
+  Orpheus, poēta nōbilissimus, uxōrem Eurydīcēn maximē amābat.
+  Eurydīcē autem ā serpente morsa mortua est. Orpheus, dolōre victus, ad Īnferōs dēscendit.
+  Carmina tam pulchra cecinit ut Cerberus, canis trīceps, quiēsceret.
+  Plūtō et Prōserpina, eius cantū commōtī, Eurydīcēn eī reddidērunt.
+  Ūna tamen condiciō posita est: Orpheus nōn dēbēbat uxōrem respicere
+  dum ex Īnferīs ascenderet. Orpheus per longam viam dūcēbat.
+  Prope exitum, timōre superātus, sē convertit et Eurydīcēn respexit.
+  Illa statim in umbrās retracta est. Orpheus eam iterum āmīsit.
+translation: |
+  Orpheus, a most noble poet, loved his wife Eurydice very much.
+  But Eurydice, bitten by a serpent, died. Orpheus, overcome by grief, descended to the Underworld.
+  He sang songs so beautiful that Cerberus, the three-headed dog, grew quiet.
+  Pluto and Proserpina, moved by his singing, returned Eurydice to him.
+  One condition, however, was set: Orpheus was not to look back at his wife
+  while ascending from the Underworld. Orpheus was leading the way along the long road.
+  Near the exit, overcome by fear, he turned and looked back at Eurydice.
+  She was immediately drawn back into the shadows. Orpheus lost her again.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Perfect Active Indicative"
+  - "Imperfect Active Indicative"
+  - "Perfect Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Present Participle"
+  - "Comparison of Adjectives"
+  - "Demonstrative Pronouns"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "nōbilissimus"
+    note: "Superlative of nōbilis: most noble, most renowned"
+  - word: "serpente"
+    note: "Ablative singular of serpēns (third declension): serpent, snake"
+  - word: "morsa"
+    note: "Perfect passive participle of mordeō: bitten (nominative feminine agreeing with Eurydīcē)"
+  - word: "Īnferōs"
+    note: "Accusative plural of Īnferī: the Underworld, the realm of the dead"
+  - word: "carmina"
+    note: "Accusative plural of carmen (third declension neuter): song, poem"
+  - word: "cantū"
+    note: "Ablative singular of cantus (fourth declension): singing"
+  - word: "condiciō"
+    note: "Third declension feminine: condition, stipulation"
+grammar_notes:
+  - concept: "Perfect Passive Participle"
+    note: "morsa, victus, commōtī, posita, superātus, retracta — participles used as adjectives modifying nouns"
+  - concept: "Present Participle"
+    note: "Implied in the narrative flow; ascenderet shows subjunctive in temporal clause"
+  - concept: "Comparison of Adjectives"
+    note: "nōbilissimus, pulchra with intensifier tam — superlative and emphatic comparison"
+  - concept: "Reflexive Pronoun"
+    note: "sē convertit — reflexive: 'turned himself'"

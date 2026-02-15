@@ -1,0 +1,64 @@
+language: latin
+title: "Epistula Plīniī"
+difficulty: 6
+content: |
+  Plīnius amīcō suō Tacitō salūtem dīcit.
+  Petīs ut tibi scrībam quōmodo māter mea et ego ē perīculō ēvāserimus.
+  Mīsēnus sub Vesuviō iacēbat. Nūbēs ātra ē monte surgēbat.
+  Avunculus meus, vir fortissimus, nāvem parārī iussit ut propius accēderet.
+  Cinis et lapidēs in nāvem cadēbant. Fluctūs magnī nāvem impediēbant.
+  Ille tamen nōn sē vertit. Ad lītus pervēnit et amīcōs territōs cōnsōlātus est.
+  Postrīdiē corpus eius in lītore inventum est. Vultu placidō iacēbat,
+  dormientī similior quam mortuō.
+translation: |
+  Pliny says greetings to his friend Tacitus.
+  You ask me to write to you how my mother and I escaped from danger.
+  Misenum lay below Vesuvius. A dark cloud was rising from the mountain.
+  My uncle, a very brave man, ordered a ship to be prepared so he could approach closer.
+  Ash and stones were falling on the ship. Great waves were hindering the ship.
+  He nevertheless did not turn back. He reached the shore and consoled his terrified friends.
+  The next day his body was found on the shore. He was lying with a peaceful expression,
+  more like someone sleeping than dead.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Fourth Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Perfect Active Indicative"
+  - "Perfect Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Present Participle"
+  - "Perfect Active Infinitive"
+  - "Comparison of Adjectives"
+  - "Demonstrative Pronouns"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "salūtem"
+    note: "Accusative of salūs: greeting (formula: X Y-ō salūtem dīcit = X says greetings to Y)"
+  - word: "Vesuviō"
+    note: "Ablative of Vesuvius: Mount Vesuvius, which erupted in 79 AD"
+  - word: "nūbēs"
+    note: "Third declension i-stem feminine: cloud"
+  - word: "avunculus"
+    note: "Second declension masculine: uncle (specifically maternal uncle — Pliny the Elder)"
+  - word: "cinis"
+    note: "Third declension masculine: ash, cinder"
+  - word: "lītus"
+    note: "Third declension neuter (lītus, lītoris): shore, beach"
+  - word: "dormientī"
+    note: "Dative singular of present participle dormiēns: to one sleeping"
+grammar_notes:
+  - concept: "Present Participle"
+    note: "dormientī — dative of present participle used in comparison 'more like one sleeping'"
+  - concept: "Perfect Passive Participle"
+    note: "territōs — accusative plural modifying amīcōs; inventum — modifying corpus"
+  - concept: "Comparison of Adjectives"
+    note: "fortissimus (superlative of fortis), similior (comparative of similis) with dative"
+  - concept: "Perfect Active Infinitive"
+    note: "parārī — passive infinitive in indirect command (iussit ut + subjunctive is alternative construction)"

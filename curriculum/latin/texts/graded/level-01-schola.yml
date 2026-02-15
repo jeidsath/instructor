@@ -1,0 +1,37 @@
+language: latin
+title: "In Scholā"
+difficulty: 2
+content: |
+  Magister in scholā docet. Discipulī in sellīs sedent.
+  Magister fābulam nārrat. Discipulī fābulam audiunt.
+  "Quis est poēta?" magister rogat. Marcus respondet: "Vergilius est poēta."
+  Magister Marcum laudat. Discipulī librōs legunt. Scholā bona est.
+translation: |
+  The teacher teaches in the school. The students sit in chairs.
+  The teacher tells a story. The students hear the story.
+  "Who is the poet?" the teacher asks. Marcus answers: "Vergil is the poet."
+  The teacher praises Marcus. The students read books. The school is good.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Present Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Personal Pronouns"
+vocabulary_notes:
+  - word: "magister"
+    note: "Second declension masculine: teacher, master"
+  - word: "scholā"
+    note: "Ablative singular of schola: school (from Greek σχολή)"
+  - word: "discipulī"
+    note: "Nominative plural of discipulus: student, learner"
+  - word: "fābulam"
+    note: "Accusative singular of fābula: story, tale"
+  - word: "poēta"
+    note: "First declension masculine noun (unusual — most first declension nouns are feminine)"
+grammar_notes:
+  - concept: "First Declension"
+    note: "schola, fābula, sella — feminine nouns; poēta — masculine exception"
+  - concept: "Accusative Case"
+    note: "fābulam, Marcum, librōs — direct objects showing accusative singular and plural"

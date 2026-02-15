@@ -1,0 +1,72 @@
+language: latin
+title: "In Catilīnam I.1"
+author: "Mārcus Tullius Cicerō"
+difficulty: 8
+content: |
+  Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?
+  Quam diū etiam furor iste tuus nōs ēlūdet?
+  Quem ad fīnem sēsē effrēnāta iactābit audācia?
+  Nihilne tē nocturnum praesidium Palātiī, nihil urbis vigiliae,
+  nihil timor populī, nihil cōnsēnsus bonōrum omnium,
+  nihil hīc mūnītissimus habendī senātūs locus,
+  nihil hōrum ōra vultūsque mōvērunt?
+  Patēre tua cōnsilia nōn sentīs? Cōnstrictam iam hōrum omnium
+  scientiā tenērī coniūrātiōnem tuam nōn vidēs?
+translation: |
+  How far, finally, will you abuse our patience, Catiline?
+  How long will that madness of yours still elude us?
+  To what limit will your unbridled audacity flaunt itself?
+  Did the nightly guard of the Palatine not move you at all, nor the watches of the city,
+  nor the fear of the people, nor the agreement of all good men,
+  nor this most fortified place for holding the senate,
+  nor the faces and expressions of these men?
+  Do you not perceive that your plans lie open? Do you not see that your conspiracy
+  is already held in check by the knowledge of all these men?
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Ablative Case"
+  - "Future Active Indicative"
+  - "Perfect Active Indicative"
+  - "Present Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Present Active Infinitive"
+  - "Comparison of Adjectives"
+  - "Demonstrative Pronouns"
+  - "Interrogative Pronoun"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "abūtēre"
+    note: "Second person singular future of abūtor (deponent): to abuse, misuse (+ ablative)"
+  - word: "furor"
+    note: "Third declension masculine: madness, frenzy"
+  - word: "ēlūdet"
+    note: "Third person singular future active of ēlūdō: to elude, mock"
+  - word: "effrēnāta"
+    note: "Perfect passive participle of effrēnō: unbridled, unrestrained"
+  - word: "audācia"
+    note: "First declension feminine: audacity, boldness"
+  - word: "praesidium"
+    note: "Second declension neuter: guard, garrison, protection"
+  - word: "cōnsēnsus"
+    note: "Fourth declension masculine: agreement, consensus"
+  - word: "mūnītissimus"
+    note: "Superlative of mūnītus: most fortified, most defended"
+  - word: "coniūrātiōnem"
+    note: "Accusative of coniūrātiō (third declension): conspiracy, plot"
+grammar_notes:
+  - concept: "Interrogative Pronoun"
+    note: "Quō (to where), Quam diū (how long), Quem ad fīnem (to what end) — rhetorical questions building intensity"
+  - concept: "Future Active Indicative"
+    note: "abūtēre, ēlūdet, iactābit — future tense in indignant rhetorical questions"
+  - concept: "Comparison of Adjectives"
+    note: "mūnītissimus — superlative: 'most fortified'"
+  - concept: "Reflexive Pronoun"
+    note: "sēsē — emphatic form of sē: 'itself' (audācia iactābit sēsē)"
+  - concept: "Perfect Passive Participle"
+    note: "effrēnāta (unbridled), cōnstrictam (restrained) — participles as adjectives"

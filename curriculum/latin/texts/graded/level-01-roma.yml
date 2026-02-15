@@ -1,0 +1,35 @@
+language: latin
+title: "Rōma"
+difficulty: 1
+content: |
+  Rōma est magna. Rōma in Italiā est. Agricola in viā ambulat.
+  Puella aquam portat. Fēmina fīliam vocat. Fīlia ad fēminam currit.
+  Agricola puellam videt. "Salvē!" agricola clāmat. Puella rīdet.
+translation: |
+  Rome is great. Rome is in Italy. A farmer walks on the road.
+  A girl carries water. A woman calls her daughter. The daughter runs to the woman.
+  The farmer sees the girl. "Hello!" the farmer shouts. The girl laughs.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Present Active Indicative"
+vocabulary_notes:
+  - word: "Rōma"
+    note: "First declension proper noun; the city of Rome"
+  - word: "magna"
+    note: "First-second declension adjective (magnus, -a, -um): great, large"
+  - word: "Italiā"
+    note: "Ablative singular of Italia; used with preposition 'in' for location"
+  - word: "aquam"
+    note: "Accusative singular of aqua: water"
+  - word: "ambulat"
+    note: "Third person singular present active of ambulō: to walk"
+grammar_notes:
+  - concept: "First Declension"
+    note: "puella, fēmina, fīlia, aqua, via — all first declension feminine nouns"
+  - concept: "Present Active Indicative"
+    note: "ambulat, portat, vocat, currit, videt, clāmat, rīdet — all third person singular present"
+  - concept: "Accusative Case"
+    note: "aquam, fīliam, puellam — direct objects of transitive verbs"

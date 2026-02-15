@@ -1,0 +1,46 @@
+language: latin
+title: "Cēna Rōmāna"
+difficulty: 3
+content: |
+  Dominus amīcōs ad cēnam invītāvit. Servī cibum et vīnum parāvērunt.
+  In triclīniō trēs lectī erant. Convīvae in lectīs recubuērunt.
+  Prīmum servī ōva et olīvās tulērunt. Deinde carnem et pānem apposuērunt.
+  Ūnus ex convīvīs fābulam nārrāvit. Omnēs rīsērunt.
+  Post cēnam dominus convīvīs dōna dedit. Convīvae dominō grātiās ēgērunt.
+translation: |
+  The master invited friends to dinner. The slaves prepared food and wine.
+  In the dining room there were three couches. The dinner guests reclined on the couches.
+  First the slaves brought eggs and olives. Then they served meat and bread.
+  One of the guests told a story. Everyone laughed.
+  After dinner the master gave the guests gifts. The guests thanked the master.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Dative Case"
+  - "Ablative Case"
+  - "Perfect Active Indicative"
+  - "Pluperfect Active Indicative"
+  - "First-Second Declension Adjectives"
+vocabulary_notes:
+  - word: "invītāvit"
+    note: "Third person singular perfect active of invītō: to invite"
+  - word: "triclīniō"
+    note: "Ablative singular of triclīnium (neuter): dining room (literally 'three-couch room')"
+  - word: "lectī"
+    note: "Nominative plural of lectus: couch, dining couch"
+  - word: "recubuērunt"
+    note: "Third person plural perfect active of recumbō: to recline (Roman dining position)"
+  - word: "tulērunt"
+    note: "Third person plural perfect active of ferō (irregular): to bring, carry"
+  - word: "apposuērunt"
+    note: "Third person plural perfect active of appōnō: to set before, serve"
+grammar_notes:
+  - concept: "Perfect Active Indicative"
+    note: "invītāvit, parāvērunt, tulērunt, nārrāvit, rīsērunt, dedit, ēgērunt — narrative in the perfect tense"
+  - concept: "Dative Case"
+    note: "convīvīs (indirect object of dedit), dominō (indirect object of grātiās ēgērunt)"
+  - concept: "Ablative Case"
+    note: "in triclīniō, in lectīs (location); ex convīvīs (partitive 'one of the guests')"

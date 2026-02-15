@@ -1,0 +1,40 @@
+language: latin
+title: "In Forō"
+difficulty: 2
+content: |
+  Forum est in mediā urbe. Multī virī et fēminae in forō sunt.
+  Mercātor togās et tunicās vendit. Servus dominum adiuvat.
+  Fēmina cibum emit. Cibus bonus est. Puella pānem et cāseum portat.
+  Senātor per forum ambulat. Populus senātōrem salūtat.
+translation: |
+  The forum is in the middle of the city. Many men and women are in the forum.
+  A merchant sells togas and tunics. A slave helps the master.
+  A woman buys food. The food is good. A girl carries bread and cheese.
+  A senator walks through the forum. The people greet the senator.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Present Active Indicative"
+  - "First-Second Declension Adjectives"
+  - "Basic Word Order"
+vocabulary_notes:
+  - word: "forō"
+    note: "Ablative singular of forum (second declension neuter): public square, marketplace"
+  - word: "mediā"
+    note: "Ablative singular feminine of medius: middle (first-second declension adjective)"
+  - word: "urbe"
+    note: "Ablative singular of urbs (third declension): city — preview of later declension"
+  - word: "mercātor"
+    note: "Third declension masculine: merchant, trader"
+  - word: "cibum"
+    note: "Accusative singular of cibus: food"
+grammar_notes:
+  - concept: "Second Declension Neuter"
+    note: "forum — neuter noun; nominative and accusative are identical"
+  - concept: "Basic Word Order"
+    note: "Latin word order is flexible; verbs tend to come last (SOV) but questions and emphasis change this"
+  - concept: "Accusative Case"
+    note: "togās, tunicās, dominum, cibum, pānem, cāseum, senātōrem — all accusative objects"

@@ -1,0 +1,65 @@
+language: latin
+title: "Dē Bellō Gallicō I.1"
+author: "Gāius Iūlius Caesar"
+difficulty: 7
+content: |
+  Gallia est omnis dīvīsa in partēs trēs, quārum ūnam incolunt Belgae,
+  aliam Aquītānī, tertiam quī ipsōrum linguā Celtae, nostrā Gallī appellantur.
+  Hī omnēs linguā, īnstitūtīs, lēgibus inter sē differunt. Gallōs ab Aquītānīs
+  Garumna flūmen, ā Belgīs Matrona et Sēquana dīvidit.
+  Hōrum omnium fortissimī sunt Belgae, proptereā quod ā cultū atque hūmānitāte
+  prōvinciae longissimē absunt, minimēque ad eōs mercātōrēs saepe commeant
+  atque ea quae ad effēminandōs animōs pertinent important.
+translation: |
+  Gaul as a whole is divided into three parts, of which the Belgae inhabit one,
+  the Aquitani another, and those who in their own language are called Celts,
+  in ours Gauls, the third. All these differ among themselves in language,
+  customs, and laws. The river Garonne separates the Gauls from the Aquitani,
+  the Marne and Seine separate them from the Belgae.
+  Of all these the Belgae are the bravest, because they are farthest removed
+  from the civilization and culture of the Province, and merchants least frequently
+  travel to them and import those things which tend to make spirits soft.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Third Declension i-Stems"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Ablative Case"
+  - "Present Active Indicative"
+  - "Present Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Comparison of Adjectives"
+  - "Relative Pronoun"
+  - "Demonstrative Pronouns"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "dīvīsa"
+    note: "Perfect passive participle of dīvidō: divided"
+  - word: "quārum"
+    note: "Genitive plural feminine of relative pronoun quī: of which"
+  - word: "incolunt"
+    note: "Third person plural present active of incolō: to inhabit"
+  - word: "īnstitūtīs"
+    note: "Ablative plural of īnstitūtum: customs, institutions"
+  - word: "lēgibus"
+    note: "Ablative plural of lēx (third declension): laws"
+  - word: "proptereā quod"
+    note: "Conjunction: because, for the reason that"
+  - word: "cultū"
+    note: "Ablative singular of cultus (fourth declension): civilization, way of life"
+  - word: "hūmānitāte"
+    note: "Ablative singular of hūmānitās (third declension): culture, refinement"
+  - word: "effēminandōs"
+    note: "Gerundive of effēminō: 'tending to soften' — ad + gerundive expressing purpose"
+grammar_notes:
+  - concept: "Relative Pronoun"
+    note: "quārum ūnam, quī appellantur, quae pertinent — relative clauses throughout the passage"
+  - concept: "Comparison of Adjectives"
+    note: "fortissimī (superlative of fortis), longissimē (superlative adverb), minimē (superlative adverb of parum)"
+  - concept: "Present Passive Indicative"
+    note: "appellantur — third person plural present passive: 'they are called'"
+  - concept: "Reflexive Pronoun"
+    note: "inter sē differunt — 'they differ among themselves'"

@@ -1,0 +1,66 @@
+language: latin
+title: "Pūnica Fidēs"
+difficulty: 6
+content: |
+  Rēgulus, dux Rōmānus, ā Carthāginiēnsibus captus et Rōmam missus est
+  ut pācem peteret et captīvōs Pūnicōs redimeret. Iūreiūrandō obligātus erat
+  sē Carthāginem reditūrum esse sī Rōmānī condiciōnēs nōn accēpissent.
+  In senātū autem Rēgulus contrārium fēcit: suāsit nē pāx fieret
+  et nē captīvī redderentur. "Captīvī illī," inquit, "nōn sunt dignī
+  quī redīmantur. Ego autem, quamquam mortem meam sciō, fidem servābō."
+  Sīc Rēgulus Carthāginem rediit et ā hostibus crūdēliter necātus est.
+  Exemplum fidēī eius ā Rōmānīs semper laudātum est.
+translation: |
+  Regulus, a Roman general, was captured by the Carthaginians and sent to Rome
+  to seek peace and ransom the Punic captives. He was bound by an oath
+  to return to Carthage if the Romans did not accept the terms.
+  In the senate however Regulus did the opposite: he urged that peace not be made
+  and that the captives not be returned. "Those captives," he said, "are not worthy
+  of being ransomed. But I, although I know my death is coming, will keep my word."
+  Thus Regulus returned to Carthage and was cruelly killed by the enemy.
+  The example of his loyalty was always praised by the Romans.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Fifth Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Ablative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Perfect Active Indicative"
+  - "Future Active Indicative"
+  - "Present Passive Indicative"
+  - "Perfect Passive Indicative"
+  - "Perfect Passive Participle"
+  - "Comparison of Adjectives"
+  - "Demonstrative Pronouns"
+  - "Relative Pronoun"
+  - "Reflexive Pronoun"
+vocabulary_notes:
+  - word: "captus"
+    note: "Perfect passive participle of capiō: captured"
+  - word: "pācem"
+    note: "Accusative singular of pāx (third declension): peace"
+  - word: "captīvōs"
+    note: "Accusative plural of captīvus: prisoner, captive"
+  - word: "iūreiūrandō"
+    note: "Ablative singular of iūsiūrandum (compound noun): oath"
+  - word: "contrārium"
+    note: "Accusative neuter of contrārius: the opposite"
+  - word: "suāsit"
+    note: "Third person singular perfect active of suādeō: to urge, advise"
+  - word: "fidēī"
+    note: "Genitive singular of fidēs (fifth declension): loyalty, faithfulness"
+  - word: "crūdēliter"
+    note: "Adverb formed from crūdēlis: cruelly"
+grammar_notes:
+  - concept: "Fifth Declension"
+    note: "fidēs, fidēī — fifth declension noun appearing in genitive singular"
+  - concept: "Perfect Passive Indicative"
+    note: "captus est, missus est, necātus est, laudātum est — passive voice with agent (ā + ablative)"
+  - concept: "Relative Pronoun"
+    note: "quī redīmantur — relative clause of characteristic with subjunctive"
+  - concept: "Reflexive Pronoun"
+    note: "sē reditūrum esse — accusative subject of indirect statement referring back to Regulus"

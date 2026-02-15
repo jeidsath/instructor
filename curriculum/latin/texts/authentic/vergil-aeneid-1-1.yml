@@ -1,0 +1,81 @@
+language: latin
+title: "Aenēis I.1–11"
+author: "Pūblius Vergilius Marō"
+difficulty: 9
+content: |
+  Arma virumque canō, Trōiae quī prīmus ab ōrīs
+  Ītaliam, fātō profugus, Lāvīniaque vēnit
+  lītora, multum ille et terrīs iactātus et altō
+  vī superum saevae memorem Iūnōnis ob īram,
+  multa quoque et bellō passūs, dum conderet urbem,
+  īnferretque deōs Latiō, genus unde Latīnum,
+  Albānīque patrēs, atque altae moenia Rōmae.
+  Mūsa, mihī causās memorā, quō nūmine laesō,
+  quidve dolēns, rēgīna deum tot volvere cāsūs
+  īnsignem pietāte virum, tot adīre labōrēs
+  impulerit. Tantaene animīs caelestibus īrae?
+translation: |
+  I sing of arms and the man who first from the shores of Troy,
+  an exile by fate, came to Italy and the Lavinian shores,
+  much tossed about both on land and on the deep
+  by the violence of the gods above on account of the unforgetting wrath of cruel Juno,
+  having also suffered much in war, until he could found a city
+  and bring his gods to Latium, whence came the Latin race,
+  the Alban fathers, and the walls of lofty Rome.
+  Muse, recall to me the causes — by what divine will offended,
+  or grieving at what, the queen of the gods drove a man remarkable
+  for his piety to undergo so many misfortunes, to face so many toils.
+  Can there be such anger in heavenly spirits?
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension"
+  - "Third Declension i-Stems"
+  - "Fourth Declension"
+  - "Fifth Declension"
+  - "Nominative Case"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Ablative Case"
+  - "Present Active Indicative"
+  - "Perfect Passive Participle"
+  - "Present Participle"
+  - "Imperative Mood"
+  - "Present Active Subjunctive"
+  - "Imperfect Active Subjunctive"
+  - "Comparison of Adjectives"
+  - "Relative Pronoun"
+  - "Interrogative Pronoun"
+vocabulary_notes:
+  - word: "canō"
+    note: "First person singular present active of canō: to sing (the programmatic opening word of epic)"
+  - word: "fātō"
+    note: "Ablative singular of fātum: fate, destiny (ablative of cause)"
+  - word: "profugus"
+    note: "Nominative singular adjective: exiled, fugitive (modifying the unnamed 'virum' = Aeneas)"
+  - word: "iactātus"
+    note: "Perfect passive participle of iactō: tossed about, driven"
+  - word: "superum"
+    note: "Genitive plural of superī: the gods above (contracted from superōrum)"
+  - word: "memorem"
+    note: "Accusative singular of memor (third declension adjective): remembering, unforgetting"
+  - word: "conderet"
+    note: "Third person singular imperfect subjunctive of condō: to found (temporal dum clause)"
+  - word: "pietāte"
+    note: "Ablative singular of pietās (third declension): piety, devotion, duty"
+  - word: "impulerit"
+    note: "Third person singular perfect subjunctive of impellō: to drive, compel (indirect question)"
+grammar_notes:
+  - concept: "Relative Pronoun"
+    note: "quī prīmus vēnit — relative clause identifying 'the man who first came'"
+  - concept: "Imperfect Active Subjunctive"
+    note: "conderet, īnferret — subjunctive in temporal dum clause (purpose/anticipation)"
+  - concept: "Present Active Subjunctive"
+    note: "Implied in the structure; impulerit is perfect subjunctive in indirect question"
+  - concept: "Ablative Case"
+    note: "fātō (cause), terrīs/altō (location/means), vī (means), bellō (circumstance), pietāte (respect)"
+  - concept: "Imperative Mood"
+    note: "memorā — second person singular imperative: 'recall!' (invocation of the Muse)"
+  - concept: "Interrogative Pronoun"
+    note: "quō nūmine laesō (ablative absolute as indirect question), quidve dolēns, tantaene īrae"
