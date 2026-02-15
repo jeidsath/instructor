@@ -1,0 +1,85 @@
+language: latin
+category: syntax
+concepts:
+  - name: "Basic Word Order"
+    subcategory: word_order
+    difficulty: 2
+    prerequisites: ["Nominative Case", "Accusative Case"]
+    description: >
+      Latin word order is considerably freer than English because grammatical
+      relationships are signaled primarily by inflectional endings rather than
+      position. Nevertheless, the default or unmarked word order is
+      Subject-Object-Verb (SOV), with the finite verb tending to appear at the
+      end of its clause. New or emphasized information often moves to the
+      beginning of the sentence (topic position) or just before the verb
+      (focus position). Connectives, subordinating conjunctions, and
+      prepositions naturally precede their complements. In practice, authors
+      vary word order freely for rhetorical emphasis, rhythm, and style, but
+      understanding the SOV baseline is essential for parsing.
+    examples:
+      - latin: "Agricola agrum arat."
+        english: "The farmer plows the field."
+        notes: >
+          This sentence follows the default SOV order: subject (agricola),
+          direct object (agrum), verb (arat).
+      - latin: "Puella rosam amat."
+        english: "The girl loves the rose."
+        notes: >
+          Another straightforward SOV sentence. Even if reordered to
+          'Rosam puella amat,' the meaning stays the same because the case
+          endings, not word position, mark grammatical function.
+      - latin: "Magnus est dolor."
+        english: "Great is the grief."
+        notes: >
+          Here the predicate adjective magnus is fronted for emphasis,
+          departing from the neutral order. The verb est also appears
+          medially. Such variation is common and stylistically significant.
+      - latin: "Vēnī, vīdī, vīcī."
+        english: "I came, I saw, I conquered."
+        notes: >
+          Caesar's famous tricolon places verbs first for dramatic impact.
+          This demonstrates that word order in Latin is a tool of rhetoric,
+          not a rigid rule.
+
+  - name: "Adjective Placement"
+    subcategory: word_order
+    difficulty: 3
+    prerequisites: ["Basic Word Order", "First-Second Declension Adjectives"]
+    description: >
+      In Latin, adjectives may appear before or after the noun they modify,
+      and their position carries stylistic and semantic weight. As a general
+      pattern, adjectives of size, quantity, and demonstratives tend to
+      precede the noun, while adjectives of quality, color, nationality, and
+      distinguishing characteristics tend to follow it. An adjective placed
+      in an unexpected position receives emphasis. In poetry, adjectives and
+      their nouns are often widely separated (hyperbaton) for artistic effect.
+      A predicate adjective stands apart from its noun, typically near the
+      verb, and describes the subject through a linking verb.
+    examples:
+      - latin: "Magnus vir vēnit."
+        english: "A great man came."
+        notes: >
+          Magnus precedes vir. Adjectives of size and importance commonly
+          appear before their noun.
+      - latin: "Via longa est."
+        english: "The road is long."
+        notes: >
+          Longa is a predicate adjective, separated from via by the linking
+          verb est. It describes the subject through the copula.
+      - latin: "Puella Rōmāna cantat."
+        english: "The Roman girl sings."
+        notes: >
+          Adjectives of nationality and distinguishing type typically follow
+          the noun: Rōmāna after puella.
+      - latin: "Multōs per annōs errāvit."
+        english: "He wandered for many years."
+        notes: >
+          Multōs precedes its noun annōs, as adjectives of quantity normally
+          do. Note that the preposition per is placed between the adjective
+          and noun, a common Latin arrangement.
+      - latin: "Magnā cum cūrā scrīpsit."
+        english: "He wrote with great care."
+        notes: >
+          The adjective magnā is separated from its noun cūrā by the
+          preposition cum. This interlocking word order is characteristic
+          of Latin prose and especially poetry.

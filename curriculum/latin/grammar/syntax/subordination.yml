@@ -1,0 +1,205 @@
+language: latin
+category: syntax
+concepts:
+  - name: "Purpose Clauses"
+    subcategory: subordinate_clauses
+    difficulty: 7
+    prerequisites: ["Present Active Subjunctive"]
+    description: >
+      Purpose clauses express the intention or goal of the action in the main
+      clause. The standard construction uses ut ('in order that') with the
+      subjunctive for affirmative purpose and ne ('in order that ... not, lest')
+      with the subjunctive for negative purpose. The tense of the subjunctive
+      follows the sequence of tenses: present subjunctive after a primary main
+      verb, imperfect subjunctive after a secondary (past) main verb. Latin
+      can also express purpose through a relative clause of purpose, where
+      the relative pronoun qui/quae/quod replaces ut and is followed by the
+      subjunctive.
+    examples:
+      - latin: "Venit ut urbem videat."
+        english: "He comes in order to see the city."
+        notes: >
+          Ut + present subjunctive (videat) after a primary tense main verb
+          (venit). This is the standard affirmative purpose clause.
+      - latin: "Fugit ne caperetur."
+        english: "He fled lest he be captured."
+        notes: >
+          Ne + imperfect subjunctive (caperetur) after a secondary tense
+          main verb (fugit). Negative purpose uses ne, never ut non.
+      - latin: "Mīlitēs mīsit quī pontem dēlērent."
+        english: "He sent soldiers to destroy the bridge."
+        notes: >
+          A relative clause of purpose: qui + imperfect subjunctive
+          (delerent). The relative pronoun replaces ut and refers to
+          milites.
+      - latin: "Venimus nē quid malī accideret."
+        english: "We came so that nothing bad might happen."
+        notes: >
+          Ne quid is the negative purpose construction with the indefinite
+          quid. The imperfect subjunctive accideret follows a secondary
+          main verb.
+
+  - name: "Result Clauses"
+    subcategory: subordinate_clauses
+    difficulty: 7
+    prerequisites: ["Present Active Subjunctive"]
+    description: >
+      Result clauses (also called consecutive clauses) express the actual or
+      natural consequence of the action or quality described in the main
+      clause. They are introduced by ut (affirmative) or ut non (negative)
+      with the subjunctive. Result clauses are typically signaled by a word
+      in the main clause indicating degree: tam ('so'), tantus ('so great'),
+      ita or sic ('so, in such a way'), tot ('so many'), talis ('of such a
+      kind'), or adeo ('to such a degree'). Unlike purpose clauses, result
+      clauses negate with ut non (not ne), and the tense of the subjunctive
+      is not strictly bound by sequence of tenses but tends to reflect the
+      actual time of the result.
+    examples:
+      - latin: "Tam fortis erat ut omnēs eum laudārent."
+        english: "He was so brave that everyone praised him."
+        notes: >
+          The signal word tam in the main clause triggers the result clause
+          ut + subjunctive (laudarent). The imperfect subjunctive reflects
+          past time.
+      - latin: "Tanta tempestās coorta est ut nāvēs cursum tenēre nōn possent."
+        english: "So great a storm arose that the ships could not hold their course."
+        notes: >
+          Tanta signals the result clause. Note ut non possent for negative
+          result, not ne.
+      - latin: "Ita vīxit ut ab omnibus amārētur."
+        english: "He lived in such a way that he was loved by all."
+        notes: >
+          Ita in the main clause signals the result. The imperfect passive
+          subjunctive amaretur expresses the consequence.
+      - latin: "Adeo stultus est ut nihil intellegat."
+        english: "He is so foolish that he understands nothing."
+        notes: >
+          Adeo signals degree. Present subjunctive intellegat after a
+          primary main verb. Negative element nihil appears within the
+          ut clause, not as ne.
+
+  - name: "Temporal Clauses"
+    subcategory: subordinate_clauses
+    difficulty: 6
+    prerequisites: ["Imperfect Active Subjunctive"]
+    description: >
+      Temporal clauses specify the time relationship between the subordinate
+      event and the main clause. The conjunction cum ('when') has two distinct
+      constructions: cum with the indicative states a definite or specific
+      time, while cum with the subjunctive (often called 'circumstantial cum')
+      expresses attendant circumstances and can shade into causal ('since') or
+      concessive ('although') meaning. Other temporal conjunctions include
+      postquam ('after,' typically with the perfect indicative), antequam and
+      priusquam ('before,' with indicative for fact or subjunctive for
+      anticipation/prevention), and dum ('while' with present indicative for
+      simultaneous action, or 'until' with subjunctive for anticipated
+      action).
+    examples:
+      - latin: "Cum Caesar vēnit, hostēs fūgērunt."
+        english: "When Caesar arrived, the enemy fled."
+        notes: >
+          Cum + perfect indicative (venit) states a definite temporal fact.
+          This is temporal cum with indicative.
+      - latin: "Cum mīlitēs fortiter pugnārent, hostēs tamen vīcērunt."
+        english: "Although the soldiers were fighting bravely, the enemy nevertheless won."
+        notes: >
+          Cum + imperfect subjunctive (pugnarent) with tamen indicates
+          circumstantial cum with a concessive nuance.
+      - latin: "Postquam id audīvit, profectus est."
+        english: "After he heard this, he set out."
+        notes: >
+          Postquam typically takes the perfect indicative (audivit) to
+          indicate a completed action.
+      - latin: "Dum haec geruntur, Caesar certior factus est."
+        english: "While these things were going on, Caesar was informed."
+        notes: >
+          Dum meaning 'while' takes the present indicative (geruntur) even
+          in past narrative. This is a fixed idiom.
+      - latin: "Exspectāvit dum cōpiae convenīrent."
+        english: "He waited until the troops assembled."
+        notes: >
+          Dum meaning 'until' with an anticipated action takes the
+          subjunctive (convenirent).
+
+  - name: "Causal Clauses"
+    subcategory: subordinate_clauses
+    difficulty: 6
+    prerequisites: ["Temporal Clauses"]
+    description: >
+      Causal clauses give the reason for the action in the main clause. The
+      conjunctions quod and quia ('because') take the indicative when the
+      author presents the reason as an objective fact, but the subjunctive when
+      the reason is attributed to someone else or presented as alleged rather
+      than confirmed. The conjunction cum ('since') with the subjunctive is
+      frequently used to express cause as part of the attendant circumstances.
+      Quoniam ('since, seeing that') generally takes the indicative and
+      presents the cause as an accepted fact.
+    examples:
+      - latin: "Laetus est quod amīcum videt."
+        english: "He is happy because he sees his friend."
+        notes: >
+          Quod + indicative (videt) states the cause as an objective fact
+          affirmed by the author.
+      - latin: "Eum laudāvērunt quod fortis esset."
+        english: "They praised him because (as they said) he was brave."
+        notes: >
+          Quod + subjunctive (esset) signals that the reason is reported
+          or alleged, not directly asserted by the author.
+      - latin: "Cum hoc vērum sit, discēdāmus."
+        english: "Since this is true, let us depart."
+        notes: >
+          Cum + subjunctive (sit) expresses cause as part of the
+          circumstances. This causal cum is common in Latin prose.
+      - latin: "Quoniam id ita est, proficīscere."
+        english: "Since that is so, depart."
+        notes: >
+          Quoniam + indicative (est) presents the cause as an established
+          and accepted fact.
+
+  - name: "Conditional Clauses"
+    subcategory: subordinate_clauses
+    difficulty: 7
+    prerequisites: ["Present Active Subjunctive", "Imperfect Active Subjunctive"]
+    description: >
+      Conditional sentences consist of a protasis (the 'if' clause introduced
+      by si or nisi/ni) and an apodosis (the main clause stating the
+      consequence). Latin conditionals fall into several types based on the
+      mood and tense of the verbs. Simple or factual conditions use the
+      indicative in both clauses (si hoc facit, errat - 'if he does this, he
+      is wrong'). Future more vivid conditions use the future or future
+      perfect indicative. Future less vivid conditions (should/would) use
+      the present subjunctive in both clauses. Present contrary-to-fact
+      conditions use the imperfect subjunctive in both clauses. Past
+      contrary-to-fact conditions use the pluperfect subjunctive in both
+      clauses.
+    examples:
+      - latin: "Si hoc dīcis, errās."
+        english: "If you say this, you are wrong."
+        notes: >
+          A simple (factual) present condition. Both clauses use the
+          present indicative. No judgment is made about the likelihood
+          of the condition.
+      - latin: "Si hoc dīcās, errēs."
+        english: "If you should say this, you would be wrong."
+        notes: >
+          A future less vivid condition. Both clauses use the present
+          subjunctive (dicas, erres). The condition is presented as
+          hypothetical or less likely.
+      - latin: "Si hoc dīcerēs, errārēs."
+        english: "If you were saying this, you would be wrong."
+        notes: >
+          A present contrary-to-fact condition. Both clauses use the
+          imperfect subjunctive (diceres, errares). The implication is
+          that the condition is not actually true now.
+      - latin: "Si hoc dīxissēs, errāvissēs."
+        english: "If you had said this, you would have been wrong."
+        notes: >
+          A past contrary-to-fact condition. Both clauses use the
+          pluperfect subjunctive (dixisses, erravisses). The condition
+          was not fulfilled in the past.
+      - latin: "Nisi mē adiuvissēs, periissem."
+        english: "If you had not helped me, I would have perished."
+        notes: >
+          Nisi ('if not, unless') introduces a negative condition. This
+          is past contrary-to-fact: the help did occur, so the perishing
+          did not.

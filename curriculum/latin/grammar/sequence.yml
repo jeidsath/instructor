@@ -4,9 +4,72 @@ sequence:
     concepts:
       - "First Declension"
       - "Second Declension"
+      - "Nominative Case"
+      - "Accusative Case"
+      - "Vocative Case"
+      - "Present Active Indicative"
+      - "Present Active Infinitive"
+      - "Imperative Mood"
     vocabulary_sets: ["core-001-basic"]
 
   - unit: "02-expanding"
     concepts:
-      - "Third Declension"
+      - "Second Declension Neuter"
+      - "Genitive Case"
+      - "Dative Case"
+      - "First-Second Declension Adjectives"
+      - "Personal Pronouns"
+      - "Basic Word Order"
     vocabulary_sets: ["core-002-common", "theme-family"]
+
+  - unit: "03-past-and-future"
+    concepts:
+      - "Imperfect Active Indicative"
+      - "Future Active Indicative"
+      - "Ablative Case"
+      - "Adjective Placement"
+      - "Adverb Formation"
+      - "Reflexive Pronoun"
+
+  - unit: "04-third-declension"
+    concepts:
+      - "Third Declension"
+      - "Third Declension i-Stems"
+      - "Perfect Active Indicative"
+      - "Pluperfect Active Indicative"
+      - "Third Declension Adjectives"
+
+  - unit: "05-passive-and-pronouns"
+    concepts:
+      - "Present Passive Indicative"
+      - "Imperfect Passive Indicative"
+      - "Demonstrative Pronouns"
+      - "Relative Pronoun"
+      - "Comparison of Adjectives"
+
+  - unit: "06-advanced-forms"
+    concepts:
+      - "Fourth Declension"
+      - "Fifth Declension"
+      - "Future Perfect Active Indicative"
+      - "Perfect Passive Indicative"
+      - "Perfect Passive Participle"
+      - "Present Participle"
+      - "Perfect Active Infinitive"
+
+  - unit: "07-subjunctive"
+    concepts:
+      - "Present Active Subjunctive"
+      - "Imperfect Active Subjunctive"
+      - "Interrogative Pronoun"
+      - "Purpose Clauses"
+      - "Result Clauses"
+
+  - unit: "08-complex-syntax"
+    concepts:
+      - "Temporal Clauses"
+      - "Causal Clauses"
+      - "Conditional Clauses"
+      - "Indirect Statement"
+      - "Indirect Question"
+      - "Indirect Command"

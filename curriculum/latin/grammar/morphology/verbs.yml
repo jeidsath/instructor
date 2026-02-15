@@ -1,0 +1,703 @@
+language: latin
+category: morphology
+concepts:
+  - name: "Present Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 2
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      The present active indicative is the most fundamental Latin verb form,
+      expressing an action happening now. Latin has four conjugations,
+      distinguished by the vowel of the present stem: first (ā), second (ē),
+      third (consonant / short e), and fourth (ī). The personal endings for
+      the active voice are -ō/-m, -s, -t, -mus, -tis, -nt. These same
+      endings recur across nearly every active tense. The first person
+      singular present uniquely ends in -ō rather than -m.
+    paradigm:
+      personal_endings: ["-ō", "-s", "-t", "-mus", "-tis", "-nt"]
+      conjugations:
+        first:
+          model_word: "amō, amāre, amāvī, amātum — to love"
+          forms:
+            1s: "amō"
+            2s: "amās"
+            3s: "amat"
+            1p: "amāmus"
+            2p: "amātis"
+            3p: "amant"
+        second:
+          model_word: "moneō, monēre, monuī, monitum — to warn"
+          forms:
+            1s: "moneō"
+            2s: "monēs"
+            3s: "monet"
+            1p: "monēmus"
+            2p: "monētis"
+            3p: "monent"
+        third:
+          model_word: "dūcō, dūcere, dūxī, ductum — to lead"
+          forms:
+            1s: "dūcō"
+            2s: "dūcis"
+            3s: "dūcit"
+            1p: "dūcimus"
+            2p: "dūcitis"
+            3p: "dūcunt"
+        fourth:
+          model_word: "audiō, audīre, audīvī, audītum — to hear"
+          forms:
+            1s: "audiō"
+            2s: "audīs"
+            3s: "audit"
+            1p: "audīmus"
+            2p: "audītis"
+            3p: "audiunt"
+    examples:
+      - latin: "Magister discipulōs docet."
+        english: "The teacher teaches the students."
+        notes: "docet is 3rd person singular present active indicative of doceō (2nd conjugation)."
+      - latin: "Mīlitēs castra mūniunt."
+        english: "The soldiers fortify the camp."
+        notes: "mūniunt is 3rd person plural present active indicative of mūniō (4th conjugation)."
+
+  - name: "Imperfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The imperfect active indicative expresses continuous, repeated, or
+      ongoing action in the past. It is formed by inserting the tense sign
+      -bā- between the present stem and the personal endings. The resulting
+      pattern is remarkably regular across all four conjugations: -bam,
+      -bās, -bat, -bāmus, -bātis, -bant. In the third and fourth
+      conjugations, the stem vowel appears as -ē- before -bam (dūcēbam,
+      audiēbam). The imperfect is one of the most regular formations in
+      Latin.
+    paradigm:
+      tense_sign: "-bā-"
+      endings: ["-bam", "-bās", "-bat", "-bāmus", "-bātis", "-bant"]
+      conjugations:
+        first:
+          forms:
+            1s: "amābam"
+            2s: "amābās"
+            3s: "amābat"
+            1p: "amābāmus"
+            2p: "amābātis"
+            3p: "amābant"
+        second:
+          forms:
+            1s: "monēbam"
+            2s: "monēbās"
+            3s: "monēbat"
+            1p: "monēbāmus"
+            2p: "monēbātis"
+            3p: "monēbant"
+        third:
+          forms:
+            1s: "dūcēbam"
+            2s: "dūcēbās"
+            3s: "dūcēbat"
+            1p: "dūcēbāmus"
+            2p: "dūcēbātis"
+            3p: "dūcēbant"
+        fourth:
+          forms:
+            1s: "audiēbam"
+            2s: "audiēbās"
+            3s: "audiēbat"
+            1p: "audiēbāmus"
+            2p: "audiēbātis"
+            3p: "audiēbant"
+    examples:
+      - latin: "Rōmānī urbem aedificābant."
+        english: "The Romans were building the city."
+        notes: "aedificābant is 3rd pl. imperfect active of aedificō (1st conj.); the imperfect conveys ongoing past action."
+      - latin: "Puellae in hortō lūdēbant."
+        english: "The girls were playing in the garden."
+        notes: "lūdēbant is 3rd pl. imperfect active of lūdō (3rd conj.); note the -ē- before -bant in 3rd conjugation."
+
+  - name: "Future Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Imperfect Active Indicative"]
+    description: >
+      The future active indicative expresses action that will happen. Latin
+      forms the future differently depending on the conjugation. The first
+      and second conjugations use the tense sign -bi- (with variations:
+      -bō, -bis, -bit, -bimus, -bitis, -bunt). The third and fourth
+      conjugations use a different pattern with the vowel -ē- (except
+      first person singular -am): -am, -ēs, -et, -ēmus, -ētis, -ent.
+      This split is a frequent source of confusion, since the third/fourth
+      conjugation future can resemble present tense forms of other
+      conjugations.
+    paradigm:
+      notes:
+        - "1st/2nd conjugation future: stem + -bō, -bis, -bit, -bimus, -bitis, -bunt."
+        - "3rd/4th conjugation future: stem + -am, -ēs, -et, -ēmus, -ētis, -ent."
+      conjugations:
+        first:
+          forms:
+            1s: "amābō"
+            2s: "amābis"
+            3s: "amābit"
+            1p: "amābimus"
+            2p: "amābitis"
+            3p: "amābunt"
+        second:
+          forms:
+            1s: "monēbō"
+            2s: "monēbis"
+            3s: "monēbit"
+            1p: "monēbimus"
+            2p: "monēbitis"
+            3p: "monēbunt"
+        third:
+          forms:
+            1s: "dūcam"
+            2s: "dūcēs"
+            3s: "dūcet"
+            1p: "dūcēmus"
+            2p: "dūcētis"
+            3p: "dūcent"
+        fourth:
+          forms:
+            1s: "audiam"
+            2s: "audiēs"
+            3s: "audiet"
+            1p: "audiēmus"
+            2p: "audiētis"
+            3p: "audient"
+    examples:
+      - latin: "Crās ad forum veniam."
+        english: "Tomorrow I will come to the forum."
+        notes: "veniam is 1st sg. future of veniō (4th conj.); crās (tomorrow) signals future time."
+      - latin: "Imperātor mīlitēs laudābit."
+        english: "The general will praise the soldiers."
+        notes: "laudābit is 3rd sg. future of laudō (1st conj.); note the -bi- tense sign."
+
+  - name: "Perfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Future Active Indicative"]
+    description: >
+      The perfect active indicative expresses a completed action in the
+      past. It is built on the perfect stem (the third principal part minus
+      the -ī ending). The perfect has its own unique set of personal
+      endings: -ī, -istī, -it, -imus, -istis, -ērunt (alternative 3rd pl.
+      -ēre). These endings are the same for all conjugations, making the
+      perfect system more uniform than the present system. The challenge
+      lies in learning the perfect stems, which are often unpredictable:
+      amō > amāvī, moneō > monuī, dūcō > dūxī, audiō > audīvī.
+    paradigm:
+      notes:
+        - "Perfect stem = 3rd principal part minus -ī."
+        - "The same endings apply to all conjugations."
+        - "Common perfect stem formations: -āvī (1st), -uī (2nd), -sī/-xī/reduplication/vowel change (3rd), -īvī (4th)."
+      endings: ["-ī", "-istī", "-it", "-imus", "-istis", "-ērunt"]
+      model:
+        principal_parts: "dūcō, dūcere, dūxī, ductum"
+        perfect_stem: "dūx-"
+        forms:
+          1s: "dūxī"
+          2s: "dūxistī"
+          3s: "dūxit"
+          1p: "dūximus"
+          2p: "dūxistis"
+          3p: "dūxērunt"
+    examples:
+      - latin: "Caesar Galliam vīcit."
+        english: "Caesar conquered Gaul."
+        notes: "vīcit is 3rd sg. perfect active of vincō, vincere, vīcī, victum; the perfect expresses a completed past action."
+      - latin: "Epistulam scrīpsī et mīsī."
+        english: "I wrote and sent the letter."
+        notes: "scrīpsī (scrībō) and mīsī (mittō) are both 1st sg. perfect; note the different perfect stem formations."
+
+  - name: "Pluperfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Perfect Active Indicative"]
+    description: >
+      The pluperfect active indicative expresses an action completed before
+      another past action ("had done"). It is formed by adding the endings
+      -eram, -erās, -erat, -erāmus, -erātis, -erant to the perfect stem.
+      These endings resemble the imperfect of sum (eram, erās, etc.), which
+      provides a useful mnemonic: pluperfect = perfect stem + imperfect of
+      "to be." The pluperfect is essential for expressing temporal
+      sequences in past narration.
+    paradigm:
+      formation: "perfect stem + -eram, -erās, -erat, -erāmus, -erātis, -erant"
+      model:
+        verb: "amō, amāre, amāvī, amātum"
+        perfect_stem: "amāv-"
+        forms:
+          1s: "amāveram"
+          2s: "amāverās"
+          3s: "amāverat"
+          1p: "amāverāmus"
+          2p: "amāverātis"
+          3p: "amāverant"
+    examples:
+      - latin: "Ubi mīlitēs advēnērunt, hostēs iam fūgerant."
+        english: "When the soldiers arrived, the enemy had already fled."
+        notes: "fūgerant is 3rd pl. pluperfect of fugiō; the pluperfect shows the flight happened before the arrival."
+      - latin: "Lībrum quem scrīpseram rēgī dedī."
+        english: "I gave the book which I had written to the king."
+        notes: "scrīpseram is 1st sg. pluperfect of scrībō; the pluperfect indicates writing preceded giving."
+
+  - name: "Future Perfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["Pluperfect Active Indicative"]
+    description: >
+      The future perfect active indicative expresses an action that will
+      have been completed before some future point ("will have done"). It
+      is formed from the perfect stem plus -erō, -eris, -erit, -erimus,
+      -eritis, -erint. Note that these endings resemble the future of sum
+      (erō, eris, etc.), providing the mnemonic: future perfect = perfect
+      stem + future of "to be." The future perfect is common in Latin
+      temporal and conditional clauses (especially with ubi, cum, sī)
+      where English often uses a simple present tense.
+    paradigm:
+      formation: "perfect stem + -erō, -eris, -erit, -erimus, -eritis, -erint"
+      model:
+        verb: "moneō, monēre, monuī, monitum"
+        perfect_stem: "monu-"
+        forms:
+          1s: "monuerō"
+          2s: "monueris"
+          3s: "monuerit"
+          1p: "monuerimus"
+          2p: "monueritis"
+          3p: "monuerint"
+    examples:
+      - latin: "Sī hoc fēceris, tē laudābō."
+        english: "If you have done this, I will praise you."
+        notes: "fēceris is 2nd sg. future perfect of faciō; Latin uses the future perfect in the conditional clause where English uses the present perfect."
+      - latin: "Ubi ad urbem pervēnerimus, quiēscēmus."
+        english: "When we have reached the city, we shall rest."
+        notes: "pervēnerimus is 1st pl. future perfect of perveniō; ubi + future perfect is a standard Latin construction."
+
+  - name: "Present Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The present passive indicative expresses an action being received or
+      undergone by the subject in the present. It is formed by replacing
+      the active personal endings with the passive endings: -r (or -or for
+      1st sg.), -ris, -tur, -mur, -minī, -ntur. These passive endings
+      attach to the same present stems used in the active. The passive
+      voice is extremely common in Latin, more so than in English, and is
+      essential for understanding constructions such as the ablative of
+      agent (ā/ab + ablative).
+    paradigm:
+      passive_endings: ["-r / -or", "-ris", "-tur", "-mur", "-minī", "-ntur"]
+      conjugations:
+        first:
+          forms:
+            1s: "amor"
+            2s: "amāris"
+            3s: "amātur"
+            1p: "amāmur"
+            2p: "amāminī"
+            3p: "amantur"
+        second:
+          forms:
+            1s: "moneor"
+            2s: "monēris"
+            3s: "monētur"
+            1p: "monēmur"
+            2p: "monēminī"
+            3p: "monentur"
+        third:
+          forms:
+            1s: "dūcor"
+            2s: "dūceris"
+            3s: "dūcitur"
+            1p: "dūcimur"
+            2p: "dūciminī"
+            3p: "dūcuntur"
+        fourth:
+          forms:
+            1s: "audior"
+            2s: "audīris"
+            3s: "audītur"
+            1p: "audīmur"
+            2p: "audīminī"
+            3p: "audiuntur"
+    examples:
+      - latin: "Liber ā discipulīs legitur."
+        english: "The book is read by the students."
+        notes: "legitur is 3rd sg. present passive of legō (3rd conj.); ā discipulīs is the ablative of agent."
+      - latin: "Laudāmur ab omnibus."
+        english: "We are praised by everyone."
+        notes: "laudāmur is 1st pl. present passive of laudō (1st conj.); ab omnibus is ablative of agent."
+
+  - name: "Imperfect Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["Present Passive Indicative", "Imperfect Active Indicative"]
+    description: >
+      The imperfect passive indicative expresses ongoing or repeated
+      action in the past being received by the subject ("was being done").
+      It is formed by attaching the passive personal endings (-r, -ris,
+      -tur, -mur, -minī, -ntur) to the imperfect stem (present stem +
+      -bā-). The formation is entirely predictable: take the imperfect
+      active form, remove the active ending, and add the corresponding
+      passive ending. This tense is common in narrative descriptions of
+      past states and ongoing past actions.
+    paradigm:
+      formation: "present stem + -bā- + passive endings"
+      conjugations:
+        first:
+          forms:
+            1s: "amābar"
+            2s: "amābāris"
+            3s: "amābātur"
+            1p: "amābāmur"
+            2p: "amābāminī"
+            3p: "amābantur"
+        third:
+          forms:
+            1s: "dūcēbar"
+            2s: "dūcēbāris"
+            3s: "dūcēbātur"
+            1p: "dūcēbāmur"
+            2p: "dūcēbāminī"
+            3p: "dūcēbantur"
+    examples:
+      - latin: "Captīvī per viās dūcēbantur."
+        english: "The captives were being led through the streets."
+        notes: "dūcēbantur is 3rd pl. imperfect passive of dūcō; the imperfect conveys ongoing past action in the passive."
+      - latin: "Ā magistrō semper monēbar."
+        english: "I was always being warned by the teacher."
+        notes: "monēbar is 1st sg. imperfect passive of moneō; semper (always) reinforces the habitual sense of the imperfect."
+
+  - name: "Perfect Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Perfect Active Indicative", "Present Passive Indicative"]
+    description: >
+      The perfect passive indicative expresses a completed action received
+      by the subject ("has been done" or "was done"). Unlike the active
+      perfect, which is a single synthetic form, the passive perfect is a
+      compound (periphrastic) tense composed of the perfect passive
+      participle (the fourth principal part) plus the present tense of
+      sum (esse). The participle is a verbal adjective and must agree with
+      the subject in gender, number, and case. This is the first compound
+      tense students encounter and introduces the concept of participial
+      agreement in the passive system.
+    paradigm:
+      formation: "perfect passive participle (4th principal part) + present of sum"
+      notes:
+        - "The participle agrees with the subject: amātus est (he was loved), amāta est (she was loved), amātum est (it was loved)."
+        - "Plural: amātī sunt (masc.), amātae sunt (fem.), amāta sunt (neut.)."
+      model:
+        verb: "amō, amāre, amāvī, amātum"
+        forms:
+          1s_m: "amātus sum"
+          2s_m: "amātus es"
+          3s_m: "amātus est"
+          1p_m: "amātī sumus"
+          2p_m: "amātī estis"
+          3p_m: "amātī sunt"
+    examples:
+      - latin: "Urbs ā mīlitibus capta est."
+        english: "The city was captured by the soldiers."
+        notes: "capta est is 3rd sg. fem. perfect passive of capiō; the participle capta agrees with urbs (feminine)."
+      - latin: "Litterae ad senātum missae sunt."
+        english: "Letters were sent to the senate."
+        notes: "missae sunt is 3rd pl. fem. perfect passive of mittō; missae agrees with litterae (fem. pl.)."
+
+  - name: "Imperative Mood"
+    subcategory: verb_conjugation
+    difficulty: 2
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The imperative mood expresses direct commands. Latin has both singular
+      and plural imperative forms. The singular imperative is typically the
+      bare present stem (amā, monē, dūce / dūc, audī). The plural
+      imperative adds -te to the present stem (amāte, monēte, dūcite,
+      audīte). Negative commands in classical Latin are not formed with
+      the imperative; instead, nōlī (sg.) / nōlīte (pl.) + infinitive is
+      used (e.g. nōlī timēre, "do not fear"). A few verbs have irregular
+      imperatives: dīc (say), dūc (lead), fac (do), fer (bring).
+    paradigm:
+      conjugations:
+        first:
+          model: "amō"
+          singular: "amā"
+          plural: "amāte"
+        second:
+          model: "moneō"
+          singular: "monē"
+          plural: "monēte"
+        third:
+          model: "dūcō"
+          singular: "dūce (or dūc)"
+          plural: "dūcite"
+        fourth:
+          model: "audiō"
+          singular: "audī"
+          plural: "audīte"
+      negative_command: "nōlī (sg.) / nōlīte (pl.) + infinitive"
+    examples:
+      - latin: "Audī mē, cīvis!"
+        english: "Listen to me, citizen!"
+        notes: "audī is the singular imperative of audiō (4th conj.)."
+      - latin: "Nōlīte timēre, mīlitēs!"
+        english: "Do not be afraid, soldiers!"
+        notes: "nōlīte + infinitive is the standard negative command in classical Latin."
+      - latin: "Dūcite captīvōs ad castra."
+        english: "Lead the prisoners to the camp."
+        notes: "dūcite is the plural imperative of dūcō (3rd conj.)."
+
+  - name: "Present Active Subjunctive"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Present Passive Indicative"]
+    description: >
+      The present active subjunctive is used in a wide variety of
+      subordinate clauses (purpose, result, indirect command, etc.) and in
+      independent uses (hortatory, jussive, deliberative). It is formed
+      by changing the characteristic vowel of the present stem: 1st
+      conjugation changes -ā- to -ē- (amem); 2nd, 3rd, and 4th
+      conjugations use -ā- (moneam, dūcam, audiam). The mnemonic for
+      the vowel changes is "wE bEAt A lIAr" — ē for 1st, ea for 2nd,
+      a for 3rd, ia for 4th. The personal endings are the regular
+      active ones (-m, -s, -t, -mus, -tis, -nt), using -m (not -ō)
+      in the first person singular.
+    paradigm:
+      vowel_changes:
+        first: "ā > ē"
+        second: "ē > eā"
+        third: "(consonant) > ā"
+        fourth: "ī > iā"
+      conjugations:
+        first:
+          forms:
+            1s: "amem"
+            2s: "amēs"
+            3s: "amet"
+            1p: "amēmus"
+            2p: "amētis"
+            3p: "ament"
+        second:
+          forms:
+            1s: "moneam"
+            2s: "moneās"
+            3s: "moneat"
+            1p: "moneāmus"
+            2p: "moneātis"
+            3p: "moneant"
+        third:
+          forms:
+            1s: "dūcam"
+            2s: "dūcās"
+            3s: "dūcat"
+            1p: "dūcāmus"
+            2p: "dūcātis"
+            3p: "dūcant"
+        fourth:
+          forms:
+            1s: "audiam"
+            2s: "audiās"
+            3s: "audiat"
+            1p: "audiāmus"
+            2p: "audiātis"
+            3p: "audiant"
+    examples:
+      - latin: "Eāmus ad forum."
+        english: "Let us go to the forum."
+        notes: "eāmus is 1st pl. present subjunctive of eō (go); this is a hortatory subjunctive expressing exhortation."
+      - latin: "Mīlitēs mittit ut urbem capiant."
+        english: "He sends soldiers to capture the city."
+        notes: "capiant is 3rd pl. present subjunctive of capiō in a purpose clause introduced by ut."
+
+  - name: "Imperfect Active Subjunctive"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Present Active Subjunctive"]
+    description: >
+      The imperfect active subjunctive is one of the easiest forms to
+      recognise and produce. It is formed by taking the present active
+      infinitive (the second principal part) and adding the personal
+      endings directly: amārem, monērem, dūcerem, audīrem. The mnemonic
+      is simple: "infinitive + personal endings." The imperfect
+      subjunctive appears in secondary sequence purpose and result clauses,
+      in contrary-to-fact conditions in present time (sī habērem, darēm —
+      "if I had, I would give"), and in various other subordinate clauses
+      governed by a past main verb.
+    paradigm:
+      formation: "present active infinitive + -m, -s, -t, -mus, -tis, -nt"
+      conjugations:
+        first:
+          forms:
+            1s: "amārem"
+            2s: "amārēs"
+            3s: "amāret"
+            1p: "amārēmus"
+            2p: "amārētis"
+            3p: "amārent"
+        second:
+          forms:
+            1s: "monērem"
+            2s: "monērēs"
+            3s: "monēret"
+            1p: "monērēmus"
+            2p: "monērētis"
+            3p: "monērent"
+        third:
+          forms:
+            1s: "dūcerem"
+            2s: "dūcerēs"
+            3s: "dūceret"
+            1p: "dūcerēmus"
+            2p: "dūcerētis"
+            3p: "dūcerent"
+        fourth:
+          forms:
+            1s: "audīrem"
+            2s: "audīrēs"
+            3s: "audīret"
+            1p: "audīrēmus"
+            2p: "audīrētis"
+            3p: "audīrent"
+    examples:
+      - latin: "Sī pecūniam habērem, domum emerem."
+        english: "If I had money, I would buy a house."
+        notes: "habērem and emerem are imperfect subjunctives in a present contrary-to-fact condition."
+      - latin: "Imperātor mīsit mīlitēs ut pontem dēlērent."
+        english: "The commander sent soldiers to destroy the bridge."
+        notes: "dēlērent is 3rd pl. imperfect subjunctive of dēleō in a secondary-sequence purpose clause."
+
+  - name: "Present Active Infinitive"
+    subcategory: verb_conjugation
+    difficulty: 2
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The present active infinitive is the second principal part of a Latin
+      verb and the form by which conjugation class is most easily
+      identified. The endings are: 1st conjugation -āre (amāre), 2nd
+      conjugation -ēre (monēre), 3rd conjugation -ere (dūcere, with short
+      e), 4th conjugation -īre (audīre). The infinitive functions as a
+      verbal noun: it can serve as subject or object of another verb and
+      is essential for indirect statement (accusative + infinitive
+      construction). Distinguishing 2nd conjugation -ēre (long ē) from
+      3rd conjugation -ere (short e) is critical.
+    paradigm:
+      conjugations:
+        first: { ending: "-āre", example: "amāre (to love)" }
+        second: { ending: "-ēre", example: "monēre (to warn)" }
+        third: { ending: "-ere", example: "dūcere (to lead)" }
+        fourth: { ending: "-īre", example: "audīre (to hear)" }
+    examples:
+      - latin: "Errāre hūmānum est."
+        english: "To err is human."
+        notes: "errāre is a present active infinitive (1st conj.) used as the subject of est."
+      - latin: "Discipulī legere volunt."
+        english: "The students want to read."
+        notes: "legere is a present active infinitive (3rd conj.) functioning as a complementary infinitive with volunt."
+
+  - name: "Perfect Active Infinitive"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["Perfect Active Indicative", "Present Active Infinitive"]
+    description: >
+      The perfect active infinitive expresses a completed action in
+      indirect statement and other infinitive constructions. It is formed
+      by adding -isse to the perfect stem: amāvisse, monuisse, dūxisse,
+      audīvisse. In practice, syncopated (contracted) forms are very
+      common: amāsse (for amāvisse), dūxe (rare, but dīxe for dīxisse
+      is attested). The perfect infinitive is essential for indirect
+      statement when the action of the infinitive is prior to the main
+      verb: dīcit eum vēnisse means "he says that he (has) came."
+    paradigm:
+      formation: "perfect stem + -isse"
+      conjugations:
+        first: { form: "amāvisse (to have loved)" }
+        second: { form: "monuisse (to have warned)" }
+        third: { form: "dūxisse (to have led)" }
+        fourth: { form: "audīvisse (to have heard)" }
+    examples:
+      - latin: "Dīcit eum urbem vīdisse."
+        english: "He says that he saw the city."
+        notes: "vīdisse is the perfect active infinitive of videō in an indirect statement; eum is the accusative subject."
+      - latin: "Scīmus Rōmam conditam esse ab Rōmulō."
+        english: "We know that Rome was founded by Romulus."
+        notes: "This example uses the perfect passive infinitive (conditam esse) for comparison; the active equivalent would use condidisse."
+
+  - name: "Present Participle"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["Present Active Indicative", "Third Declension"]
+    description: >
+      The present participle is a verbal adjective expressing ongoing
+      action simultaneous with the main verb. It is formed by adding
+      -ns (nominative singular) to the present stem, with the genitive
+      in -ntis. It declines like a third-declension i-stem adjective
+      (ablative singular normally -ī when used as a pure adjective, -e
+      when used as a circumstantial participle). The forms by conjugation
+      are: 1st amāns, amantis; 2nd monēns, monentis; 3rd dūcēns,
+      dūcentis; 4th audiēns, audientis. The present participle of sum
+      does not exist in classical Latin (though praesēns and absēns are
+      derived from compounds of sum).
+    paradigm:
+      formation: "present stem + -ns, -ntis"
+      conjugations:
+        first: { nom_sg: "amāns", gen_sg: "amantis" }
+        second: { nom_sg: "monēns", gen_sg: "monentis" }
+        third: { nom_sg: "dūcēns", gen_sg: "dūcentis" }
+        fourth: { nom_sg: "audiēns", gen_sg: "audientis" }
+      declension:
+        note: "Declines like a 3rd-declension i-stem adjective (one termination)."
+        cases:
+          nominative: { m_f: "-ns", n: "-ns" }
+          genitive: { m_f: "-ntis", n: "-ntis" }
+          dative: { m_f: "-ntī", n: "-ntī" }
+          accusative: { m_f: "-ntem", n: "-ns" }
+          ablative: { m_f: "-ntī / -nte", n: "-ntī / -nte" }
+    examples:
+      - latin: "Mīles pugnāns vulnerātus est."
+        english: "The soldier, while fighting, was wounded."
+        notes: "pugnāns is the nom. sg. present participle of pugnō, agreeing with mīles; it expresses action simultaneous with the main verb."
+      - latin: "Vidī puerum currentem."
+        english: "I saw the boy running."
+        notes: "currentem is acc. sg. present participle of currō, agreeing with puerum."
+
+  - name: "Perfect Passive Participle"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Perfect Passive Indicative"]
+    description: >
+      The perfect passive participle (PPP) is the fourth principal part
+      of a Latin verb. It is a verbal adjective expressing completed
+      passive action. It declines exactly like a first-and-second-
+      declension adjective (bonus, -a, -um pattern): masculine -us,
+      feminine -a, neuter -um. The PPP is used to form all perfect
+      passive tenses (with sum, eram, erō) and the ablative absolute
+      construction. Common formations include: amātus (loved), monitus
+      (warned), ductus (led), audītus (heard). The PPP is one of the
+      most frequently encountered forms in Latin prose and must be
+      thoroughly mastered.
+    paradigm:
+      formation: "Fourth principal part; declines as 1st/2nd declension adjective (-us, -a, -um)."
+      examples_by_conjugation:
+        first: { ppp: "amātus, -a, -um (having been loved)" }
+        second: { ppp: "monitus, -a, -um (having been warned)" }
+        third: { ppp: "ductus, -a, -um (having been led)" }
+        fourth: { ppp: "audītus, -a, -um (having been heard)" }
+      declension:
+        model: "amātus, -a, -um"
+        note: "Follows the same pattern as bonus, -a, -um (1st/2nd declension adjective)."
+        masculine: { nom: "-us", gen: "-ī", dat: "-ō", acc: "-um", abl: "-ō" }
+        feminine: { nom: "-a", gen: "-ae", dat: "-ae", acc: "-am", abl: "-ā" }
+        neuter: { nom: "-um", gen: "-ī", dat: "-ō", acc: "-um", abl: "-ō" }
+    examples:
+      - latin: "Urbe captā, mīlitēs discessērunt."
+        english: "With the city having been captured, the soldiers departed."
+        notes: "captā is abl. sg. fem. PPP of capiō in an ablative absolute construction; it agrees with urbe."
+      - latin: "Litterae ā cōnsule scrīptae ad senātum missae sunt."
+        english: "The letter written by the consul was sent to the senate."
+        notes: "scrīptae is nom. pl. fem. PPP of scrībō used as an attributive adjective modifying litterae."

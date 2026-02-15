@@ -1,0 +1,206 @@
+language: latin
+category: syntax
+concepts:
+  - name: "Nominative Case"
+    subcategory: case_usage
+    difficulty: 1
+    prerequisites: []
+    description: >
+      The nominative is the case of the subject and the predicate nominative.
+      Every finite verb in Latin agrees with a nominative subject in person
+      and number. A predicate nominative (also called predicate noun or
+      predicate adjective) appears with linking verbs such as sum, fīō, and
+      passive forms of verbs like appellō and creō, where it renames or
+      describes the subject and therefore takes the same case.
+    examples:
+      - latin: "Puella cantat."
+        english: "The girl sings."
+        notes: >
+          Puella is nominative singular, serving as the subject of cantat.
+      - latin: "Marcus est agricola."
+        english: "Marcus is a farmer."
+        notes: >
+          Both Marcus (subject) and agricola (predicate nominative) are in
+          the nominative case. The predicate nominative renames the subject
+          after the linking verb est.
+      - latin: "Rēgīna sapiens est."
+        english: "The queen is wise."
+        notes: >
+          Sapiens is a predicate adjective in the nominative, describing
+          the subject rēgīna after the linking verb.
+
+  - name: "Accusative Case"
+    subcategory: case_usage
+    difficulty: 2
+    prerequisites: ["Nominative Case"]
+    description: >
+      The accusative case has several functions. Its primary use is to mark the
+      direct object of a transitive verb. It also expresses extent of time
+      (duration) and extent of space (distance), and serves as the object of
+      many prepositions (ad, in when indicating motion toward, per, trāns,
+      inter, etc.). In addition, the accusative appears in exclamations and
+      in the accusative-plus-infinitive construction of indirect statement.
+    examples:
+      - latin: "Agricola agrum arat."
+        english: "The farmer plows the field."
+        notes: >
+          Agrum is accusative singular, functioning as the direct object of
+          the transitive verb arat.
+      - latin: "Multōs annōs vīxit."
+        english: "He lived for many years."
+        notes: >
+          Multōs annōs is an accusative of extent of time, expressing
+          duration without a preposition.
+      - latin: "Ad urbem ambulāvit."
+        english: "He walked to the city."
+        notes: >
+          Urbem is accusative after the preposition ad, indicating motion
+          toward.
+      - latin: "Per silvam iter fēcimus."
+        english: "We made a journey through the forest."
+        notes: >
+          Silvam is accusative after per. Many prepositions of motion or
+          extent take the accusative.
+
+  - name: "Genitive Case"
+    subcategory: case_usage
+    difficulty: 3
+    prerequisites: ["Accusative Case"]
+    description: >
+      The genitive case broadly expresses a relationship between two nouns,
+      most commonly possession. It also serves in the partitive genitive
+      (indicating the whole of which a part is taken), the objective genitive
+      (the object of the action implied by the noun), the subjective genitive
+      (the agent of the action implied by the noun), the genitive of
+      description (quality or characteristic), and with certain adjectives
+      and verbs that take a genitive complement. The genitive often
+      corresponds to English 'of' or the possessive.
+    examples:
+      - latin: "Domus patris magna est."
+        english: "The father's house is large."
+        notes: >
+          Patris is a possessive genitive modifying domus.
+      - latin: "Pars mīlitum fūgit."
+        english: "Part of the soldiers fled."
+        notes: >
+          Mīlitum is a partitive genitive, indicating the whole from which
+          pars is drawn.
+      - latin: "Amor patriae eum impulit."
+        english: "Love of the fatherland drove him."
+        notes: >
+          Patriae can be read as an objective genitive (love directed toward
+          the fatherland) or a subjective genitive depending on context.
+          Here the objective reading is more natural.
+      - latin: "Vir magnae virtūtis erat."
+        english: "He was a man of great courage."
+        notes: >
+          Magnae virtūtis is a genitive of description (quality), modifying
+          vir.
+
+  - name: "Dative Case"
+    subcategory: case_usage
+    difficulty: 3
+    prerequisites: ["Accusative Case"]
+    description: >
+      The dative case marks the indirect object, the person or thing
+      indirectly affected by the action. Beyond this core use, Latin employs
+      the dative of reference (the person concerned or affected), the dative
+      of possession (with esse to express ownership), the dative of purpose
+      (or double dative, where a dative of purpose combines with a dative of
+      reference), and the dative with special intransitive verbs such as
+      crēdō, noceō, pāreō, persuādeō, and placeō, which take a dative
+      complement rather than an accusative direct object.
+    examples:
+      - latin: "Magister discipulīs librōs dat."
+        english: "The teacher gives books to the students."
+        notes: >
+          Discipulīs is a dative of indirect object, indicating the
+          recipients of the giving.
+      - latin: "Mihi est liber."
+        english: "I have a book (literally, 'There is a book for me')."
+        notes: >
+          Mihi is a dative of possession. Latin uses the dative with esse
+          to express possession, rather than a verb meaning 'to have.'
+      - latin: "Hoc nōbīs auxiliō fuit."
+        english: "This was a help to us."
+        notes: >
+          This is a double dative construction: auxiliō is the dative of
+          purpose (for the purpose of help) and nōbīs is the dative of
+          reference (for us).
+      - latin: "Tibi crēdō."
+        english: "I believe you."
+        notes: >
+          Crēdō takes a dative complement (tibi), not an accusative. This
+          is one of several Latin verbs with dative objects that correspond
+          to transitive English verbs.
+
+  - name: "Ablative Case"
+    subcategory: case_usage
+    difficulty: 4
+    prerequisites: ["Dative Case"]
+    description: >
+      The ablative is the most versatile Latin case, absorbing the functions
+      of several Proto-Indo-European cases. Its major uses include: ablative
+      of means or instrument (the tool or means by which something is done,
+      no preposition), ablative of accompaniment (cum + ablative), ablative
+      of manner (cum + ablative, or without cum if an adjective is present),
+      ablative of time when (point in time, no preposition), ablative of
+      agent (ā/ab + ablative, with passive verbs), ablative of separation
+      (from, away from), ablative of place where (in + ablative), and
+      ablative absolute (a participial phrase grammatically independent of
+      the main clause).
+    examples:
+      - latin: "Gladiō pugnāvit."
+        english: "He fought with a sword."
+        notes: >
+          Gladiō is an ablative of means/instrument. No preposition is used
+          for the instrument in Latin.
+      - latin: "Cum amīcīs ambulat."
+        english: "She walks with friends."
+        notes: >
+          Amīcīs is an ablative of accompaniment with the preposition cum.
+      - latin: "Prīmā lūce profectī sunt."
+        english: "They set out at first light."
+        notes: >
+          Prīmā lūce is an ablative of time when, expressing a definite
+          point in time without a preposition.
+      - latin: "Liber ā discipulō legitur."
+        english: "The book is read by the student."
+        notes: >
+          Ā discipulō is an ablative of agent with the preposition ā/ab,
+          used with passive verbs to indicate the person performing the
+          action.
+      - latin: "Urbe discessit."
+        english: "He departed from the city."
+        notes: >
+          Urbe is an ablative of separation. With names of cities, towns,
+          and small islands, no preposition is needed for place from which.
+
+  - name: "Vocative Case"
+    subcategory: case_usage
+    difficulty: 1
+    prerequisites: []
+    description: >
+      The vocative case is used for direct address. In almost all declensions,
+      its forms are identical to the nominative. The one notable exception is
+      second-declension masculine nouns in -us, which form the vocative
+      singular in -e (e.g., Marcus becomes Marce), and nouns in -ius, which
+      contract to -ī (e.g., fīlius becomes fīlī). The vocative is typically
+      set off by commas and often accompanied by the interjection ō.
+    examples:
+      - latin: "Marce, venī hūc!"
+        english: "Marcus, come here!"
+        notes: >
+          Marce is the vocative singular of Marcus, showing the -e ending
+          characteristic of second-declension -us nouns.
+      - latin: "Ō amīcī, audīte mē!"
+        english: "O friends, listen to me!"
+        notes: >
+          Amīcī is the vocative plural, identical to the nominative plural
+          for second-declension nouns. The interjection ō often accompanies
+          the vocative.
+      - latin: "Quid agis, puella?"
+        english: "What are you doing, girl?"
+        notes: >
+          Puella is vocative singular, identical in form to the nominative
+          for first-declension nouns.

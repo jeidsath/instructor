@@ -1,0 +1,390 @@
+language: latin
+category: morphology
+concepts:
+  - name: "Personal Pronouns"
+    subcategory: pronoun_declension
+    difficulty: 3
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      Latin has distinct personal pronoun forms for the first person (ego/nōs)
+      and second person (tū/vōs). Because Latin is a pro-drop language, the
+      nominative forms are used only for emphasis or contrast; the verb ending
+      alone normally indicates the subject. The third person has no dedicated
+      personal pronoun and instead uses demonstratives such as is/ea/id. All
+      personal pronouns decline fully through the six cases.
+    paradigm:
+      first_person_singular:
+        nominative: "ego"
+        genitive: "meī"
+        dative: "mihi"
+        accusative: "mē"
+        ablative: "mē"
+        vocative: null
+      first_person_plural:
+        nominative: "nōs"
+        genitive: "nostrum / nostrī"
+        dative: "nōbīs"
+        accusative: "nōs"
+        ablative: "nōbīs"
+        vocative: null
+      second_person_singular:
+        nominative: "tū"
+        genitive: "tuī"
+        dative: "tibi"
+        accusative: "tē"
+        ablative: "tē"
+        vocative: null
+      second_person_plural:
+        nominative: "vōs"
+        genitive: "vestrum / vestrī"
+        dative: "vōbīs"
+        accusative: "vōs"
+        ablative: "vōbīs"
+        vocative: null
+    examples:
+      - latin: "Ego tē amō."
+        english: "I love you."
+        notes: >
+          The nominative ego is expressed here for emphasis; without it the
+          verb amō alone would convey 'I love.'
+      - latin: "Nōs patriam dēfendimus."
+        english: "We defend the fatherland."
+        notes: >
+          Nōs is emphatic. The verb ending -mus already marks first person
+          plural.
+      - latin: "Tēcum ambulāre volō."
+        english: "I want to walk with you."
+        notes: >
+          The preposition cum is attached as an enclitic to the ablative of
+          personal pronouns: mēcum, tēcum, nōbīscum, vōbīscum.
+
+  - name: "Demonstrative Pronouns"
+    subcategory: pronoun_declension
+    difficulty: 4
+    prerequisites: ["Personal Pronouns", "Third Declension"]
+    description: >
+      Latin has three main demonstrative pronouns that indicate varying degrees
+      of proximity. Hic/haec/hoc ('this, these') refers to something near the
+      speaker. Ille/illa/illud ('that, those') refers to something remote from
+      both speaker and listener. Is/ea/id ('this, that, he/she/it') is a
+      weaker demonstrative that also serves as the default third-person
+      pronoun. All three decline across three genders and five cases (plus
+      vocative, which is rarely used). They follow pronominal declension
+      patterns with some irregular forms.
+    paradigm:
+      hic_haec_hoc:
+        singular:
+          masculine:
+            nominative: "hic"
+            genitive: "huius"
+            dative: "huic"
+            accusative: "hunc"
+            ablative: "hōc"
+          feminine:
+            nominative: "haec"
+            genitive: "huius"
+            dative: "huic"
+            accusative: "hanc"
+            ablative: "hāc"
+          neuter:
+            nominative: "hoc"
+            genitive: "huius"
+            dative: "huic"
+            accusative: "hoc"
+            ablative: "hōc"
+        plural:
+          masculine:
+            nominative: "hī"
+            genitive: "hōrum"
+            dative: "hīs"
+            accusative: "hōs"
+            ablative: "hīs"
+          feminine:
+            nominative: "hae"
+            genitive: "hārum"
+            dative: "hīs"
+            accusative: "hās"
+            ablative: "hīs"
+          neuter:
+            nominative: "haec"
+            genitive: "hōrum"
+            dative: "hīs"
+            accusative: "haec"
+            ablative: "hīs"
+      ille_illa_illud:
+        singular:
+          masculine:
+            nominative: "ille"
+            genitive: "illīus"
+            dative: "illī"
+            accusative: "illum"
+            ablative: "illō"
+          feminine:
+            nominative: "illa"
+            genitive: "illīus"
+            dative: "illī"
+            accusative: "illam"
+            ablative: "illā"
+          neuter:
+            nominative: "illud"
+            genitive: "illīus"
+            dative: "illī"
+            accusative: "illud"
+            ablative: "illō"
+        plural:
+          masculine:
+            nominative: "illī"
+            genitive: "illōrum"
+            dative: "illīs"
+            accusative: "illōs"
+            ablative: "illīs"
+          feminine:
+            nominative: "illae"
+            genitive: "illārum"
+            dative: "illīs"
+            accusative: "illās"
+            ablative: "illīs"
+          neuter:
+            nominative: "illa"
+            genitive: "illōrum"
+            dative: "illīs"
+            accusative: "illa"
+            ablative: "illīs"
+      is_ea_id:
+        singular:
+          masculine:
+            nominative: "is"
+            genitive: "eius"
+            dative: "eī"
+            accusative: "eum"
+            ablative: "eō"
+          feminine:
+            nominative: "ea"
+            genitive: "eius"
+            dative: "eī"
+            accusative: "eam"
+            ablative: "eā"
+          neuter:
+            nominative: "id"
+            genitive: "eius"
+            dative: "eī"
+            accusative: "id"
+            ablative: "eō"
+        plural:
+          masculine:
+            nominative: "eī / iī"
+            genitive: "eōrum"
+            dative: "eīs / iīs"
+            accusative: "eōs"
+            ablative: "eīs / iīs"
+          feminine:
+            nominative: "eae"
+            genitive: "eārum"
+            dative: "eīs / iīs"
+            accusative: "eās"
+            ablative: "eīs / iīs"
+          neuter:
+            nominative: "ea"
+            genitive: "eōrum"
+            dative: "eīs / iīs"
+            accusative: "ea"
+            ablative: "eīs / iīs"
+    examples:
+      - latin: "Hic liber bonus est."
+        english: "This book is good."
+        notes: >
+          Hic modifies liber and agrees in gender (masculine), number
+          (singular), and case (nominative).
+      - latin: "Illam puellam vīdī."
+        english: "I saw that girl."
+        notes: >
+          Illam is feminine accusative singular, agreeing with puellam.
+      - latin: "Is venit; eum salūtāvimus."
+        english: "He came; we greeted him."
+        notes: >
+          Is/ea/id functions as a third-person pronoun. Is is nominative
+          masculine singular; eum is accusative masculine singular.
+
+  - name: "Relative Pronoun"
+    subcategory: pronoun_declension
+    difficulty: 5
+    prerequisites: ["Demonstrative Pronouns"]
+    description: >
+      The relative pronoun quī/quae/quod ('who, which, that') introduces
+      relative clauses. It agrees with its antecedent in gender and number but
+      takes its case from its function within the relative clause. This
+      principle of split agreement is a central feature of Latin subordination.
+      The forms of the relative pronoun closely resemble those of the
+      interrogative adjective.
+    paradigm:
+      singular:
+        masculine:
+          nominative: "quī"
+          genitive: "cuius"
+          dative: "cui"
+          accusative: "quem"
+          ablative: "quō"
+        feminine:
+          nominative: "quae"
+          genitive: "cuius"
+          dative: "cui"
+          accusative: "quam"
+          ablative: "quā"
+        neuter:
+          nominative: "quod"
+          genitive: "cuius"
+          dative: "cui"
+          accusative: "quod"
+          ablative: "quō"
+      plural:
+        masculine:
+          nominative: "quī"
+          genitive: "quōrum"
+          dative: "quibus"
+          accusative: "quōs"
+          ablative: "quibus"
+        feminine:
+          nominative: "quae"
+          genitive: "quārum"
+          dative: "quibus"
+          accusative: "quās"
+          ablative: "quibus"
+        neuter:
+          nominative: "quae"
+          genitive: "quōrum"
+          dative: "quibus"
+          accusative: "quae"
+          ablative: "quibus"
+    examples:
+      - latin: "Puella quam vīdī pulchra est."
+        english: "The girl whom I saw is beautiful."
+        notes: >
+          Quam is feminine accusative singular: feminine and singular to agree
+          with its antecedent puella, accusative because it is the direct
+          object of vīdī in the relative clause.
+      - latin: "Mīles cuius gladium cēpī fūgit."
+        english: "The soldier whose sword I seized fled."
+        notes: >
+          Cuius is masculine genitive singular. It is masculine singular to
+          agree with mīles and genitive because it shows possession of
+          gladium within the relative clause.
+      - latin: "Urbs in quā habitāmus magna est."
+        english: "The city in which we live is large."
+        notes: >
+          Quā is feminine ablative singular, governed by the preposition in
+          within the relative clause, while agreeing in gender and number
+          with the antecedent urbs.
+
+  - name: "Interrogative Pronoun"
+    subcategory: pronoun_declension
+    difficulty: 5
+    prerequisites: ["Relative Pronoun"]
+    description: >
+      Latin distinguishes between the substantive interrogative pronoun
+      quis/quid ('who? what?'), used independently, and the interrogative
+      adjective quī/quae/quod ('which? what?'), used to modify a noun. The
+      interrogative adjective has forms identical to the relative pronoun. The
+      substantive interrogative differs from the relative only in the
+      nominative singular masculine (quis vs. quī) and the nominative/accusative
+      singular neuter (quid vs. quod). Both are used to introduce direct and
+      indirect questions.
+    paradigm:
+      substantive:
+        singular:
+          masculine_feminine:
+            nominative: "quis"
+            genitive: "cuius"
+            dative: "cui"
+            accusative: "quem"
+            ablative: "quō"
+          neuter:
+            nominative: "quid"
+            genitive: "cuius"
+            dative: "cui"
+            accusative: "quid"
+            ablative: "quō"
+        plural:
+          masculine:
+            nominative: "quī"
+            genitive: "quōrum"
+            dative: "quibus"
+            accusative: "quōs"
+            ablative: "quibus"
+          feminine:
+            nominative: "quae"
+            genitive: "quārum"
+            dative: "quibus"
+            accusative: "quās"
+            ablative: "quibus"
+          neuter:
+            nominative: "quae"
+            genitive: "quōrum"
+            dative: "quibus"
+            accusative: "quae"
+            ablative: "quibus"
+      adjective:
+        note: "Identical to the relative pronoun quī/quae/quod in all forms."
+    examples:
+      - latin: "Quis venit?"
+        english: "Who is coming?"
+        notes: >
+          Quis is the substantive interrogative, nominative singular. Gender
+          is determined by the referent.
+      - latin: "Quid facis?"
+        english: "What are you doing?"
+        notes: >
+          Quid is the neuter nominative/accusative singular of the
+          substantive interrogative.
+      - latin: "Quem librum legis?"
+        english: "Which book are you reading?"
+        notes: >
+          Here quem is the interrogative adjective (masculine accusative
+          singular), modifying librum. Its form is identical to the relative
+          pronoun.
+
+  - name: "Reflexive Pronoun"
+    subcategory: pronoun_declension
+    difficulty: 4
+    prerequisites: ["Personal Pronouns"]
+    description: >
+      Reflexive pronouns refer back to the subject of the clause. In the first
+      and second persons, Latin simply reuses the personal pronoun forms (mē,
+      tē, nōs, vōs) reflexively. The third person, however, has a dedicated
+      reflexive pronoun suī/sibi/sē that is used for all genders and both
+      numbers. This pronoun has no nominative form, since by definition the
+      reflexive cannot be the subject. The third-person reflexive is
+      particularly important in indirect discourse, where it refers back to
+      the subject of the main verb.
+    paradigm:
+      third_person_reflexive:
+        nominative: null
+        genitive: "suī"
+        dative: "sibi"
+        accusative: "sē / sēsē"
+        ablative: "sē / sēsē"
+      note: >
+        First and second person reflexives use the standard personal pronoun
+        forms (mē, tē, nōs, vōs). The third-person reflexive is invariable
+        for gender and number.
+    examples:
+      - latin: "Sē laudat."
+        english: "He praises himself."
+        notes: >
+          Sē is the third-person reflexive accusative, referring back to the
+          subject of laudat.
+      - latin: "Sibi nocent."
+        english: "They harm themselves."
+        notes: >
+          Sibi is the reflexive dative. The same form serves for singular and
+          plural, masculine and feminine.
+      - latin: "Caesar dīxit sē ventūrum esse."
+        english: "Caesar said that he (himself) would come."
+        notes: >
+          In indirect statement, sē refers back to the subject of the main
+          verb (Caesar). If eum were used instead, it would refer to someone
+          other than Caesar.
+      - latin: "Sēcum loquitur."
+        english: "He talks with himself."
+        notes: >
+          As with personal pronouns, cum attaches as an enclitic to the
+          reflexive: sēcum.

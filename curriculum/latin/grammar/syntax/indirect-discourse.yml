@@ -1,0 +1,139 @@
+language: latin
+category: syntax
+concepts:
+  - name: "Indirect Statement"
+    subcategory: indirect_discourse
+    difficulty: 7
+    prerequisites: ["Present Active Infinitive", "Perfect Active Infinitive", "Accusative Case"]
+    description: >
+      Latin expresses indirect statement (reported speech after verbs of
+      saying, thinking, knowing, perceiving) not with a 'that' clause as in
+      English, but with an accusative subject and an infinitive verb. The
+      subject of the reported statement goes into the accusative case, and
+      the verb becomes an infinitive. The tense of the infinitive is relative
+      to the main verb: the present infinitive indicates action at the same
+      time as the main verb, the perfect infinitive indicates action before
+      the main verb, and the future infinitive indicates action after the
+      main verb. This construction is one of the most distinctive features of
+      Latin syntax.
+    examples:
+      - latin: "Dīcit puellam cantāre."
+        english: "He says that the girl is singing."
+        notes: >
+          Puellam is accusative (subject of the indirect statement) and
+          cantare is the present active infinitive, indicating action
+          simultaneous with the main verb dicit.
+      - latin: "Dīxit puellam cantāvisse."
+        english: "He said that the girl had sung."
+        notes: >
+          Cantavisse is the perfect active infinitive, indicating the
+          singing occurred before the time of the main verb dixit.
+      - latin: "Dīcit puellam cantātūram esse."
+        english: "He says that the girl will sing."
+        notes: >
+          Cantaturam esse is the future active infinitive (future active
+          participle + esse), indicating action subsequent to the main verb.
+      - latin: "Crēdō tē bonum virum esse."
+        english: "I believe that you are a good man."
+        notes: >
+          Te is the accusative subject. Bonum virum is a predicate
+          accusative, agreeing with the subject of the infinitive. The
+          present infinitive esse indicates time simultaneous with credo.
+      - latin: "Scīmus urbem captam esse."
+        english: "We know that the city was captured."
+        notes: >
+          Captam esse is the perfect passive infinitive (perfect passive
+          participle + esse). Urbem is the accusative subject, and captam
+          agrees with it.
+
+  - name: "Indirect Question"
+    subcategory: indirect_discourse
+    difficulty: 8
+    prerequisites: ["Indirect Statement", "Interrogative Pronoun"]
+    description: >
+      Indirect questions are subordinate clauses that report a question after
+      verbs of asking, knowing, telling, wondering, and similar expressions.
+      Unlike indirect statements, which use the accusative-infinitive
+      construction, indirect questions use a subordinate clause with the verb
+      in the subjunctive. They are introduced by interrogative words such as
+      quis, quid, cur, ubi, quomodo, num, utrum...an, and -ne. The tense of
+      the subjunctive follows the sequence of tenses: in primary sequence
+      (main verb in present or future), the present subjunctive expresses
+      simultaneous action and the perfect subjunctive expresses prior action;
+      in secondary sequence (main verb in a past tense), the imperfect
+      subjunctive expresses simultaneous action and the pluperfect subjunctive
+      expresses prior action.
+    examples:
+      - latin: "Rogat quid faciās."
+        english: "He asks what you are doing."
+        notes: >
+          Primary sequence: the main verb rogat is present, so the
+          simultaneous action in the indirect question uses the present
+          subjunctive facias.
+      - latin: "Rogāvit quid facerēs."
+        english: "He asked what you were doing."
+        notes: >
+          Secondary sequence: the main verb rogavit is perfect (past), so
+          simultaneous action uses the imperfect subjunctive faceres.
+      - latin: "Nesciō ubi sit."
+        english: "I do not know where he is."
+        notes: >
+          Nescio introduces the indirect question; ubi is the interrogative
+          adverb; sit is present subjunctive in primary sequence.
+      - latin: "Quaesīvit num venīssēs."
+        english: "He asked whether you had come."
+        notes: >
+          Num introduces a yes/no indirect question. Venisses is pluperfect
+          subjunctive in secondary sequence, indicating action prior to the
+          main verb quaesivit.
+      - latin: "Incertum est utrum maneat an proficīscātur."
+        english: "It is uncertain whether he is staying or departing."
+        notes: >
+          Utrum...an introduces an alternative indirect question.
+          Present subjunctives maneat and proficiscatur follow the primary
+          main expression incertum est.
+
+  - name: "Indirect Command"
+    subcategory: indirect_discourse
+    difficulty: 8
+    prerequisites: ["Indirect Question", "Purpose Clauses"]
+    description: >
+      Indirect commands (also called jussive noun clauses) report orders,
+      requests, advice, or persuasion. They are introduced by ut (affirmative)
+      or ne (negative) with the subjunctive, following verbs such as imperō
+      ('I order'), rogō ('I ask'), moneō ('I advise'), hortor ('I urge'),
+      persuādeō ('I persuade'), and petō ('I seek, request'). The tense of
+      the subjunctive follows the regular sequence of tenses: present
+      subjunctive after a primary main verb, imperfect subjunctive after a
+      secondary main verb. This construction is syntactically similar to
+      purpose clauses but is classified separately because it fills the role
+      of a noun clause (object of the main verb) rather than an adverbial
+      clause of purpose.
+    examples:
+      - latin: "Imperāvit ut mīlitēs proficīscerentur."
+        english: "He ordered the soldiers to set out."
+        notes: >
+          Imperavit (secondary) is followed by ut + imperfect subjunctive
+          (proficiscerentur). The subject of the indirect command (milites)
+          appears in the nominative within the ut clause.
+      - latin: "Tē rogō nē discēdās."
+        english: "I ask you not to leave."
+        notes: >
+          Rogo (primary) is followed by ne + present subjunctive (discedas)
+          for a negative indirect command.
+      - latin: "Monet ut caveāmus."
+        english: "He advises us to be careful."
+        notes: >
+          Monet (primary) with ut + present subjunctive (caveamus). The
+          subject of the subjunctive clause (implied nos) is the same as
+          the indirect object of the main verb.
+      - latin: "Persuāsit eī ut venīret."
+        english: "He persuaded him to come."
+        notes: >
+          Persuadeo takes a dative object (ei) and is followed by ut +
+          imperfect subjunctive (veniret) in secondary sequence.
+      - latin: "Petīvit nē id facerent."
+        english: "He asked that they not do this."
+        notes: >
+          Petivit (secondary) with ne + imperfect subjunctive (facerent).
+          Ne is used for negative commands, never ut non.

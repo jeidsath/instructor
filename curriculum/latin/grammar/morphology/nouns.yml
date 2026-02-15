@@ -7,7 +7,11 @@ concepts:
     prerequisites: []
     description: >
       Nouns of the first declension are predominantly feminine and have
-      stems ending in -a. The nominative singular ends in -a.
+      stems ending in -a. The nominative singular ends in -a and the
+      genitive singular in -ae. A small number of first declension nouns
+      are masculine (e.g., agricola, nauta, poēta), but they decline
+      identically. This is the simplest declension and serves as the
+      foundation for learning the Latin case system.
     paradigm:
       model_word: "puella, -ae (f.) girl"
       cases:
@@ -20,17 +24,28 @@ concepts:
     examples:
       - latin: "Puella aquam portat."
         english: "The girl carries water."
-        notes: "puella = nominative subject, aquam = accusative object"
+        notes: "puella is nominative singular (subject); aquam is accusative singular (direct object)."
+      - latin: "Agricola fīliārum terram arat."
+        english: "The farmer ploughs the land of his daughters."
+        notes: "agricola is a masculine first-declension noun; fīliārum is genitive plural."
 
   - name: "Second Declension"
     subcategory: noun_declension
     difficulty: 2
     prerequisites: ["First Declension"]
     description: >
-      Nouns of the second declension are predominantly masculine (-us, -er)
-      or neuter (-um). Masculine/feminine have stems ending in -o.
+      Nouns of the second declension are predominantly masculine (ending in
+      -us or -er) or neuter (ending in -um). The genitive singular ends in
+      -ī. Masculine nouns in -us form the vocative singular in -e (exception:
+      proper nouns in -ius often have vocative -ī, e.g. Vergili). Some
+      masculine nouns end in -er: a few retain the -e- throughout (puer,
+      puerī), while most drop it (ager, agrī). Neuter nouns in -um are
+      treated separately in the next concept.
     paradigm:
       model_word: "servus, -ī (m.) slave"
+      notes:
+        - "Nouns in -er: puer, puerī (boy) retains e; ager, agrī (field) drops e."
+        - "The vocative singular of -us nouns is -e (serve!); all other forms match nominative."
       cases:
         nominative: { singular: "-us", plural: "-ī" }
         genitive: { singular: "-ī", plural: "-ōrum" }
@@ -41,17 +56,61 @@ concepts:
     examples:
       - latin: "Servus dominum videt."
         english: "The slave sees the master."
-        notes: "servus = nominative subject, dominum = accusative object"
+        notes: "servus is nominative singular (subject); dominum is accusative singular (direct object)."
+      - latin: "Puer in agrō lūdit."
+        english: "The boy plays in the field."
+        notes: "puer is a second-declension -er noun that retains the e; agrō is ablative singular with preposition in."
+
+  - name: "Second Declension Neuter"
+    subcategory: noun_declension
+    difficulty: 2
+    prerequisites: ["Second Declension"]
+    description: >
+      Neuter nouns of the second declension end in -um in the nominative
+      singular and follow the same genitive (-ī) as masculine second-
+      declension nouns. The critical rule for all Latin neuter nouns applies
+      here: the nominative, accusative, and vocative forms are always
+      identical. In the plural, these three cases all end in -a. This
+      pattern recurs in every declension that contains neuter nouns.
+    paradigm:
+      model_word: "bellum, -ī (n.) war"
+      notes:
+        - "Neuter rule: nominative = accusative = vocative in both singular and plural."
+        - "Plural nom./acc./voc. ending -a is the hallmark of all Latin neuters."
+      cases:
+        nominative: { singular: "-um", plural: "-a" }
+        genitive: { singular: "-ī", plural: "-ōrum" }
+        dative: { singular: "-ō", plural: "-īs" }
+        accusative: { singular: "-um", plural: "-a" }
+        ablative: { singular: "-ō", plural: "-īs" }
+        vocative: { singular: "-um", plural: "-a" }
+    examples:
+      - latin: "Bellum est malum."
+        english: "War is an evil."
+        notes: "bellum is nominative neuter; malum is a predicate nominative neuter noun/adjective."
+      - latin: "Dōna templōrum magna sunt."
+        english: "The gifts of the temples are great."
+        notes: "dōna is nominative/accusative neuter plural; templōrum is genitive plural."
 
   - name: "Third Declension"
     subcategory: noun_declension
     difficulty: 4
     prerequisites: ["First Declension", "Second Declension"]
     description: >
-      The third declension contains nouns of all genders with consonant
-      and i-stems. It is the largest and most varied declension.
+      The third declension is the largest and most varied of the five Latin
+      declensions. It contains nouns of all three genders. The genitive
+      singular always ends in -is, which is the key identifier. The
+      nominative singular varies widely and often cannot predict the stem;
+      therefore, the genitive must always be memorised alongside the
+      nominative. Third-declension nouns fall into two broad groups:
+      consonant stems (the majority) and i-stems (treated in the next
+      concept). Consonant-stem nouns have genitive plural -um, ablative
+      singular -e, and neuter nominative/accusative plural -a.
     paradigm:
       model_word: "rex, regis (m.) king"
+      notes:
+        - "The stem is found by removing -is from the genitive singular: reg-."
+        - "Consonant stems vs. i-stems differ in gen. pl. (-um vs. -ium), abl. sg. (-e vs. -ī for neuters), and neut. nom./acc. pl. (-a vs. -ia)."
       cases:
         nominative: { singular: "(varies)", plural: "-ēs" }
         genitive: { singular: "-is", plural: "-um" }
@@ -60,5 +119,128 @@ concepts:
         ablative: { singular: "-e", plural: "-ibus" }
         vocative: { singular: "(= nom.)", plural: "-ēs" }
     examples:
-      - latin: "Rex populum regit."
+      - latin: "Rēx populum regit."
         english: "The king rules the people."
+        notes: "rēx is nominative singular; the stem reg- is visible in the genitive regis."
+      - latin: "Mīlitēs ducis iussa audiunt."
+        english: "The soldiers hear the commands of the leader."
+        notes: "mīlitēs is nom. pl.; ducis is gen. sg. of dux, ducis (leader)."
+
+  - name: "Third Declension i-Stems"
+    subcategory: noun_declension
+    difficulty: 5
+    prerequisites: ["Third Declension"]
+    description: >
+      A significant subset of third-declension nouns are classified as
+      i-stems. These nouns retain an -i- in certain endings where consonant
+      stems do not. The key differences are: genitive plural -ium (instead
+      of -um), and for neuter i-stems, ablative singular -ī (instead of -e)
+      and nominative/accusative plural -ia (instead of -a). Masculine and
+      feminine i-stems include parisyllabic nouns (same number of syllables
+      in nominative and genitive, e.g. civis, civis) and nouns whose stem
+      ends in two consonants (e.g. urbs, urbis). Neuter i-stems end in -e,
+      -al, or -ar (e.g. mare, animal, calcar).
+    paradigm:
+      model_word: "civis, civis (m./f.) citizen"
+      notes:
+        - "Key i-stem markers: gen. pl. -ium, neut. abl. sg. -ī, neut. nom./acc. pl. -ia."
+        - "Identifying i-stems: parisyllabics (civis, -is), double-consonant stems (urbs, urbis), neuters in -e/-al/-ar."
+      cases:
+        nominative: { singular: "(varies)", plural: "-ēs" }
+        genitive: { singular: "-is", plural: "-ium" }
+        dative: { singular: "-ī", plural: "-ibus" }
+        accusative: { singular: "-em", plural: "-ēs / -īs" }
+        ablative: { singular: "-e", plural: "-ibus" }
+        vocative: { singular: "(= nom.)", plural: "-ēs" }
+      neuter_i_stem:
+        model_word: "mare, maris (n.) sea"
+        cases:
+          nominative: { singular: "-e", plural: "-ia" }
+          genitive: { singular: "-is", plural: "-ium" }
+          dative: { singular: "-ī", plural: "-ibus" }
+          accusative: { singular: "-e", plural: "-ia" }
+          ablative: { singular: "-ī", plural: "-ibus" }
+          vocative: { singular: "-e", plural: "-ia" }
+    examples:
+      - latin: "Cīvēs urbis lēgēs servant."
+        english: "The citizens of the city observe the laws."
+        notes: "cīvēs is nom. pl. i-stem; urbis is gen. sg. of urbs (also an i-stem, stem ending in two consonants)."
+      - latin: "Maria et flūmina patriam dēfendunt."
+        english: "Seas and rivers defend the fatherland."
+        notes: "maria is nom./acc. neuter i-stem plural of mare (ending -ia, not -a)."
+
+  - name: "Fourth Declension"
+    subcategory: noun_declension
+    difficulty: 5
+    prerequisites: ["Third Declension"]
+    description: >
+      The fourth declension contains mostly masculine nouns ending in -us
+      (genitive singular -ūs) and a small number of neuter nouns ending
+      in -ū. The predominant gender is masculine; the few feminine nouns
+      (manus, domus, īdūs) must be memorised. The dative and ablative
+      plural end in -ibus (or occasionally -ubus to avoid ambiguity, e.g.
+      arcubus). Neuter fourth-declension nouns (cornū, genū) follow the
+      standard neuter rule: nominative = accusative = vocative.
+    paradigm:
+      model_word: "manus, -ūs (f.) hand"
+      notes:
+        - "Most fourth-declension nouns are masculine; manus and domus are notable feminines."
+        - "Neuter type: cornū, cornūs (n.) horn — nom./acc./voc. sg. -ū, pl. -ua."
+      cases:
+        nominative: { singular: "-us", plural: "-ūs" }
+        genitive: { singular: "-ūs", plural: "-uum" }
+        dative: { singular: "-uī", plural: "-ibus" }
+        accusative: { singular: "-um", plural: "-ūs" }
+        ablative: { singular: "-ū", plural: "-ibus" }
+        vocative: { singular: "-us", plural: "-ūs" }
+      neuter_type:
+        model_word: "cornū, -ūs (n.) horn"
+        cases:
+          nominative: { singular: "-ū", plural: "-ua" }
+          genitive: { singular: "-ūs", plural: "-uum" }
+          dative: { singular: "-ū", plural: "-ibus" }
+          accusative: { singular: "-ū", plural: "-ua" }
+          ablative: { singular: "-ū", plural: "-ibus" }
+          vocative: { singular: "-ū", plural: "-ua" }
+    examples:
+      - latin: "Manus mīlitum gladiōs tenent."
+        english: "The hands of the soldiers hold swords."
+        notes: "manus is nom. pl. (4th decl.); mīlitum is gen. pl. (3rd decl.)."
+      - latin: "Exercitus ad portum vēnit."
+        english: "The army came to the harbor."
+        notes: "exercitus is nom. sg. (4th decl.); portum is acc. sg. (2nd decl.)."
+
+  - name: "Fifth Declension"
+    subcategory: noun_declension
+    difficulty: 5
+    prerequisites: ["Fourth Declension"]
+    description: >
+      The fifth declension is the smallest Latin declension. All fifth-
+      declension nouns end in -ēs in the nominative singular and -eī or
+      -ēī in the genitive singular. Nearly all are feminine; the one
+      important exception is diēs, which is usually masculine (but
+      feminine when referring to an appointed date or period). Only rēs
+      and diēs are fully declined in both singular and plural; most other
+      fifth-declension nouns lack some or all plural forms. Despite its
+      small size, this declension is important because rēs and diēs are
+      extremely common words.
+    paradigm:
+      model_word: "rēs, reī (f.) thing, affair"
+      notes:
+        - "Only rēs and diēs have complete plural forms."
+        - "diēs is usually masculine; other 5th-declension nouns are feminine."
+        - "The genitive and dative singular -eī contracts to -ēī after a consonant (fidēī from fidēs)."
+      cases:
+        nominative: { singular: "-ēs", plural: "-ēs" }
+        genitive: { singular: "-eī / -ēī", plural: "-ērum" }
+        dative: { singular: "-eī / -ēī", plural: "-ēbus" }
+        accusative: { singular: "-em", plural: "-ēs" }
+        ablative: { singular: "-ē", plural: "-ēbus" }
+        vocative: { singular: "-ēs", plural: "-ēs" }
+    examples:
+      - latin: "Rēs pūblica ā cīvibus dēfenditur."
+        english: "The republic is defended by the citizens."
+        notes: "rēs pūblica (lit. 'public thing') is the standard term for republic; ā cīvibus is ablative of agent."
+      - latin: "Diēs longus erat."
+        english: "The day was long."
+        notes: "diēs is nom. sg. masculine; longus agrees in masculine nominative singular."

@@ -1,0 +1,208 @@
+language: latin
+category: morphology
+concepts:
+  - name: "First-Second Declension Adjectives"
+    subcategory: adjective_declension
+    difficulty: 2
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      First-and-second-declension adjectives are the most common type in
+      Latin. They have three sets of endings: masculine forms follow the
+      second declension (-us/-er pattern), feminine forms follow the first
+      declension (-a pattern), and neuter forms follow the second declension
+      neuter (-um pattern). The dictionary entry gives all three nominative
+      singulars: bonus, -a, -um. Some adjectives have masculine in -er:
+      a few retain the e (līber, lībera, līberum — free), while most drop
+      it (pulcher, pulchra, pulchrum — beautiful). Adjectives must agree
+      with their noun in gender, number, and case, but not necessarily in
+      declension (e.g., agricola bonus — the good farmer, where the noun
+      is 1st declension but the adjective is masculine 2nd declension).
+    paradigm:
+      model_word: "bonus, -a, -um (good)"
+      masculine:
+        nominative: { singular: "-us", plural: "-ī" }
+        genitive: { singular: "-ī", plural: "-ōrum" }
+        dative: { singular: "-ō", plural: "-īs" }
+        accusative: { singular: "-um", plural: "-ōs" }
+        ablative: { singular: "-ō", plural: "-īs" }
+        vocative: { singular: "-e", plural: "-ī" }
+      feminine:
+        nominative: { singular: "-a", plural: "-ae" }
+        genitive: { singular: "-ae", plural: "-ārum" }
+        dative: { singular: "-ae", plural: "-īs" }
+        accusative: { singular: "-am", plural: "-ās" }
+        ablative: { singular: "-ā", plural: "-īs" }
+        vocative: { singular: "-a", plural: "-ae" }
+      neuter:
+        nominative: { singular: "-um", plural: "-a" }
+        genitive: { singular: "-ī", plural: "-ōrum" }
+        dative: { singular: "-ō", plural: "-īs" }
+        accusative: { singular: "-um", plural: "-a" }
+        ablative: { singular: "-ō", plural: "-īs" }
+        vocative: { singular: "-um", plural: "-a" }
+    examples:
+      - latin: "Bonus agricola magnōs agrōs habet."
+        english: "The good farmer has large fields."
+        notes: "bonus agrees with agricola (masc. nom. sg.); magnōs agrees with agrōs (masc. acc. pl.). Note that agricola is 1st declension but takes masculine adjectives."
+      - latin: "Puella pulchra rosam albam portat."
+        english: "The beautiful girl carries a white rose."
+        notes: "pulchra agrees with puella (fem. nom. sg.); albam agrees with rosam (fem. acc. sg.)."
+      - latin: "Bellum longum multōs mīlitēs dēlēvit."
+        english: "The long war destroyed many soldiers."
+        notes: "longum agrees with bellum (neut. nom. sg.); multōs agrees with mīlitēs (masc. acc. pl.)."
+
+  - name: "Third Declension Adjectives"
+    subcategory: adjective_declension
+    difficulty: 5
+    prerequisites: ["Third Declension", "First-Second Declension Adjectives"]
+    description: >
+      Third-declension adjectives decline like third-declension i-stem
+      nouns but come in three varieties based on the number of distinct
+      nominative singular forms. Three-termination adjectives have
+      different nominative forms for all three genders (ācer, ācris,
+      ācre — sharp). Two-termination adjectives share one form for
+      masculine and feminine and have a separate neuter (fortis, forte —
+      brave). One-termination adjectives have a single nominative form
+      for all genders (fēlīx, gen. fēlīcis — happy). All three types
+      share the i-stem characteristics: ablative singular -ī, genitive
+      plural -ium, and neuter nominative/accusative plural -ia.
+    paradigm:
+      three_termination:
+        model_word: "ācer, ācris, ācre (sharp, keen)"
+        note: "Masculine nom. sg. loses the e (like ager, agrī in 2nd declension nouns)."
+      two_termination:
+        model_word: "fortis, forte (brave, strong)"
+        cases:
+          nominative: { m_f: "fortis", n: "forte" }
+          genitive: { m_f_n: "fortis" }
+          dative: { m_f_n: "fortī" }
+          accusative: { m_f: "fortem", n: "forte" }
+          ablative: { m_f_n: "fortī" }
+          nominative_pl: { m_f: "fortēs", n: "fortia" }
+          genitive_pl: { m_f_n: "fortium" }
+          dative_pl: { m_f_n: "fortibus" }
+          accusative_pl: { m_f: "fortēs / fortīs", n: "fortia" }
+          ablative_pl: { m_f_n: "fortibus" }
+      one_termination:
+        model_word: "fēlīx, gen. fēlīcis (happy, fortunate)"
+        cases:
+          nominative: { m_f_n: "fēlīx" }
+          genitive: { m_f_n: "fēlīcis" }
+          dative: { m_f_n: "fēlīcī" }
+          accusative: { m_f: "fēlīcem", n: "fēlīx" }
+          ablative: { m_f_n: "fēlīcī" }
+          nominative_pl: { m_f: "fēlīcēs", n: "fēlīcia" }
+          genitive_pl: { m_f_n: "fēlīcium" }
+          dative_pl: { m_f_n: "fēlīcibus" }
+          accusative_pl: { m_f: "fēlīcēs", n: "fēlīcia" }
+          ablative_pl: { m_f_n: "fēlīcibus" }
+    examples:
+      - latin: "Fortēs mīlitēs ācre proelium commīsērunt."
+        english: "The brave soldiers joined a fierce battle."
+        notes: "fortēs is a two-termination adj. (nom. pl. m./f.); ācre is a three-termination adj. (acc. sg. neut.)."
+      - latin: "Vir fēlīx omnia bona habet."
+        english: "The fortunate man has all good things."
+        notes: "fēlīx is a one-termination adj. (nom. sg. m.) agreeing with vir; bona is a 1st/2nd decl. adj. (acc. pl. neut.)."
+      - latin: "Omnia fortia brevī tempore cadunt."
+        english: "All strong things fall in a short time."
+        notes: "fortia is neut. nom. pl. of fortis — note the -ia ending characteristic of i-stem adjectives."
+
+  - name: "Comparison of Adjectives"
+    subcategory: adjective_declension
+    difficulty: 6
+    prerequisites: ["Third Declension Adjectives"]
+    description: >
+      Latin adjectives have three degrees: positive (the base form),
+      comparative, and superlative. The regular comparative is formed by
+      adding -ior (m./f.) and -ius (n.) to the stem: fortis > fortior,
+      fortius. Comparatives decline like third-declension consonant stems
+      (not i-stems). The regular superlative adds -issimus, -a, -um to the
+      stem: fortissimus, -a, -um, and declines like a 1st/2nd declension
+      adjective. Adjectives in -er form the superlative with -rimus
+      (pulcher > pulcherrimus). Adjectives in -ilis form it with -limus
+      (facilis > facillimus). Several very common adjectives are irregular:
+      bonus > melior > optimus; malus > peior > pessimus; magnus > maior >
+      maximus; parvus > minor > minimus; multus > plūs > plūrimus.
+    paradigm:
+      regular_formation:
+        comparative: "stem + -ior (m./f.), -ius (n.); gen. -iōris"
+        superlative: "stem + -issimus, -a, -um"
+      special_rules:
+        - "Adjectives in -er: superlative in -errimus (pulcher > pulcherrimus)."
+        - "Adjectives in -ilis: superlative in -illimus (facilis > facillimus)."
+      comparative_declension:
+        note: "Comparatives decline as 3rd-declension consonant stems."
+        model: "fortior, fortius"
+        cases:
+          nominative: { m_f: "fortior", n: "fortius" }
+          genitive: { m_f_n: "fortiōris" }
+          dative: { m_f_n: "fortiōrī" }
+          accusative: { m_f: "fortiōrem", n: "fortius" }
+          ablative: { m_f_n: "fortiōre" }
+          nominative_pl: { m_f: "fortiōrēs", n: "fortiōra" }
+          genitive_pl: { m_f_n: "fortiōrum" }
+      irregular_adjectives:
+        - { positive: "bonus, -a, -um", comparative: "melior, melius", superlative: "optimus, -a, -um" }
+        - { positive: "malus, -a, -um", comparative: "peior, peius", superlative: "pessimus, -a, -um" }
+        - { positive: "magnus, -a, -um", comparative: "maior, maius", superlative: "maximus, -a, -um" }
+        - { positive: "parvus, -a, -um", comparative: "minor, minus", superlative: "minimus, -a, -um" }
+        - { positive: "multus, -a, -um", comparative: "plūs (n. indecl.)", superlative: "plūrimus, -a, -um" }
+    examples:
+      - latin: "Hic liber est melior quam ille."
+        english: "This book is better than that one."
+        notes: "melior is the irregular comparative of bonus; quam introduces the second term of comparison."
+      - latin: "Fortissimī mīlitum prīmī pugnāvērunt."
+        english: "The bravest of the soldiers fought first."
+        notes: "fortissimī is the superlative of fortis (nom. pl. masc.); the partitive genitive mīlitum follows."
+      - latin: "Via longior est sed tūtior."
+        english: "The road is longer but safer."
+        notes: "longior and tūtior are both regular comparatives (nom. sg. fem. agreeing with via)."
+
+  - name: "Adverb Formation"
+    subcategory: adjective_declension
+    difficulty: 4
+    prerequisites: ["First-Second Declension Adjectives"]
+    description: >
+      Latin adverbs are regularly formed from adjectives. From first-and-
+      second-declension adjectives, the adverb is formed by adding -ē to
+      the stem: lātus > lātē (widely), pulcher > pulchrē (beautifully).
+      From third-declension adjectives, the adverb is formed by adding
+      -iter to the stem (or -ter if the stem already ends in -nt-):
+      fortis > fortiter (bravely), fēlīx > fēlīciter (happily), prūdēns >
+      prūdenter (wisely). Comparative adverbs use the neuter nominative/
+      accusative singular of the comparative adjective (the -ius form):
+      fortius (more bravely). Superlative adverbs replace -us of the
+      superlative adjective with -ē: fortissimē (most bravely). Several
+      common adverbs are irregular: bene (well), male (badly), magnopere
+      (greatly), paulum (little), multum (much).
+    paradigm:
+      from_first_second_declension:
+        rule: "stem + -ē"
+        examples:
+          - { adjective: "lātus, -a, -um (wide)", adverb: "lātē (widely)" }
+          - { adjective: "pulcher, -chra, -chrum (beautiful)", adverb: "pulchrē (beautifully)" }
+          - { adjective: "līber, -a, -um (free)", adverb: "līberē (freely)" }
+      from_third_declension:
+        rule: "stem + -iter (or -ter after -nt-)"
+        examples:
+          - { adjective: "fortis, -e (brave)", adverb: "fortiter (bravely)" }
+          - { adjective: "fēlīx, -īcis (happy)", adverb: "fēlīciter (happily)" }
+          - { adjective: "prūdēns, -entis (wise)", adverb: "prūdenter (wisely)" }
+      comparative_adverb: "neuter comparative form (-ius): fortius, fēlīcius"
+      superlative_adverb: "superlative stem + -ē: fortissimē, fēlīcissimē"
+      irregular:
+        - { positive: "bene (well)", comparative: "melius", superlative: "optimē" }
+        - { positive: "male (badly)", comparative: "peius", superlative: "pessimē" }
+        - { positive: "magnopere (greatly)", comparative: "magis", superlative: "maximē" }
+        - { positive: "multum (much)", comparative: "plūs", superlative: "plūrimum" }
+        - { positive: "paulum (little)", comparative: "minus", superlative: "minimē" }
+    examples:
+      - latin: "Mīlitēs fortiter pugnāvērunt."
+        english: "The soldiers fought bravely."
+        notes: "fortiter is the adverb formed from fortis (3rd decl. adj.), stem fort- + -iter."
+      - latin: "Magister clārē loquitur."
+        english: "The teacher speaks clearly."
+        notes: "clārē is the adverb formed from clārus (1st/2nd decl. adj.), stem clār- + -ē."
+      - latin: "Hic discipulus melius scrībit quam ille."
+        english: "This student writes better than that one."
+        notes: "melius is the irregular comparative adverb of bene (well); quam introduces the comparison."
