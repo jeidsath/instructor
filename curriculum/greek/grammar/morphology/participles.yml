@@ -1,0 +1,169 @@
+language: greek
+category: morphology
+concepts:
+  - name: "Present Active Participle"
+    subcategory: participle
+    difficulty: 4
+    prerequisites: ["Present Active Indicative", "Third Declension Consonant Stems"]
+    description: >
+      The present active participle expresses ongoing action simultaneous with
+      the main verb. It is formed from the present stem with the suffix
+      -ων, -ουσα, -ον (gen. -οντος, -ούσης, -οντος). The masculine and
+      neuter follow the third declension (ντ-stem), the feminine follows the
+      first declension. Participles function as adjectives, substantives, or
+      adverbial modifiers (circumstantial participle).
+    paradigm:
+      model: "λύων, λύουσα, λῦον (releasing)"
+      masculine: { nom: "λύων", gen: "λύοντος", dat: "λύοντι", acc: "λύοντα" }
+      feminine: { nom: "λύουσα", gen: "λυούσης", dat: "λυούσῃ", acc: "λύουσαν" }
+      neuter: { nom: "λῦον", gen: "λύοντος", dat: "λύοντι", acc: "λῦον" }
+    examples:
+      - greek: "ὁ στρατηγὸς λέγων ἔπεισε τοὺς πολίτας."
+        english: "The general, (while) speaking, persuaded the citizens."
+        notes: "Circumstantial participle expressing simultaneous action."
+      - greek: "οἱ ἀκούοντες ἐθαύμαζον."
+        english: "Those listening were amazed."
+        notes: "Substantive use: article + participle = 'those who are Xing.'"
+
+  - name: "Present Middle/Passive Participle"
+    subcategory: participle
+    difficulty: 4
+    prerequisites: ["Present Middle/Passive Indicative", "First and Second Declension Adjectives"]
+    description: >
+      The present middle/passive participle uses the suffix -όμενος, -ομένη,
+      -όμενον, declining like a regular first/second declension adjective.
+      It expresses ongoing middle or passive action. Context determines
+      whether the meaning is middle (for oneself) or passive (being done to).
+      This is the simplest participle to decline.
+    paradigm:
+      model: "λυόμενος, λυομένη, λυόμενον (releasing for oneself / being released)"
+      masculine: { nom: "-όμενος", gen: "-ομένου", dat: "-ομένῳ", acc: "-όμενον" }
+      feminine: { nom: "-ομένη", gen: "-ομένης", dat: "-ομένῃ", acc: "-ομένην" }
+      neuter: { nom: "-όμενον", gen: "-ομένου", dat: "-ομένῳ", acc: "-όμενον" }
+    examples:
+      - greek: "ἡ πόλις πολιορκουμένη ἀντεῖχεν."
+        english: "The city, being besieged, held out."
+        notes: "Passive meaning: πολιορκουμένη modifies ἡ πόλις."
+      - greek: "ὁ στρατιώτης παρασκευαζόμενος τὰ ὅπλα ἐξῆλθεν."
+        english: "The soldier, preparing his weapons (for himself), went out."
+        notes: "Middle meaning: the subject acts in his own interest."
+
+  - name: "Aorist Active Participle"
+    subcategory: participle
+    difficulty: 5
+    prerequisites: ["First Aorist Active Indicative", "Present Active Participle"]
+    description: >
+      The aorist active participle expresses simple (not ongoing) action,
+      typically prior to the main verb. First aorist: -σας, -σασα, -σαν
+      (gen. -σαντος, -σάσης, -σαντος). Second aorist: -ών, -οῦσα, -όν
+      (same endings as present participle but on the aorist stem). The aorist
+      participle is extremely common in narrative prose.
+    paradigm:
+      first_aorist:
+        model: "λύσας, λύσασα, λῦσαν (having released)"
+        masculine: { nom: "λύσας", gen: "λύσαντος", dat: "λύσαντι", acc: "λύσαντα" }
+        feminine: { nom: "λύσασα", gen: "λυσάσης", dat: "λυσάσῃ", acc: "λύσασαν" }
+      second_aorist:
+        model: "λαβών, λαβοῦσα, λαβόν (having taken)"
+        masculine: { nom: "λαβών", gen: "λαβόντος", dat: "λαβόντι", acc: "λαβόντα" }
+    examples:
+      - greek: "ὁ στρατηγὸς λύσας τοὺς αἰχμαλώτους ἀπῆλθεν."
+        english: "The general, having released the prisoners, departed."
+        notes: "First aorist participle expressing prior action."
+      - greek: "λαβόντες τὰ ὅπλα εἰς τὴν μάχην ᾔεσαν."
+        english: "Having taken their weapons, they went into battle."
+        notes: "Second aorist participle of λαμβάνω. Nom. pl. masc."
+
+  - name: "Aorist Middle Participle"
+    subcategory: participle
+    difficulty: 5
+    prerequisites: ["Aorist Middle Indicative", "Present Middle/Passive Participle"]
+    description: >
+      The aorist middle participle uses -σάμενος, -σαμένη, -σάμενον (first
+      aorist) or -όμενος, -ομένη, -όμενον on the second aorist stem. It
+      declines like a regular first/second declension adjective. Many
+      deponent verbs use aorist middle participles with active meaning.
+    paradigm:
+      first_aorist:
+        model: "λυσάμενος, λυσαμένη, λυσάμενον (having released for oneself)"
+        masculine: { nom: "-σάμενος", gen: "-σαμένου", dat: "-σαμένῳ", acc: "-σάμενον" }
+      second_aorist:
+        model: "γενόμενος, γενομένη, γενόμενον (having become)"
+        masculine: { nom: "-όμενος", gen: "-ομένου", dat: "-ομένῳ", acc: "-όμενον" }
+    examples:
+      - greek: "ὁ στρατηγὸς βουλευσάμενος ἐκέλευσε τοὺς στρατιώτας."
+        english: "The general, having deliberated, ordered the soldiers."
+        notes: "First aorist middle participle of βουλεύω."
+      - greek: "ταῦτα γενόμενα πάντες ἐθαύμασαν."
+        english: "When these things happened, everyone was amazed."
+        notes: "Second aorist middle participle of γίγνομαι (deponent). Neut. pl."
+
+  - name: "Aorist Passive Participle"
+    subcategory: participle
+    difficulty: 5
+    prerequisites: ["Aorist Passive Indicative", "Present Middle/Passive Participle"]
+    description: >
+      The aorist passive participle is formed with -θείς, -θεῖσα, -θέν
+      (first aorist passive) or -είς, -εῖσα, -έν (second aorist passive).
+      The masculine and neuter decline like third-declension ντ-stems, the
+      feminine like a first-declension noun. This participle is common in
+      expressions of being affected by an action.
+    paradigm:
+      first_aorist_passive:
+        model: "λυθείς, λυθεῖσα, λυθέν (having been released)"
+        masculine: { nom: "λυθείς", gen: "λυθέντος", dat: "λυθέντι", acc: "λυθέντα" }
+        feminine: { nom: "λυθεῖσα", gen: "λυθείσης", dat: "λυθείσῃ", acc: "λυθεῖσαν" }
+        neuter: { nom: "λυθέν", gen: "λυθέντος", dat: "λυθέντι", acc: "λυθέν" }
+    examples:
+      - greek: "οἱ λυθέντες αἰχμάλωτοι οἴκαδε ἐπορεύθησαν."
+        english: "The released prisoners journeyed home."
+        notes: "Attributive use of aorist passive participle."
+      - greek: "ἡ πόλις πορθηθεῖσα ἔρημος ἦν."
+        english: "The city, having been sacked, was deserted."
+        notes: "Circumstantial aorist passive participle of πορθέω."
+
+  - name: "Perfect Active Participle"
+    subcategory: participle
+    difficulty: 6
+    prerequisites: ["Perfect Active Indicative", "Present Active Participle"]
+    description: >
+      The perfect active participle expresses a completed action with a
+      present resulting state. It is formed with reduplication + perfect stem
+      + -κώς, -κυῖα, -κός (gen. -κότος, -κυίας, -κότος). The masculine and
+      neuter are third declension, the feminine first declension. This
+      participle emphasizes the state resulting from a completed action.
+    paradigm:
+      model: "λελυκώς, λελυκυῖα, λελυκός (having released, in a state of having released)"
+      masculine: { nom: "λελυκώς", gen: "λελυκότος", dat: "λελυκότι", acc: "λελυκότα" }
+      feminine: { nom: "λελυκυῖα", gen: "λελυκυίας", dat: "λελυκυίᾳ", acc: "λελυκυῖαν" }
+      neuter: { nom: "λελυκός", gen: "λελυκότος", dat: "λελυκότι", acc: "λελυκός" }
+    examples:
+      - greek: "ὁ τεθνηκὼς στρατιώτης ἐτάφη."
+        english: "The dead (having died) soldier was buried."
+        notes: "Perfect participle of θνῄσκω: emphasizes the resulting state."
+      - greek: "οἱ πεπαιδευκότες τοὺς νέους τιμῶνται."
+        english: "Those who have educated the young are honored."
+        notes: "Substantive use of the perfect active participle."
+
+  - name: "Perfect Middle/Passive Participle"
+    subcategory: participle
+    difficulty: 6
+    prerequisites: ["Perfect Middle/Passive Indicative", "Present Middle/Passive Participle"]
+    description: >
+      The perfect middle/passive participle is formed with reduplication +
+      verb stem + -μένος, -μένη, -μένον. It declines like a regular first/
+      second declension adjective, making it the easiest perfect participle
+      to recognize. It expresses a state resulting from a completed middle
+      or passive action and is used in periphrastic perfect constructions.
+    paradigm:
+      model: "λελυμένος, λελυμένη, λελυμένον (having been released)"
+      masculine: { nom: "-μένος", gen: "-μένου", dat: "-μένῳ", acc: "-μένον" }
+      feminine: { nom: "-μένη", gen: "-μένης", dat: "-μένῃ", acc: "-μένην" }
+      neuter: { nom: "-μένον", gen: "-μένου", dat: "-μένῳ", acc: "-μένον" }
+    examples:
+      - greek: "αἱ πύλαι κεκλεισμέναι ἦσαν."
+        english: "The gates were (had been) closed."
+        notes: "Perfect middle/passive participle of κλείω expressing resulting state."
+      - greek: "τὰ γεγραμμένα οὐ δύναται ἀλλάττεσθαι."
+        english: "What has been written cannot be changed."
+        notes: "Substantive neuter plural: 'the things that have been written.'"

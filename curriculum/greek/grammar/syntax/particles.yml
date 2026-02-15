@@ -1,0 +1,79 @@
+language: greek
+category: syntax
+concepts:
+  - name: "Conjunctive Particles"
+    subcategory: particles
+    difficulty: 2
+    prerequisites: []
+    description: >
+      Greek relies heavily on particles to connect sentences and show logical
+      relationships. The most fundamental are καί (and, also, even), ἀλλά
+      (but, on the contrary), and the μέν...δέ pairing (on the one hand...on
+      the other). Unlike English, Greek prose almost always begins each
+      sentence with a connecting particle. The absence of a connective
+      (asyndeton) is rhetorically marked.
+    examples:
+      - greek: "ὁ μὲν πατὴρ σοφός ἐστιν, ὁ δὲ υἱὸς ἀμαθής."
+        english: "The father is wise, but the son is ignorant."
+        notes: "μέν...δέ marks a contrast between two balanced clauses."
+      - greek: "ἀλλὰ δεῖ ἡμᾶς μάχεσθαι."
+        english: "But we must fight."
+        notes: "ἀλλά introduces a strong contrast or correction."
+
+  - name: "Postpositive Particles"
+    subcategory: particles
+    difficulty: 3
+    prerequisites: ["Conjunctive Particles"]
+    description: >
+      Many Greek particles are postpositive — they cannot stand first in
+      their clause. Key postpositives include γάρ (for, because), οὖν
+      (therefore), δή (indeed, in fact), and δέ (but, and). These particles
+      typically stand in second position (after the first word or phrase of
+      the clause). Understanding their placement is essential for parsing
+      Greek sentence structure.
+    examples:
+      - greek: "οἱ γὰρ Ἀθηναῖοι τὴν ἐλευθερίαν ἐφίλουν."
+        english: "For the Athenians loved freedom."
+        notes: "γάρ in second position, after the article οἱ. Explains the previous sentence."
+      - greek: "δεῖ οὖν ἡμᾶς βουλεύεσθαι."
+        english: "Therefore we must deliberate."
+        notes: "οὖν is postpositive, drawing an inference from what precedes."
+
+  - name: "Negative Particles"
+    subcategory: particles
+    difficulty: 3
+    prerequisites: ["Conjunctive Particles"]
+    description: >
+      Greek has two negatives: οὐ (οὐκ before smooth breathing, οὐχ before
+      rough breathing) is the objective negative, used with the indicative
+      and in statements of fact. μή is the subjective negative, used with
+      the subjunctive, optative, imperative, infinitive, and participle
+      (when conditional). Compound negatives (οὐδείς, μηδείς) reinforce
+      rather than cancel negation in Greek.
+    examples:
+      - greek: "ὁ ἀνὴρ οὐ σοφός ἐστιν."
+        english: "The man is not wise."
+        notes: "οὐ negates a factual statement (indicative mood)."
+      - greek: "μὴ ποιήσῃς τοῦτο."
+        english: "Do not do this."
+        notes: "μή with aorist subjunctive for a strong prohibition."
+
+  - name: "Modal Particle ἄν"
+    subcategory: particles
+    difficulty: 6
+    prerequisites: ["Subjunctive Mood", "Optative Mood"]
+    description: >
+      The particle ἄν (κε/κεν in epic) is the marker of contingency and
+      unreality. With the subjunctive in subordinate clauses, it marks
+      general or future conditions (ἐάν = εἰ + ἄν). With the optative
+      in main clauses, it expresses potential action (λύσειεν ἄν = he
+      would/might release). With past indicative, it marks contrary-to-fact
+      conditions (εἰ ἔλυσεν ἄν = he would have released). ἄν is never
+      used with the present or perfect indicative in main clauses.
+    examples:
+      - greek: "ἐὰν ἔλθῃ, δεξόμεθα αὐτόν."
+        english: "If he comes, we shall receive him."
+        notes: "ἐάν (= εἰ + ἄν) + subjunctive in a future more vivid condition."
+      - greek: "ταῦτα πράξειεν ἂν ὁ σοφός."
+        english: "A wise man would do these things."
+        notes: "Potential optative with ἄν expressing possibility."

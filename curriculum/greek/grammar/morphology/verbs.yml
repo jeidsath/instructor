@@ -1,0 +1,394 @@
+language: greek
+category: morphology
+concepts:
+  - name: "Present Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 2
+    prerequisites: []
+    description: >
+      The present active indicative is the most basic Greek verb form, expressing
+      ongoing or repeated action in the present. Greek uses thematic (ω) verbs
+      as the standard conjugation. Personal endings (-ω, -εις, -ει, -ομεν,
+      -ετε, -ουσι) are added to the present stem. The thematic vowel ο/ε
+      connects stem and ending.
+    paradigm:
+      model: "λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην (loose, release)"
+      singular: { 1s: "λύω", 2s: "λύεις", 3s: "λύει" }
+      plural: { 1p: "λύομεν", 2p: "λύετε", 3p: "λύουσι(ν)" }
+    examples:
+      - greek: "ὁ στρατηγὸς τοὺς αἰχμαλώτους λύει."
+        english: "The general releases the prisoners."
+        notes: "λύει is 3rd sg. present active indicative of λύω."
+      - greek: "οἱ μαθηταὶ τὰ βιβλία γράφουσιν."
+        english: "The students write the books."
+        notes: "γράφουσιν is 3rd pl.; the movable ν appears before vowels or at sentence end."
+
+  - name: "Present Middle/Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      In the present tense, Greek uses one set of endings for both the middle
+      voice (subject acts on/for itself) and passive voice (subject is acted
+      upon). Context determines which meaning applies. The endings are -ομαι,
+      -ῃ/-ει, -εται, -όμεθα, -εσθε, -ονται.
+    paradigm:
+      model: "λύομαι (I release for myself / I am released)"
+      singular: { 1s: "λύομαι", 2s: "λύῃ", 3s: "λύεται" }
+      plural: { 1p: "λυόμεθα", 2p: "λύεσθε", 3p: "λύονται" }
+    examples:
+      - greek: "ὁ δοῦλος λύεται."
+        english: "The slave is being released."
+        notes: "Passive meaning determined by context."
+      - greek: "ὁ στρατιώτης τὰ ὅπλα παρασκευάζεται."
+        english: "The soldier prepares his weapons (for himself)."
+        notes: "Middle voice: the subject acts in his own interest."
+
+  - name: "Imperfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The imperfect expresses continuous or repeated action in the past. It is
+      formed by adding an augment (ἐ-) to the present stem, then secondary
+      endings (-ον, -ες, -ε, -ομεν, -ετε, -ον). Verbs beginning with vowels
+      show temporal augment (lengthening). The imperfect exists only in the
+      indicative mood.
+    paradigm:
+      model: "ἔλυον (I was releasing, I used to release)"
+      singular: { 1s: "ἔλυον", 2s: "ἔλυες", 3s: "ἔλυε(ν)" }
+      plural: { 1p: "ἐλύομεν", 2p: "ἐλύετε", 3p: "ἔλυον" }
+    examples:
+      - greek: "οἱ Ἀθηναῖοι τοὺς νόμους ἐφύλαττον."
+        english: "The Athenians were guarding the laws."
+        notes: "ἐφύλαττον: augment ἐ- + stem φυλαττ- + secondary ending -ον."
+      - greek: "ὁ διδάσκαλος τοὺς παῖδας ἐδίδασκεν."
+        english: "The teacher was teaching the children."
+        notes: "Imperfect of διδάσκω with movable ν."
+
+  - name: "Imperfect Middle/Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Imperfect Active Indicative", "Present Middle/Passive Indicative"]
+    description: >
+      The imperfect middle/passive uses the augmented present stem with
+      secondary middle endings: -όμην, -ου, -ετο, -όμεθα, -εσθε, -οντο.
+      Like the present middle/passive, context determines whether the meaning
+      is middle or passive.
+    paradigm:
+      model: "ἐλυόμην (I was releasing for myself / I was being released)"
+      singular: { 1s: "ἐλυόμην", 2s: "ἐλύου", 3s: "ἐλύετο" }
+      plural: { 1p: "ἐλυόμεθα", 2p: "ἐλύεσθε", 3p: "ἐλύοντο" }
+    examples:
+      - greek: "ἡ πόλις ὑπὸ τῶν πολεμίων ἐπολιορκεῖτο."
+        english: "The city was being besieged by the enemies."
+        notes: "Imperfect passive of πολιορκέω (contract verb)."
+      - greek: "οἱ πολῖται τὰ ὅπλα παρεσκευάζοντο."
+        english: "The citizens were preparing their weapons (for themselves)."
+        notes: "Imperfect middle of παρασκευάζω."
+
+  - name: "Future Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The future active is formed by adding the tense marker -σ- to the verb
+      stem, then primary active endings. Labial stems (π, β, φ) + σ = ψ;
+      velar stems (κ, γ, χ) + σ = ξ; dental stems (τ, δ, θ) drop the dental
+      before σ. Liquid stems (λ, μ, ν, ρ) form a contract future in -ῶ.
+    paradigm:
+      model: "λύσω (I shall release)"
+      singular: { 1s: "λύσω", 2s: "λύσεις", 3s: "λύσει" }
+      plural: { 1p: "λύσομεν", 2p: "λύσετε", 3p: "λύσουσι(ν)" }
+    examples:
+      - greek: "ὁ βασιλεὺς τοὺς πολίτας σώσει."
+        english: "The king will save the citizens."
+        notes: "σώσει is future of σῴζω; dental stem drops dental before σ."
+      - greek: "γράψομεν τὰς ἐπιστολάς."
+        english: "We shall write the letters."
+        notes: "γράψομεν: labial stem γραφ- + σ = γραψ-."
+
+  - name: "Future Middle Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Future Active Indicative", "Present Middle/Passive Indicative"]
+    description: >
+      The future middle uses the future stem (with σ) plus primary middle
+      endings: -σομαι, -σῃ/-σει, -σεται, -σόμεθα, -σεσθε, -σονται. Many
+      deponent verbs (active in meaning but middle/passive in form) appear
+      only in the future middle. The future passive uses a separate formation
+      with -θησ-.
+    paradigm:
+      model: "λύσομαι (I shall release for myself)"
+      singular: { 1s: "λύσομαι", 2s: "λύσῃ", 3s: "λύσεται" }
+      plural: { 1p: "λυσόμεθα", 2p: "λύσεσθε", 3p: "λύσονται" }
+    examples:
+      - greek: "ὁ στρατηγὸς βουλεύσεται περὶ τοῦ πολέμου."
+        english: "The general will deliberate about the war."
+        notes: "βουλεύσεται is future middle of βουλεύω (deponent in future)."
+      - greek: "ἀφιξόμεθα εἰς τὴν πόλιν."
+        english: "We shall arrive at the city."
+        notes: "ἀφικνέομαι is a deponent verb with future middle ἀφίξομαι."
+
+  - name: "First Aorist Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Imperfect Active Indicative"]
+    description: >
+      The aorist expresses a simple, undefined past action (in contrast to the
+      imperfect's continuous past). The first (sigmatic) aorist adds -σα- to
+      the verb stem with augment and secondary endings: ἔλυσα, ἔλυσας, ἔλυσε,
+      ἐλύσαμεν, ἐλύσατε, ἔλυσαν. The same consonant changes as in the future
+      apply before σ.
+    paradigm:
+      model: "ἔλυσα (I released)"
+      singular: { 1s: "ἔλυσα", 2s: "ἔλυσας", 3s: "ἔλυσε(ν)" }
+      plural: { 1p: "ἐλύσαμεν", 2p: "ἐλύσατε", 3p: "ἔλυσαν" }
+    examples:
+      - greek: "ὁ κῆρυξ τὸν λόγον ἤγγειλεν."
+        english: "The herald announced the message."
+        notes: "ἤγγειλεν is first aorist of ἀγγέλλω; liquid aorist (no σ)."
+      - greek: "οἱ στρατιῶται τὸ τεῖχος ἔλυσαν."
+        english: "The soldiers destroyed the wall."
+        notes: "ἔλυσαν is 3rd pl. first aorist active indicative."
+
+  - name: "Second Aorist Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["First Aorist Active Indicative"]
+    description: >
+      The second (strong) aorist uses a different stem from the present
+      (ablaut) but takes the same endings as the imperfect: augment + aorist
+      stem + secondary endings (-ον, -ες, -ε, -ομεν, -ετε, -ον). Common
+      second aorists include ἔλαβον (λαμβάνω), ἔλιπον (λείπω), ἔβαλον
+      (βάλλω), ἦλθον (ἔρχομαι).
+    paradigm:
+      model: "ἔλαβον (I took) — from λαμβάνω"
+      singular: { 1s: "ἔλαβον", 2s: "ἔλαβες", 3s: "ἔλαβε(ν)" }
+      plural: { 1p: "ἐλάβομεν", 2p: "ἐλάβετε", 3p: "ἔλαβον" }
+    examples:
+      - greek: "οἱ πολέμιοι τὴν πόλιν ἔλαβον."
+        english: "The enemies took the city."
+        notes: "ἔλαβον is second aorist of λαμβάνω. Note the stem change."
+      - greek: "ὁ ἄγγελος εἰς τὸ στρατόπεδον ἦλθεν."
+        english: "The messenger came to the camp."
+        notes: "ἦλθεν is second aorist of ἔρχομαι (suppletive)."
+
+  - name: "Aorist Middle Indicative"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["First Aorist Active Indicative", "Present Middle/Passive Indicative"]
+    description: >
+      The aorist middle uses the aorist stem with secondary middle endings.
+      First aorist middle: -σάμην, -σω, -σατο, -σάμεθα, -σασθε, -σαντο.
+      Second aorist middle: -όμην, -ου, -ετο, -όμεθα, -εσθε, -οντο (same
+      as imperfect middle endings on the aorist stem). Many deponent verbs
+      have aorist middle forms.
+    paradigm:
+      model: "ἐλυσάμην (I released for myself)"
+      singular: { 1s: "ἐλυσάμην", 2s: "ἐλύσω", 3s: "ἐλύσατο" }
+      plural: { 1p: "ἐλυσάμεθα", 2p: "ἐλύσασθε", 3p: "ἐλύσαντο" }
+    examples:
+      - greek: "ὁ στρατηγὸς ἐβουλεύσατο περὶ τῆς μάχης."
+        english: "The general deliberated about the battle."
+        notes: "ἐβουλεύσατο is aorist middle of βουλεύω."
+      - greek: "ὁ ποιητὴς τοὺς λόγους ἀπεκρίνατο."
+        english: "The poet answered the words."
+        notes: "ἀπεκρίνατο is aorist middle of ἀποκρίνομαι (deponent)."
+
+  - name: "Aorist Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["First Aorist Active Indicative"]
+    description: >
+      Unlike the present and imperfect, the aorist has a separate passive
+      formation. The first aorist passive adds -θη- to the verb stem with
+      augment and active secondary endings: ἐλύθην, ἐλύθης, ἐλύθη, ἐλύθημεν,
+      ἐλύθητε, ἐλύθησαν. The second aorist passive uses -η- without θ
+      (e.g., ἐγράφην from γράφω).
+    paradigm:
+      model: "ἐλύθην (I was released)"
+      singular: { 1s: "ἐλύθην", 2s: "ἐλύθης", 3s: "ἐλύθη" }
+      plural: { 1p: "ἐλύθημεν", 2p: "ἐλύθητε", 3p: "ἐλύθησαν" }
+    examples:
+      - greek: "οἱ αἰχμάλωτοι ὑπὸ τοῦ στρατηγοῦ ἐλύθησαν."
+        english: "The prisoners were released by the general."
+        notes: "ἐλύθησαν is 3rd pl. first aorist passive. Agent with ὑπό + gen."
+      - greek: "ἡ ἐπιστολὴ ἐγράφη ὑπὸ τοῦ βασιλέως."
+        english: "The letter was written by the king."
+        notes: "ἐγράφη is second aorist passive of γράφω (no θ)."
+
+  - name: "Perfect Active Indicative"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["First Aorist Active Indicative"]
+    description: >
+      The perfect expresses a completed action with a present resulting state.
+      It is formed with reduplication (repeating the initial consonant + ε),
+      the verb stem, the tense marker -κ-, and special perfect endings:
+      -κα, -κας, -κε, -καμεν, -κατε, -κασι(ν). Aspirate-initial verbs
+      reduplicate with the corresponding unaspirated stop (φ → πε-, θ → τε-,
+      χ → κε-). Vowel-initial verbs lengthen the vowel.
+    paradigm:
+      model: "λέλυκα (I have released)"
+      singular: { 1s: "λέλυκα", 2s: "λέλυκας", 3s: "λέλυκε(ν)" }
+      plural: { 1p: "λελύκαμεν", 2p: "λελύκατε", 3p: "λελύκασι(ν)" }
+    examples:
+      - greek: "ὁ ποιητὴς πολλὰ βιβλία γέγραφεν."
+        english: "The poet has written many books."
+        notes: "γέγραφεν: reduplicated perfect of γράφω. γε- + γραφ- + ε(ν)."
+      - greek: "οἱ πολῖται τοὺς νόμους πεφυλάκασιν."
+        english: "The citizens have guarded the laws."
+        notes: "πεφυλάκασιν: aspirate reduplication (φ → πε-) of φυλάττω."
+
+  - name: "Perfect Middle/Passive Indicative"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Perfect Active Indicative", "Present Middle/Passive Indicative"]
+    description: >
+      The perfect middle/passive uses reduplication and primary middle endings
+      added directly to the stem (no thematic vowel or κ): -μαι, -σαι, -ται,
+      -μεθα, -σθε, -νται. Consonant stems show assimilation before the
+      endings. The third plural often requires a periphrastic form
+      (participle + εἰσί). This tense is important for expressing states.
+    paradigm:
+      model: "λέλυμαι (I have been released / I am in a state of release)"
+      singular: { 1s: "λέλυμαι", 2s: "λέλυσαι", 3s: "λέλυται" }
+      plural: { 1p: "λελύμεθα", 2p: "λέλυσθε", 3p: "λέλυνται" }
+    examples:
+      - greek: "αἱ θύραι κεκλεισμέναι εἰσίν."
+        english: "The doors have been closed (are closed)."
+        notes: "Periphrastic perfect middle/passive of κλείω."
+      - greek: "ἡ ἐπιστολὴ γέγραπται."
+        english: "The letter has been written."
+        notes: "γέγραπται: perfect middle/passive of γράφω. Labial stem + ται = πται."
+
+  - name: "Subjunctive Mood"
+    subcategory: verb_conjugation
+    difficulty: 5
+    prerequisites: ["Present Active Indicative", "First Aorist Active Indicative"]
+    description: >
+      The subjunctive mood expresses possibility, exhortation, purpose, or
+      fear. It is formed by lengthening the thematic vowel: ο → ω, ε → η.
+      Present subjunctive uses the present stem; aorist subjunctive uses the
+      unaugmented aorist stem. The subjunctive has only primary endings and
+      no past-time reference. Active: -ω, -ῃς, -ῃ, -ωμεν, -ητε, -ωσι(ν).
+    paradigm:
+      present_active:
+        singular: { 1s: "λύω", 2s: "λύῃς", 3s: "λύῃ" }
+        plural: { 1p: "λύωμεν", 2p: "λύητε", 3p: "λύωσι(ν)" }
+      aorist_active:
+        singular: { 1s: "λύσω", 2s: "λύσῃς", 3s: "λύσῃ" }
+        plural: { 1p: "λύσωμεν", 2p: "λύσητε", 3p: "λύσωσι(ν)" }
+    examples:
+      - greek: "ἴωμεν εἰς τὴν ἀγοράν."
+        english: "Let us go to the agora."
+        notes: "Hortatory subjunctive: first person plural expressing exhortation."
+      - greek: "φοβοῦμαι μὴ οἱ πολέμιοι ἔλθωσιν."
+        english: "I fear that the enemies may come."
+        notes: "Fear clause with μή + subjunctive. ἔλθωσιν is aorist subjunctive."
+
+  - name: "Optative Mood"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Subjunctive Mood"]
+    description: >
+      The optative expresses wish, potential, or is used in secondary sequence
+      (replacing subjunctive after past-tense main verbs). It is formed with
+      the mood suffix -ι- (thematic) or -ιη-/-ιε- (athematic) plus secondary
+      endings. The optative appears in all tenses but is most common in
+      present and aorist. Active endings: -οιμι, -οις, -οι, -οιμεν, -οιτε,
+      -οιεν.
+    paradigm:
+      present_active:
+        singular: { 1s: "λύοιμι", 2s: "λύοις", 3s: "λύοι" }
+        plural: { 1p: "λύοιμεν", 2p: "λύοιτε", 3p: "λύοιεν" }
+      aorist_active:
+        singular: { 1s: "λύσαιμι", 2s: "λύσαις (λύσειας)", 3s: "λύσαι (λύσειε)" }
+        plural: { 1p: "λύσαιμεν", 2p: "λύσαιτε", 3p: "λύσαιεν (λύσειαν)" }
+    examples:
+      - greek: "εἴθε οἱ θεοὶ ἡμᾶς σῴζοιεν."
+        english: "Would that the gods might save us."
+        notes: "Wish optative with εἴθε. σῴζοιεν is present optative."
+      - greek: "ὁ στρατηγὸς εἶπεν ὅτι λύσειε τοὺς αἰχμαλώτους."
+        english: "The general said that he would release the prisoners."
+        notes: "Optative in indirect discourse after secondary main verb (εἶπεν)."
+
+  - name: "Imperative Mood"
+    subcategory: verb_conjugation
+    difficulty: 3
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      The imperative expresses commands, available in 2nd and 3rd person only.
+      Present imperative (ongoing command) and aorist imperative (simple
+      command) differ in aspect, not time. Present active: -ε, -έτω (sg.),
+      -ετε, -όντων (pl.). Aorist active: -ον, -άτω (1st aor.) or -ε, -έτω
+      (2nd aor.). The negative imperative uses μή (not οὐ).
+    paradigm:
+      present_active:
+        singular: { 2s: "λῦε", 3s: "λυέτω" }
+        plural: { 2p: "λύετε", 3p: "λυόντων" }
+      aorist_active:
+        singular: { 2s: "λῦσον", 3s: "λυσάτω" }
+        plural: { 2p: "λύσατε", 3p: "λυσάντων" }
+    examples:
+      - greek: "λῦσον τοὺς αἰχμαλώτους."
+        english: "Release the prisoners! (do it now)"
+        notes: "Aorist imperative: single, complete action."
+      - greek: "μὴ φοβεῖσθε, ὦ πολῖται."
+        english: "Do not be afraid, citizens."
+        notes: "Present middle imperative with μή for prohibition."
+
+  - name: "Contract Verbs"
+    subcategory: verb_conjugation
+    difficulty: 4
+    prerequisites: ["Present Active Indicative"]
+    description: >
+      Contract verbs have stems ending in α, ε, or ο, which contract with the
+      thematic vowel in the present and imperfect. Rules: ε + ε = ει, ε + ο = ου,
+      α + ε = α, α + ο = ω, ο + ε = ου, ο + ο = ου. The three types are
+      exemplified by τιμάω (honor), ποιέω (make), and δηλόω (show).
+      Outside present/imperfect, contract verbs conjugate like regular verbs
+      with lengthened stem vowel.
+    paradigm:
+      alpha_contract:
+        model: "τιμάω → τιμῶ (I honor)"
+        singular: { 1s: "τιμῶ", 2s: "τιμᾷς", 3s: "τιμᾷ" }
+        plural: { 1p: "τιμῶμεν", 2p: "τιμᾶτε", 3p: "τιμῶσι(ν)" }
+      epsilon_contract:
+        model: "ποιέω → ποιῶ (I make)"
+        singular: { 1s: "ποιῶ", 2s: "ποιεῖς", 3s: "ποιεῖ" }
+        plural: { 1p: "ποιοῦμεν", 2p: "ποιεῖτε", 3p: "ποιοῦσι(ν)" }
+    examples:
+      - greek: "οἱ Ἀθηναῖοι τοὺς θεοὺς τιμῶσιν."
+        english: "The Athenians honor the gods."
+        notes: "τιμῶσιν: α + ου contracts to ῶ in the 3rd plural."
+      - greek: "ὁ ποιητὴς ποιεῖ καλοὺς λόγους."
+        english: "The poet composes beautiful speeches."
+        notes: "ποιεῖ: ε + ε contracts to ει."
+
+  - name: "Mi-Verbs"
+    subcategory: verb_conjugation
+    difficulty: 6
+    prerequisites: ["Present Active Indicative", "Imperfect Active Indicative"]
+    description: >
+      Athematic (μι) verbs add endings directly to the stem without a thematic
+      vowel. The principal μι-verbs are δίδωμι (give), τίθημι (place), ἵστημι
+      (set up), and ἵημι (send). They show reduplication in the present, vowel
+      alternation (long in singular, short in plural), and unique endings. In
+      the aorist, they use a κ-aorist (ἔδωκα) or root aorist (ἔστην).
+    paradigm:
+      model: "δίδωμι (I give)"
+      present_active:
+        singular: { 1s: "δίδωμι", 2s: "δίδως", 3s: "δίδωσι(ν)" }
+        plural: { 1p: "δίδομεν", 2p: "δίδοτε", 3p: "διδόασι(ν)" }
+      imperfect_active:
+        singular: { 1s: "ἐδίδουν", 2s: "ἐδίδους", 3s: "ἐδίδου" }
+        plural: { 1p: "ἐδίδομεν", 2p: "ἐδίδοτε", 3p: "ἐδίδοσαν" }
+    examples:
+      - greek: "ὁ βασιλεὺς δῶρα τοῖς στρατιώταις δίδωσιν."
+        english: "The king gives gifts to the soldiers."
+        notes: "δίδωσιν is present active of δίδωμι; long vowel ω in singular."
+      - greek: "ὁ νομοθέτης τοὺς νόμους τίθησιν."
+        english: "The lawgiver establishes the laws."
+        notes: "τίθησιν is present active of τίθημι; reduplication τι-."

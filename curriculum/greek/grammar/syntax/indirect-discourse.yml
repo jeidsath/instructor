@@ -1,0 +1,78 @@
+language: greek
+category: syntax
+concepts:
+  - name: "Indirect Discourse with ὅτι/ὡς"
+    subcategory: indirect_discourse
+    difficulty: 5
+    prerequisites: ["Purpose Clauses"]
+    description: >
+      The most straightforward form of indirect discourse uses ὅτι or ὡς
+      (that) after verbs of saying and thinking (λέγω, φημί, νομίζω,
+      οἴομαι). The original mood and tense are typically retained in the
+      subordinate clause. After a secondary (past) main verb, the optative
+      may replace the indicative, though retention of the original indicative
+      is always possible in Greek (unlike Latin sequence of tenses).
+    examples:
+      - greek: "λέγει ὅτι ὁ στρατηγὸς ἀπῆλθεν."
+        english: "He says that the general departed."
+        notes: "ὅτι + indicative retaining original tense (aorist)."
+      - greek: "εἶπεν ὅτι ὁ στρατηγὸς ἀπέλθοι."
+        english: "He said that the general had departed."
+        notes: "After secondary verb εἶπεν, optative (ἀπέλθοι) replaces indicative."
+
+  - name: "Indirect Discourse with Infinitive"
+    subcategory: indirect_discourse
+    difficulty: 6
+    prerequisites: ["Indirect Discourse with ὅτι/ὡς"]
+    description: >
+      After verbs of thinking and believing (νομίζω, οἴομαι, φημί, ἡγέομαι),
+      Greek uses the accusative + infinitive construction. The subject of the
+      infinitive is in the accusative case (unless it is the same as the
+      subject of the main verb, in which case it is omitted or in the
+      nominative). The tense of the infinitive represents the tense of the
+      original statement relative to the main verb.
+    examples:
+      - greek: "νομίζω τὸν ἄνδρα σοφὸν εἶναι."
+        english: "I think that the man is wise."
+        notes: "Accusative subject (τὸν ἄνδρα) + infinitive (εἶναι)."
+      - greek: "ἔφη αὐτὸς ἰέναι."
+        english: "He said that he himself was going."
+        notes: "Same subject: nominative implied; αὐτός is emphatic."
+
+  - name: "Indirect Discourse with Participle"
+    subcategory: indirect_discourse
+    difficulty: 6
+    prerequisites: ["Present Active Participle", "Indirect Discourse with ὅτι/ὡς"]
+    description: >
+      After verbs of knowing, perceiving, and showing (οἶδα, γιγνώσκω,
+      ὁράω, ἀκούω, δηλόω), Greek uses the supplementary participle in
+      indirect discourse. The participle agrees with the subject or object
+      in case, gender, and number. The tense of the participle represents
+      the tense of the original action. This construction is distinctive
+      to Greek among ancient languages.
+    examples:
+      - greek: "οἶδα τοῦτον σοφὸν ὄντα."
+        english: "I know that this man is wise."
+        notes: "Participle (ὄντα) agreeing with accusative object (τοῦτον)."
+      - greek: "ᾔσθοντο τοὺς πολεμίους προσιόντας."
+        english: "They perceived that the enemies were approaching."
+        notes: "Supplementary participle (προσιόντας) with verb of perception."
+
+  - name: "Indirect Questions"
+    subcategory: indirect_discourse
+    difficulty: 5
+    prerequisites: ["Interrogative and Indefinite Pronouns", "Subjunctive Mood"]
+    description: >
+      Indirect questions are introduced by interrogative words (τίς, πότε,
+      ποῦ, πῶς, πότερον...ἤ) after verbs of asking, knowing, and telling.
+      The verb in the indirect question retains the mood of the original
+      question in primary sequence. In secondary sequence, the optative
+      may replace the indicative or subjunctive. εἰ (whether) introduces
+      yes-no indirect questions.
+    examples:
+      - greek: "ἠρώτησε τίς ταῦτα ἐποίησεν."
+        english: "He asked who did these things."
+        notes: "Indirect question retaining original indicative after secondary verb."
+      - greek: "οὐκ οἶδα πότερον ἀληθῆ λέγεις ἢ ψευδῆ."
+        english: "I do not know whether you speak the truth or falsehood."
+        notes: "Indirect alternative question with πότερον...ἤ."

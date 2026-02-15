@@ -1,0 +1,146 @@
+language: greek
+category: morphology
+concepts:
+  - name: "First Declension"
+    subcategory: noun_declension
+    difficulty: 1
+    prerequisites: []
+    description: >
+      The first declension comprises primarily feminine nouns with stems in
+      -α or -η. Long-alpha nouns (πᾶσα type) retain α throughout; eta nouns
+      (τιμή) use η throughout. After ε, ι, or ρ, alpha is retained (χώρα).
+      Short-alpha nouns have -α in nom/acc but -ης/-ῃ in gen/dat singular.
+    paradigm:
+      model: "τιμή, τιμῆς, ἡ (honor)"
+      singular: { nom: "-ή", gen: "-ῆς", dat: "-ῇ", acc: "-ήν", voc: "-ή" }
+      plural: { nom: "-αί", gen: "-ῶν", dat: "-αῖς", acc: "-άς", voc: "-αί" }
+    examples:
+      - greek: "ἡ τιμὴ τῶν θεῶν μεγάλη ἐστίν."
+        english: "The honor of the gods is great."
+        notes: "τιμή is a regular eta-type first-declension noun."
+      - greek: "αἱ χῶραι καλαί εἰσιν."
+        english: "The lands are beautiful."
+        notes: "χώρα retains alpha throughout (after ρ). Nom. pl. -αι."
+
+  - name: "First Declension Masculine"
+    subcategory: noun_declension
+    difficulty: 2
+    prerequisites: ["First Declension"]
+    description: >
+      A subset of first-declension nouns are masculine, ending in -ης
+      (πολίτης, citizen) or -ας (νεανίας, young man). They follow the
+      first declension in most forms but have genitive singular in -ου
+      (like second declension) and nominative singular in -ης or -ας.
+    paradigm:
+      model: "πολίτης, πολίτου, ὁ (citizen)"
+      singular: { nom: "-ης", gen: "-ου", dat: "-ῃ", acc: "-ην", voc: "-α" }
+    examples:
+      - greek: "ὁ πολίτης τοὺς νόμους φυλάττει."
+        english: "The citizen guards the laws."
+        notes: "πολίτης is a masculine first-declension noun with gen. -ου."
+      - greek: "ὁ νεανίας ἀνδρεῖός ἐστιν."
+        english: "The young man is brave."
+        notes: "νεανίας is a masculine -ας type; gen. νεανίου."
+
+  - name: "Second Declension"
+    subcategory: noun_declension
+    difficulty: 1
+    prerequisites: []
+    description: >
+      The second declension contains masculine and feminine nouns with stems
+      in -ο. Masculine/feminine nouns end in -ος (ὁ λόγος, ἡ ὁδός).
+      The second declension is the most regular Greek declension pattern.
+    paradigm:
+      model: "λόγος, λόγου, ὁ (word)"
+      singular: { nom: "-ος", gen: "-ου", dat: "-ῳ", acc: "-ον", voc: "-ε" }
+      plural: { nom: "-οι", gen: "-ων", dat: "-οις", acc: "-ους", voc: "-οι" }
+    examples:
+      - greek: "ὁ λόγος τοῦ σοφοῦ ἀληθής ἐστιν."
+        english: "The word of the wise man is true."
+        notes: "λόγος is a regular second-declension masculine noun."
+      - greek: "ἡ ὁδὸς μακρά ἐστιν."
+        english: "The road is long."
+        notes: "ὁδός is one of the few feminine second-declension nouns."
+
+  - name: "Second Declension Neuter"
+    subcategory: noun_declension
+    difficulty: 2
+    prerequisites: ["Second Declension"]
+    description: >
+      Neuter second-declension nouns end in -ον (ἔργον, δῶρον). They follow
+      the neuter rule: nominative, accusative, and vocative are identical in
+      each number. The nominative/accusative plural always ends in -α.
+    paradigm:
+      model: "ἔργον, ἔργου, τό (work)"
+      singular: { nom: "-ον", gen: "-ου", dat: "-ῳ", acc: "-ον", voc: "-ον" }
+      plural: { nom: "-α", gen: "-ων", dat: "-οις", acc: "-α", voc: "-α" }
+    examples:
+      - greek: "τὰ ἔργα τῶν ἀνθρώπων μεγάλα ἐστίν."
+        english: "The deeds of the humans are great."
+        notes: "Neuter plural subjects take singular verbs in Greek."
+      - greek: "τὸ δῶρον καλόν ἐστιν."
+        english: "The gift is beautiful."
+        notes: "δῶρον is a regular neuter second-declension noun."
+
+  - name: "Third Declension Consonant Stems"
+    subcategory: noun_declension
+    difficulty: 3
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      The third declension contains nouns with consonant stems (labial,
+      dental, velar, liquid, nasal). The stem is found by removing -ος from
+      the genitive singular. Dental stems (τ, δ, θ) drop the dental before
+      -σι in dat. pl. and before -ς in nom. sg. This is the largest and
+      most varied declension in Greek.
+    paradigm:
+      model: "φύλαξ, φύλακος, ὁ (guard) — velar stem"
+      singular: { nom: "-ξ", gen: "-κος", dat: "-κι", acc: "-κα", voc: "-ξ" }
+      plural: { nom: "-κες", gen: "-κων", dat: "-ξι(ν)", acc: "-κας" }
+    examples:
+      - greek: "ὁ φύλαξ τὴν πόλιν φυλάττει."
+        english: "The guard protects the city."
+        notes: "φύλαξ is a velar-stem (κ) third-declension noun. Nom. sg. κ + ς = ξ."
+      - greek: "ἡ ἐλπὶς τῶν Ἀθηναίων μεγάλη ἦν."
+        english: "The hope of the Athenians was great."
+        notes: "ἐλπίς is a dental-stem (δ) noun. Gen.: ἐλπίδος."
+
+  - name: "Third Declension Vowel Stems"
+    subcategory: noun_declension
+    difficulty: 4
+    prerequisites: ["Third Declension Consonant Stems"]
+    description: >
+      Third-declension vowel stems include ι-stems (πόλις), υ-stems
+      (ἄστυ), ευ-stems (βασιλεύς), and σ-stems (γένος). These show
+      vowel contraction and ablaut in their paradigms. The ι-stem πόλις
+      has genitive -εως (Attic); the σ-stems show -ος > -ους contraction.
+    paradigm:
+      model_i: "πόλις, πόλεως, ἡ (city)"
+      model_s: "γένος, γένους, τό (race)"
+    examples:
+      - greek: "ἡ πόλις τοὺς πολίτας σῴζει."
+        english: "The city saves its citizens."
+        notes: "πόλις is an ι-stem with irregular gen. πόλεως and acc. πόλιν."
+      - greek: "τὸ γένος τῶν βασιλέων ἀρχαῖόν ἐστιν."
+        english: "The race of kings is ancient."
+        notes: "γένος is a σ-stem neuter. Gen.: γένους (from γένεσ-ος with contraction)."
+
+  - name: "Third Declension Irregular"
+    subcategory: noun_declension
+    difficulty: 4
+    prerequisites: ["Third Declension Consonant Stems"]
+    description: >
+      Several common third-declension nouns are irregular or syncopated.
+      The kinship nouns πατήρ, μήτηρ, θυγάτηρ, and ἀνήρ show vowel
+      gradation (full grade in nom., zero grade in gen./dat.). ναῦς (ship)
+      and γυνή (woman) have highly irregular paradigms.
+    paradigm:
+      model: "πατήρ, πατρός, ὁ (father)"
+      singular: { nom: "πατήρ", gen: "πατρός", dat: "πατρί", acc: "πατέρα" }
+      plural: { nom: "πατέρες", gen: "πατέρων", dat: "πατράσι(ν)", acc: "πατέρας" }
+    examples:
+      - greek: "ὁ πατὴρ τὸν υἱὸν διδάσκει."
+        english: "The father teaches his son."
+        notes: "πατήρ shows vowel gradation: πατηρ-/πατρ-/πατερ-."
+      - greek: "ἡ γυνὴ τοῦ βασιλέως σοφή ἐστιν."
+        english: "The wife of the king is wise."
+        notes: "γυνή has stem γυναικ- in oblique cases."

@@ -1,0 +1,85 @@
+language: greek
+sequence:
+  - unit: "01-foundations"
+    concepts:
+      - "Nominative and Vocative Cases"
+      - "Accusative Case"
+      - "First Declension"
+      - "Second Declension"
+      - "Personal Pronouns"
+      - "Conjunctive Particles"
+      - "Present Active Indicative"
+      - "Imperative Mood"
+    vocabulary_sets: ["core-001-basic"]
+
+  - unit: "02-expanding-morphology"
+    concepts:
+      - "First Declension Masculine"
+      - "Second Declension Neuter"
+      - "First and Second Declension Adjectives"
+      - "Genitive Case"
+      - "Dative Case"
+      - "Present Middle/Passive Indicative"
+      - "Imperfect Active Indicative"
+
+  - unit: "03-past-tense-system"
+    concepts:
+      - "Imperfect Middle/Passive Indicative"
+      - "Future Active Indicative"
+      - "Contract Verbs"
+      - "Demonstrative Pronouns"
+      - "Postpositive Particles"
+      - "Negative Particles"
+
+  - unit: "04-third-declension-and-aorist"
+    concepts:
+      - "Third Declension Consonant Stems"
+      - "First Aorist Active Indicative"
+      - "Second Aorist Active Indicative"
+      - "Interrogative and Indefinite Pronouns"
+      - "Reflexive Pronouns"
+
+  - unit: "05-voice-and-participles"
+    concepts:
+      - "Future Middle Indicative"
+      - "Aorist Middle Indicative"
+      - "Aorist Passive Indicative"
+      - "Present Active Participle"
+      - "Present Middle/Passive Participle"
+      - "Third Declension Adjectives"
+      - "Relative Pronouns"
+
+  - unit: "06-advanced-morphology"
+    concepts:
+      - "Third Declension Vowel Stems"
+      - "Third Declension Irregular"
+      - "Perfect Active Indicative"
+      - "Aorist Active Participle"
+      - "Aorist Middle Participle"
+      - "Aorist Passive Participle"
+      - "Irregular Adjectives"
+      - "Comparison of Adjectives"
+
+  - unit: "07-moods-and-syntax"
+    concepts:
+      - "Subjunctive Mood"
+      - "Dative of Respect and Manner"
+      - "Purpose Clauses"
+      - "Result Clauses"
+      - "Causal Clauses"
+      - "Indirect Discourse with ὅτι/ὡς"
+      - "Indirect Questions"
+
+  - unit: "08-advanced-syntax"
+    concepts:
+      - "Optative Mood"
+      - "Perfect Middle/Passive Indicative"
+      - "Perfect Active Participle"
+      - "Perfect Middle/Passive Participle"
+      - "Mi-Verbs"
+      - "Modal Particle ἄν"
+      - "Temporal Clauses"
+      - "Conditional Clauses"
+      - "Genitive Absolute"
+      - "Indirect Discourse with Infinitive"
+      - "Indirect Discourse with Participle"

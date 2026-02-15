@@ -1,0 +1,98 @@
+language: greek
+category: syntax
+concepts:
+  - name: "Purpose Clauses"
+    subcategory: subordination
+    difficulty: 5
+    prerequisites: ["Subjunctive Mood"]
+    description: >
+      Purpose (final) clauses express the goal of an action. In primary
+      sequence they use ἵνα, ὡς, or ὅπως + subjunctive; in secondary sequence
+      (after a past main verb) they may use the optative (ἵνα + optative).
+      The negative purpose clause uses ἵνα μή + subjunctive. Purpose clauses
+      are extremely common in Greek prose and are one of the first
+      subjunctive constructions students encounter.
+    examples:
+      - greek: "ἐπορεύθη ἵνα ἴδῃ τὸν βασιλέα."
+        english: "He went in order to see the king."
+        notes: "ἵνα + aorist subjunctive (ἴδῃ) expressing purpose."
+      - greek: "φεύγουσιν ἵνα μὴ ληφθῶσιν."
+        english: "They flee in order not to be captured."
+        notes: "Negative purpose with ἵνα μή + aorist passive subjunctive."
+
+  - name: "Result Clauses"
+    subcategory: subordination
+    difficulty: 5
+    prerequisites: ["Purpose Clauses"]
+    description: >
+      Result (consecutive) clauses express the consequence of an action,
+      introduced by ὥστε (so that). With the infinitive, ὥστε expresses
+      a natural or expected result; with the indicative, it states an actual
+      result. The main clause often contains a correlative like οὕτω(ς)
+      (so, such) or τοσοῦτος (so great). The negative is ὥστε μή + inf.
+      or ὥστε οὐ + indicative.
+    examples:
+      - greek: "οὕτω σοφός ἐστιν ὥστε πάντας θαυμάζειν."
+        english: "He is so wise that everyone admires (him)."
+        notes: "Natural result with ὥστε + infinitive (θαυμάζειν)."
+      - greek: "τοσαῦτα ἔπραξεν ὥστε πάντες ἐθαύμασαν."
+        english: "He did so many things that everyone was amazed."
+        notes: "Actual result with ὥστε + indicative (ἐθαύμασαν)."
+
+  - name: "Temporal Clauses"
+    subcategory: subordination
+    difficulty: 6
+    prerequisites: ["Subjunctive Mood", "Optative Mood"]
+    description: >
+      Temporal clauses express when an action occurs. Key conjunctions include
+      ὅτε/ὅταν (when), ἐπεί/ἐπειδή (after, since), πρίν (before), ἕως
+      (until, while), and μέχρι (until). Present/past definite temporal
+      clauses use the indicative. Future/general temporal clauses use
+      ἄν + subjunctive (primary) or optative (secondary). πρίν takes the
+      infinitive after affirmative main clauses, subjunctive/optative
+      after negative ones.
+    examples:
+      - greek: "ὅτε ἦλθεν, ἐδεξάμεθα αὐτόν."
+        english: "When he came, we received him."
+        notes: "Definite temporal clause with indicative (ἦλθεν)."
+      - greek: "ὅταν ἔλθῃ, δεξόμεθα αὐτόν."
+        english: "Whenever he comes, we shall receive him."
+        notes: "General temporal clause: ὅταν (= ὅτε + ἄν) + subjunctive."
+
+  - name: "Conditional Clauses"
+    subcategory: subordination
+    difficulty: 6
+    prerequisites: ["Subjunctive Mood", "Optative Mood"]
+    description: >
+      Greek has a rich conditional system. Simple conditions: εἰ + indicative
+      (any tense) in protasis, indicative in apodosis. Future more vivid:
+      ἐάν + subjunctive, future indicative. Future less vivid: εἰ + optative,
+      optative + ἄν. Present contrary-to-fact: εἰ + imperfect, imperfect +
+      ἄν. Past contrary-to-fact: εἰ + aorist indicative, aorist + ἄν.
+      Mixed conditions are common.
+    examples:
+      - greek: "εἰ τοῦτο ποιεῖς, κακῶς ποιεῖς."
+        english: "If you are doing this, you are doing wrong."
+        notes: "Simple present condition: εἰ + present indicative."
+      - greek: "εἰ τοῦτο ἐποίησεν, ἥμαρτεν ἄν."
+        english: "If he had done this, he would have been wrong."
+        notes: "Past contrary-to-fact: εἰ + aorist, aorist + ἄν."
+
+  - name: "Causal Clauses"
+    subcategory: subordination
+    difficulty: 5
+    prerequisites: ["Conjunctive Particles"]
+    description: >
+      Causal clauses express the reason for an action. They are introduced
+      by ὅτι (because), διότι (because), ἐπεί/ἐπειδή (since), and ὡς
+      (since, as). The indicative expresses the actual reason; the optative
+      appears in oblique narration after a past main verb. A speaker can
+      use ὡς + participle to mark an alleged cause (not necessarily endorsed
+      by the speaker). γάρ in a main clause also frequently explains a cause.
+    examples:
+      - greek: "ἔφυγον ἐπεὶ οἱ πολέμιοι ἐπέκειντο."
+        english: "They fled because the enemies were pressing upon them."
+        notes: "ἐπεί + imperfect indicative expressing actual cause."
+      - greek: "ἐτιμήθη ὅτι τὴν πόλιν ἔσωσεν."
+        english: "He was honored because he saved the city."
+        notes: "ὅτι + aorist indicative stating the reason."

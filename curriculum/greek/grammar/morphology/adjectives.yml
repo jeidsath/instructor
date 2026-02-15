@@ -1,0 +1,103 @@
+language: greek
+category: morphology
+concepts:
+  - name: "First and Second Declension Adjectives"
+    subcategory: adjective_declension
+    difficulty: 2
+    prerequisites: ["First Declension", "Second Declension"]
+    description: >
+      The most common Greek adjective type uses second-declension endings for
+      masculine and neuter, first-declension endings for feminine. Three-
+      termination adjectives like ἀγαθός, ἀγαθή, ἀγαθόν follow this pattern.
+      Two-termination adjectives (e.g., ἄξιος, ἄξιον) use the same form for
+      masculine and feminine. Adjectives agree with their noun in gender,
+      number, and case.
+    paradigm:
+      model: "ἀγαθός, ἀγαθή, ἀγαθόν (good)"
+      masculine: { nom: "-ός", gen: "-οῦ", dat: "-ῷ", acc: "-όν" }
+      feminine: { nom: "-ή", gen: "-ῆς", dat: "-ῇ", acc: "-ήν" }
+      neuter: { nom: "-όν", gen: "-οῦ", dat: "-ῷ", acc: "-όν" }
+    examples:
+      - greek: "ὁ ἀγαθὸς ἀνὴρ τὴν πόλιν σῴζει."
+        english: "The good man saves the city."
+        notes: "Attributive position: article + adjective + noun."
+      - greek: "ἡ ὁδὸς μακρά ἐστιν."
+        english: "The road is long."
+        notes: "Predicate adjective without the article before it."
+
+  - name: "Third Declension Adjectives"
+    subcategory: adjective_declension
+    difficulty: 4
+    prerequisites: ["Third Declension Consonant Stems", "First and Second Declension Adjectives"]
+    description: >
+      Some adjectives follow third-declension patterns. The most common are
+      the -ης/-ες type (ἀληθής, true) and the -ων/-ον type (σώφρων, prudent).
+      Mixed-declension adjectives like πᾶς, πᾶσα, πᾶν use third declension
+      for masculine and neuter but first declension for feminine. These
+      adjectives are particularly important for reading prose.
+    paradigm:
+      model_1: "ἀληθής, ἀληθές (true) — σ-stem"
+      model_2: "σώφρων, σῶφρον (prudent) — ν-stem"
+      es_type:
+        masculine_feminine: { nom: "-ής", gen: "-οῦς", dat: "-εῖ", acc: "-ῆ" }
+        neuter: { nom: "-ές", gen: "-οῦς", dat: "-εῖ", acc: "-ές" }
+    examples:
+      - greek: "ὁ λόγος ἀληθής ἐστιν."
+        english: "The statement is true."
+        notes: "ἀληθής is an -ης/-ες two-termination adjective (σ-stem)."
+      - greek: "πάντες οἱ πολῖται παρῆσαν."
+        english: "All the citizens were present."
+        notes: "πάντες is nom. pl. masc. of πᾶς (mixed 3rd/1st declension)."
+
+  - name: "Comparison of Adjectives"
+    subcategory: adjective_declension
+    difficulty: 5
+    prerequisites: ["Third Declension Adjectives"]
+    description: >
+      Greek forms the comparative with -τερος, -τέρα, -τερον (1st/2nd decl.)
+      and the superlative with -τατος, -τάτη, -τατον. An older formation
+      uses -ίων/-ιον (comparative) and -ιστος (superlative), found in common
+      adjectives. The genitive of comparison or ἤ (than) express the standard.
+      Common irregulars: ἀγαθός → ἀμείνων/βελτίων → ἄριστος/βέλτιστος;
+      κακός → κακίων/χείρων → κάκιστος/χείριστος.
+    paradigm:
+      regular:
+        positive: "σοφός (wise)"
+        comparative: "σοφώτερος, -α, -ον"
+        superlative: "σοφώτατος, -η, -ον"
+      irregular:
+        positive: "ἀγαθός (good)"
+        comparative: "ἀμείνων, ἄμεινον"
+        superlative: "ἄριστος, -η, -ον"
+    examples:
+      - greek: "ὁ Σωκράτης σοφώτερός ἐστι τοῦ ῥήτορος."
+        english: "Socrates is wiser than the orator."
+        notes: "Genitive of comparison: τοῦ ῥήτορος."
+      - greek: "ὁ Ἀχιλλεὺς ἄριστος ἦν τῶν Ἑλλήνων."
+        english: "Achilles was the best of the Greeks."
+        notes: "Superlative with partitive genitive."
+
+  - name: "Irregular Adjectives"
+    subcategory: adjective_declension
+    difficulty: 5
+    prerequisites: ["First and Second Declension Adjectives", "Third Declension Adjectives"]
+    description: >
+      Several high-frequency adjectives have irregular declension patterns.
+      μέγας, μεγάλη, μέγα (great) and πολύς, πολλή, πολύ (much, many) mix
+      third and first/second declension forms. The nom/acc singular masculine
+      and neuter use short forms, while all other cases use the regular
+      μεγαλ- or πολλ- stems. These must be memorized individually.
+    paradigm:
+      megas:
+        model: "μέγας, μεγάλη, μέγα (great)"
+        singular_masc: { nom: "μέγας", gen: "μεγάλου", dat: "μεγάλῳ", acc: "μέγαν" }
+      polys:
+        model: "πολύς, πολλή, πολύ (much, many)"
+        singular_masc: { nom: "πολύς", gen: "πολλοῦ", dat: "πολλῷ", acc: "πολύν" }
+    examples:
+      - greek: "ὁ μέγας βασιλεὺς πολλοὺς στρατιώτας ἔχει."
+        english: "The great king has many soldiers."
+        notes: "μέγας and πολλούς both use irregular short forms in nom/acc."
+      - greek: "πολλαὶ νῆες εἰς τὸν λιμένα ἀφίκοντο."
+        english: "Many ships arrived at the harbor."
+        notes: "πολλαί is nom. pl. fem. from the regular πολλ- stem."

@@ -1,0 +1,126 @@
+language: greek
+category: morphology
+concepts:
+  - name: "Personal Pronouns"
+    subcategory: pronoun
+    difficulty: 2
+    prerequisites: []
+    description: >
+      Greek personal pronouns exist for 1st person (ἐγώ) and 2nd person (σύ).
+      For 3rd person, Greek uses αὐτός, αὐτή, αὐτό in oblique cases. The
+      forms are: ἐγώ, ἐμοῦ/μου, ἐμοί/μοι, ἐμέ/με (1st sg.); σύ, σοῦ/σου,
+      σοί/σοι, σέ/σε (2nd sg.). Emphatic (accented) and unemphatic (enclitic)
+      forms exist. Nominative pronouns are used only for emphasis since the
+      verb ending shows person.
+    paradigm:
+      first_person:
+        singular: { nom: "ἐγώ", gen: "ἐμοῦ/μου", dat: "ἐμοί/μοι", acc: "ἐμέ/με" }
+        plural: { nom: "ἡμεῖς", gen: "ἡμῶν", dat: "ἡμῖν", acc: "ἡμᾶς" }
+      second_person:
+        singular: { nom: "σύ", gen: "σοῦ/σου", dat: "σοί/σοι", acc: "σέ/σε" }
+        plural: { nom: "ὑμεῖς", gen: "ὑμῶν", dat: "ὑμῖν", acc: "ὑμᾶς" }
+    examples:
+      - greek: "ἐγὼ μὲν λέγω, σὺ δὲ ἀκούεις."
+        english: "I speak, but you listen."
+        notes: "Emphatic nominative pronouns used for contrast with μέν...δέ."
+      - greek: "πέμψον μοι τὸ βιβλίον."
+        english: "Send me the book."
+        notes: "μοι is the unemphatic (enclitic) dative form."
+
+  - name: "Demonstrative Pronouns"
+    subcategory: pronoun
+    difficulty: 3
+    prerequisites: ["Personal Pronouns"]
+    description: >
+      Greek has three demonstratives: οὗτος/αὕτη/τοῦτο (this, the latter),
+      ἐκεῖνος/ἐκείνη/ἐκεῖνο (that, the former), and ὅδε/ἥδε/τόδε (this
+      here). οὗτος follows a pattern where τ- appears where the article has τ-,
+      and the stem vowel alternates (ου- with ο/ω endings, αυ- with η/α
+      endings). When used with a noun, demonstratives stand in the predicate
+      position (outside the article-noun group).
+    paradigm:
+      houtos:
+        model: "οὗτος, αὕτη, τοῦτο (this)"
+        masculine: { nom: "οὗτος", gen: "τούτου", dat: "τούτῳ", acc: "τοῦτον" }
+        feminine: { nom: "αὕτη", gen: "ταύτης", dat: "ταύτῃ", acc: "ταύτην" }
+        neuter: { nom: "τοῦτο", gen: "τούτου", dat: "τούτῳ", acc: "τοῦτο" }
+    examples:
+      - greek: "οὗτος ὁ ἀνὴρ σοφός ἐστιν."
+        english: "This man is wise."
+        notes: "Predicate position: demonstrative outside the article-noun group."
+      - greek: "ἐκεῖνοι οἱ στρατιῶται ἀνδρεῖοι ἦσαν."
+        english: "Those soldiers were brave."
+        notes: "ἐκεῖνοι refers to something more remote (in time or space)."
+
+  - name: "Relative Pronouns"
+    subcategory: pronoun
+    difficulty: 4
+    prerequisites: ["Demonstrative Pronouns"]
+    description: >
+      The relative pronoun ὅς, ἥ, ὅ (who, which, that) introduces relative
+      clauses. It agrees with its antecedent in gender and number but takes
+      its case from its function within the relative clause. Greek often
+      shows attraction of the relative into the case of its antecedent,
+      especially from accusative into genitive or dative. The indefinite
+      relative ὅστις (whoever) combines ὅς with τις.
+    paradigm:
+      model: "ὅς, ἥ, ὅ (who, which)"
+      masculine: { nom: "ὅς", gen: "οὗ", dat: "ᾧ", acc: "ὅν" }
+      feminine: { nom: "ἥ", gen: "ἧς", dat: "ᾗ", acc: "ἥν" }
+      neuter: { nom: "ὅ", gen: "οὗ", dat: "ᾧ", acc: "ὅ" }
+    examples:
+      - greek: "ὁ ἀνὴρ ὃν εἶδον σοφός ἐστιν."
+        english: "The man whom I saw is wise."
+        notes: "ὅν is accusative (object of εἶδον), agreeing with ἀνήρ in gender/number."
+      - greek: "ἡ πόλις ἐξ ἧς ἦλθον μεγάλη ἐστίν."
+        english: "The city from which I came is large."
+        notes: "Relative attraction not shown here; ἧς is genitive after ἐξ."
+
+  - name: "Interrogative and Indefinite Pronouns"
+    subcategory: pronoun
+    difficulty: 4
+    prerequisites: ["Personal Pronouns"]
+    description: >
+      The interrogative τίς, τί (who? what?) and the indefinite τις, τι
+      (someone, something) are identical in form except for accent. The
+      interrogative always has an acute on the first syllable; the indefinite
+      is enclitic (unaccented or with recessive accent). Both decline like
+      third-declension nouns with stem τιν-. The interrogative introduces
+      direct and indirect questions.
+    paradigm:
+      model: "τίς, τί (who? what?) / τις, τι (someone, something)"
+      masculine_feminine: { nom: "τίς", gen: "τίνος/τοῦ", dat: "τίνι/τῷ", acc: "τίνα" }
+      neuter: { nom: "τί", gen: "τίνος/τοῦ", dat: "τίνι/τῷ", acc: "τί" }
+    examples:
+      - greek: "τίς ταῦτα ἐποίησεν;"
+        english: "Who did these things?"
+        notes: "Direct question with interrogative τίς (accented)."
+      - greek: "εἶδόν τινα ἐν τῇ ἀγορᾷ."
+        english: "I saw someone in the agora."
+        notes: "Indefinite τινα (enclitic, unaccented)."
+
+  - name: "Reflexive Pronouns"
+    subcategory: pronoun
+    difficulty: 4
+    prerequisites: ["Personal Pronouns", "Present Middle/Passive Indicative"]
+    description: >
+      Reflexive pronouns refer back to the subject of their clause. They are
+      formed by combining the personal pronoun with αὐτός: 1st person
+      ἐμαυτοῦ, ἐμαυτῆς (of myself); 2nd person σεαυτοῦ, σεαυτῆς (of
+      yourself); 3rd person ἑαυτοῦ, ἑαυτῆς, ἑαυτοῦ (of himself/herself/
+      itself). Reflexives have no nominative form. In the plural 3rd person,
+      σφῶν αὐτῶν may be used.
+    paradigm:
+      first_person:
+        singular_masc: { gen: "ἐμαυτοῦ", dat: "ἐμαυτῷ", acc: "ἐμαυτόν" }
+        singular_fem: { gen: "ἐμαυτῆς", dat: "ἐμαυτῇ", acc: "ἐμαυτήν" }
+      third_person:
+        singular_masc: { gen: "ἑαυτοῦ", dat: "ἑαυτῷ", acc: "ἑαυτόν" }
+        singular_fem: { gen: "ἑαυτῆς", dat: "ἑαυτῇ", acc: "ἑαυτήν" }
+    examples:
+      - greek: "γνῶθι σεαυτόν."
+        english: "Know yourself."
+        notes: "The famous Delphic maxim. σεαυτόν is 2nd person reflexive acc."
+      - greek: "ὁ στρατηγὸς ἑαυτὸν ἔσωσεν."
+        english: "The general saved himself."
+        notes: "3rd person reflexive ἑαυτόν refers back to the subject."

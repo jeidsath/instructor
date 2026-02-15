@@ -1,0 +1,116 @@
+language: greek
+category: syntax
+concepts:
+  - name: "Nominative and Vocative Cases"
+    subcategory: case_usage
+    difficulty: 1
+    prerequisites: []
+    description: >
+      The nominative case marks the subject of a finite verb and the predicate
+      nominative after linking verbs (εἰμί, γίγνομαι). Greek uses the
+      nominative for statements of identity and predication. The vocative
+      case is used for direct address, often preceded by ὦ. In many
+      declensions the vocative is identical to the nominative (especially
+      in the plural, where they are always the same).
+    examples:
+      - greek: "ὁ ἀνὴρ σοφός ἐστιν."
+        english: "The man is wise."
+        notes: "ἀνήρ is nominative subject; σοφός is predicate nominative."
+      - greek: "ὦ Σώκρατες, τί λέγεις;"
+        english: "O Socrates, what are you saying?"
+        notes: "Σώκρατες is vocative (third-decl. with -ες ending)."
+
+  - name: "Accusative Case"
+    subcategory: case_usage
+    difficulty: 2
+    prerequisites: ["Nominative and Vocative Cases"]
+    description: >
+      The accusative marks the direct object of a transitive verb, the extent
+      of space or time, and the object of many prepositions (εἰς, πρός,
+      παρά, διά, κατά, ὑπέρ). The accusative of respect (or specification)
+      limits the application of an adjective or verb. Cognate accusatives
+      repeat the verb's meaning in nominal form.
+    examples:
+      - greek: "ὁ μαθητὴς τὸν λόγον ἔγραψεν."
+        english: "The student wrote the speech."
+        notes: "τὸν λόγον is the direct object (accusative)."
+      - greek: "ἔμεινε τρεῖς ἡμέρας."
+        english: "He remained for three days."
+        notes: "Accusative of extent of time: τρεῖς ἡμέρας."
+
+  - name: "Genitive Case"
+    subcategory: case_usage
+    difficulty: 3
+    prerequisites: ["Accusative Case"]
+    description: >
+      The genitive is the most versatile Greek case. Core uses include:
+      possession (ὁ τοῦ πατρὸς οἶκος), partitive (πολλοὶ τῶν πολιτῶν),
+      separation/source (ἀπό, ἐκ + gen.), agent with passive verbs (ὑπό +
+      gen.), comparison (σοφώτερος τοῦ ῥήτορος), time within which, and
+      objective/subjective genitive. Many prepositions and verbs govern the
+      genitive.
+    examples:
+      - greek: "ὁ τοῦ βασιλέως υἱὸς ἀνδρεῖός ἐστιν."
+        english: "The king's son is brave."
+        notes: "Possessive genitive: τοῦ βασιλέως placed between article and noun."
+      - greek: "πολλοὶ τῶν στρατιωτῶν ἀπέθανον."
+        english: "Many of the soldiers died."
+        notes: "Partitive genitive: τῶν στρατιωτῶν."
+
+  - name: "Dative Case"
+    subcategory: case_usage
+    difficulty: 3
+    prerequisites: ["Accusative Case"]
+    description: >
+      The dative has three main spheres: indirect object (to/for), instrument/
+      means (by, with), and location (in, at — especially with ἐν). The
+      dative of interest (advantage/disadvantage), dative of possession
+      (ἐστί μοι = I have), and dative of agent (with perfect passive) are
+      important constructions. The dative also marks the object of many
+      verbs (πείθομαι, βοηθέω, ἕπομαι).
+    examples:
+      - greek: "ὁ πατὴρ τῷ παιδὶ δῶρον δίδωσιν."
+        english: "The father gives a gift to the child."
+        notes: "Indirect object dative: τῷ παιδί."
+      - greek: "οἱ στρατιῶται τοῖς ξίφεσι μάχονται."
+        english: "The soldiers fight with their swords."
+        notes: "Dative of instrument/means: τοῖς ξίφεσι."
+
+  - name: "Dative of Respect and Manner"
+    subcategory: case_usage
+    difficulty: 5
+    prerequisites: ["Dative Case"]
+    description: >
+      The dative of respect (or specification) limits the scope of a verb
+      or adjective, answering the question 'in what respect?' Common with
+      adjectives and verbs of differing: φύσει (by nature), ὀνόματι (in
+      name), γένει (by birth). The dative of manner describes how an action
+      is performed: σιγῇ (in silence), βίᾳ (by force), σπουδῇ (with haste).
+      These uses are essential for reading Greek prose.
+    examples:
+      - greek: "Ἑλληνικὸς τῷ γένει, Ἀθηναῖος τῇ πολιτείᾳ."
+        english: "Greek by birth, Athenian by citizenship."
+        notes: "Dative of respect: τῷ γένει and τῇ πολιτείᾳ."
+      - greek: "οἱ στρατιῶται σιγῇ ἐπορεύοντο."
+        english: "The soldiers marched in silence."
+        notes: "Dative of manner: σιγῇ."
+
+  - name: "Genitive Absolute"
+    subcategory: case_usage
+    difficulty: 6
+    prerequisites: ["Genitive Case", "Present Active Participle"]
+    description: >
+      The genitive absolute is an adverbial participial phrase in which
+      both the participle and its subject stand in the genitive case,
+      grammatically independent of the rest of the sentence. It expresses
+      time, cause, condition, or concession. The genitive absolute is
+      used when the subject of the participle is different from the subject
+      of the main verb. It is one of the most characteristic constructions
+      in Greek prose.
+    examples:
+      - greek: "τοῦ ἡλίου ἀνατέλλοντος, οἱ στρατιῶται ἐξῆλθον."
+        english: "When the sun was rising, the soldiers went out."
+        notes: "Temporal genitive absolute: τοῦ ἡλίου (subject) + ἀνατέλλοντος (participle)."
+      - greek: "ταῦτα λεχθέντων, ἡ ἐκκλησία διελύθη."
+        english: "When these things had been said, the assembly was dissolved."
+        notes: "Genitive absolute with aorist passive participle (neuter plural)."
