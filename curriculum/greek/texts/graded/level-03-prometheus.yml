@@ -1,0 +1,60 @@
+language: greek
+title: "Προμηθεὺς καὶ τὸ Πῦρ"
+difficulty: 5
+content: |
+  ὁ Ζεὺς τοῖς ἀνθρώποις τὸ πῦρ οὐκ ἔδωκεν. ἄνευ πυρὸς οἱ ἄνθρωποι ἐν σκότῳ ᾤκουν.
+  Προμηθεὺς δὲ τοὺς ἀνθρώπους ἐλεήσας τὸ πῦρ ἐκ τοῦ Ὀλύμπου ἔκλεψεν.
+  τὸ πῦρ ἐν νάρθηκι κρύψας πρὸς τοὺς ἀνθρώπους ἤνεγκεν.
+  οἱ ἄνθρωποι, τὸ πῦρ λαβόντες, τέχνας πολλὰς ἔμαθον.
+  ὁ Ζεὺς ὀργισθεὶς τὸν Προμηθέα ἐκόλασεν. πρὸς τῷ Καυκάσῳ δεθεὶς
+  ὑπ᾿ ἀετοῦ τὸ ἧπαρ ἐσθιόμενος ἔπασχεν.
+  πολλοῖς ἔτεσιν ὕστερον Ἡρακλῆς αὐτὸν ἔλυσεν.
+translation: |
+  Zeus did not give fire to humans. Without fire, humans lived in darkness.
+  But Prometheus, pitying the humans, stole fire from Olympus.
+  Having hidden the fire in a fennel stalk, he brought it to humans.
+  The humans, having received the fire, learned many arts.
+  Zeus, angered, punished Prometheus. Bound to the Caucasus,
+  he suffered having his liver eaten by an eagle.
+  Many years later Heracles freed him.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Passive Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Aorist Passive Participle"
+  - "Negative Particles"
+vocabulary_notes:
+  - word: "πῦρ"
+    note: "Third declension neuter (irregular): fire (πῦρ, πυρός)"
+  - word: "ἐλεήσας"
+    note: "Aorist active participle of ἐλεέω: having pitied"
+  - word: "ἔκλεψεν"
+    note: "Third person singular first aorist of κλέπτω: to steal"
+  - word: "νάρθηκι"
+    note: "Dative singular of νάρθηξ (third declension): fennel stalk (hollow, used to carry fire)"
+  - word: "κρύψας"
+    note: "Aorist active participle of κρύπτω: having hidden"
+  - word: "λαβόντες"
+    note: "Aorist active participle of λαμβάνω (second aorist): having received"
+  - word: "ὀργισθείς"
+    note: "Aorist passive participle of ὀργίζω: having been angered"
+  - word: "δεθείς"
+    note: "Aorist passive participle of δέω: having been bound"
+grammar_notes:
+  - concept: "Aorist Active Participle"
+    note: "ἐλεήσας, κρύψας, λαβόντες — aorist participles indicating actions prior to the main verb"
+  - concept: "Aorist Passive Participle"
+    note: "ὀργισθείς, δεθείς — passive participles with -θείς suffix"
+  - concept: "Present Active Participle"
+    note: "ἐσθιόμενος — present passive participle showing ongoing action (being eaten)"

@@ -1,0 +1,61 @@
+language: greek
+title: "Τὸ Συμπόσιον"
+difficulty: 4
+content: |
+  ὁ δεσπότης τοὺς φίλους εἰς τὸ συμπόσιον ἐκάλεσεν.
+  οἱ δοῦλοι οἶνον καὶ σῖτον παρεσκεύασαν.
+  οἱ φίλοι ἐν τῷ ἀνδρῶνι κατεκλίθησαν.
+  πρῶτον μὲν ἔφαγον καὶ ἔπιον· ἔπειτα δὲ διελέγοντο.
+  εἷς τῶν φίλων ἐρώτησεν· "τί ἐστιν ἀρετή;"
+  ἄλλος ἀπεκρίνατο· "ἡ ἀρετή ἐστιν τὸ εὖ πράττειν."
+  τρίτος δὲ εἶπεν· "ἡ σοφία ἐστὶν ἡ μεγίστη ἀρετή."
+  πολὺν χρόνον διελέχθησαν. νυκτὸς τέλος οἱ φίλοι ἀπῆλθον.
+translation: |
+  The master invited his friends to the drinking party.
+  The slaves prepared wine and food.
+  The friends reclined in the men's hall.
+  First they ate and drank; then they conversed.
+  One of the friends asked: "What is virtue?"
+  Another answered: "Virtue is to act well."
+  A third said: "Wisdom is the greatest virtue."
+  For a long time they discussed. At night the friends finally departed.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Middle Indicative"
+  - "Aorist Passive Indicative"
+  - "Imperfect Middle/Passive Indicative"
+  - "Comparison of Adjectives"
+  - "Interrogative and Indefinite Pronouns"
+  - "Postpositive Particles"
+vocabulary_notes:
+  - word: "συμπόσιον"
+    note: "Second declension neuter: drinking party (σύν + πόσις = drinking together)"
+  - word: "ἀνδρῶνι"
+    note: "Dative singular of ἀνδρών: men's dining room in a Greek house"
+  - word: "κατεκλίθησαν"
+    note: "Third person plural aorist passive of κατακλίνω: to recline (for dining)"
+  - word: "ἔπιον"
+    note: "Third person plural second aorist of πίνω: to drink"
+  - word: "διελέγοντο"
+    note: "Third person plural imperfect middle of διαλέγομαι: to converse, discuss"
+  - word: "ἀρετή"
+    note: "First declension feminine: virtue, excellence (central concept in Greek ethics)"
+  - word: "μεγίστη"
+    note: "Superlative feminine of μέγας: greatest"
+grammar_notes:
+  - concept: "Aorist Middle Indicative"
+    note: "ἀπεκρίνατο — aorist middle of ἀποκρίνομαι (deponent): to answer"
+  - concept: "Aorist Passive Indicative"
+    note: "κατεκλίθησαν, διελέχθησαν — aorist passive with -θη- marker"
+  - concept: "Interrogative and Indefinite Pronouns"
+    note: "τί ἐστιν ἀρετή — τί as interrogative pronoun: 'what?'"
+  - concept: "Comparison of Adjectives"
+    note: "μεγίστη — superlative of μέγας: greatest (irregular comparison)"

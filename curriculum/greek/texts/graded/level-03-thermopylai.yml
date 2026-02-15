@@ -1,0 +1,71 @@
+language: greek
+title: "Αἱ Θερμοπύλαι"
+difficulty: 6
+content: |
+  Ξέρξης ὁ βασιλεὺς τῶν Περσῶν στρατὸν μυρίων ἤγαγεν εἰς τὴν Ἑλλάδα.
+  Λεωνίδας ὁ τῶν Λακεδαιμονίων βασιλεὺς τριακοσίους Σπαρτιάτας
+  πρὸς τὰς Θερμοπύλας ἤγαγεν. ἡ πάροδος στενὴ ἦν ὥστε ὀλίγοι πολλοὺς ἐκώλυον.
+  τρεῖς ἡμέρας οἱ Σπαρτιᾶται τοὺς Πέρσας ἀπεκρούοντο.
+  προδότης δέ τις τοῖς Πέρσαις ἀτραπὸν ἔδειξεν ἣ κατόπιν τῶν Ἑλλήνων ἦγεν.
+  Λεωνίδας, τοῦτο γνούς, τοὺς ἄλλους Ἕλληνας ἀπέπεμψεν.
+  αὐτὸς δὲ μετὰ τῶν τριακοσίων ἔμεινεν. πάντες μαχόμενοι ἀπέθανον.
+  ὕστερον ἐπίγραμμα ἐπεγράφη· "ὦ ξεῖν᾿, ἀγγέλλειν Λακεδαιμονίοις ὅτι τῇδε
+  κείμεθα, τοῖς κείνων ῥήμασι πειθόμενοι."
+translation: |
+  Xerxes, the king of the Persians, led an army of ten thousand into Greece.
+  Leonidas, the king of the Spartans, led three hundred Spartiates to Thermopylae.
+  The pass was narrow so that a few could hold back many.
+  For three days the Spartans fought off the Persians.
+  But a certain traitor showed the Persians a path that led behind the Greeks.
+  Leonidas, learning this, sent the other Greeks away.
+  He himself remained with the three hundred. All died fighting.
+  Later an inscription was written: "Stranger, tell the Spartans that here
+  we lie, obedient to their commands."
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Third Declension Vowel Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Passive Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Present Middle/Passive Participle"
+  - "Third Declension Adjectives"
+  - "Relative Pronouns"
+  - "Interrogative and Indefinite Pronouns"
+  - "Result Clauses"
+vocabulary_notes:
+  - word: "μυρίων"
+    note: "Genitive plural of μύριοι: ten thousand, myriad"
+  - word: "Θερμοπύλας"
+    note: "Accusative plural of Θερμοπύλαι: Thermopylae ('Hot Gates')"
+  - word: "πάροδος"
+    note: "Second declension feminine: pass, passage (παρά + ὁδός)"
+  - word: "στενή"
+    note: "Nominative feminine of στενός: narrow"
+  - word: "προδότης"
+    note: "First declension masculine: traitor (πρό + δίδωμι = one who gives away)"
+  - word: "ἀτραπόν"
+    note: "Accusative of ἀτραπός: path, trail"
+  - word: "γνούς"
+    note: "Aorist active participle of γιγνώσκω (second aorist): having learned, having recognized"
+  - word: "ἐπίγραμμα"
+    note: "Third declension neuter: inscription, epigram"
+grammar_notes:
+  - concept: "Present Active Participle"
+    note: "μαχόμενοι — present participle showing simultaneous action: 'while fighting'"
+  - concept: "Aorist Active Participle"
+    note: "γνούς — second aorist participle of γιγνώσκω: 'having learned this'"
+  - concept: "Present Middle/Passive Participle"
+    note: "πειθόμενοι — present middle participle: 'obeying' (πείθομαι + dative)"
+  - concept: "Result Clauses"
+    note: "ὥστε ὀλίγοι ἐκώλυον — result clause: 'so that few could hold back many'"
+  - concept: "Relative Pronouns"
+    note: "ἥ κατόπιν ἦγεν — relative clause: 'which led behind'"

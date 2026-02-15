@@ -1,0 +1,52 @@
+language: greek
+title: "Ὁ Τρωικὸς Πόλεμος"
+difficulty: 3
+content: |
+  οἱ Ἕλληνες πρὸς τὴν Τροίαν ἐστράτευσαν. ὁ Ἀγαμέμνων τοῦ στρατοῦ ἡγεῖτο.
+  ὁ Ἀχιλλεὺς ἀνδρειότατος τῶν Ἑλλήνων ἦν. δέκα ἔτη οἱ Ἕλληνες τὴν Τροίαν ἐπολιόρκουν.
+  ὁ Ὀδυσσεὺς μηχανὴν ἐπενόησεν. ἵππον ξύλινον κατεσκεύασαν.
+  ἐν τῷ ἵππῳ στρατιῶται ἐκρύφθησαν. οἱ Τρῶες τὸν ἵππον εἰς τὴν πόλιν εἰσήγαγον.
+  νυκτὸς οἱ Ἕλληνες ἐκ τοῦ ἵππου ἐξέβησαν καὶ τὴν πόλιν εἷλον.
+translation: |
+  The Greeks marched against Troy. Agamemnon led the army.
+  Achilles was the bravest of the Greeks. For ten years the Greeks besieged Troy.
+  Odysseus devised a plan. They built a wooden horse.
+  Soldiers were hidden in the horse. The Trojans brought the horse into the city.
+  At night the Greeks came out of the horse and took the city.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Imperfect Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "First and Second Declension Adjectives"
+vocabulary_notes:
+  - word: "ἐστράτευσαν"
+    note: "Third person plural first aorist active of στρατεύω: to march, campaign"
+  - word: "ἡγεῖτο"
+    note: "Third person singular imperfect middle of ἡγέομαι: to lead (+ genitive)"
+  - word: "ἀνδρειότατος"
+    note: "Superlative of ἀνδρεῖος: bravest, most courageous"
+  - word: "ἐπολιόρκουν"
+    note: "Third person plural imperfect active of πολιορκέω: to besiege"
+  - word: "μηχανήν"
+    note: "Accusative singular of μηχανή: device, plan, contrivance"
+  - word: "ξύλινον"
+    note: "Accusative masculine of ξύλινος: wooden (first-second declension adjective)"
+  - word: "εἷλον"
+    note: "Third person plural second aorist of αἱρέω: to take, capture"
+grammar_notes:
+  - concept: "First Aorist Active Indicative"
+    note: "ἐστράτευσαν, ἐπενόησεν, κατεσκεύασαν — aorist with σα marker"
+  - concept: "Second Aorist Active Indicative"
+    note: "ἐξέβησαν, εἷλον — second aorist (stem change, no σα)"
+  - concept: "Imperfect Active Indicative"
+    note: "ἐπολιόρκουν — ongoing past action (ten-year siege)"
+  - concept: "Genitive Case"
+    note: "τοῦ στρατοῦ (with ἡγέομαι), τῶν Ἑλλήνων (partitive with superlative)"

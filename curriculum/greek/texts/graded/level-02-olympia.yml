@@ -1,0 +1,54 @@
+language: greek
+title: "Ἐν Ὀλυμπίᾳ"
+difficulty: 4
+content: |
+  πάντες οἱ Ἕλληνες πρὸς τὴν Ὀλυμπίαν ἀφίκοντο.
+  τέτταρα ἔτη μεταξὺ τῶν ἀγώνων ἦν. ἐν τοῖς ἀγῶσιν οἱ ἄριστοι ἠγωνίζοντο.
+  ἔδραμον, ἐπάλαισαν, ἐδισκοβόλησαν. οἱ ἵπποι ἐν τῷ ἱπποδρόμῳ ἤλασαν.
+  ὁ νικητὴς στέφανον ἐλαίας ἔλαβεν. ἡ πόλις αὐτοῦ μεγάλην τιμὴν εἶχεν.
+  ἐν τῷ χρόνῳ τῶν ἀγώνων εἰρήνη ἦν. πᾶσαι αἱ πόλεις τοὺς πολέμους ἔπαυσαν.
+  οἱ Ἕλληνες τοὺς θεοὺς ἐτίμων καὶ τὴν ἀρετὴν ἐφίλουν.
+translation: |
+  All the Greeks arrived at Olympia. Four years were between the games.
+  In the games the best competed. They ran, wrestled, threw the discus.
+  The horses raced in the hippodrome.
+  The victor received a wreath of olive. His city had great honor.
+  During the time of the games there was peace. All the cities stopped their wars.
+  The Greeks honored the gods and loved excellence.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Imperfect Middle/Passive Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Middle Indicative"
+  - "First and Second Declension Adjectives"
+vocabulary_notes:
+  - word: "ἀφίκοντο"
+    note: "Third person plural second aorist middle of ἀφικνέομαι: to arrive"
+  - word: "ἀγώνων"
+    note: "Genitive plural of ἀγών (third declension): contest, games"
+  - word: "ἠγωνίζοντο"
+    note: "Third person plural imperfect middle of ἀγωνίζομαι: to compete"
+  - word: "ἐπάλαισαν"
+    note: "Third person plural first aorist of παλαίω: to wrestle"
+  - word: "στέφανον"
+    note: "Accusative of στέφανος: wreath, crown"
+  - word: "ἐλαίας"
+    note: "Genitive singular of ἐλαία: olive (genitive of material)"
+  - word: "εἰρήνη"
+    note: "First declension feminine: peace (the Olympic truce)"
+grammar_notes:
+  - concept: "First Aorist Active Indicative"
+    note: "ἐπάλαισαν, ἐδισκοβόλησαν, ἔπαυσαν — first aorist with σα marker"
+  - concept: "Second Aorist Active Indicative"
+    note: "ἔδραμον, ἔλαβεν — second aorist with stem changes"
+  - concept: "Imperfect Middle/Passive Indicative"
+    note: "ἠγωνίζοντο — imperfect middle (deponent verb: 'were competing')"

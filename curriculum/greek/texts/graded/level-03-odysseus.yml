@@ -1,0 +1,63 @@
+language: greek
+title: "Ὀδυσσεὺς καὶ ὁ Κύκλωψ"
+difficulty: 5
+content: |
+  Ὀδυσσεὺς μετὰ τῶν ἑταίρων εἰς τὴν νῆσον ἀφίκετο.
+  σπήλαιον μέγα εὗρον ἐν ᾧ τυρὸς καὶ γάλα ἦν.
+  ὁ Κύκλωψ, ὃς Πολύφημος ἐκαλεῖτο, εἰσῆλθεν. λίθον μέγαν πρὸ τῆς θύρας ἔθηκεν.
+  δύο τῶν ἑταίρων λαβὼν κατέφαγεν. Ὀδυσσεὺς μηχανὴν ἐπενόησεν.
+  οἶνον τῷ Κύκλωπι ἔδωκεν. ὁ Κύκλωψ πολὺν οἶνον πιὼν ἐκοιμήθη.
+  Ὀδυσσεὺς ξύλον πυρώσας τὸν ὀφθαλμὸν αὐτοῦ ἐτύφλωσεν.
+  ὁ Κύκλωψ ἐβόησεν· "τίς σε ἐτύφλωσεν;" Ὀδυσσεὺς ἀπεκρίνατο· "Οὖτις."
+  ὑπὸ τοῖς προβάτοις κρυφθέντες οἱ Ἕλληνες ἐξέφυγον.
+translation: |
+  Odysseus arrived at the island with his companions.
+  They found a great cave in which there was cheese and milk.
+  The Cyclops, who was called Polyphemus, entered. He placed a great stone before the door.
+  Having seized two of the companions, he devoured them. Odysseus devised a plan.
+  He gave wine to the Cyclops. The Cyclops, having drunk much wine, fell asleep.
+  Odysseus, having heated a stake, blinded his eye.
+  The Cyclops cried out: "Who blinded you?" Odysseus answered: "Nobody."
+  Hidden under the sheep, the Greeks escaped.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Middle Indicative"
+  - "Aorist Passive Indicative"
+  - "Aorist Active Participle"
+  - "Aorist Passive Participle"
+  - "Relative Pronouns"
+  - "Interrogative and Indefinite Pronouns"
+vocabulary_notes:
+  - word: "ἑταίρων"
+    note: "Genitive plural of ἑταῖρος: companion, comrade"
+  - word: "σπήλαιον"
+    note: "Second declension neuter: cave, cavern"
+  - word: "Κύκλωψ"
+    note: "Third declension: Cyclops (κύκλος + ὤψ = 'round-eye')"
+  - word: "ξύλον"
+    note: "Second declension neuter: wood, stake, timber"
+  - word: "πυρώσας"
+    note: "Aorist active participle of πυρόω: having heated in fire"
+  - word: "ὀφθαλμόν"
+    note: "Accusative singular of ὀφθαλμός: eye"
+  - word: "Οὖτις"
+    note: "Odysseus's famous trick name: 'Nobody' (οὔ + τις)"
+  - word: "προβάτοις"
+    note: "Dative plural of πρόβατον (neuter): sheep"
+grammar_notes:
+  - concept: "Relative Pronouns"
+    note: "ἐν ᾧ (in which), ὃς ἐκαλεῖτο (who was called) — relative clauses"
+  - concept: "Aorist Active Participle"
+    note: "λαβών (having seized), πιών (having drunk), πυρώσας (having heated) — prior actions"
+  - concept: "Aorist Passive Participle"
+    note: "κρυφθέντες — nominative plural: 'having been hidden'"
+  - concept: "Interrogative and Indefinite Pronouns"
+    note: "τίς — interrogative: 'who?'; Οὖτις — 'Nobody' (a play on οὔ τις)"

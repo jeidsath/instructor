@@ -1,0 +1,58 @@
+language: greek
+title: "Σωκράτης ὁ Φιλόσοφος"
+difficulty: 4
+content: |
+  Σωκράτης ἐν ταῖς Ἀθήναις ᾤκει. οὐκ ἦν πλούσιος ἀλλὰ σοφός.
+  ἐν τῇ ἀγορᾷ τοὺς νεανίας ἐδίδασκεν. ἠρώτα αὐτούς· "τί ἐστιν τὸ ἀγαθόν;"
+  οἱ νεανίαι ἀπεκρίναντο, ἀλλ᾿ ὁ Σωκράτης ἀεὶ ἄλλας ἐρωτήσεις ἠρώτα.
+  ἔλεγεν· "ἓν οἶδα ὅτι οὐδὲν οἶδα."
+  τινὲς τῶν πολιτῶν τὸν Σωκράτη ἐμίσουν. ἐγράψαντο αὐτὸν ἀσεβείας.
+  οἱ δικασταὶ αὐτὸν θανάτου κατεδίκασαν.
+  ὁ Σωκράτης τὸ φάρμακον ἔπιεν καὶ ἀπέθανεν. ἡ δόξα αὐτοῦ εἰς ἀεὶ μένει.
+translation: |
+  Socrates lived in Athens. He was not rich but wise.
+  In the marketplace he taught the young men. He asked them: "What is the good?"
+  The young men answered, but Socrates always asked more questions.
+  He said: "One thing I know, that I know nothing."
+  Some of the citizens hated Socrates. They charged him with impiety.
+  The jurors condemned him to death.
+  Socrates drank the poison and died. His fame endures forever.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Imperfect Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Middle Indicative"
+  - "Demonstrative Pronouns"
+  - "Interrogative and Indefinite Pronouns"
+  - "Reflexive Pronouns"
+  - "Negative Particles"
+vocabulary_notes:
+  - word: "ᾤκει"
+    note: "Third person singular imperfect of οἰκέω: to live, dwell"
+  - word: "πλούσιος"
+    note: "First-second declension adjective: rich, wealthy"
+  - word: "ἠρώτα"
+    note: "Third person singular imperfect of ἐρωτάω: to ask (contract verb)"
+  - word: "ἐμίσουν"
+    note: "Third person plural imperfect of μισέω: to hate"
+  - word: "ἐγράψαντο"
+    note: "Third person plural aorist middle of γράφω: to charge, indict (legal term)"
+  - word: "ἀσεβείας"
+    note: "Genitive singular of ἀσέβεια: impiety (charge of not honoring the gods)"
+  - word: "φάρμακον"
+    note: "Second declension neuter: poison, drug (hemlock, in Socrates' case)"
+grammar_notes:
+  - concept: "Imperfect Active Indicative"
+    note: "ᾤκει, ἐδίδασκεν, ἠρώτα, ἐμίσουν — ongoing/habitual past actions"
+  - concept: "Interrogative and Indefinite Pronouns"
+    note: "τί ἐστιν — interrogative; τινές — indefinite 'some of the citizens'"
+  - concept: "Negative Particles"
+    note: "οὐκ ἦν — οὐ negates indicative; οὐδέν — compound negative 'nothing'"
+  - concept: "Aorist Middle Indicative"
+    note: "ἀπεκρίναντο, ἐγράψαντο — middle voice showing subject involvement"

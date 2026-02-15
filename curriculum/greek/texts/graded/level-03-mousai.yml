@@ -1,0 +1,62 @@
+language: greek
+title: "Αἱ Μοῦσαι καὶ ὁ Ποιητής"
+difficulty: 5
+content: |
+  αἱ Μοῦσαι θυγατέρες τοῦ Διός εἰσιν. ἐν τῷ Ἑλικῶνι κατοικοῦσιν.
+  τοῖς ποιηταῖς τὴν τέχνην τῆς μουσικῆς διδάσκουσιν.
+  ποιητής τις πρὸς τὸν Ἑλικῶνα ἀνέβη. τὰς Μούσας ᾀδούσας ἤκουσεν.
+  αἱ Μοῦσαι αὐτὸν ἰδοῦσαι προσεκάλεσαν. ἡ Καλλιόπη εἶπεν·
+  "ὦ ποιητά, ἡμεῖς σοι τὴν ᾠδὴν δώσομεν. σὺ δὲ τοὺς ἀνθρώπους δίδασκε."
+  ὁ ποιητής, τὸ δῶρον δεξάμενος, πρὸς τοὺς ἀνθρώπους κατέβη.
+  ᾖδεν τὰ τῶν θεῶν ἔργα. πάντες οἱ ἀκούσαντες ἐθαύμασαν.
+translation: |
+  The Muses are daughters of Zeus. They dwell on Mount Helicon.
+  They teach the poets the art of music.
+  A certain poet climbed up to Helicon. He heard the Muses singing.
+  The Muses, seeing him, called him over. Calliope said:
+  "O poet, we will give you the song. But you must teach the people."
+  The poet, having received the gift, went down to the people.
+  He sang the deeds of the gods. All who heard marveled.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Future Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Middle Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Aorist Middle Participle"
+  - "Personal Pronouns"
+  - "Interrogative and Indefinite Pronouns"
+  - "Imperative Mood"
+vocabulary_notes:
+  - word: "θυγατέρες"
+    note: "Nominative plural of θυγάτηρ (third declension): daughter"
+  - word: "Ἑλικῶνι"
+    note: "Dative of Ἑλικών: Mount Helicon, sacred to the Muses"
+  - word: "ᾀδούσας"
+    note: "Present active participle accusative plural feminine of ᾄδω: singing"
+  - word: "ἰδοῦσαι"
+    note: "Aorist active participle nominative plural feminine of ὁράω (second aorist εἶδον): having seen"
+  - word: "ᾠδήν"
+    note: "Accusative of ᾠδή: song, ode"
+  - word: "δεξάμενος"
+    note: "Aorist middle participle of δέχομαι: having received"
+  - word: "ᾖδεν"
+    note: "Third person singular imperfect of ᾄδω: he was singing"
+grammar_notes:
+  - concept: "Present Active Participle"
+    note: "ᾀδούσας — accusative plural: 'the Muses singing' (circumstantial participle)"
+  - concept: "Aorist Active Participle"
+    note: "ἰδοῦσαι, ἀκούσαντες — prior actions: 'having seen', 'having heard'"
+  - concept: "Aorist Middle Participle"
+    note: "δεξάμενος — aorist middle: 'having received' (middle of δέχομαι)"
+  - concept: "Future Active Indicative"
+    note: "δώσομεν — first person plural future of δίδωμι: 'we will give'"

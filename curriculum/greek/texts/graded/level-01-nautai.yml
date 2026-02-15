@@ -1,0 +1,47 @@
+language: greek
+title: "Οἱ Ναῦται"
+difficulty: 2
+content: |
+  οἱ ναῦται τὴν ναῦν παρασκευάζουσιν. ἡ ναῦς μικρά ἐστιν ἀλλὰ ἰσχυρά.
+  ὁ κυβερνήτης τοὺς ναύτας κελεύει. οἱ ναῦται τὰ ἱστία αἴρουσιν.
+  ὁ ἄνεμος τὴν ναῦν φέρει. ἡ θάλαττα ἥσυχός ἐστιν.
+  ἀλλὰ νῦν νεφέλαι ἐν τῷ οὐρανῷ εἰσίν. ὁ ἄνεμος μέγας γίγνεται.
+  οἱ ναῦται φοβοῦνται. ὁ κυβερνήτης δὲ θαρρεῖ. τέλος ἡ ναῦς πρὸς τὸν λιμένα ἀφικνεῖται.
+translation: |
+  The sailors are preparing the ship. The ship is small but strong.
+  The helmsman commands the sailors. The sailors raise the sails.
+  The wind carries the ship. The sea is calm.
+  But now clouds are in the sky. The wind becomes great.
+  The sailors are afraid. But the helmsman takes courage. At last the ship arrives at the harbor.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Present Middle/Passive Indicative"
+  - "First and Second Declension Adjectives"
+  - "Postpositive Particles"
+vocabulary_notes:
+  - word: "ναῦται"
+    note: "First declension masculine nominative plural of ναύτης: sailor"
+  - word: "ναῦν"
+    note: "Accusative singular of ναῦς (irregular): ship"
+  - word: "κυβερνήτης"
+    note: "First declension masculine: helmsman, pilot (root of English 'cybernetics')"
+  - word: "ἱστία"
+    note: "Accusative plural of ἱστίον (neuter): sail"
+  - word: "θάλαττα"
+    note: "First declension feminine: sea (Attic form; Ionic θάλασσα)"
+  - word: "φοβοῦνται"
+    note: "Third person plural present middle/passive of φοβέω: to fear (deponent use)"
+  - word: "λιμένα"
+    note: "Accusative singular of λιμήν (third declension): harbor, port"
+grammar_notes:
+  - concept: "Present Middle/Passive Indicative"
+    note: "φοβοῦνται, ἀφικνεῖται — middle/deponent verbs with -ται/-νται endings"
+  - concept: "Postpositive Particles"
+    note: "δέ — postpositive conjunction: 'but, and' (never first in its clause)"
+  - concept: "First and Second Declension Adjectives"
+    note: "μικρά, ἰσχυρά, μέγας, ἥσυχος — adjectives matching gender/number of noun"

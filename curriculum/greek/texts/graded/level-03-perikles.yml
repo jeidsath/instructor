@@ -1,0 +1,64 @@
+language: greek
+title: "Ὁ Λόγος τοῦ Περικλέους"
+difficulty: 6
+content: |
+  Περικλῆς, ὁ τῶν Ἀθηναίων στρατηγός, ἐπιτάφιον λόγον ἔλεξεν
+  ὑπὲρ τῶν ἐν τῷ πολέμῳ ἀποθανόντων.
+  "ἡ πολιτεία ἡμῶν," εἶπεν, "δημοκρατία καλεῖται, ὅτι ὑπὸ τῶν πολλῶν
+  ἀλλ᾿ οὐχ ὑπὸ τῶν ὀλίγων διοικεῖται.
+  φιλοκαλοῦμεν μετ᾿ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας.
+  τὴν πόλιν τῆς Ἑλλάδος παίδευσιν εἶναι φημί."
+  οὗτος ὁ λόγος τοὺς Ἀθηναίους ἐθάρρυνεν.
+  οἱ γὰρ ἀκούσαντες ἐνόμισαν τοὺς ἀποθανόντας οὐ μάτην ἀποθανεῖν.
+translation: |
+  Pericles, the general of the Athenians, delivered a funeral speech
+  on behalf of those who had died in the war.
+  "Our constitution," he said, "is called a democracy, because it is administered
+  by the many and not by the few.
+  We love beauty with economy and pursue wisdom without softness.
+  I say that our city is the education of Greece."
+  This speech encouraged the Athenians.
+  For those who heard it considered that the dead had not died in vain.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Third Declension Vowel Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Present Active Indicative"
+  - "Present Middle/Passive Indicative"
+  - "First Aorist Active Indicative"
+  - "Second Aorist Active Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Third Declension Adjectives"
+  - "Demonstrative Pronouns"
+  - "Relative Pronouns"
+  - "Negative Particles"
+  - "Indirect Discourse with ὅτι/ὡς"
+vocabulary_notes:
+  - word: "ἐπιτάφιον"
+    note: "Accusative of ἐπιτάφιος: funeral (ἐπί + τάφος = over the grave)"
+  - word: "ἀποθανόντων"
+    note: "Genitive plural of aorist active participle of ἀποθνῄσκω: of those who died"
+  - word: "πολιτεία"
+    note: "First declension: constitution, political system"
+  - word: "φιλοκαλοῦμεν"
+    note: "First person plural present of φιλοκαλέω: to love the beautiful (φίλος + καλός)"
+  - word: "εὐτελείας"
+    note: "Genitive of εὐτέλεια: economy, simplicity (μετά + genitive = with)"
+  - word: "φιλοσοφοῦμεν"
+    note: "First person plural present of φιλοσοφέω: to love wisdom (φίλος + σοφία)"
+  - word: "μάτην"
+    note: "Adverb: in vain, fruitlessly"
+grammar_notes:
+  - concept: "Aorist Active Participle"
+    note: "ἀποθανόντων, ἀκούσαντες — substantive participles: 'those who died', 'those who heard'"
+  - concept: "Present Middle/Passive Indicative"
+    note: "καλεῖται, διοικεῖται — present passive: 'is called', 'is administered'"
+  - concept: "Indirect Discourse with ὅτι/ὡς"
+    note: "ὅτι ὑπὸ τῶν πολλῶν διοικεῖται — indirect statement with ὅτι after καλεῖται"
+  - concept: "Demonstrative Pronouns"
+    note: "οὗτος ὁ λόγος — demonstrative pronoun in attributive position: 'this speech'"

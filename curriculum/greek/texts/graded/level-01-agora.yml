@@ -1,0 +1,44 @@
+language: greek
+title: "Ἐν τῇ Ἀγορᾷ"
+difficulty: 1
+content: |
+  ἡ ἀγορὰ ἐν μέσῃ τῇ πόλει ἐστίν. πολλοὶ ἄνθρωποι ἐν τῇ ἀγορᾷ εἰσίν.
+  ὁ ἔμπορος ἱμάτια πωλεῖ. ὁ δοῦλος τὸν δεσπότην βοηθεῖ.
+  ἡ γυνὴ ἄρτον ἀγοράζει. ὁ ἄρτος καλός ἐστιν.
+  ὁ νεανίας πρὸς τὴν ἀγορὰν βαδίζει. ὁ δῆμος τὸν ῥήτορα ἀκούει.
+translation: |
+  The marketplace is in the middle of the city. Many people are in the marketplace.
+  The merchant sells cloaks. The slave helps the master.
+  The woman buys bread. The bread is fine.
+  The young man walks to the marketplace. The people listen to the speaker.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "First and Second Declension Adjectives"
+  - "Personal Pronouns"
+vocabulary_notes:
+  - word: "ἀγορά"
+    note: "First declension feminine: marketplace, public assembly place"
+  - word: "ἔμπορος"
+    note: "Second declension masculine: merchant, trader"
+  - word: "ἱμάτια"
+    note: "Accusative plural of ἱμάτιον (neuter): cloak, garment"
+  - word: "δοῦλος"
+    note: "Second declension masculine: slave, servant"
+  - word: "δεσπότην"
+    note: "Accusative singular of δεσπότης (first declension masculine): master"
+  - word: "νεανίας"
+    note: "First declension masculine: young man"
+  - word: "ῥήτορα"
+    note: "Accusative singular of ῥήτωρ (third declension): speaker, orator"
+grammar_notes:
+  - concept: "First Declension"
+    note: "ἀγορά, γυνή — first declension feminine nouns; δεσπότης, νεανίας — first declension masculine"
+  - concept: "Accusative Case"
+    note: "ἱμάτια, δεσπότην, ἄρτον, ῥήτορα — direct objects of transitive verbs"
+  - concept: "Dative Case"
+    note: "ἐν τῇ ἀγορᾷ, ἐν μέσῃ τῇ πόλει — dative with preposition ἐν for location"

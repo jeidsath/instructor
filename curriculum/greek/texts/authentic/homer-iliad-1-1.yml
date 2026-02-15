@@ -1,0 +1,69 @@
+language: greek
+title: "Ἰλιάς Α 1–7"
+author: "Ὅμηρος"
+difficulty: 10
+content: |
+  μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
+  οὐλομένην, ἣ μυρί᾿ Ἀχαιοῖς ἄλγε᾿ ἔθηκε,
+  πολλὰς δ᾿ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+  ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+  οἰωνοῖσί τε πᾶσι, Διὸς δ᾿ ἐτελείετο βουλή,
+  ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+  Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+translation: |
+  Sing, goddess, of the wrath of Peleus's son Achilles,
+  the accursed wrath which brought countless sorrows upon the Achaeans,
+  and hurled many mighty souls of heroes to Hades,
+  and made them themselves prey for dogs
+  and all birds, and the plan of Zeus was being fulfilled,
+  from the time when first those two stood apart in strife:
+  Atreus's son, lord of men, and godlike Achilles.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Third Declension Vowel Stems"
+  - "Third Declension Irregular"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Imperfect Middle/Passive Indicative"
+  - "Second Aorist Active Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Imperative Mood"
+  - "Relative Pronouns"
+  - "Conjunctive Particles"
+  - "Postpositive Particles"
+vocabulary_notes:
+  - word: "μῆνιν"
+    note: "Accusative of μῆνις (third declension): wrath, anger (the poem's opening word and theme)"
+  - word: "ἄειδε"
+    note: "Second person singular imperative of ἀείδω (epic form of ᾄδω): sing!"
+  - word: "Πηληϊάδεω"
+    note: "Homeric genitive of Πηληϊάδης: son of Peleus (patronymic, epic -εω ending)"
+  - word: "οὐλομένην"
+    note: "Accusative feminine of middle participle of ὄλλυμι: accursed, destructive"
+  - word: "ἄλγε᾿"
+    note: "Accusative plural of ἄλγος (neuter): pain, suffering (elided form of ἄλγεα)"
+  - word: "ἰφθίμους"
+    note: "Accusative plural of ἴφθιμος (Homeric adjective): mighty, stout"
+  - word: "προΐαψεν"
+    note: "Third person singular aorist of προϊάπτω: to hurl forth, send before their time"
+  - word: "ἑλώρια"
+    note: "Accusative plural of ἑλώριον (neuter): prey, spoil"
+  - word: "διαστήτην"
+    note: "Third person dual aorist of διΐστημι: those two stood apart (dual number, archaic)"
+grammar_notes:
+  - concept: "Imperative Mood"
+    note: "ἄειδε — imperative invocation of the Muse, the traditional opening of epic poetry"
+  - concept: "Relative Pronouns"
+    note: "ἥ (which), ἐξ οὗ (from which time) — relative clauses elaborating on μῆνις and the timeframe"
+  - concept: "Aorist Active Participle"
+    note: "ἐρίσαντε — dual aorist participle: 'having quarreled' (archaic dual form)"
+  - concept: "Third Declension Irregular"
+    note: "Ἄϊδι (dative of Ἅιδης), ἀνδρῶν (genitive plural of ἀνήρ) — irregular third declension"
+  - concept: "Conjunctive Particles"
+    note: "τε...καί — correlative conjunction joining the two heroes; δέ transitions between clauses"

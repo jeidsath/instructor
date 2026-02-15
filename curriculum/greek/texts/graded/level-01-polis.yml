@@ -1,0 +1,46 @@
+language: greek
+title: "Ἡ Πόλις τῶν Ἀθηνῶν"
+difficulty: 2
+content: |
+  αἱ Ἀθῆναι μεγάλη πόλις ἐστίν. ἡ ἀκρόπολις ἐν μέσῃ τῇ πόλει ἐστίν.
+  ἐν τῇ ἀκροπόλει τὸ ἱερὸν τῆς Ἀθηνᾶς ἐστιν. ὁ Παρθενὼν καλός ἐστιν.
+  οἱ πολῖται ἐν τῇ ἀγορᾷ συλλέγονται. ὁ δῆμος τὰ κοινὰ πράττει.
+  οἱ Ἀθηναῖοι τὴν δημοκρατίαν φιλοῦσιν. πᾶς πολίτης λέγειν ἔξεστιν.
+translation: |
+  Athens is a great city. The acropolis is in the middle of the city.
+  On the acropolis is the temple of Athena. The Parthenon is beautiful.
+  The citizens gather in the marketplace. The people conduct public affairs.
+  The Athenians love democracy. Every citizen is allowed to speak.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Present Middle/Passive Indicative"
+  - "First and Second Declension Adjectives"
+vocabulary_notes:
+  - word: "Ἀθῆναι"
+    note: "First declension feminine plural: Athens (name is plural in Greek)"
+  - word: "ἀκρόπολις"
+    note: "Third declension i-stem: acropolis, high city (ἄκρος + πόλις)"
+  - word: "ἱερόν"
+    note: "Second declension neuter: temple, sacred place"
+  - word: "πολῖται"
+    note: "First declension masculine nominative plural of πολίτης: citizen"
+  - word: "συλλέγονται"
+    note: "Third person plural present middle/passive of συλλέγω: to gather together"
+  - word: "δημοκρατίαν"
+    note: "Accusative of δημοκρατία: democracy (δῆμος + κράτος = people's power)"
+  - word: "ἔξεστιν"
+    note: "Impersonal verb: it is allowed, it is possible"
+grammar_notes:
+  - concept: "Present Middle/Passive Indicative"
+    note: "συλλέγονται — middle voice: 'they gather themselves' (reflexive sense)"
+  - concept: "Genitive Case"
+    note: "τῆς Ἀθηνᾶς — genitive of possession: 'the temple of Athena'"
+  - concept: "First and Second Declension Adjectives"
+    note: "μεγάλη, καλός, κοινά — adjectives agreeing with their nouns in gender, number, case"

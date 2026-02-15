@@ -1,0 +1,66 @@
+language: greek
+title: "Ἀπολογία Σωκράτους (ἀρχή)"
+author: "Πλάτων"
+difficulty: 8
+content: |
+  ὅ τι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων,
+  οὐκ οἶδα· ἐγὼ δ᾿ οὖν καὶ αὐτὸς ὑπ᾿ αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην,
+  οὕτω πιθανῶς ἔλεγον. καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.
+  μάλιστα δὲ αὐτῶν ἓν ἐθαύμασα τῶν πολλῶν ὧν ἐψεύσαντο,
+  τοῦτο ἐν ᾧ ἔλεγον ὡς χρῆ ὑμᾶς εὐλαβεῖσθαι μὴ ὑπ᾿ ἐμοῦ ἐξαπατηθῆτε
+  ὡς δεινοῦ ὄντος λέγειν.
+translation: |
+  What you, men of Athens, have experienced from my accusers,
+  I do not know; but I myself was almost made to forget who I am by them,
+  so persuasively did they speak. And yet they have said practically nothing true.
+  But of the many lies they told, I was most amazed at one in particular,
+  when they said that you must beware lest you be deceived by me,
+  as though I were a clever speaker.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Imperfect Active Indicative"
+  - "First Aorist Active Indicative"
+  - "Perfect Active Indicative"
+  - "Aorist Middle Indicative"
+  - "Subjunctive Mood"
+  - "Present Active Participle"
+  - "Relative Pronouns"
+  - "Reflexive Pronouns"
+  - "Demonstrative Pronouns"
+  - "Negative Particles"
+  - "Postpositive Particles"
+  - "Indirect Discourse with ὅτι/ὡς"
+  - "Purpose Clauses"
+vocabulary_notes:
+  - word: "πεπόνθατε"
+    note: "Second person plural perfect active of πάσχω: you have experienced"
+  - word: "κατηγόρων"
+    note: "Genitive plural of κατήγορος: accuser, prosecutor"
+  - word: "ἐπελαθόμην"
+    note: "First person singular aorist middle of ἐπιλανθάνομαι: I forgot (+ genitive)"
+  - word: "πιθανῶς"
+    note: "Adverb: persuasively, convincingly (from πιθανός)"
+  - word: "ἐψεύσαντο"
+    note: "Third person plural aorist middle of ψεύδομαι: they lied"
+  - word: "εὐλαβεῖσθαι"
+    note: "Present middle infinitive of εὐλαβέομαι: to beware, be cautious"
+  - word: "ἐξαπατηθῆτε"
+    note: "Second person plural aorist passive subjunctive of ἐξαπατάω: to be deceived"
+grammar_notes:
+  - concept: "Perfect Active Indicative"
+    note: "πεπόνθατε, εἰρήκασιν — perfect tense: completed actions with present relevance"
+  - concept: "Subjunctive Mood"
+    note: "μὴ ἐξαπατηθῆτε — subjunctive in fear clause after εὐλαβεῖσθαι"
+  - concept: "Indirect Discourse with ὅτι/ὡς"
+    note: "ὡς χρῆ ὑμᾶς εὐλαβεῖσθαι — indirect statement with ὡς"
+  - concept: "Reflexive Pronouns"
+    note: "ἐμαυτοῦ — first person reflexive genitive: 'of myself'"
+  - concept: "Relative Pronouns"
+    note: "ὧν ἐψεύσαντο — relative clause: 'of (the things) which they lied'"

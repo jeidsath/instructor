@@ -1,0 +1,41 @@
+language: greek
+title: "Ὁ Οἶκος"
+difficulty: 1
+content: |
+  ὁ οἶκος μέγας ἐστίν. ἐν τῷ οἴκῳ ἄνθρωπος οἰκεῖ.
+  ὁ ἄνθρωπος ἀγαθός ἐστιν. γυνὴ ἐν τῷ οἴκῳ ἐστίν.
+  ἡ γυνὴ σῖτον παρασκευάζει. τὸ τέκνον ἐν τῷ κήπῳ παίζει.
+  ὁ ἄνθρωπος τὸ τέκνον καλεῖ. τὸ τέκνον πρὸς τὸν οἶκον τρέχει.
+translation: |
+  The house is large. In the house a person lives.
+  The person is good. A woman is in the house.
+  The woman prepares food. The child plays in the garden.
+  The person calls the child. The child runs to the house.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Present Active Indicative"
+  - "First and Second Declension Adjectives"
+vocabulary_notes:
+  - word: "οἶκος"
+    note: "Second declension masculine: house, household"
+  - word: "μέγας"
+    note: "Irregular adjective: great, large (μέγας, μεγάλη, μέγα)"
+  - word: "γυνή"
+    note: "Third declension irregular: woman, wife (preview of later declension)"
+  - word: "σῖτον"
+    note: "Accusative singular of σῖτος: food, grain"
+  - word: "τέκνον"
+    note: "Second declension neuter: child"
+  - word: "κήπῳ"
+    note: "Dative singular of κῆπος: garden"
+grammar_notes:
+  - concept: "Second Declension"
+    note: "οἶκος, ἄνθρωπος, κῆπος — second declension masculine nouns with article ὁ"
+  - concept: "Second Declension Neuter"
+    note: "τέκνον — neuter noun; nominative and accusative identical (τό)"
+  - concept: "Present Active Indicative"
+    note: "ἐστίν, οἰκεῖ, παρασκευάζει, παίζει, καλεῖ, τρέχει — all third person singular present"

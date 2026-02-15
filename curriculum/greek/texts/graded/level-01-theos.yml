@@ -1,0 +1,49 @@
+language: greek
+title: "Οἱ Θεοί"
+difficulty: 2
+content: |
+  οἱ θεοὶ ἐν τῷ Ὀλύμπῳ οἰκοῦσιν. ὁ Ζεὺς βασιλεὺς τῶν θεῶν ἐστιν.
+  ἡ Ἀθηνᾶ σοφία ἐστίν. ὁ Ἀπόλλων μουσικὴν φιλεῖ.
+  ἡ Ἀφροδίτη καλή ἐστιν. ὁ Ἄρης πόλεμον φιλεῖ.
+  οἱ ἄνθρωποι τοῖς θεοῖς δῶρα φέρουσιν. οἱ θεοὶ τοὺς ἀνθρώπους φυλάττουσιν.
+  μὴ τοὺς θεοὺς ὕβριζε. οἱ θεοὶ γὰρ τοὺς ὑβριστὰς κολάζουσιν.
+translation: |
+  The gods live on Olympus. Zeus is the king of the gods.
+  Athena is wisdom. Apollo loves music. Aphrodite is beautiful.
+  Ares loves war. The people bring gifts to the gods.
+  The gods protect the people. Do not insult the gods.
+  For the gods punish the insolent.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Imperative Mood"
+  - "Conjunctive Particles"
+vocabulary_notes:
+  - word: "Ὀλύμπῳ"
+    note: "Dative singular of Ὄλυμπος: Mount Olympus, home of the gods"
+  - word: "βασιλεύς"
+    note: "Third declension: king (βασιλεύς, -έως) — preview of later declension"
+  - word: "σοφία"
+    note: "First declension feminine: wisdom"
+  - word: "μουσικήν"
+    note: "Accusative singular of μουσική: music, art of the Muses"
+  - word: "δῶρα"
+    note: "Accusative plural of δῶρον (neuter): gift, offering"
+  - word: "ὕβριζε"
+    note: "Second person singular present imperative of ὑβρίζω: to insult, commit hubris"
+  - word: "ὑβριστάς"
+    note: "Accusative plural of ὑβριστής (first declension masculine): the insolent, the hubristic"
+grammar_notes:
+  - concept: "Genitive Case"
+    note: "τῶν θεῶν — genitive of possession: 'king of the gods'"
+  - concept: "Dative Case"
+    note: "τοῖς θεοῖς — indirect object: 'bring gifts to the gods'"
+  - concept: "Imperative Mood"
+    note: "μὴ ὕβριζε — negative imperative (μή + present imperative = prohibition)"
+  - concept: "Conjunctive Particles"
+    note: "γάρ — postpositive causal particle: 'for' (explains why not to insult)"

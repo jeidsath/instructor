@@ -1,0 +1,64 @@
+language: greek
+title: "Ἀνάβασις I.1"
+author: "Ξενοφῶν"
+difficulty: 7
+content: |
+  Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης,
+  νεώτερος δὲ Κῦρος. ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου,
+  ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.
+  ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε· Κῦρον δὲ μεταπέμπεται
+  ἀπὸ τῆς ἀρχῆς ἧς αὐτὸν σατράπην ἐποίησε.
+  ἀναβαίνει οὖν ὁ Κῦρος λαβὼν Τισσαφέρνην ὡς φίλον,
+  καὶ τῶν Ἑλλήνων ἔχων ὁπλίτας ἀνέβη τριακοσίους.
+translation: |
+  To Darius and Parysatis are born two sons, the elder Artaxerxes,
+  the younger Cyrus. When Darius was ill and suspected the end of his life,
+  he wished both his sons to be present.
+  Now the elder happened to be present; but he sends for Cyrus
+  from the province of which he had made him satrap.
+  So Cyrus goes up, taking Tissaphernes as a friend,
+  and went up with three hundred Greek hoplites.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Present Active Indicative"
+  - "Present Middle/Passive Indicative"
+  - "Imperfect Active Indicative"
+  - "Imperfect Middle/Passive Indicative"
+  - "Second Aorist Active Indicative"
+  - "Present Active Participle"
+  - "Aorist Active Participle"
+  - "Comparison of Adjectives"
+  - "Relative Pronouns"
+  - "Postpositive Particles"
+vocabulary_notes:
+  - word: "Δαρείου"
+    note: "Genitive of Δαρεῖος: Darius II, king of Persia (died 404 BC)"
+  - word: "γίγνονται"
+    note: "Third person plural present middle of γίγνομαι: to be born, become"
+  - word: "πρεσβύτερος"
+    note: "Comparative of πρέσβυς: elder (irregular comparison)"
+  - word: "νεώτερος"
+    note: "Comparative of νέος: younger"
+  - word: "ἠσθένει"
+    note: "Third person singular imperfect of ἀσθενέω: to be ill, weak"
+  - word: "τελευτήν"
+    note: "Accusative of τελευτή: end, death"
+  - word: "σατράπην"
+    note: "Accusative of σατράπης (first declension masculine): satrap, Persian governor"
+  - word: "ὁπλίτας"
+    note: "Accusative plural of ὁπλίτης (first declension masculine): hoplite, heavy-armed soldier"
+grammar_notes:
+  - concept: "Present Active Participle"
+    note: "παρών (being present), λαβών is aorist — historical present mixed with aorist participle"
+  - concept: "Comparison of Adjectives"
+    note: "πρεσβύτερος, νεώτερος — comparative forms: elder, younger"
+  - concept: "Relative Pronouns"
+    note: "ἧς αὐτὸν σατράπην ἐποίησε — 'of which he had made him satrap'"
+  - concept: "Postpositive Particles"
+    note: "μέν...δέ (correlative: on the one hand...on the other), οὖν (therefore)"

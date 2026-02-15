@@ -1,0 +1,56 @@
+language: greek
+title: "Ἡ Μάχη τοῦ Μαραθῶνος"
+difficulty: 3
+content: |
+  οἱ Πέρσαι μεγάλῳ στρατῷ εἰς τὴν Ἑλλάδα ἦλθον.
+  ἐν τῷ πεδίῳ τοῦ Μαραθῶνος ἀπέβησαν. οἱ Ἀθηναῖοι ἐφοβοῦντο·
+  ὁ γὰρ στρατὸς τῶν Περσῶν πολὺ μείζων ἦν.
+  Μιλτιάδης δὲ ὁ στρατηγὸς τοὺς Ἀθηναίους ἐθάρρυνεν.
+  οἱ Ἀθηναῖοι δρόμῳ ἐπὶ τοὺς Πέρσας ἐπέδραμον.
+  οἱ Πέρσαι ἐνικήθησαν καὶ πρὸς τὰς ναῦς ἔφυγον.
+  ἄγγελος ἀπὸ Μαραθῶνος εἰς τὰς Ἀθήνας ἔδραμεν καὶ τὴν νίκην ἤγγειλεν.
+translation: |
+  The Persians came to Greece with a great army.
+  They landed on the plain of Marathon. The Athenians were afraid;
+  for the army of the Persians was much greater.
+  But Miltiades the general encouraged the Athenians.
+  The Athenians charged at a run against the Persians.
+  The Persians were defeated and fled to their ships.
+  A messenger ran from Marathon to Athens and announced the victory.
+prerequisite_grammar:
+  - "First Declension"
+  - "Second Declension"
+  - "Second Declension Neuter"
+  - "Third Declension Consonant Stems"
+  - "Nominative and Vocative Cases"
+  - "Accusative Case"
+  - "Genitive Case"
+  - "Dative Case"
+  - "Imperfect Active Indicative"
+  - "Imperfect Middle/Passive Indicative"
+  - "Second Aorist Active Indicative"
+  - "Aorist Passive Indicative"
+  - "Comparison of Adjectives"
+  - "Postpositive Particles"
+vocabulary_notes:
+  - word: "πεδίῳ"
+    note: "Dative singular of πεδίον (neuter): plain, field"
+  - word: "ἀπέβησαν"
+    note: "Third person plural second aorist of ἀποβαίνω: to disembark, land"
+  - word: "μείζων"
+    note: "Comparative of μέγας: greater (irregular comparison)"
+  - word: "στρατηγός"
+    note: "Second declension masculine: general, commander (στρατός + ἄγω)"
+  - word: "ἐπέδραμον"
+    note: "Third person plural second aorist of ἐπιτρέχω: to charge, run against"
+  - word: "ἐνικήθησαν"
+    note: "Third person plural aorist passive of νικάω: to defeat"
+  - word: "ἤγγειλεν"
+    note: "Third person singular first aorist of ἀγγέλλω: to announce"
+grammar_notes:
+  - concept: "Second Aorist Active Indicative"
+    note: "ἦλθον, ἀπέβησαν, ἐπέδραμον, ἔφυγον, ἔδραμεν — second aorist with stem changes"
+  - concept: "Aorist Passive Indicative"
+    note: "ἐνικήθησαν — aorist passive with -θη- marker"
+  - concept: "Comparison of Adjectives"
+    note: "μείζων (comparative of μέγας): greater — irregular comparative form"
