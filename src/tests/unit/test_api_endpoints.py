@@ -72,10 +72,10 @@ class TestLearnerRoutes:
 
 @pytest.mark.unit
 class TestSessionRoutes:
-    """Session API route structure."""
+    """Session API routes wired to DB and session manager."""
 
-    async def test_start_session_not_implemented(
-        self, test_client: AsyncClient
+    async def test_start_session_learner_not_found(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
     ) -> None:
         async with test_client as client:
             r = await client.post(
@@ -85,9 +85,11 @@ class TestSessionRoutes:
                     "language": "latin",
                 },
             )
-        assert r.status_code == 501
+        assert r.status_code == 404
 
-    async def test_get_session_not_found(self, test_client: AsyncClient) -> None:
+    async def test_get_session_not_found(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.get(f"/api/sessions/{uuid.uuid4()}")
         assert r.status_code == 404
@@ -105,7 +107,9 @@ class TestSessionRoutes:
             )
         assert r.status_code == 404
 
-    async def test_end_not_found(self, test_client: AsyncClient) -> None:
+    async def test_end_not_found(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.post(f"/api/sessions/{uuid.uuid4()}/end")
         assert r.status_code == 404
