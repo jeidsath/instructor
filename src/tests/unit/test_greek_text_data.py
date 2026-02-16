@@ -114,8 +114,7 @@ class TestGreekTextPrerequisites:
                 continue
             for note in text.grammar_notes:
                 assert note.concept in grammar_concept_names, (
-                    f"{text.title}: unknown grammar note concept "
-                    f"'{note.concept}'"
+                    f"{text.title}: unknown grammar note concept '{note.concept}'"
                 )
 
 
@@ -132,13 +131,9 @@ class TestGreekTextDifficultyConsistency:
         """Authentic texts (difficulty >= 7) should have an author."""
         for text in greek_texts:
             if text.difficulty >= 7:
-                assert text.author, (
-                    f"{text.title}: authentic text missing author"
-                )
+                assert text.author, f"{text.title}: authentic text missing author"
 
-    def test_homeric_text_is_high_difficulty(
-        self, greek_texts: list
-    ) -> None:
+    def test_homeric_text_is_high_difficulty(self, greek_texts: list) -> None:
         """Homeric texts should be marked as high difficulty."""
         for text in greek_texts:
             if text.author and "Ὅμηρος" in text.author:
@@ -151,30 +146,20 @@ class TestGreekTextDifficultyConsistency:
 class TestGreekTextAnnotations:
     """Vocabulary and grammar notes are well-formed."""
 
-    def test_vocabulary_notes_have_word_and_note(
-        self, greek_texts: list
-    ) -> None:
+    def test_vocabulary_notes_have_word_and_note(self, greek_texts: list) -> None:
         for text in greek_texts:
             if not text.vocabulary_notes:
                 continue
             for vn in text.vocabulary_notes:
-                assert vn.word.strip(), (
-                    f"{text.title}: empty vocabulary note word"
-                )
-                assert vn.note.strip(), (
-                    f"{text.title}: empty note for word '{vn.word}'"
-                )
+                assert vn.word.strip(), f"{text.title}: empty vocabulary note word"
+                assert vn.note.strip(), f"{text.title}: empty note for word '{vn.word}'"
 
-    def test_grammar_notes_have_concept_and_note(
-        self, greek_texts: list
-    ) -> None:
+    def test_grammar_notes_have_concept_and_note(self, greek_texts: list) -> None:
         for text in greek_texts:
             if not text.grammar_notes:
                 continue
             for gn in text.grammar_notes:
-                assert gn.concept.strip(), (
-                    f"{text.title}: empty grammar note concept"
-                )
+                assert gn.concept.strip(), f"{text.title}: empty grammar note concept"
                 assert gn.note.strip(), (
                     f"{text.title}: empty note for concept '{gn.concept}'"
                 )
@@ -184,6 +169,4 @@ class TestGreekTextAnnotations:
         for text in greek_texts:
             has_vocab = text.vocabulary_notes and len(text.vocabulary_notes) > 0
             has_grammar = text.grammar_notes and len(text.grammar_notes) > 0
-            assert has_vocab or has_grammar, (
-                f"{text.title}: text has no annotations"
-            )
+            assert has_vocab or has_grammar, f"{text.title}: text has no annotations"

@@ -104,9 +104,7 @@ class TestLatinTextPrerequisites:
 class TestLatinTextDifficultyConsistency:
     """Difficulty levels are consistent with prerequisite grammar."""
 
-    def test_level_01_texts_use_basic_grammar(
-        self, latin_texts: list
-    ) -> None:
+    def test_level_01_texts_use_basic_grammar(self, latin_texts: list) -> None:
         """Texts at difficulty 1-2 should only use units 01-02 concepts."""
         advanced_concepts = {
             "Third Declension",
@@ -152,39 +150,27 @@ class TestLatinTextDifficultyConsistency:
         """Authentic texts (difficulty >= 7) should have an author."""
         for text in latin_texts:
             if text.difficulty >= 7:
-                assert text.author, (
-                    f"{text.title}: authentic text missing author"
-                )
+                assert text.author, f"{text.title}: authentic text missing author"
 
 
 @pytest.mark.unit
 class TestLatinTextAnnotations:
     """Vocabulary and grammar notes are well-formed."""
 
-    def test_vocabulary_notes_have_word_and_note(
-        self, latin_texts: list
-    ) -> None:
+    def test_vocabulary_notes_have_word_and_note(self, latin_texts: list) -> None:
         for text in latin_texts:
             if not text.vocabulary_notes:
                 continue
             for vn in text.vocabulary_notes:
-                assert vn.word.strip(), (
-                    f"{text.title}: empty vocabulary note word"
-                )
-                assert vn.note.strip(), (
-                    f"{text.title}: empty note for word '{vn.word}'"
-                )
+                assert vn.word.strip(), f"{text.title}: empty vocabulary note word"
+                assert vn.note.strip(), f"{text.title}: empty note for word '{vn.word}'"
 
-    def test_grammar_notes_have_concept_and_note(
-        self, latin_texts: list
-    ) -> None:
+    def test_grammar_notes_have_concept_and_note(self, latin_texts: list) -> None:
         for text in latin_texts:
             if not text.grammar_notes:
                 continue
             for gn in text.grammar_notes:
-                assert gn.concept.strip(), (
-                    f"{text.title}: empty grammar note concept"
-                )
+                assert gn.concept.strip(), f"{text.title}: empty grammar note concept"
                 assert gn.note.strip(), (
                     f"{text.title}: empty note for concept '{gn.concept}'"
                 )
@@ -194,6 +180,4 @@ class TestLatinTextAnnotations:
         for text in latin_texts:
             has_vocab = text.vocabulary_notes and len(text.vocabulary_notes) > 0
             has_grammar = text.grammar_notes and len(text.grammar_notes) > 0
-            assert has_vocab or has_grammar, (
-                f"{text.title}: text has no annotations"
-            )
+            assert has_vocab or has_grammar, f"{text.title}: text has no annotations"
