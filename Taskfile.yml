@@ -10,18 +10,18 @@ tasks:
   dev:
     desc: Start app + db containers, tail logs
     cmds:
-      - docker compose up --build
+      - docker-compose up --build
 
   dev:down:
     desc: Stop all containers
     cmds:
-      - docker compose down
+      - docker-compose down
 
   dev:rebuild:
     desc: Rebuild app container after dependency changes
     cmds:
-      - docker compose build --no-cache app
-      - docker compose up -d app
+      - docker-compose build --no-cache app
+      - docker-compose up -d app
 
   db:migrate:
     desc: Run Alembic migrations against dev DB
@@ -31,8 +31,8 @@ tasks:
   db:reset:
     desc: Drop and recreate dev database
     cmds:
-      - docker compose exec db psql -U postgres -c "DROP DATABASE IF EXISTS instructor;"
-      - docker compose exec db psql -U postgres -c "CREATE DATABASE instructor;"
+      - docker-compose exec db psql -U postgres -c "DROP DATABASE IF EXISTS instructor;"
+      - docker-compose exec db psql -U postgres -c "CREATE DATABASE instructor;"
       - task: db:migrate
 
   test:
@@ -49,9 +49,9 @@ tasks:
   test:integration:
     desc: Start test DB, run integration tests, stop
     cmds:
-      - docker compose --profile test up -d db-test
-      - docker compose --profile test exec db-test sh -c "until pg_isready -U postgres; do sleep 1; done"
-      - defer: docker compose --profile test stop db-test
+      - docker-compose --profile test up -d db-test
+      - docker-compose --profile test exec db-test sh -c "until pg_isready -U postgres; do sleep 1; done"
+      - defer: docker-compose --profile test stop db-test
       - >-
         PYTHONPATH={{.PYTHONPATH}}
         TEST_DATABASE_URL={{.TEST_DATABASE_URL}}
@@ -90,13 +90,13 @@ tasks:
   ci:
     desc: Mirror GitHub Actions pipeline in Docker
     cmds:
-      - docker compose build app
-      - docker compose run --rm app ruff check src/
-      - docker compose run --rm app mypy src/instructor/
-      - docker compose --profile test up -d db-test
-      - docker compose --profile test exec db-test sh -c "until pg_isready -U postgres; do sleep 1; done"
-      - defer: docker compose --profile test stop db-test
+      - docker-compose build app
+      - docker-compose run --rm app ruff check src/
+      - docker-compose run --rm app mypy src/instructor/
+      - docker-compose --profile test up -d db-test
+      - docker-compose --profile test exec db-test sh -c "until pg_isready -U postgres; do sleep 1; done"
+      - defer: docker-compose --profile test stop db-test
       - >-
-        docker compose run --rm
+        docker-compose run --rm
         -e TEST_DATABASE_URL=postgresql+asyncpg://postgres:postgres@db-test:5432/instructor_test
         app pytest src/tests/ -m "not live" -v
