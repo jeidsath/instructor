@@ -119,6 +119,22 @@ class TestCurriculumRoutes:
         assert isinstance(data, list)
         assert len(data) > 0
 
+    async def test_grammar_category_differs_from_subcategory(
+        self, test_client: AsyncClient
+    ) -> None:
+        """Category (e.g. morphology) should differ from subcategory."""
+        async with test_client as client:
+            r = await client.get("/api/curriculum/latin/grammar")
+        assert r.status_code == 200
+        data = r.json()
+        mismatches = [c for c in data if c["category"] != c["subcategory"]]
+        assert len(mismatches) > 0, "category and subcategory should differ"
+        valid_categories = {"morphology", "syntax", "phonology", "prosody"}
+        for c in data:
+            assert c["category"] in valid_categories, (
+                f"{c['name']}: invalid category '{c['category']}'"
+            )
+
     async def test_invalid_language_rejected(self, test_client: AsyncClient) -> None:
         async with test_client as client:
             r = await client.get("/api/curriculum/klingon/vocabulary")

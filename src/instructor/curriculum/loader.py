@@ -163,6 +163,8 @@ def load_all_grammar(
                 f"but declares language '{grammar_file.language}'",
                 path,
             )
+        for concept in grammar_file.concepts:
+            concept.category = grammar_file.category
         all_concepts.extend(grammar_file.concepts)
 
     # Validate prerequisites across all concepts

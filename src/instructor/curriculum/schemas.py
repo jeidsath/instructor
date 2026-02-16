@@ -63,6 +63,7 @@ class GrammarExampleData(BaseModel):
 
 class GrammarConceptData(BaseModel):
     name: str
+    category: str = ""
     subcategory: str
     difficulty: int
     prerequisites: list[str] = []

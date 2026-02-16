@@ -52,7 +52,7 @@ async def list_grammar_concepts(
     return [
         GrammarConceptResponse(
             name=gc.name,
-            category=gc.subcategory,
+            category=gc.category,
             subcategory=gc.subcategory,
             difficulty_level=gc.difficulty,
             prerequisite_names=gc.prerequisites or [],
