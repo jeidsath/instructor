@@ -1,22 +1,22 @@
 """Curriculum browsing API routes."""
 
-from __future__ import annotations
+from typing import Annotated
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends, Request
 
 from instructor.api.schemas import (
     GrammarConceptResponse,
     VocabularySetResponse,
 )
-from instructor.config import settings
 from instructor.curriculum.registry import CurriculumRegistry
 from instructor.models.enums import Language
 
 router = APIRouter(prefix="/api/curriculum", tags=["curriculum"])
 
 
-def _get_registry() -> CurriculumRegistry:
-    return CurriculumRegistry(settings.curriculum_path)
+def get_registry(request: Request) -> CurriculumRegistry:
+    """Return the application-wide CurriculumRegistry singleton."""
+    return request.app.state.registry  # type: ignore[no-any-return]
 
 
 @router.get(
@@ -25,9 +25,9 @@ def _get_registry() -> CurriculumRegistry:
 )
 async def list_vocabulary_sets(
     language: Language,
+    registry: Annotated[CurriculumRegistry, Depends(get_registry)],
 ) -> list[VocabularySetResponse]:
     """List available vocabulary sets for a language."""
-    registry = _get_registry()
     vocab_sets = registry.get_vocabulary_sets(language.value)
     return [
         VocabularySetResponse(
@@ -45,9 +45,9 @@ async def list_vocabulary_sets(
 )
 async def list_grammar_concepts(
     language: Language,
+    registry: Annotated[CurriculumRegistry, Depends(get_registry)],
 ) -> list[GrammarConceptResponse]:
     """List grammar concepts for a language."""
-    registry = _get_registry()
     concepts = registry.get_grammar_concepts(language.value)
     return [
         GrammarConceptResponse(

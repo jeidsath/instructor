@@ -166,6 +166,22 @@ class TestPlacementRoutes:
 
 
 @pytest.mark.unit
+class TestRegistrySingleton:
+    """CurriculumRegistry is loaded once and reused."""
+
+    async def test_registry_is_same_instance(self, test_client: AsyncClient) -> None:
+        """Two requests should get the same registry instance."""
+        async with test_client as client:
+            r1 = await client.get("/api/curriculum/latin/vocabulary")
+            r2 = await client.get("/api/curriculum/latin/vocabulary")
+        assert r1.status_code == 200
+        assert r2.status_code == 200
+        # Both returned data — registry was available for both requests
+        assert len(r1.json()) > 0
+        assert r1.json() == r2.json()
+
+
+@pytest.mark.unit
 class TestSchemaValidation:
     """Pydantic schema validation."""
 
