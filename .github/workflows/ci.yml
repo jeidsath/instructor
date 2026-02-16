@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: uv sync
+      - run: uv sync --extra dev --extra dev
       - run: uv run ruff check src/
       - run: uv run ruff format --check src/
       - run: PYTHONPATH=src uv run mypy src/instructor/
@@ -30,7 +30,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: uv sync
+      - run: uv sync --extra dev
       - run: >-
           PYTHONPATH=src uv run pytest src/tests/
           -m "not integration and not live"
@@ -64,7 +64,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: uv sync
+      - run: uv sync --extra dev
       - run: >-
           PYTHONPATH=src
           TEST_DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5433/instructor_test
