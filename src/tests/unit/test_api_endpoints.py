@@ -1,6 +1,7 @@
 """Tests for API endpoint routing, schema validation, and basic behavior."""
 
 import uuid
+from unittest.mock import AsyncMock
 
 import pytest
 from httpx import AsyncClient
@@ -26,9 +27,11 @@ class TestHealthEndpoint:
 
 @pytest.mark.unit
 class TestLearnerRoutes:
-    """Learner API route structure."""
+    """Learner API routes wired to DB."""
 
-    async def test_create_learner(self, test_client: AsyncClient) -> None:
+    async def test_create_learner(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.post(
                 "/api/learners",
@@ -38,8 +41,13 @@ class TestLearnerRoutes:
         data = r.json()
         assert data["name"] == "Test Learner"
         assert "id" in data
+        mock_db_session.add.assert_called_once()
+        mock_db_session.commit.assert_awaited_once()
+        mock_db_session.refresh.assert_awaited_once()
 
-    async def test_create_learner_empty_name(self, test_client: AsyncClient) -> None:
+    async def test_create_learner_empty_name(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.post(
                 "/api/learners",
@@ -47,12 +55,16 @@ class TestLearnerRoutes:
             )
         assert r.status_code == 422
 
-    async def test_get_learner_not_found(self, test_client: AsyncClient) -> None:
+    async def test_get_learner_not_found(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.get(f"/api/learners/{uuid.uuid4()}")
         assert r.status_code == 404
 
-    async def test_get_state_not_found(self, test_client: AsyncClient) -> None:
+    async def test_get_state_not_found(
+        self, test_client: AsyncClient, mock_db_session: AsyncMock
+    ) -> None:
         async with test_client as client:
             r = await client.get(f"/api/learners/{uuid.uuid4()}/state/latin")
         assert r.status_code == 404
