@@ -2,9 +2,10 @@ import json
 from typing import Any
 from unittest.mock import MagicMock, patch
 
+import anthropic
 import pytest
 
-from instructor.ai.client import AIClient, AIResponseError
+from instructor.ai.client import AIClient, AIResponseError, _strip_code_fences
 from instructor.ai.evaluator import (
     score_composition,
     score_comprehension,
@@ -265,6 +266,8 @@ class TestAIClient:
             mock_anthropic.Anthropic.return_value.messages.create.return_value = (
                 mock_message
             )
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
             client = AIClient(api_key="test-key")
             result = client.complete_json(system="sys", user="usr")
 
@@ -278,9 +281,151 @@ class TestAIClient:
             mock_anthropic.Anthropic.return_value.messages.create.return_value = (
                 mock_message
             )
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
             client = AIClient(api_key="test-key")
             with pytest.raises(AIResponseError, match="not valid JSON"):
                 client.complete_json(system="sys", user="usr")
+
+
+# ------------------------------------------------------------------
+# Retry, timeout, and markdown stripping
+# ------------------------------------------------------------------
+
+
+def _make_api_error(
+    cls: type[anthropic.APIStatusError],
+) -> anthropic.APIStatusError:
+    """Create an Anthropic API error with a mock response."""
+    mock_resp = MagicMock()
+    mock_resp.request = MagicMock()
+    mock_resp.status_code = 429 if cls is anthropic.RateLimitError else 500
+    return cls(message="transient error", response=mock_resp, body=None)
+
+
+@pytest.mark.unit
+class TestAIClientRetry:
+    """Retry logic for transient API errors."""
+
+    def test_retry_on_rate_limit_succeeds(self) -> None:
+        """Rate limit on first attempt, success on second."""
+        response_text = json.dumps({"result": "ok"})
+        mock_message = MagicMock()
+        mock_message.content = [MagicMock(text=response_text)]
+
+        rate_limit_err = _make_api_error(anthropic.RateLimitError)
+
+        with (
+            patch("instructor.ai.client.anthropic") as mock_anthropic,
+            patch("instructor.ai.client.time.sleep") as mock_sleep,
+        ):
+            mock_create = mock_anthropic.Anthropic.return_value.messages.create
+            mock_create.side_effect = [rate_limit_err, mock_message]
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key", max_retries=3)
+            result = client.complete_json(system="sys", user="usr")
+
+        assert result == {"result": "ok"}
+        assert mock_create.call_count == 2
+        mock_sleep.assert_called_once_with(1.0)
+
+    def test_max_retries_exceeded_raises(self) -> None:
+        """All retries exhausted raises the last error."""
+        rate_limit_err = _make_api_error(anthropic.RateLimitError)
+
+        with (
+            patch("instructor.ai.client.anthropic") as mock_anthropic,
+            patch("instructor.ai.client.time.sleep"),
+        ):
+            mock_create = mock_anthropic.Anthropic.return_value.messages.create
+            mock_create.side_effect = rate_limit_err
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key", max_retries=2)
+            with pytest.raises(anthropic.RateLimitError):
+                client.complete_json(system="sys", user="usr")
+
+        assert mock_create.call_count == 2
+
+    def test_internal_server_error_retried(self) -> None:
+        """InternalServerError is retried like RateLimitError."""
+        response_text = json.dumps({"ok": True})
+        mock_message = MagicMock()
+        mock_message.content = [MagicMock(text=response_text)]
+
+        server_err = _make_api_error(anthropic.InternalServerError)
+
+        with (
+            patch("instructor.ai.client.anthropic") as mock_anthropic,
+            patch("instructor.ai.client.time.sleep"),
+        ):
+            mock_create = mock_anthropic.Anthropic.return_value.messages.create
+            mock_create.side_effect = [server_err, mock_message]
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key", max_retries=3)
+            result = client.complete_json(system="sys", user="usr")
+
+        assert result == {"ok": True}
+
+    def test_timeout_not_retried(self) -> None:
+        """APITimeoutError is not retried — it propagates immediately."""
+        timeout_err = anthropic.APITimeoutError(request=MagicMock())
+
+        with patch("instructor.ai.client.anthropic") as mock_anthropic:
+            mock_create = mock_anthropic.Anthropic.return_value.messages.create
+            mock_create.side_effect = timeout_err
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key", max_retries=3)
+            with pytest.raises(anthropic.APITimeoutError):
+                client.complete_json(system="sys", user="usr")
+
+        assert mock_create.call_count == 1
+
+
+@pytest.mark.unit
+class TestStripCodeFences:
+    """Markdown code fence stripping."""
+
+    def test_json_code_fence(self) -> None:
+        text = '```json\n{"score": 5}\n```'
+        assert _strip_code_fences(text) == '{"score": 5}'
+
+    def test_plain_code_fence(self) -> None:
+        text = '```\n{"score": 5}\n```'
+        assert _strip_code_fences(text) == '{"score": 5}'
+
+    def test_no_fence_passthrough(self) -> None:
+        text = '{"score": 5}'
+        assert _strip_code_fences(text) == '{"score": 5}'
+
+    def test_fence_with_surrounding_text(self) -> None:
+        text = 'Here is the JSON:\n```json\n{"a": 1}\n```\nDone.'
+        assert _strip_code_fences(text) == '{"a": 1}'
+
+    def test_complete_json_with_fences(self) -> None:
+        """End-to-end: AIClient parses fenced JSON correctly."""
+        fenced = '```json\n{"score": 5, "feedback": "great"}\n```'
+        mock_message = MagicMock()
+        mock_message.content = [MagicMock(text=fenced)]
+
+        with patch("instructor.ai.client.anthropic") as mock_anthropic:
+            mock_anthropic.Anthropic.return_value.messages.create.return_value = (
+                mock_message
+            )
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key")
+            result = client.complete_json(system="sys", user="usr")
+
+        assert result["score"] == 5
 
 
 # ------------------------------------------------------------------
