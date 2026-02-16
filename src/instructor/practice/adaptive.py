@@ -137,7 +137,7 @@ def select_exercises(
 def _vocab_exercise(
     lemma: str,
     definition: str,
-    forms: dict | None,
+    forms: dict[str, object] | None,
     all_definitions: list[str],
     language: str,
 ) -> GeneratedExercise:

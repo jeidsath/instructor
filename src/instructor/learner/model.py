@@ -52,7 +52,7 @@ class LearnerModel:
             for v in self.vocabulary
             if v.next_review is not None and v.next_review <= now
         ]
-        due.sort(key=lambda v: v.next_review)  # type: ignore[arg-type]
+        due.sort(key=lambda v: v.next_review)  # type: ignore[arg-type, return-value]
         return due
 
     def weak_vocabulary(self, threshold: float = 0.3) -> list[LearnerVocabulary]:

@@ -56,7 +56,11 @@ class AIClient:
             system=system,
             messages=[{"role": "user", "content": user}],
         )
-        text = response.content[0].text
+        block = response.content[0]
+        if not hasattr(block, "text"):
+            msg = f"Unexpected content block type: {type(block).__name__}"
+            raise AIResponseError(msg)
+        text = block.text
         try:
             return json.loads(text)  # type: ignore[no-any-return]
         except json.JSONDecodeError as exc:
