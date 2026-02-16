@@ -1,5 +1,6 @@
 """Session API routes."""
 
+import logging
 import uuid
 from datetime import UTC, datetime
 from typing import Annotated
@@ -26,6 +27,8 @@ from instructor.session.manager import (
     compute_summary,
     plan_session,
 )
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/sessions", tags=["sessions"])
 
@@ -65,6 +68,15 @@ async def start_session(
 
     active_sessions = _get_active_sessions(request)
     active_sessions[session.id] = plan
+
+    logger.info(
+        "Session started",
+        extra={
+            "session_id": str(session.id),
+            "learner_id": str(body.learner_id),
+            "language": body.language.value,
+        },
+    )
 
     return SessionResponse(
         id=session.id,
@@ -183,6 +195,13 @@ async def end_session(
         await db.commit()
 
     del active_sessions[session_id]
+
+    logger.info(
+        "Session ended",
+        extra={
+            "session_id": str(session_id),
+        },
+    )
 
     return SessionSummaryResponse(
         total_activities=summary.total_activities,

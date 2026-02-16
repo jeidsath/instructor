@@ -83,6 +83,13 @@ class AIClient:
         """
         last_error: Exception | None = None
         backoff = INITIAL_BACKOFF
+        prompt_len = len(system) + len(user)
+        start = time.perf_counter()
+
+        logger.info(
+            "AI completion request",
+            extra={"model": self._model, "prompt_length": prompt_len},
+        )
 
         for attempt in range(self._max_retries):
             try:
@@ -99,11 +106,29 @@ class AIClient:
                 anthropic.InternalServerError,
             ) as exc:
                 last_error = exc
+                logger.warning(
+                    "Retryable API error (attempt %d/%d): %s",
+                    attempt + 1,
+                    self._max_retries,
+                    exc,
+                )
                 if attempt < self._max_retries - 1:
                     time.sleep(backoff)
                     backoff *= 2
         else:
+            logger.error("All %d retry attempts exhausted", self._max_retries)
             raise last_error  # type: ignore[misc]
+
+        duration_ms = (time.perf_counter() - start) * 1000
+        tokens = getattr(response.usage, "output_tokens", 0)
+        logger.info(
+            "AI completion succeeded",
+            extra={
+                "model": self._model,
+                "duration_ms": round(duration_ms, 2),
+                "tokens": tokens,
+            },
+        )
 
         block = response.content[0]
         if not hasattr(block, "text"):

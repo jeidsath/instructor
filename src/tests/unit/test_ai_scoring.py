@@ -1,4 +1,5 @@
 import json
+import logging
 from typing import Any
 from unittest.mock import MagicMock, patch
 
@@ -426,6 +427,63 @@ class TestStripCodeFences:
             result = client.complete_json(system="sys", user="usr")
 
         assert result["score"] == 5
+
+
+# ------------------------------------------------------------------
+# Logging
+# ------------------------------------------------------------------
+
+
+@pytest.mark.unit
+class TestAIClientLogging:
+    """AI client logs completion requests and responses."""
+
+    def test_logs_request_and_response(self, caplog: pytest.LogCaptureFixture) -> None:
+        response_text = json.dumps({"ok": True})
+        mock_message = MagicMock()
+        mock_message.content = [MagicMock(text=response_text)]
+        mock_message.usage = MagicMock(output_tokens=42)
+
+        with (
+            patch("instructor.ai.client.anthropic") as mock_anthropic,
+            caplog.at_level(logging.INFO, logger="instructor.ai.client"),
+        ):
+            mock_anthropic.Anthropic.return_value.messages.create.return_value = (
+                mock_message
+            )
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key")
+            client.complete_json(system="sys", user="usr")
+
+        messages = [r.message for r in caplog.records]
+        assert any("AI completion request" in m for m in messages)
+        assert any("AI completion succeeded" in m for m in messages)
+
+    def test_logs_retry_warning(self, caplog: pytest.LogCaptureFixture) -> None:
+        response_text = json.dumps({"ok": True})
+        mock_message = MagicMock()
+        mock_message.content = [MagicMock(text=response_text)]
+        mock_message.usage = MagicMock(output_tokens=10)
+
+        rate_limit_err = _make_api_error(anthropic.RateLimitError)
+
+        with (
+            patch("instructor.ai.client.anthropic") as mock_anthropic,
+            patch("instructor.ai.client.time.sleep"),
+            caplog.at_level(logging.WARNING, logger="instructor.ai.client"),
+        ):
+            mock_create = mock_anthropic.Anthropic.return_value.messages.create
+            mock_create.side_effect = [rate_limit_err, mock_message]
+            mock_anthropic.RateLimitError = anthropic.RateLimitError
+            mock_anthropic.InternalServerError = anthropic.InternalServerError
+
+            client = AIClient(api_key="test-key", max_retries=3)
+            client.complete_json(system="sys", user="usr")
+
+        warnings = [r.message for r in caplog.records if r.levelno >= logging.WARNING]
+        assert any("Retryable API error" in m for m in warnings)
 
 
 # ------------------------------------------------------------------
