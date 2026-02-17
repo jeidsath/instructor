@@ -86,6 +86,7 @@ tasks:
       - task: lint
       - task: typecheck
       - task: test
+      - task: frontend:check
 
   frontend:install:
     desc: Install frontend dependencies
@@ -104,6 +105,32 @@ tasks:
     dir: frontend
     cmds:
       - pnpm build
+
+  frontend:lint:
+    desc: Run frontend ESLint
+    dir: frontend
+    cmds:
+      - pnpm lint
+
+  frontend:typecheck:
+    desc: Run frontend TypeScript type checking
+    dir: frontend
+    cmds:
+      - pnpm typecheck
+
+  frontend:test:
+    desc: Run frontend Vitest tests
+    dir: frontend
+    cmds:
+      - pnpm test
+
+  frontend:check:
+    desc: Run frontend lint + typecheck + test + build
+    cmds:
+      - task: frontend:lint
+      - task: frontend:typecheck
+      - task: frontend:test
+      - task: frontend:build
 
   ci:
     desc: Mirror GitHub Actions pipeline in Docker
