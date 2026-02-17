@@ -1,3 +1,12 @@
+FROM node:22-alpine AS frontend-builder
+
+WORKDIR /app/frontend
+RUN corepack enable
+COPY frontend/package.json frontend/pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
+COPY frontend/ .
+RUN pnpm build
+
 FROM python:3.12-slim AS builder
 
 WORKDIR /app
@@ -16,6 +25,7 @@ COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/pytho
 COPY --from=builder /usr/local/bin /usr/local/bin
 
 COPY . .
+COPY --from=frontend-builder /app/frontend/dist /app/frontend/dist
 
 USER app
 

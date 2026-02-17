@@ -87,6 +87,24 @@ tasks:
       - task: typecheck
       - task: test
 
+  frontend:install:
+    desc: Install frontend dependencies
+    dir: frontend
+    cmds:
+      - pnpm install
+
+  frontend:dev:
+    desc: Start frontend dev server
+    dir: frontend
+    cmds:
+      - pnpm dev
+
+  frontend:build:
+    desc: Build frontend for production
+    dir: frontend
+    cmds:
+      - pnpm build
+
   ci:
     desc: Mirror GitHub Actions pipeline in Docker
     cmds:

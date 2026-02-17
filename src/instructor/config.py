@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     # Application
     app_env: str = "development"
     log_level: str = "info"
+    cors_origins: list[str] = []
 
     # Curriculum
     curriculum_path: Path = Path("curriculum")
